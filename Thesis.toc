@@ -17,11 +17,11 @@
 \contentsline {subsection}{\numberline {3.2.1}Topic-model Programming Interface}{8}{subsection.3.2.1}% 
 \contentsline {subsection}{\numberline {3.2.2}Explainable Topic-based Associations}{9}{subsection.3.2.2}% 
 \contentsline {subsection}{\numberline {3.2.3}Large-scale Comparisons of Topic Distributions}{9}{subsection.3.2.3}% 
-\contentsline {subsection}{\numberline {3.2.4}Automatic Cross-lingual Topic Alignment}{9}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {3.2.4}Automatic Cross-lingual Topic Alignment}{10}{subsection.3.2.4}% 
 \contentsline {section}{\numberline {3.3}Research Methodology}{10}{section.3.3}% 
 \contentsline {subsection}{\numberline {3.3.1}Scalable Creation and Inference of Topics}{12}{subsection.3.3.1}% 
 \contentsline {subsection}{\numberline {3.3.2}Explainable Topic-based Associations}{12}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}Large-scale Comparisons of Topic Distributions}{13}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.3}Large-scale Comparisons of Topic Distributions}{14}{subsection.3.3.3}% 
 \contentsline {subsection}{\numberline {3.3.4}Automatic Cross-lingual Topic Alignment}{14}{subsection.3.3.4}% 
 \contentsline {chapter}{\numberline {4}Scalable Creation and Inference of Topics}{17}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Document Workflow}{17}{section.4.1}% 
