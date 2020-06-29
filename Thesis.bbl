@@ -1,0 +1,98 @@
+\begin{thebibliography}{}
+
+\bibitem[Badenes-Olmedo et~al., 2017a]{Badenes-Olmedo2017c}
+Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2017a).
+\newblock {An Initial Analysis of Topic-based Similarity among Scientific
+  Documents Based on their Rhetorical Discourse Parts}.
+\newblock In Garijo, D., van Hage, W., Kauppinen, T.and~Kuhn, T., and Zhao, J.,
+  editors, {\em {Proceedings of the First Workshop on Enabling Open Semantic
+  Science co-located with 16th International Semantic Web Conference (ISWC)}},
+  volume 1931 of {\em {CEUR} Workshop Proceedings}, pages 15--22. CEUR-WS.org.
+
+\bibitem[Badenes-Olmedo et~al., 2017b]{Badenes-Olmedo2017}
+Badenes-Olmedo, C., Redondo-Garcia, J., and Corcho, O. (2017b).
+\newblock {Distributing Text Mining tasks with librAIry}.
+\newblock In {\em 17th ACM Symposium on Document Engineering (DocEng)}.
+
+\bibitem[Badenes-Olmedo et~al., 2019a]{Badenes-Olmedo2019b}
+Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2019a).
+\newblock {Legal document retrieval across languages: topic hierarchies based
+  on synsets}.
+\newblock {\em arXiv e-prints}, page arXiv:1911.12637.
+
+\bibitem[Badenes-Olmedo et~al., 2019b]{Badenes-Olmedo2019}
+Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2019b).
+\newblock {Scalable cross-lingual document similarity through language-specific
+  concept hierarchies}.
+\newblock In {\em Proceedings of the 10th International Conference on Knowledge
+  Capture}, pages 147--153.
+
+\bibitem[Badenes-Olmedo et~al., 2020]{Badenes-Olmedo2020}
+Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2020).
+\newblock {Large-Scale Semantic Exploration of Scientific Literature using
+  Topic-based Hashing Algorithms}.
+\newblock {\em Semantic Web}.
+
+\bibitem[Badenes-Olmedo et~al., 2017c]{Badenes-Olmedo2017b}
+Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2017c).
+\newblock {Efficient Clustering from Distributions over Topics}.
+\newblock In {\em 9th International Conference on Knowledge Capture (K-CAP)},
+  page~8.
+
+\bibitem[Bizer et~al., 2009]{Bizer2009}
+Bizer, C., Heath, T., and Berners-Lee, T. (2009).
+\newblock {Linked data-the story so far}.
+\newblock {\em International journal on Semantic Web and Information Systems},
+  5(3):1--22.
+
+\bibitem[Dragoni et~al., 2016]{Dragoni2016}
+Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
+  Mustafin, R., and Safina, L. (2016).
+\newblock {Microservices: yesterday, today, and tomorrow}.
+\newblock {\em CoRR}, abs/1606.0:1--17.
+
+\bibitem[Fielding and Taylor, 2002]{Fielding2002}
+Fielding, R.~T. and Taylor, R.~N. (2002).
+\newblock {Principled Design of the Modern Web Architecture}.
+\newblock {\em ACM Transactions on Internet Technology}, 2(2):407--416.
+
+\bibitem[Kosa et~al., 2018]{Badenes-Olmedo2018}
+Kosa, V., Chaves-Fraga, D., Naumenko, D., Yuschenko, E., Badenes-Olmedo, C.,
+  Ermolayev, V., and Birukou, A. (2018).
+\newblock {Cross-Evaluation of Automated Term Extraction Tools by Measuring
+  Terminological Saturation}.
+\newblock In Bassiliades, N., Ermolayev, V., Fill, H., Yakovyna, V., Mayr,
+  H.~C., Nikitchenko, M., Zholtkevych, G., and Spivakovsky, A., editors, {\em
+  {Information and Communication Technologies in Education, Research, and
+  Industrial Applications}}, pages 135--163, Cham. Springer International
+  Publishing.
+
+\bibitem[Kosa et~al., 2017]{Badenes-Olmedo2017d}
+Kosa, V., Chugunenko, H., Yuschenko, E., Badenes-Olmedo, C., Ermolayev, V., and
+  Birukou, A. (2017).
+\newblock {Semantic Saturation in Retrospective Text Document Collections}.
+\newblock In Garijo, D., van Hage, W., Kauppinen, T.and~Kuhn, T., and Zhao, J.,
+  editors, {\em {Proceedings of the PhD Symposium at 13th International
+  Conference on ICT in Education, Research, and Industrial Applications
+  co-located with 13th International Conference on ICT in Education, Research,
+  and Industrial Applications (ICTERI 2017)}}, volume 1851 of {\em {CEUR}
+  Workshop Proceedings}, pages 1--8. CEUR-WS.org.
+
+\bibitem[L{\'{o}}pez-Centeno et~al., 2019]{Badenes-Olmedo2019c}
+L{\'{o}}pez-Centeno, B., Badenes-Olmedo, C., Mataix-Sanjuan, {\'{A}}.,
+  McAllister, K., Bell{\'{o}}n, J.~M., Gibbons, S., Balsalobre, P.,
+  P{\'{e}}rez-Latorre, L., Bened{\'{i}}, J., Marzolini, C.,
+  Aranguren-Oyarz{\'{a}}bal, A., Khoo, S., Calvo-Alc{\'{a}}ntara, M.~J., and
+  Berenguer, J. (2019).
+\newblock {Polypharmacy and Drug–Drug Interactions in People Living With
+  Human Immunodeficiency Virus in the Region of Madrid, Spain: A
+  Population-Based Study}.
+\newblock {\em Clinical Infectious Diseases}.
+
+\bibitem[Turchi et~al., 2012]{Turchi2012a}
+Turchi, S., Ciofi, L., Paganelli, F., Pirri, F., and Giuli, D. (2012).
+\newblock {Designing EPCIS through Linked Data and REST principles}.
+\newblock {\em Software, Telecommunications and Computer Networks
+  ({\{}SoftCOM){\}}, 2012 20th International Conference on}, pages 1--6.
+
+\end{thebibliography}

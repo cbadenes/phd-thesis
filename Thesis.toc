@@ -1,0 +1,70 @@
+\babel@toc {english}{}
+\contentsline {chapter}{List of Figures}{xvii}{chapter*.2}% 
+\contentsline {chapter}{List of Tables}{xix}{chapter*.3}% 
+\contentsline {chapter}{Acronyms }{xxi}{chapter*.4}% 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Contributions}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Thesis Structure}{1}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Publications}{1}{section.1.3}% 
+\contentsline {chapter}{\numberline {2}Related Work}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Text Processing}{3}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Document Embeddings}{3}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Document Similarity}{3}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Summary}{3}{section.2.4}% 
+\contentsline {chapter}{\numberline {3}Research Objectives}{5}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Research Hypotheses}{6}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Research Challenges}{8}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Topic-model Programming Interface}{8}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Explainable Topic-based Associations}{9}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}Large-scale Comparisons of Topic Distributions}{9}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.4}Automatic Cross-lingual Topic Alignment}{9}{subsection.3.2.4}% 
+\contentsline {section}{\numberline {3.3}Research Methodology}{10}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Scalable Creation and Inference of Topics}{12}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Explainable Topic-based Associations}{12}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Large-scale Comparisons of Topic Distributions}{13}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.4}Automatic Cross-lingual Topic Alignment}{14}{subsection.3.3.4}% 
+\contentsline {chapter}{\numberline {4}Scalable Creation and Inference of Topics}{17}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Document Workflow}{17}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}librAIry}{18}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Functional Features}{18}{subsection.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.1.1}Resources}{19}{subsubsection.4.2.1.1}% 
+\contentsline {subsubsection}{\numberline {4.2.1.2}Event-based Paradigm}{20}{subsubsection.4.2.1.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1.3}Linked Data Principles }{20}{subsubsection.4.2.1.3}% 
+\contentsline {subsection}{\numberline {4.2.2}Framework Architecture}{20}{subsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Event-Bus}{20}{subsubsection.4.2.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2.2}API}{21}{subsubsection.4.2.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.3}Storage}{21}{subsubsection.4.2.2.3}% 
+\contentsline {subsubsection}{\numberline {4.2.2.4}Modules}{22}{subsubsection.4.2.2.4}% 
+\contentsline {section}{\numberline {4.3}Model-as-a-Service}{23}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Summary}{23}{section.4.4}% 
+\contentsline {chapter}{\numberline {5}Explainable Topic-based Associations}{25}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Topic Relevance}{25}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Topic-based Clustering}{25}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Summary}{25}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Large-scale Comparisons of Topic Distributions}{27}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Document Similarity}{27}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Hashing Topic Distributions}{27}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Summary}{27}{section.6.3}% 
+\contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{29}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{29}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Cross-lingual Models}{29}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Summary}{29}{section.7.3}% 
+\contentsline {chapter}{\numberline {8}Evaluation}{31}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Evaluation Metrics}{31}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Text Representativeness}{31}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Large-scale Text Processing}{31}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Topic-based Clustering}{33}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}Cross-lingual Similarity}{33}{section.8.5}% 
+\contentsline {section}{\numberline {8.6}Conclusions}{33}{section.8.6}% 
+\contentsline {chapter}{\numberline {9}Experiments}{35}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Polypharmacy and Drug-drug Interactions}{35}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Corpus Viewer}{35}{section.9.2}% 
+\contentsline {section}{\numberline {9.3}ODS Classifier}{35}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Drugs4Covid}{35}{section.9.4}% 
+\contentsline {chapter}{\numberline {10}Conclusions}{37}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}Assumptions and Restrictions}{37}{section.10.1}% 
+\contentsline {section}{\numberline {10.2}Contributions}{37}{section.10.2}% 
+\contentsline {section}{\numberline {10.3}Impact}{37}{section.10.3}% 
+\contentsline {section}{\numberline {10.4}Limitations}{37}{section.10.4}% 
+\contentsline {section}{\numberline {10.5}Future Work}{37}{section.10.5}% 
+\contentsline {chapter}{Bibliography}{39}{chapter*.12}% 

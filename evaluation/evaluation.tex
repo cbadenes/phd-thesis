@@ -1,0 +1,39 @@
+
+% this file is called up by thesis.tex
+% content in this file will be fed into the main document
+
+%: ----------------------- introduction file header -----------------------
+\chapter{Evaluation}\label{ch:evaluation}
+
+\graphicspath{{evaluation/figures/}}
+
+% -------------------------------------------------------------
+% -- Evaluation
+% -------------------------------------------------------------
+
+\section{Evaluation Metrics}
+
+\section{Text Representativeness}
+
+\section{Large-scale Text Processing}
+
+\textit{librAIry} has been used in some real scenarios such as a research-paper repository for the European project DrInventor \footnote{http://drinventor.eu}, a support to decision makers for analyzing patents and public aids for the ICT sector, and also as a book recommender for an online content platform. This has allowed us to identify some weak and strong points of the framework and iterate over the architecture to come with the described solution. 
+
+The following modules have been developed\footnote{https://github.com/librairy}: (1) a \textbf{\textit{general-purpose harvester}} which retrieves text and meta-information from PDF files in local or remote file-system; (2) a \textbf{\textit{research paper-oriented harvester}} focused on collecting and processing more specific textual files (e.g. scientific papers) creating both \textit{documents} and \textit{parts} inferred from the rhetorical classes of the paper; (3) a \textbf{\textit{Stanford CoreNLP-based Annotator}} which discovers named-entities, compounds and lemmas from \textit{documents} and \textit{parts}; (4) a \textbf{\textit{Topic Modeler}} based on Latent Dirichlet Allocation (LDA) which creates probabilistic topic models for each \textit{domain} in the framework. They are annotated with the set of topics (i.e. ranked list of words) discovered from the corpus, and both \textit{documents} and \textit{parts} of that domain are also annotated by the vector of probabilities to belong to these topics. It uses the Spark implementation of the algorithm; and (5) a \textbf{\textit{Word Embedding Modeler}} which creates a \textit{word2vec} model from the \textit{documents} contained in a \textit{domain}.
+
+Due to linear scalability and high performance features, Cassandra has been used to support the column-oriented storage functionality, Elasticsearch as document-oriented storage and Neo4j as graph-oriented storage. 
+
+All modules in \textit{librAIry} have been packaged as Docker \footnote{https://www.docker.com} containers and uploaded to Docker-Hub \footnote{https://hub.docker.com/u/librairy/} to facilitate the installation of the system. 
+
+Maximizing information re-usability and minimize irrelevant data, becomes specially important when the system handles large collections of data (around million of documents). Fine-grained resource definitions have been key to achieve this, so modules execute actions only when really necessary. When a new \textit{domain} is created, for instance, a new Topic Model is trained for that \textit{domain} and is used to calculate the semantic similarity between the \textit{documents} (and the \textit{parts}) in that domain. If a new \textit{document} (or \textit{part}) is added to that \textit{domain}, the model is trained again and the semantic similarities are re-calculated. However, this becomes unfeasible when the domain is frequently updated and it is composed by a large number of documents. One solution has been to define a new type of resource between domains and documents, models, that describes the representational state (e.g. topic model) of a collection of documents. Thus the model is only re-trained when a significant amount of \textit{documents} are added to the sampling data set and not to the entire \textit{domain}. This less transient model is used to calculate semantic similarities between the \textit{document} collection (and \textit{parts}) inside a \textit{domain} in a more efficient way. Following this more precise execution of tasks, the routing-keys should include the URI of the implied resource into the definition, not only in the content of the message. It would allow modules listening to both the type of a resource or to a specific resource (or subsets, via regular expressions). 
+
+While the storage modules are always used to save/update/delete a resource, they are not always required from the end-user. The graph storage, for instance, makes sense when a path between two \textit{documents} or \textit{parts} is requested for a given \textit{domain}. However, some \textit{domains} are not intended to be explored by their linked resources. A more fine/grained definition of resources will allow graph-storage being only used when necessary. 
+
+On the other hand, distributed execution of NLP tasks (not only in threads, but also in machines) has proved to be especially useful to handle large collection of \textit{documents}. It requires less processing time than a monolithic solution (e.g. CoreNLP application) and it also provides a dynamic load balancing between modules.
+
+
+\section{Topic-based Clustering}
+
+\section{Cross-lingual Similarity}
+
+\section{Conclusions}
