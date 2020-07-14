@@ -11,16 +11,110 @@
 % -- Introduction
 % -------------------------------------------------------------
 
-Explicar bien: 
-- thematic associations
-- representational models (vector space models)
+% Motivation
+
+%Explicar bien: 
+%- thematic associations
+%- representational models (vector space models)
+
+
+% Motivation: Discover Knowledge from Huge Amounts of Information
+
+Huge amounts of data is daily produced or captured in any imaginable domain offering the possibility of extracting knowledge from them. Much of them are presented in the form of textual documents such as scientific papers in electronic journals, news articles in digital media or 
+legal communications in online channels. Experts who want to find relevant information need to browse through these texts by reviewing their content and filtering out those related to their interests. Such an understanding of the data is essential in order to measure its relevance and distinguish the relevant texts from others. \cite{Griffiths2007} argued the knowledge in a text arose from the relations established between their words through the concepts they evoked and similarly \cite{Kenter2015} considered the knowledge in a document collection derives from the relations between them. This knowledge based on associations at different levels, i.e. words and documents, is necessary to explore textual data guided by a particular interest.
+
+% and summarized the process in three stages. First, by processing the items following different annotation techniques (entities, keywords, etc) that allow machines to programmatically leverage on their content. Then, creating a vectorial representation based on those features for each document. And finally, comparing them following some distance/divergence functions .
+
+
+% P1: Text Scalability -> Text Processing + Representational Models
+
+Texts usually contains noisy, non-relevant information, and keeping only what can bring value for the involved agents (general consumers, experts, companies, investors...) becomes a challenge. The first step is to process documents following different annotation techniques (entities, keywords, etc) to leverage their content. Multiple algorithms have been proposed to analyze texts for automatically producing such annotations, from minimal units such as terms and entities, to more general descriptors such as topics or summaries. This is a widely known problem in Artificial Intelligence domain, particularly in Information Retrieval (IR) and Natural Language Processing (NLP) fields. However, the proposed solutions are usually self-contained or with strong technological restrictions imposed by the software resources they reuse. \textbf{Processing interoperability} has not been a priority issue in the design of annotation algorithms. The reuse of the data generated has really been one of the main objectives imposed, without putting too much interest in how the algorithm could be integrated into a specific software environment without the need to reimplement it. In this thesis we propose \textit{easily reusable text annotation models and scalable document processing solutions that integrate them}. 
+
+
+% P2: Representative Models -> Topic Models
+
+% Despite its simplicity, TFIDF may suffer from an ignorance of n-gram phrases, complications with incremental updates upon addition of new documents, and a large number of dimensions.
+Once data has been processed, texts are usually converted into numeric vectors to operate with them. The definition and number of dimensions for each vector are key aspects when vector space models (VSM) create these representations. In a common and simple approach, term frequencies guide the creation of a space where each word in the vocabulary is represented by a separate and orthogonal dimension. Term Frequency-Inversed Document Frequency (TFIDF) relativizes the relevance of each term with respect to the entire corpus. The loss of semantic information and the high-number of dimensions are the main drawbacks of this approach that lead to the emergence of other techniques. Among them, text embedding proposes transform texts into low-dimensional vectors by prediction methods based on (i) word sequences and (ii) bag of words. The first approach assumes words with similar meanings tend to occur in similar contexts. It considers word order relevant and is based on Neural Models that learn word vectors from pairs of target word and context word, where context words are taken as words observed to surround a target word. Document vectors may be created by averaging the word vectors they contain or directly by considering them as words. 
+
+
+
+Text embedding methods can be grouped into two categories: (i) count based methods based on bag of words (where the order of words are ignored), and (ii) prediction based methods based on sequence of words (where the order of words is taken into account). Neural models are an example of the second approach where word vectors are learned using a shallow neural network trained from pairs of (target word, context word), where context words are taken as words observed to surround a target word. The assumption behind neural models is that words with similar meanings tend to occur in similar contexts. Document vectors can then be created out of word vectors through an averaging strategy or by considering each document as a special context token, hence obtaining document vectors directly. 
+
+Topic models are an example of the first approach where each document is represented as a probability distribution of how relevant that document is to a given number of topics (and thus a lower-dimensional space). Each topic is selected as a weighted average of a subset of terms and document vectors are learned from the corpus on the assumption that words with similar meanings will occur in similar documents.
+
+\textit{The approach proposed in this thesis is framed in this thematic and low-dimensional feature space} since it brings a lot of potential when applied over different IR tasks, as evidenced by recent works in different domains such as scholarly\cite{Gatti2015}, health \cite{Lu2016} \cite{TapiNzali2017}, legal \cite{ONeill2017}\cite{Greene2016}, news \cite{He2017} and social networks \cite{Cheng2014a}; and since topic distributions are continuous and not as sparse as discrete-term feature vectors, it is also suitable for document similarity tasks, especially on big real-world data sets. 
+
+
+% P3: Large Comparison
+
+However, document similarity comparisons are too costly to be performed in such huge collections of data and require more efficient approaches than having to calculate all pairwise similarities. Create a similarity matrix with all document comparisons takes $O(n^2)$ time (where $n$ is the number of documents), so obtaining all possible pairs of similarities in a large collection of documents can be unfeasible because of the exponential cost of comparing every pair of elements. Computation can be approximated by nearest neighbors (ANN) search problem. ANN search is an optimization problem that finds nearest neighbors of a given query in a metric space of $n$ points. Due to the low storage cost and fast retrieval speed, hashing is one of the most popular solutions for ANN search \cite{Liu2014a} \cite{Andoni2013} \cite{Zhen2016}. This technique transforms data points from the original feature space into a binary-code space, so that similar data points have larger probability of collision (i.e. having the same hash code). 
+
+This type of formulation for the document similarity comparison problem has proven to yield good results in the metric space due to the fact that ANN search has been designed to handle distance metrics (e.g. cosine, Euclidean, Manhattan) \cite{Ravichandran2005}\cite{Petrovic2010}\cite{Krstovski2011}, even in high-dimensional simplex spaces handling information-theoretically motivated metrics ( e.g. Hellinger, Kullback-Leibler divergence, Jensen-Shannon divergence) as demonstrated by \cite{Mao2017}. 
+
+However, the smaller space created by existing hashing methods loses the exploratory capabilities of topics to support document similarity. The notion of topics is lost and therefore the ability to make thematic explorations of documents. Moreover, metrics in simplex space are difficult to interpret and the ability to explain the similarity score on the basis of the topics involved in the exploration can be helpful. While other models based on vector representations of documents are simply agnostic to the human concept of themes, topic models can help finding the reasons why two documents are similar. 
+
+
+% P4: Multilinguality
+
+When the information extraction task is also cross-language, document retrieval must be independent of the language of the user's query. At execution time, the query in the source language is typically translated into a target language with the help of a dictionary or a machine-translation system. But for many languages we may not have access to translation dictionaries or a full translation system, or they can be expensive to apply in an online search system. In such situations it is useful to rely on smaller annotation units derived from the text so the full content does not need to be translated, for instance by finding correspondences with regard to the topics discussed. In this case, it may be advisable to automatically learn cross-lingual topics to browse multi-lingual document collections.
+
+
+% Approach - Very brief summary
+
+In this work we facilitate the exploration of large document collections with texts written in different languages. We address the problem of programmatically generating annotations for each of the items inside big collections of textual documents, in a way that is computationally affordable and enables a semantic-aware exploration of the knowledge inside it. Our proposal automatically discovers thematic associations between texts and organizes the collection so that it can be browsed through related content.
 
 
 \section{Contributions}
-..
+
+The work presented in this thesis makes the following contributions:
+
+\begin{itemize}
+\item \textbf{Topic Creation and Inference}: We define a large-scale text processing architecture following web standards and software architecture best practices for the creation and using of probabilistic topic models.
+\item \textbf{Topic Model Repository}: We propose a format to publish topic models that facilitates their reuse.
+\item \textbf{Relevance-oriented Thematic Annotations}: We present a method to annotate texts by topic hierarchies inferred from their content.
+\item \textbf{Massive Document Comparisons}: We leverage multi-level topic annotations to efficiently index and retrieve related documents while allow exploring the collection by themes.
+\item \textbf{Cross-lingual Document Relations}: We introduce a technique to transform probabilistic topics from different languages into a single representation space where texts can be thematically related regardless of the language used.
+\end{itemize}
 
 \section{Thesis Structure}
-..
+
+The thesis is structured as follows:
+
+\textit{Chapter \ref{ch:soa}} goes through the state of the art and the main concepts handled throughout the thesis.
+
+The research problems and hypotheses that guide our work are presented in \textit{Chapter \ref{ch:hypothesis}}.
+
+\textit{Chapter \ref{ch:scalability}} describes the software architecture proposed to analyze huge document collections and the format suggested to distribute and reuse topic models on which the work presented in this thesis is built.
+
+\textit{Chapter \ref{ch:explainability}} details the text annotation algorithm from probabilistic topics.
+
+\textit{Chapter \ref{ch:comparisons}} shows how to efficiently store and search documents from large collections when they are annotated with topic hierarchies. 
+
+\textit{Chapter \ref{ch:multilinguality}} explains the method to relate texts written in different languages from their main topics without the need for translation. This approach is evaluated in \ref{ch:evaluation}, where the results are explained in detail.
+
+\textit{Chapter \ref{ch:experiments}} provides information on real-world projects where contributions from this thesis have been used.
+
+Finally, \textit{Chapter \ref{ch:conclusion}} describes conclusions and future lines of work.
+
 
 \section{Publications}
-..
+
+The following publications have been accepted (in chronological order) during the research work presented in this thesis:
+
+\begin{enumerate}
+\item \textbf{Carlos Badenes-Olmedo}, José Luis Redondo-Garcia, and Oscar Corcho. Distributing Text Mining tasks with librAIry. Proceedings of the 17th ACM Symposium on Document Engineering (DocEng). Association for Computing Machinery, Valletta, Malta. 2017.
+\item \textbf{Carlos Badenes-Olmedo}, José Luis Redondo-García, and Oscar Corcho. Efficient Clustering from Distributions over Topics. Proceedings of the 9th International Conference on Knowledge Capture (K-CAP), Article 17, 1–8. Association for Computing Machinery, Austin, TX, USA. 2017.
+\item \textbf{Carlos Badenes-Olmedo}, Ronald Denaux, Martine De Vos, Daniel Garijo, Jose Manuel Gomez-Perez, Agnieszka Lawrynowicz, Pasquale Lisena, Raul Palma, Raphaël Troncy, and Daniel Vila. K-CAP2017 Satellites: Workshops and Tutorials. Proceedings of the 9th International Conference on Knowledge Capture (K-CAP), Article 1e, 1–6. Association for Computing Machinery, Austin, TX, USA. 2017
+\item Jose Manuel Gomez-Perez, Ronald Denaux, Daniel Vila and \textbf{Carlos Badenes-Olmedo}. Hybrid Techniques for Knowledge-based NLP - Knowledge Graphs meet Machine Learning and all their Friends. Proceedings of Workshops and Tutorials of the 9th International Conference on Knowledge Capture (K-CAP), 69–70. CEUR-WS, Austin, TX, USA. 2017
+\item \textbf{Carlos Badenes-Olmedo}, Jose Luis Redondo-Garcia, and Oscar Corcho. An initial Analysis of Topic-based Similarity among Scientific Documents based on their Rhetorical Discourse Parts. Proceedings of the 1st Workshop on Enabling Open Semantic Science (SemSci) co-located with 16th International Semantic Web Conference (ISWC 2017), 15-22. Vienna, Austria. 2017.
+\item Victoria Kosa, Alyona Chugunenko, Eugene Yuschenko, \textbf{Carlos Badenes-Olmedo}, Vadim Ermolayev, and Aliaksandr Birukou. Semantic saturation in retrospective text document collections. Information and Communication Technologies in Education, Research, and Industrial Applications (ICTERI) PhD Symposium, vol. 1851, pages 1-8. CEUR-WS. 2017
+\item Beatriz López-Centeno, \textbf{Carlos Badenes-Olmedo}, Ángel Mataix-Sanjuan, Katie McAllister, José M Bellón, Pascual Balsalobre,  Juana Benedí, Saye Khoo, María J Calvo-Alcántara, and Juan Berenguer. Polypharmacy in HIV-infected and non-HIV-infected individuals in the region of Madrid (Spain): A population-based study. Proceedings of the 10th GeSIDA Conference, Spain. 2018.
+\item Victoria Kosa, David Chaves-Fraga, Dmitriy Naumenko, Eugene Yuschenko, \textbf{Carlos Badenes-Olmedo}, Vadim Ermolayev, Aliaksandr Birukou. The influence of the order of adding documents to datasets on terminological saturation. Technical Report TS-RTDC-TR-2018-1, Dept of Computer Science, Zaporizhzhia National University, Ukraine. 2018.
+\item Victoria Kosa, David Chaves-Fraga, Dmitriy Naumenko, Eugene Yuschenko, \textbf{Carlos Badenes-Olmedo}, Vadim Ermolayev, Aliaksandr Birukou, Nick Bassiliades, Hans-Georg Fill, Vitaliy Yakovyna, Heinrich C. Mayr, Mykola Nikitchenko, Grygoriy Zholtkevych, and Aleksander Spivakovsky. Cross-Evaluation of Automated Term Extraction Tools by Measuring Terminological Saturation. Information and Communication Technologies in Education, Research, and Industrial Applications, pages 135-163. Springer International Publishing. 2018
+\item \textbf{Carlos Badenes-Olmedo}, José Luis Redondo-García, and Oscar Corcho. Scalable Cross-lingual Document Similarity through Language-specific Concept Hierarchies. Proceedings of the 10th International Conference on Knowledge Capture (K-CAP). Association for Computing Machinery, 147–153. Marina Del Rey, CA, USA. 2019
+\item \textbf{Carlos Badenes-Olmedo}, José Luis Redondo-García, and Oscar Corcho. Legal document retrieval across languages: topic hierarchies based on synsets. arXiv e-prints, arXiv:1911.12637. 2019
+\item Beatriz López-Centeno, \textbf{Carlos Badenes-Olmedo}, Ángel Mataix-Sanjuan, Katie McAllister, José M Bellón, Sara Gibbons, Pascual Balsalobre, Leire Pérez-Latorre, Juana Benedí, Catia Marzolini, Ainhoa Aranguren-Oyarzábal, Saye Khoo, María J Calvo-Alcántara, Juan Berenguer. Polypharmacy and drug-drug interactions in HIV-infected subjects in the region of Madrid, Spain: a population-based study. Clinical infectious diseases : an official publication of the Infectious Diseases Society of America, ciz811. 2019
+\item \textbf{Carlos Badenes-Olmedo}, José Luis Redondo-García, and Oscar Corcho. Large-scale Semantic Exploration of Scientific Literature Using Topic-based Hashing Algorithms. Semantic Web, vol. Pre-press, no. Pre-press, pp. 1-16. 2020
+\end{enumerate}
+
+
