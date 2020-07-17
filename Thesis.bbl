@@ -1,10 +1,11 @@
 \begin{thebibliography}{}
 
-\bibitem[Andoni et~al., 2013]{Andoni2013}
-Andoni, A., Indyk, P., Nguyen, H.~L., and Razenshteyn, I. (2013).
-\newblock {Beyond Locality-Sensitive Hashing}.
-\newblock In {\em Proceedings of the Twenty-Fifth Annual ACM-SIAM Symposium on
-  Discrete Algorithms}.
+\bibitem[Ken, 2015]{Kenter2015}
+ (2015).
+\newblock {Short Text Similarity with Word Embeddings Categories and Subject
+  Descriptors}.
+\newblock {\em Proc. 24th ACM Int. Conf. Inf. Knowl. Manag. (CIKM 2015)}, pages
+  1411--1420.
 
 \bibitem[Badenes-Olmedo et~al., 2017a]{Badenes-Olmedo2017c}
 Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2017a).
@@ -84,10 +85,6 @@ Griffiths, T.~L., Steyvers, M., and Tenenbaum, J.~B. (2007).
 \newblock {Topics in semantic representation}.
 \newblock {\em Psychological Review}, 114(2):211--244.
 
-\bibitem[Hall et~al., 2008]{Hall2008}
-Hall, D., Jurafsky, D., and Manning, C.~D. (2008).
-\newblock {\em {Studying the History of Ideas Using Topic Models}}.
-
 \bibitem[He et~al., 2017]{He2017}
 He, J., Li, L., and Wu, X. (2017).
 \newblock {A self-adaptive sliding window based topic model for non-uniform
@@ -100,11 +97,6 @@ Krstovski, K. and Smith, D.~A. (2011).
 \newblock {A Minimally Supervised Approach for Detecting and Ranking Document
   Translation Pairs}.
 \newblock In {\em Workshop on Statistical MT}.
-
-\bibitem[Liu et~al., 2014]{Liu2014a}
-Liu, W., Mu, C., Kumar, S., and Chang, S.-F. (2014).
-\newblock {Discrete Graph Hashing}.
-\newblock {\em NIPS}.
 
 \bibitem[Lu et~al., 2016]{Lu2016}
 Lu, H.~M., Wei, C.~P., and Hsiao, F.~Y. (2016).
@@ -122,28 +114,6 @@ Mao, X., Feng, B.-S., Hao, Y.-J., Nie, L., Huang, H., and Wen, G. (2017).
 O’Neill, J., Robin, C., O’Brien, L., and Buitelaar, P. (2017).
 \newblock {An analysis of topic modelling for legislative texts}.
 \newblock {\em CEUR Workshop Proceedings}, 2143.
-
-\bibitem[Paul and Dredze, 2014]{Paul2014}
-Paul, M.~J. and Dredze, M. (2014).
-\newblock {Discovering health topics in social media using topic models}.
-\newblock {\em PLoS ONE}, 9(8).
-
-\bibitem[Petrovic et~al., 2010]{Petrovic2010}
-Petrovic, S., Osborne, M., and Lavrenko, V. (2010).
-\newblock {Streaming First Story Detection with application to Twitter}.
-\newblock {\em NAACL}.
-
-\bibitem[Ramage et~al., 2010]{Ramage2010}
-Ramage, D., Dumais, S., and Liebling, D. (2010).
-\newblock {Characterizing Microblogs with Topic Models}.
-\newblock In {\em Proceedings of the Fourth International Conference on Weblogs
-  and Social Media}, pages 1--8.
-
-\bibitem[Ravichandran et~al., 2005]{Ravichandran2005}
-Ravichandran, D., Pantel, P., and Hovy, E.~H. (2005).
-\newblock {Randomized Algorithms and NLP: Using Locality Sensitive Hash
-  Functions for High Speed Noun Clustering}.
-\newblock {\em ACL}.
 
 \bibitem[Tapi~Nzali et~al., 2017]{TapiNzali2017}
 Tapi~Nzali, M.~D., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.

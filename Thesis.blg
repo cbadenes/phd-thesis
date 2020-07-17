@@ -17,47 +17,47 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-Warning--I didn't find a database entry for "Kenter2015"
-Warning--empty publisher in Hall2008
-You've used 28 entries,
+Warning--to sort, need author or key in Kenter2015
+Warning--empty author in Kenter2015
+You've used 22 entries,
             1935 wiz_defined-function locations,
-            673 strings with 9581 characters,
-and the built_in function-call counts, 12056 in all, are:
-= -- 1159
-> -- 583
-< -- 13
-+ -- 201
-- -- 198
-* -- 1004
-:= -- 2069
-add.period$ -- 84
-call.type$ -- 28
-change.case$ -- 236
-chr.to.int$ -- 25
-cite$ -- 29
-duplicate$ -- 493
-empty$ -- 797
-format.name$ -- 234
-if$ -- 2388
+            634 strings with 8498 characters,
+and the built_in function-call counts, 9942 in all, are:
+= -- 973
+> -- 452
+< -- 12
++ -- 157
+- -- 154
+* -- 828
+:= -- 1659
+add.period$ -- 67
+call.type$ -- 22
+change.case$ -- 185
+chr.to.int$ -- 19
+cite$ -- 25
+duplicate$ -- 411
+empty$ -- 669
+format.name$ -- 181
+if$ -- 1999
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 29
-newline$ -- 142
-num.names$ -- 86
-pop$ -- 252
+missing$ -- 22
+newline$ -- 113
+num.names$ -- 65
+pop$ -- 191
 preamble$ -- 1
-purify$ -- 237
+purify$ -- 185
 quote$ -- 0
-skip$ -- 367
+skip$ -- 317
 stack$ -- 0
-substring$ -- 671
+substring$ -- 624
 swap$ -- 102
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 166
-warning$ -- 1
-while$ -- 90
+type$ -- 132
+warning$ -- 2
+while$ -- 76
 width$ -- 0
-write$ -- 358
+write$ -- 286
 (There were 2 warnings)
