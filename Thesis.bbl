@@ -58,6 +58,12 @@ Cheng, X., Yan, X., Lan, Y., and Guo, J. (2014).
 \newblock {\em IEEE Transactions on Knowledge and Data Engineering},
   26(12):2928--2941.
 
+\bibitem[Cunningham et~al., 2013]{gate2013}
+Cunningham, H., Tablan, V., Roberts, A., and Bontcheva, K. (2013).
+\newblock Getting more out of biomedical documents with gate's full lifecycle
+  open source text analytics.
+\newblock {\em PLOS Computational Biology}.
+
 \bibitem[Dragoni et~al., 2016]{Dragoni2016}
 Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
   Mustafin, R., and Safina, L. (2016).
@@ -68,6 +74,12 @@ Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
 Fielding, R.~T. and Taylor, R.~N. (2002).
 \newblock {Principled Design of the Modern Web Architecture}.
 \newblock {\em ACM Transactions on Internet Technology}, 2(2):407--416.
+
+\bibitem[Furlong et~al., 2008]{furlong2008osirisv1}
+Furlong, L.~I., Dach, H., Hofmann-Apitius, M., and Sanz, F. (2008).
+\newblock Osirisv1. 2: a named entity recognition system for sequence variants
+  of genes in biomedical literature.
+\newblock {\em BMC bioinformatics}, 9(1):84.
 
 \bibitem[Gatti et~al., 2015]{Gatti2015}
 Gatti, C.~J., Brooks, J.~D., and Nurre, S.~G. (2015).
@@ -98,11 +110,23 @@ Krstovski, K. and Smith, D.~A. (2011).
   Translation Pairs}.
 \newblock In {\em Workshop on Statistical MT}.
 
+\bibitem[Li et~al., 2012]{chielang2012}
+Li, C., Weng, J., He, Q., Yao, Y., Datta, A., Sun, A., and Lee, B.-S. (2012).
+\newblock Twiner: Named entity recognition in targeted twitter stream.
+\newblock pages 721--730, New York, NY, USA. ACM.
+
 \bibitem[Lu et~al., 2016]{Lu2016}
 Lu, H.~M., Wei, C.~P., and Hsiao, F.~Y. (2016).
 \newblock {Modeling healthcare data using multiple-channel latent Dirichlet
   allocation}.
 \newblock {\em Journal of Biomedical Informatics}, 60:210--223.
+
+\bibitem[Manning et~al., 2014]{Manning2014TheToolkit}
+Manning, C., Surdeanu, M., Bauer, J., Finkel, J., Bethard, S., and McClosky, D.
+  (2014).
+\newblock {The Stanford CoreNLP Natural Language Processing Toolkit}.
+\newblock In {\em Proceedings of 52nd Annual Meeting of the Association for
+  Computational Linguistics: System Demonstrations}.
 
 \bibitem[Mao et~al., 2017]{Mao2017}
 Mao, X., Feng, B.-S., Hao, Y.-J., Nie, L., Huang, H., and Wen, G. (2017).
@@ -114,6 +138,11 @@ Mao, X., Feng, B.-S., Hao, Y.-J., Nie, L., Huang, H., and Wen, G. (2017).
 O’Neill, J., Robin, C., O’Brien, L., and Buitelaar, P. (2017).
 \newblock {An analysis of topic modelling for legislative texts}.
 \newblock {\em CEUR Workshop Proceedings}, 2143.
+
+\bibitem[Rizzo et~al., 2015]{rizzo20153cixty}
+Rizzo, G., Troncy, R., Corcho, O., Jameson, A., Plu, J., Hermida, J. C.~B.,
+  Assaf, A., Barbu, C., Spirescu, A., Kuhn, K.-D., et~al. (2015).
+\newblock 3cixty@ expo milano 2015: Enabling visitors to explore a smart city.
 
 \bibitem[Tapi~Nzali et~al., 2017]{TapiNzali2017}
 Tapi~Nzali, M.~D., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.
