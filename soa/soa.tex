@@ -11,8 +11,11 @@
 % -- Related Work
 % -------------------------------------------------------------
 
+Recent studies \cite{Westergaard2017}\cite{Sciences2016} have shown that text mining of full research articles give consistently better results than using only their corresponding abstracts. Given the size limitations and concise nature of abstracts, they often omit descriptions or results that are considered to be less relevant but still are important in certain Information Retrieval (IR) tasks. Thus, when other researchers cite a particular paper, 20\% of the keywords that they mention are not present in the abstract \cite{Divoli2012}.
 
-\section{Topic-based Annotations}
+
+
+\section{Topic-based Text Annotations}
 % https://onnx.ai/
 
 The annotation of human-readable documents is a well-known problem in the Artificial Intelligence domain in general and Information Retrieval and Natural Language Processing fields in particular. There already exist a broad set of tools and frameworks able to analyze text for automatically producing such annotations, at very different levels of granularity: from minimal units such as terms and entities, to descriptors at the level of the entire collection such as  topics or summaries. For example, StanfordNLP~\cite{Manning2014TheToolkit} framework allows to perform different operations such as Part-of-Speech (PoS) tagging or Named Entity Recognition in various languages. Others like Mallet\footnote{\url{http://mallet.cs.umass.edu}} or SparkLDA\footnote{\url{https://spark.apache.org/mllib/}} perform topic modeling and clustering. We are focused on the transversal problem of making those standalone tools coexisting under the same solution. Being able to effectively integrating  them  under a common ecosystem helps to seamlessly obtain different kind of  annotations and boost the way those solutions can make sense of document collections.  
@@ -26,18 +29,62 @@ In addition, available annotation systems rely on certain storage solutions that
 %\textit{librAIry} straightforward supports the coexistence of different storage solutions, so it can be agnostic to the kind of underlying storage modules implemented. Thanks to the distributed nature of the proposed architecture,  different databases can be synchronized under the same common environment working together to store and deliver results in a more efficient manner.
 
 
-\section{Document Embeddings}
+\section{Topic-based Document Similarity}
+Traditional retrieval tasks over large collections of textual documents \cite{Hearst1999} highly rely on individual features like term frequencies (TF-IDF). However, new ways of characterizing documents based on the automatic generation of models surfacing the main subjects covered in the corpus have been developed during recent years. Probabilistic Topic Modeling \cite{Blei2010} algorithms are statistical methods that analyze the words of the original texts to discover the themes that run through them, how those themes are connected to each other, or how they change over time.
 
-%\subsection{Probabilistic Topic Models}
+Probabilistic topic models do not require any prior annotations or labeling of the documents. The topics emerge, as hidden structures, from the analysis of the original texts. These structures are topics distributions, per-resource topic distributions or per-resource per-word topic assignments. In turn, a topic is a distribution over terms that is biased around those words associated to a single theme. This interpretable hidden structure annotates each resource in the collection and these annotations can be used to perform deeper analysis about relationships between resources. In this way, topic modeling provides us an algorithmic solution to organize and annotate large collections of textual documents according to their topics.
 
-%\subsection{Multilingual Topic Models}
+The simplest generative topic model is \textit{Latent Dirichlet Allocation} (LDA) \cite{Blei2003}. This and other topic models such as \textit{Probabilistic Latent Semantic Analysis} (PLSA) \cite{Hofmann2001} are part of the field known as probabilistic modeling. They are well-known latent variable models for high dimensional data, such as the bag-of-words representation for textual data or any other count-based data representation. While LDA has roots in \textit{Latent Semantic Analysis} (LSA) \cite{Deerwester1990} and PLSA (it was proposed as a generalization of PLSA), it was also influenced by the generative Bayesian framework to avoid some of the over-fitting issues that were observed with PLSA.
+
+This statistical model tries to capture the intuition that documents can exhibit multiple topics. Each document exhibits each topic in different proportion, and each word in each document is drawn from one of the topics, where the selected topic is chosen from the per-document distribution over topics. All the documents in the collection share the same set of topics, but each document exhibits these topics in a different proportion. Documents are  represented as a vector of counts with $W$ components, where $W$ is the number of words in the vocabulary. Each document in the corpus is modeled as a mixture over $K$ topics, and each topic $k$ is a distribution over the vocabulary of $W$ words. Formally, a \textit{topic} is a multinomial distribution over words of a fixed vocabulary representing some concept. Each topic is drawn from a Dirichlet distribution with parameter $\beta$, while each document's mixture is sampled from a Dirichlet distribution with parameter $\alpha$. These two priors, $\alpha$ and $\beta$, are also known as hyper-parameters and they are estimated following some heuristic.
+
+A Dirichlet distribution is a continuous multivariate probability distribution parameterized by a vector of positive reals whose elements sum to 1.  It is \textit{continuous} because the relative likelihood for a random variable to take on a given value is described by a probability density function, and also it is \textit{multivariate} because it has a list of variables with unknown values. In fact, the Dirichlet distribution is the conjugate prior of the categorical distribution and multinomial distribution.
+
+Unlike a restrictive clustering model, where each document is assigned to one cluster, LDA allows documents to exhibit multiple topics. Moreover, since LDA is unsupervised, the topics covered in a set of documents are discovered from the own corpus; the mixed-membership assumptions lead to sharper estimates of word co-occurrence patterns.
+
+% Similarity Measure
+\subsection{Similarity Measures Across Documents}
+\label{sec:similarity}
+In a \textit{Topic Model} the feature vector is a topic distribution expressed as vector of probabilities. Taking into account this premise, the similarity between two topic-based resources will be based on the distance between their topic distributions, which can be also seen as two probability mass functions. A commonly used metric is the \textit{Kullback-Liebler} (KL) divergence. However, it presents two major problems: (1) when a topic distribution is zero, KL divergence is not defined and (2) it is not symmetric, which does not fit well with semantic similarity measures that are usually symmetric \cite{Rus2013}.
+
+\textit{Jensen-Shannon} (JS) divergence \cite{Rao1982}\cite{Lin1991} solves these problems considering the average of the distributions as below \cite{Celikyilmaz2010}:
+
+\begin{equation}
+JS(p,q) = \sum\limits_{i=1}^K p_{i}*\log \frac{2*p_{i}}{p_{i}+q_{i}}  +  \sum\limits_{i=1}^K q_{i}*\log \frac{2*q_{i}}{q_{i}+p_{i}}
+\label{eq:jsdivergence}
+\end{equation}
+where  $K$ is the number of topics and $p,q$ are the topics distributions
+
+It can be transformed into a similarity measure as follows \cite{Dagan1998} :
+
+\begin{equation}
+sim_{JS}(D_i , D_j) = 10^{- JS(p,q)}
+\label{eq:simjs}
+\end{equation}
+where  $D_i,D_j$ are the documents and $p,q$ the topic distributions of each of them.
 
 
-\section{Document Similarity}
-..
-%\subsection{Distance Metrics}
+\textit{Hellinger} (He) distance is also symmetric and is used along with JS divergence in various fields where a comparison between two probability distributions is required \cite{Blei2007a} \cite{Hall2008} \cite{Boyd-Graber2010}:
 
-%\subsection{Hash Functions}
+\begin{equation}
+	He(p, q) = \frac{1}{\sqrt{2}}\cdot\sqrt{\sum\limits_{i=1}^K (\sqrt{p_i} - \sqrt{q_i})^2)}
+	\label{eq:hedistance}
+\end{equation}
+
+It can be transformed into a similarity measure by subtracting it from 1 \cite{Rus2013} such that a zero distance means max. similarity score and vice versa:
+
+\begin{equation}
+	sim_{He}(D_i, D_j) = 1 - He(p,q)
+	\label{eq:simhe}
+\end{equation}
+
+
+\section{Topic-based Document Retrieval}
+
+
+\section{Multilingual Topic Alignment}
+
+
 
 \section{Summary}
 ..

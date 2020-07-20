@@ -19,47 +19,51 @@ The style file: apalike.bst
 Database file #1: bibliography/references.bib
 Warning--to sort, need author or key in Kenter2015
 Warning--empty author in Kenter2015
+Warning--there's a number but no volume in Boyd-Graber2010
+Warning--empty publisher in Hall2008
 Warning--empty booktitle in chielang2012
 Warning--empty journal in rizzo20153cixty
-You've used 27 entries,
+Warning--empty publisher in Rus2013
+Warning--empty journal in Sciences2016
+You've used 43 entries,
             1935 wiz_defined-function locations,
-            662 strings with 9805 characters,
-and the built_in function-call counts, 12424 in all, are:
-= -- 1194
-> -- 627
-< -- 13
-+ -- 221
-- -- 218
-* -- 1053
-:= -- 2103
-add.period$ -- 82
-call.type$ -- 27
-change.case$ -- 241
-chr.to.int$ -- 24
-cite$ -- 32
-duplicate$ -- 495
-empty$ -- 803
-format.name$ -- 250
-if$ -- 2470
+            769 strings with 12665 characters,
+and the built_in function-call counts, 18870 in all, are:
+= -- 1829
+> -- 882
+< -- 23
++ -- 305
+- -- 302
+* -- 1606
+:= -- 3208
+add.period$ -- 128
+call.type$ -- 43
+change.case$ -- 362
+chr.to.int$ -- 40
+cite$ -- 52
+duplicate$ -- 747
+empty$ -- 1264
+format.name$ -- 358
+if$ -- 3735
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 137
-num.names$ -- 80
-pop$ -- 255
+missing$ -- 44
+newline$ -- 215
+num.names$ -- 128
+pop$ -- 371
 preamble$ -- 1
-purify$ -- 241
+purify$ -- 363
 quote$ -- 0
-skip$ -- 377
+skip$ -- 562
 stack$ -- 0
-substring$ -- 722
-swap$ -- 114
-text.length$ -- 10
+substring$ -- 1178
+swap$ -- 148
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
-warning$ -- 4
-while$ -- 90
+type$ -- 256
+warning$ -- 8
+while$ -- 148
 width$ -- 0
-write$ -- 347
-(There were 4 warnings)
+write$ -- 547
+(There were 8 warnings)

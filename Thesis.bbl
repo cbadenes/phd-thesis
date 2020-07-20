@@ -52,6 +52,34 @@ Bizer, C., Heath, T., and Berners-Lee, T. (2009).
 \newblock {\em International journal on Semantic Web and Information Systems},
   5(3):1--22.
 
+\bibitem[Blei et~al., 2010]{Blei2010}
+Blei, D., Carin, L., and Dunson, D. (2010).
+\newblock {Probabilistic topic models}.
+\newblock {\em IEEE Signal Processing Magazine}, 27(6):55--65.
+
+\bibitem[Blei and Lafferty, 2007]{Blei2007a}
+Blei, D.~M. and Lafferty, J.~D. (2007).
+\newblock {A correlated topic model of Science}.
+\newblock {\em The Annals of Applied Statistics}, 1(1):17--35.
+
+\bibitem[Blei et~al., 2003]{Blei2003}
+Blei, D.~M., Ng, A.~Y., and Jordan, M.~I. (2003).
+\newblock {Latent Dirichlet Allocation}.
+\newblock {\em Journal of Machine Learning Research}, 3(4-5):993--1022.
+
+\bibitem[Boyd-Graber and Resnik, 2010]{Boyd-Graber2010}
+Boyd-Graber, J. and Resnik, P. (2010).
+\newblock {Holistic Sentiment Analysis Across Languages: Multilingual
+  Supervised Latent Dirichlet Allocation}.
+\newblock {\em Proceedings of the 2010 Conference on Empirical Methods in
+  Natural Language Processing}, (October):45--55.
+
+\bibitem[Celikyilmaz et~al., 2010]{Celikyilmaz2010}
+Celikyilmaz, a., Hakkani-Tur, D., and Tur, G. (2010).
+\newblock {LDA Based Similarity Modeling for Question Answering}.
+\newblock In {\em Proceedings of the NAACL HLT 2010 Workshop on Semantic
+  Search}, pages 1--9.
+
 \bibitem[Cheng et~al., 2014]{Cheng2014a}
 Cheng, X., Yan, X., Lan, Y., and Guo, J. (2014).
 \newblock {BTM : Topic Modeling over Short Texts}.
@@ -63,6 +91,23 @@ Cunningham, H., Tablan, V., Roberts, A., and Bontcheva, K. (2013).
 \newblock Getting more out of biomedical documents with gate's full lifecycle
   open source text analytics.
 \newblock {\em PLOS Computational Biology}.
+
+\bibitem[Dagan et~al., 1999]{Dagan1998}
+Dagan, I., Lee, L., and Pereira, F. C.~N. (1999).
+\newblock {Similarity-Based Models of Word Cooccurrence Probabilities}.
+\newblock {\em Machine Learning}, 34(1-3):43--69.
+
+\bibitem[Deerwester et~al., 1990]{Deerwester1990}
+Deerwester, S., Dumais, S.~T., Furnas, G.~W., Landauer, T.~K., and Harshman, R.
+  (1990).
+\newblock {Indexing by Latent Semantic Analysis}.
+\newblock {\em Journal of the American Society for Information Science},
+  41:391–407.
+
+\bibitem[Divoli et~al., 2012]{Divoli2012}
+Divoli, A., Nakov, P., and Hearst, M.~A. (2012).
+\newblock {Do peers see more in a paper than its authors?}
+\newblock {\em Advances in Bioinformatics}.
 
 \bibitem[Dragoni et~al., 2016]{Dragoni2016}
 Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
@@ -97,12 +142,27 @@ Griffiths, T.~L., Steyvers, M., and Tenenbaum, J.~B. (2007).
 \newblock {Topics in semantic representation}.
 \newblock {\em Psychological Review}, 114(2):211--244.
 
+\bibitem[Hall et~al., 2008]{Hall2008}
+Hall, D., Jurafsky, D., and Manning, C.~D. (2008).
+\newblock {\em {Studying the History of Ideas Using Topic Models}}.
+
 \bibitem[He et~al., 2017]{He2017}
 He, J., Li, L., and Wu, X. (2017).
 \newblock {A self-adaptive sliding window based topic model for non-uniform
   texts}.
 \newblock In {\em Proceedings - IEEE International Conference on Data Mining,
   ICDM}, volume 2017-Novem, pages 147--156.
+
+\bibitem[Hearst and Hall, 1999]{Hearst1999}
+Hearst, M.~a. and Hall, S. (1999).
+\newblock {Untangling Text Data Mining}.
+\newblock In {\em the 37th Annual Meeting of the Association for Computational
+  Linguistics}, pages 1--13.
+
+\bibitem[Hofmann, 2001]{Hofmann2001}
+Hofmann, T. (2001).
+\newblock {Unsupervised Learning by Probabilistic Latent Semantic Analysis}.
+\newblock {\em Machine Learning}, 42(1-2):177--196.
 
 \bibitem[Krstovski and Smith, 2011]{Krstovski2011}
 Krstovski, K. and Smith, D.~A. (2011).
@@ -114,6 +174,11 @@ Krstovski, K. and Smith, D.~A. (2011).
 Li, C., Weng, J., He, Q., Yao, Y., Datta, A., Sun, A., and Lee, B.-S. (2012).
 \newblock Twiner: Named entity recognition in targeted twitter stream.
 \newblock pages 721--730, New York, NY, USA. ACM.
+
+\bibitem[Lin, 1991]{Lin1991}
+Lin, J. (1991).
+\newblock {Divergence Measures Based on the Shannon Entropy}.
+\newblock {\em IEEE Transactions on Information Theory}, 37(1):145--151.
 
 \bibitem[Lu et~al., 2016]{Lu2016}
 Lu, H.~M., Wei, C.~P., and Hsiao, F.~Y. (2016).
@@ -139,10 +204,29 @@ O’Neill, J., Robin, C., O’Brien, L., and Buitelaar, P. (2017).
 \newblock {An analysis of topic modelling for legislative texts}.
 \newblock {\em CEUR Workshop Proceedings}, 2143.
 
+\bibitem[Rao, 1982]{Rao1982}
+Rao, C.~R. (1982).
+\newblock {Diversity: Its Measurement, Decomposition, Apportionment and
+  Analysis}.
+\newblock {\em Sankhy{\={a}}: The Indian Journal of Statistics, Series A},
+  44(1):1--22.
+
 \bibitem[Rizzo et~al., 2015]{rizzo20153cixty}
 Rizzo, G., Troncy, R., Corcho, O., Jameson, A., Plu, J., Hermida, J. C.~B.,
   Assaf, A., Barbu, C., Spirescu, A., Kuhn, K.-D., et~al. (2015).
 \newblock 3cixty@ expo milano 2015: Enabling visitors to explore a smart city.
+
+\bibitem[Rus et~al., 2013]{Rus2013}
+Rus, V., Niraula, N., and Banjade, R. (2013).
+\newblock {Similarity Measures Based on Latent Dirichlet Allocation}.
+\newblock In {\em Computational Linguistics and Intelligent Text Processing},
+  pages 459--470.
+
+\bibitem[Sciences and life, 2016]{Sciences2016}
+Sciences, E. R. S. f.~P. and life (2016).
+\newblock {Harnessing the power of content - Extracting value from scientific
+  literature: the power of mining full-text articles for pathway analysis
+  Harnessing the Power of content}.
 
 \bibitem[Tapi~Nzali et~al., 2017]{TapiNzali2017}
 Tapi~Nzali, M.~D., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.
@@ -156,6 +240,12 @@ Turchi, S., Ciofi, L., Paganelli, F., Pirri, F., and Giuli, D. (2012).
 \newblock {Designing EPCIS through Linked Data and REST principles}.
 \newblock {\em Software, Telecommunications and Computer Networks
   ({\{}SoftCOM){\}}, 2012 20th International Conference on}, pages 1--6.
+
+\bibitem[Westergaard et~al., 2017]{Westergaard2017}
+Westergaard, D., St{\ae}rfeldt, H.-h., T{\o}nsberg, C., Jensen, L.~J., and
+  Brunak, S. (2017).
+\newblock {Text mining of 15 million full-text scientific articles}.
+\newblock {\em bioRxiv}.
 
 \bibitem[Zhen et~al., 2016]{Zhen2016}
 Zhen, Y., Gao, Y., Yeung, D.-Y., Zha, H., and Li, X. (2016).
