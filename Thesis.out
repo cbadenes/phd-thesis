@@ -6,66 +6,65 @@
 \BOOKMARK [1][-]{section.1.2}{1.2 Thesis Structure}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.3}{1.3 Publications}{chapter.1}% 7
 \BOOKMARK [0][-]{chapter.2}{2 Related Work}{}% 8
-\BOOKMARK [1][-]{section.2.1}{2.1 Topic-based Text Annotations}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{2.2 Topic-based Document Similarity}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Similarity Measures Across Documents}{section.2.2}% 11
-\BOOKMARK [1][-]{section.2.3}{2.3 Topic-based Document Retrieval}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.1}{2.1 Text Annotations}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{2.2 Topic-based Relations}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Distance Measures}{section.2.2}% 11
+\BOOKMARK [1][-]{section.2.3}{2.3 Thematic Document Retrieval}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.4}{2.4 Multilingual Topic Alignment}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.5}{2.5 Summary}{chapter.2}% 14
-\BOOKMARK [0][-]{chapter.3}{3 Research Objectives}{}% 15
-\BOOKMARK [1][-]{section.3.1}{3.1 Research Hypotheses}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{3.2 Research Challenges}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Topic-model Programming Interface}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Explainable Topic-based Associations}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Large-scale Comparisons of Topic Distributions}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.4}{3.2.4 Automatic Cross-lingual Topic Alignment}{section.3.2}% 21
-\BOOKMARK [1][-]{section.3.3}{3.3 Research Methodology}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Scalable Creation and Inference of Topics}{section.3.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Explainable Topic-based Associations}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Large-scale Comparisons of Topic Distributions}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Automatic Cross-lingual Topic Alignment}{section.3.3}% 26
-\BOOKMARK [0][-]{chapter.4}{4 Scalable Creation and Inference of Topics}{}% 27
-\BOOKMARK [1][-]{section.4.1}{4.1 Document Workflow}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.2}{4.2 librAIry}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Functional Features}{section.4.2}% 30
-\BOOKMARK [3][-]{subsubsection.4.2.1.1}{4.2.1.1 Resources}{subsection.4.2.1}% 31
-\BOOKMARK [3][-]{subsubsection.4.2.1.2}{4.2.1.2 Event-based Paradigm}{subsection.4.2.1}% 32
-\BOOKMARK [3][-]{subsubsection.4.2.1.3}{4.2.1.3 Linked Data Principles }{subsection.4.2.1}% 33
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Framework Architecture}{section.4.2}% 34
-\BOOKMARK [3][-]{subsubsection.4.2.2.1}{4.2.2.1 Event-Bus}{subsection.4.2.2}% 35
-\BOOKMARK [3][-]{subsubsection.4.2.2.2}{4.2.2.2 API}{subsection.4.2.2}% 36
-\BOOKMARK [3][-]{subsubsection.4.2.2.3}{4.2.2.3 Storage}{subsection.4.2.2}% 37
-\BOOKMARK [3][-]{subsubsection.4.2.2.4}{4.2.2.4 Modules}{subsection.4.2.2}% 38
-\BOOKMARK [1][-]{section.4.3}{4.3 Model-as-a-Service}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.4}{4.4 Summary}{chapter.4}% 40
-\BOOKMARK [0][-]{chapter.5}{5 Explainable Topic-based Associations}{}% 41
-\BOOKMARK [1][-]{section.5.1}{5.1 Topic Relevance}{chapter.5}% 42
-\BOOKMARK [1][-]{section.5.2}{5.2 Topic-based Clustering}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.3}{5.3 Summary}{chapter.5}% 44
-\BOOKMARK [0][-]{chapter.6}{6 Large-scale Comparisons of Topic Distributions}{}% 45
-\BOOKMARK [1][-]{section.6.1}{6.1 Document Similarity}{chapter.6}% 46
-\BOOKMARK [1][-]{section.6.2}{6.2 Hashing Topic Distributions}{chapter.6}% 47
-\BOOKMARK [1][-]{section.6.3}{6.3 Summary}{chapter.6}% 48
-\BOOKMARK [0][-]{chapter.7}{7 Cross-lingual Document Similarity}{}% 49
-\BOOKMARK [1][-]{section.7.1}{7.1 Synset-based Representational Space}{chapter.7}% 50
-\BOOKMARK [1][-]{section.7.2}{7.2 Cross-lingual Models}{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.3}{7.3 Summary}{chapter.7}% 52
-\BOOKMARK [0][-]{chapter.8}{8 Evaluation}{}% 53
-\BOOKMARK [1][-]{section.8.1}{8.1 Evaluation Metrics}{chapter.8}% 54
-\BOOKMARK [1][-]{section.8.2}{8.2 Text Representativeness}{chapter.8}% 55
-\BOOKMARK [1][-]{section.8.3}{8.3 Large-scale Text Processing}{chapter.8}% 56
-\BOOKMARK [1][-]{section.8.4}{8.4 Topic-based Clustering}{chapter.8}% 57
-\BOOKMARK [1][-]{section.8.5}{8.5 Cross-lingual Similarity}{chapter.8}% 58
-\BOOKMARK [1][-]{section.8.6}{8.6 Conclusions}{chapter.8}% 59
-\BOOKMARK [0][-]{chapter.9}{9 Experiments}{}% 60
-\BOOKMARK [1][-]{section.9.1}{9.1 Polypharmacy and Drug-drug Interactions}{chapter.9}% 61
-\BOOKMARK [1][-]{section.9.2}{9.2 Corpus Viewer}{chapter.9}% 62
-\BOOKMARK [1][-]{section.9.3}{9.3 ODS Classifier}{chapter.9}% 63
-\BOOKMARK [1][-]{section.9.4}{9.4 Drugs4Covid}{chapter.9}% 64
-\BOOKMARK [0][-]{chapter.10}{10 Conclusions}{}% 65
-\BOOKMARK [1][-]{section.10.1}{10.1 Assumptions and Restrictions}{chapter.10}% 66
-\BOOKMARK [1][-]{section.10.2}{10.2 Contributions}{chapter.10}% 67
-\BOOKMARK [1][-]{section.10.3}{10.3 Impact}{chapter.10}% 68
-\BOOKMARK [1][-]{section.10.4}{10.4 Limitations}{chapter.10}% 69
-\BOOKMARK [1][-]{section.10.5}{10.5 Future Work}{chapter.10}% 70
-\BOOKMARK [0][-]{chapter*.12}{Bibliography}{}% 71
+\BOOKMARK [0][-]{chapter.3}{3 Research Objectives}{}% 14
+\BOOKMARK [1][-]{section.3.1}{3.1 Research Hypotheses}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{3.2 Research Challenges}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Topic-model Programming Interface}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Explainable Topic-based Associations}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Large-scale Comparisons of Topic Distributions}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.4}{3.2.4 Automatic Cross-lingual Topic Alignment}{section.3.2}% 20
+\BOOKMARK [1][-]{section.3.3}{3.3 Research Methodology}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Scalable Creation and Inference of Topics}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Explainable Topic-based Associations}{section.3.3}% 23
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Large-scale Comparisons of Topic Distributions}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Automatic Cross-lingual Topic Alignment}{section.3.3}% 25
+\BOOKMARK [0][-]{chapter.4}{4 Scalable Creation and Inference of Topics}{}% 26
+\BOOKMARK [1][-]{section.4.1}{4.1 Document Workflow}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.2}{4.2 librAIry}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Functional Features}{section.4.2}% 29
+\BOOKMARK [3][-]{subsubsection.4.2.1.1}{4.2.1.1 Resources}{subsection.4.2.1}% 30
+\BOOKMARK [3][-]{subsubsection.4.2.1.2}{4.2.1.2 Event-based Paradigm}{subsection.4.2.1}% 31
+\BOOKMARK [3][-]{subsubsection.4.2.1.3}{4.2.1.3 Linked Data Principles }{subsection.4.2.1}% 32
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Framework Architecture}{section.4.2}% 33
+\BOOKMARK [3][-]{subsubsection.4.2.2.1}{4.2.2.1 Event-Bus}{subsection.4.2.2}% 34
+\BOOKMARK [3][-]{subsubsection.4.2.2.2}{4.2.2.2 API}{subsection.4.2.2}% 35
+\BOOKMARK [3][-]{subsubsection.4.2.2.3}{4.2.2.3 Storage}{subsection.4.2.2}% 36
+\BOOKMARK [3][-]{subsubsection.4.2.2.4}{4.2.2.4 Modules}{subsection.4.2.2}% 37
+\BOOKMARK [1][-]{section.4.3}{4.3 Model-as-a-Service}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{4.4 Summary}{chapter.4}% 39
+\BOOKMARK [0][-]{chapter.5}{5 Explainable Topic-based Associations}{}% 40
+\BOOKMARK [1][-]{section.5.1}{5.1 Topic Relevance}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.2}{5.2 Topic-based Clustering}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.3}{5.3 Summary}{chapter.5}% 43
+\BOOKMARK [0][-]{chapter.6}{6 Large-scale Comparisons of Topic Distributions}{}% 44
+\BOOKMARK [1][-]{section.6.1}{6.1 Document Similarity}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{6.2 Hashing Topic Distributions}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.3}{6.3 Summary}{chapter.6}% 47
+\BOOKMARK [0][-]{chapter.7}{7 Cross-lingual Document Similarity}{}% 48
+\BOOKMARK [1][-]{section.7.1}{7.1 Synset-based Representational Space}{chapter.7}% 49
+\BOOKMARK [1][-]{section.7.2}{7.2 Cross-lingual Models}{chapter.7}% 50
+\BOOKMARK [1][-]{section.7.3}{7.3 Summary}{chapter.7}% 51
+\BOOKMARK [0][-]{chapter.8}{8 Evaluation}{}% 52
+\BOOKMARK [1][-]{section.8.1}{8.1 Evaluation Metrics}{chapter.8}% 53
+\BOOKMARK [1][-]{section.8.2}{8.2 Text Representativeness}{chapter.8}% 54
+\BOOKMARK [1][-]{section.8.3}{8.3 Large-scale Text Processing}{chapter.8}% 55
+\BOOKMARK [1][-]{section.8.4}{8.4 Topic-based Clustering}{chapter.8}% 56
+\BOOKMARK [1][-]{section.8.5}{8.5 Cross-lingual Similarity}{chapter.8}% 57
+\BOOKMARK [1][-]{section.8.6}{8.6 Conclusions}{chapter.8}% 58
+\BOOKMARK [0][-]{chapter.9}{9 Experiments}{}% 59
+\BOOKMARK [1][-]{section.9.1}{9.1 Polypharmacy and Drug-drug Interactions}{chapter.9}% 60
+\BOOKMARK [1][-]{section.9.2}{9.2 Corpus Viewer}{chapter.9}% 61
+\BOOKMARK [1][-]{section.9.3}{9.3 ODS Classifier}{chapter.9}% 62
+\BOOKMARK [1][-]{section.9.4}{9.4 Drugs4Covid}{chapter.9}% 63
+\BOOKMARK [0][-]{chapter.10}{10 Conclusions}{}% 64
+\BOOKMARK [1][-]{section.10.1}{10.1 Assumptions and Restrictions}{chapter.10}% 65
+\BOOKMARK [1][-]{section.10.2}{10.2 Contributions}{chapter.10}% 66
+\BOOKMARK [1][-]{section.10.3}{10.3 Impact}{chapter.10}% 67
+\BOOKMARK [1][-]{section.10.4}{10.4 Limitations}{chapter.10}% 68
+\BOOKMARK [1][-]{section.10.5}{10.5 Future Work}{chapter.10}% 69
+\BOOKMARK [0][-]{chapter*.13}{Bibliography}{}% 70

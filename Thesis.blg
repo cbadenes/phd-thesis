@@ -17,53 +17,58 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-Warning--to sort, need author or key in Kenter2015
-Warning--empty author in Kenter2015
+I was expecting a `,' or a `}'---line 1407 of file bibliography/references.bib
+ : 
+ : @inproceedings{Celikyilmaz2010,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty publisher in Andoni2014
 Warning--there's a number but no volume in Boyd-Graber2010
 Warning--empty publisher in Hall2008
 Warning--empty booktitle in chielang2012
 Warning--empty journal in rizzo20153cixty
 Warning--empty publisher in Rus2013
 Warning--empty journal in Sciences2016
-You've used 43 entries,
+Warning--empty publisher in Terasawa2007
+You've used 67 entries,
             1935 wiz_defined-function locations,
-            769 strings with 12665 characters,
-and the built_in function-call counts, 18870 in all, are:
-= -- 1829
-> -- 882
-< -- 23
-+ -- 305
-- -- 302
-* -- 1606
-:= -- 3208
-add.period$ -- 128
-call.type$ -- 43
-change.case$ -- 362
-chr.to.int$ -- 40
-cite$ -- 52
-duplicate$ -- 747
-empty$ -- 1264
-format.name$ -- 358
-if$ -- 3735
-int.to.chr$ -- 4
+            918 strings with 17729 characters,
+and the built_in function-call counts, 31041 in all, are:
+= -- 3089
+> -- 1331
+< -- 51
++ -- 456
+- -- 452
+* -- 2532
+:= -- 5110
+add.period$ -- 208
+call.type$ -- 67
+change.case$ -- 557
+chr.to.int$ -- 63
+cite$ -- 75
+duplicate$ -- 1304
+empty$ -- 2152
+format.name$ -- 551
+if$ -- 6330
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 44
-newline$ -- 215
-num.names$ -- 128
-pop$ -- 371
+missing$ -- 68
+newline$ -- 335
+num.names$ -- 203
+pop$ -- 606
 preamble$ -- 1
-purify$ -- 363
+purify$ -- 558
 quote$ -- 0
-skip$ -- 562
+skip$ -- 990
 stack$ -- 0
-substring$ -- 1178
-swap$ -- 148
-text.length$ -- 13
+substring$ -- 2059
+swap$ -- 322
+text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 256
+type$ -- 400
 warning$ -- 8
-while$ -- 148
+while$ -- 255
 width$ -- 0
-write$ -- 547
-(There were 8 warnings)
+write$ -- 872
+(There was 1 error message)

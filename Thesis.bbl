@@ -1,11 +1,17 @@
 \begin{thebibliography}{}
 
-\bibitem[Ken, 2015]{Kenter2015}
- (2015).
-\newblock {Short Text Similarity with Word Embeddings Categories and Subject
-  Descriptors}.
-\newblock {\em Proc. 24th ACM Int. Conf. Inf. Knowl. Manag. (CIKM 2015)}, pages
-  1411--1420.
+\bibitem[Andoni and Indyk, 2006]{Andoni2006}
+Andoni, A. and Indyk, P. (2006).
+\newblock {Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in
+  High Dimensions}.
+\newblock In {\em 2006 47th Annual IEEE Symposium on Foundations of Computer
+  Science (FOCS'06)}, pages 459--468. IEEE.
+
+\bibitem[Andoni et~al., 2014]{Andoni2014}
+Andoni, A., Indyk, P., Nguyá»…n, H.~L., and Razenshteyn, I. (2014).
+\newblock {Beyond Locality-Sensitive Hashing}.
+\newblock In {\em Proceedings of the Twenty-Fifth Annual ACM-SIAM Symposium on
+  Discrete Algorithms}, pages 1018--1028.
 
 \bibitem[Badenes-Olmedo et~al., 2017a]{Badenes-Olmedo2017c}
 Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2017a).
@@ -80,6 +86,12 @@ Celikyilmaz, a., Hakkani-Tur, D., and Tur, G. (2010).
 \newblock In {\em Proceedings of the NAACL HLT 2010 Workshop on Semantic
   Search}, pages 1--9.
 
+\bibitem[Charikar, 2002]{Charikar2002}
+Charikar, M.~S. (2002).
+\newblock {Similarity estimation techniques from rounding algorithms}.
+\newblock In {\em Proceedings of the thiry-fourth annual ACM symposium on
+  Theory of computing - STOC '02}, page 380. ACM Press.
+
 \bibitem[Cheng et~al., 2014]{Cheng2014a}
 Cheng, X., Yan, X., Lan, Y., and Guo, J. (2014).
 \newblock {BTM : Topic Modeling over Short Texts}.
@@ -97,12 +109,31 @@ Dagan, I., Lee, L., and Pereira, F. C.~N. (1999).
 \newblock {Similarity-Based Models of Word Cooccurrence Probabilities}.
 \newblock {\em Machine Learning}, 34(1-3):43--69.
 
+\bibitem[Datar et~al., 2004]{Datar2004}
+Datar, M., Immorlica, N., Indyk, P., and Mirrokni, V.~S. (2004).
+\newblock {Locality-sensitive hashing scheme based on p-stable distributions}.
+\newblock In {\em Proceedings of the twentieth annual symposium on
+  Computational geometry - SCG '04}, page 253. ACM Press.
+
+\bibitem[De~Smet and Moens, 2009]{DeSmet2009}
+De~Smet, W. and Moens, M.-F. (2009).
+\newblock {Cross-language linking of news stories on the web using interlingual
+  topic modelling}.
+\newblock In {\em Proceedings of the 2nd ACM workshop on Social web search and
+  mining}, page~57.
+
+\bibitem[De~Smet et~al., 2011]{10.1007/978-3-642-20841-6_45}
+De~Smet, W., Tang, J., and Moens, M.-F. (2011).
+\newblock {Knowledge Transfer across Multilingual Corpora via Latent Topics}.
+\newblock In {\em Advances in Knowledge Discovery and Data Mining}, pages
+  549--560.
+
 \bibitem[Deerwester et~al., 1990]{Deerwester1990}
 Deerwester, S., Dumais, S.~T., Furnas, G.~W., Landauer, T.~K., and Harshman, R.
   (1990).
 \newblock {Indexing by Latent Semantic Analysis}.
 \newblock {\em Journal of the American Society for Information Science},
-  41:391–407.
+  41:391--407.
 
 \bibitem[Divoli et~al., 2012]{Divoli2012}
 Divoli, A., Nakov, P., and Hearst, M.~A. (2012).
@@ -115,6 +146,11 @@ Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
 \newblock {Microservices: yesterday, today, and tomorrow}.
 \newblock {\em CoRR}, abs/1606.0:1--17.
 
+\bibitem[Endres and Schindelin, 2003]{Endres2003}
+Endres, D. and Schindelin, J. (2003).
+\newblock {A new metric for probability distributions}.
+\newblock {\em IEEE Transactions on Information Theory}, 49(7):1858--1860.
+
 \bibitem[Fielding and Taylor, 2002]{Fielding2002}
 Fielding, R.~T. and Taylor, R.~N. (2002).
 \newblock {Principled Design of the Modern Web Architecture}.
@@ -125,6 +161,11 @@ Furlong, L.~I., Dach, H., Hofmann-Apitius, M., and Sanz, F. (2008).
 \newblock Osirisv1. 2: a named entity recognition system for sequence variants
   of genes in biomedical literature.
 \newblock {\em BMC bioinformatics}, 9(1):84.
+
+\bibitem[Ganguly et~al., 2012]{ganguly-etal-2012-cross}
+Ganguly, D., Leveling, J., and Jones, G. (2012).
+\newblock {Cross-Lingual Topical Relevance Models}.
+\newblock In {\em Proceedings of COLING 2012}, pages 927--942.
 
 \bibitem[Gatti et~al., 2015]{Gatti2015}
 Gatti, C.~J., Brooks, J.~D., and Nurre, S.~G. (2015).
@@ -164,16 +205,53 @@ Hofmann, T. (2001).
 \newblock {Unsupervised Learning by Probabilistic Latent Semantic Analysis}.
 \newblock {\em Machine Learning}, 42(1-2):177--196.
 
+\bibitem[Ji et~al., 2013]{Ji2013}
+Ji, J., Li, J., Yan, S., Tian, Q., and Zhang, B. (2013).
+\newblock {Min-Max Hash for Jaccard Similarity}.
+\newblock In {\em 2013 IEEE 13th International Conference on Data Mining},
+  pages 301--309. IEEE.
+
+\bibitem[Kenter and de~Rijke, 2015]{Kenter2015}
+Kenter, T. and de~Rijke, M. (2015).
+\newblock {Short Text Similarity with Word Embeddings Categories and Subject
+  Descriptors}.
+\newblock {\em Proc. 24th ACM Int. Conf. Inf. Knowl. Manag. (CIKM 2015)}, pages
+  1411--1420.
+
 \bibitem[Krstovski and Smith, 2011]{Krstovski2011}
 Krstovski, K. and Smith, D.~A. (2011).
 \newblock {A Minimally Supervised Approach for Detecting and Ranking Document
   Translation Pairs}.
 \newblock In {\em Workshop on Statistical MT}.
 
-\bibitem[Li et~al., 2012]{chielang2012}
-Li, C., Weng, J., He, Q., Yao, Y., Datta, A., Sun, A., and Lee, B.-S. (2012).
+\bibitem[Krstovski et~al., 2013]{Krstovski2013a}
+Krstovski, K., Smith, D.~A., Wallach, H.~M., and McGregor, A. (2013).
+\newblock {Efficient Nearest-Neighbor Search in the Probability Simplex}.
+\newblock In {\em Proceedings of the 2013 Conference on the Theory of
+  Information Retrieval - ICTIR '13}, pages 101--108, New York, New York, USA.
+  ACM Press.
+
+\bibitem[Kulis and Grauman, 2012]{Kulis2012}
+Kulis, B. and Grauman, K. (2012).
+\newblock {Kernelized Locality-Sensitive Hashing}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  34(6):1092--1104.
+
+\bibitem[Li et~al., 2012a]{chielang2012}
+Li, C., Weng, J., He, Q., Yao, Y., Datta, A., Sun, A., and Lee, B.-S. (2012a).
 \newblock Twiner: Named entity recognition in targeted twitter stream.
 \newblock pages 721--730, New York, NY, USA. ACM.
+
+\bibitem[Li and K{\"{o}}nig, 2010]{Li2010b}
+Li, P. and K{\"{o}}nig, C. (2010).
+\newblock {b-Bit minwise hashing}.
+\newblock In {\em Proceedings of the 19th international conference on World
+  wide web - WWW '10}, page 671. ACM Press.
+
+\bibitem[Li et~al., 2012b]{Li2012}
+Li, P., Owen, A.~B., and Zhang, C.-H. (2012b).
+\newblock {One Permutation Hashing}.
+\newblock {\em Advances in Neural Information Processing}.
 
 \bibitem[Lin, 1991]{Lin1991}
 Lin, J. (1991).
@@ -199,10 +277,33 @@ Mao, X., Feng, B.-S., Hao, Y.-J., Nie, L., Huang, H., and Wen, G. (2017).
   Distributions}.
 \newblock In {\em AAAI}.
 
+\bibitem[Mimno et~al., 2009]{Mimno:2009:PTM:1699571.1699627}
+Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
+  (2009).
+\newblock {Polylingual Topic Models}.
+\newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
+  Natural Language Processing: Volume 2 - Volume 2}, EMNLP '09, pages 880--889,
+  Stroudsburg, PA, USA. Association for Computational Linguistics.
+
+\bibitem[Ni et~al., 2011]{Ni:2011:CLT:1935826.1935887}
+Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2011).
+\newblock {Cross Lingual Text Classification by Mining Multilingual Topics from
+  Wikipedia}.
+\newblock In {\em Proceedings of the Fourth ACM International Conference on Web
+  Search and Data Mining}, pages 375--384.
+
 \bibitem[O’Neill et~al., 2017]{ONeill2017}
 O’Neill, J., Robin, C., O’Brien, L., and Buitelaar, P. (2017).
 \newblock {An analysis of topic modelling for legislative texts}.
 \newblock {\em CEUR Workshop Proceedings}, 2143.
+
+\bibitem[Platt et~al., 2010]{Platt:2010:TDR:1870658.1870683}
+Platt, J.~C., Toutanova, K., and Yih, W.-t. (2010).
+\newblock {Translingual Document Representations from Discriminative
+  Projections}.
+\newblock In {\em Proceedings of the 2010 Conference on Empirical Methods in
+  Natural Language Processing}, EMNLP '10, pages 251--261, Stroudsburg, PA,
+  USA. Association for Computational Linguistics.
 
 \bibitem[Rao, 1982]{Rao1982}
 Rao, C.~R. (1982).
@@ -235,11 +336,48 @@ Tapi~Nzali, M.~D., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.
   Cancer.}
 \newblock {\em JMIR medical informatics}, 5(3):e23.
 
+\bibitem[Terasawa and Tanaka, 2007]{Terasawa2007}
+Terasawa, K. and Tanaka, Y. (2007).
+\newblock {Spherical LSH for Approximate Nearest Neighbor Search on Unit
+  Hypersphere}.
+\newblock In {\em Algorithms and Data Structures}, pages 27--38.
+
 \bibitem[Turchi et~al., 2012]{Turchi2012a}
 Turchi, S., Ciofi, L., Paganelli, F., Pirri, F., and Giuli, D. (2012).
 \newblock {Designing EPCIS through Linked Data and REST principles}.
 \newblock {\em Software, Telecommunications and Computer Networks
   ({\{}SoftCOM){\}}, 2012 20th International Conference on}, pages 1--6.
+
+\bibitem[Vijayanarasimhan et~al., 2014]{Vijayanarasimhan2014}
+Vijayanarasimhan, S., Jain, P., and Grauman, K. (2014).
+\newblock {Hashing Hyperplane Queries to Near Points with Applications to
+  Large-Scale Active Learning}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  36(2):276--288.
+
+\bibitem[Vuli{\'{c}} et~al., 2015]{Vulic2015}
+Vuli{\'{c}}, I., De~Smet, W., Tang, J., and Moens, M.~F. (2015).
+\newblock {Probabilistic topic modeling in multilingual settings: An overview
+  of its methodology and applications}.
+\newblock {\em Information Processing and Management}, 51(1):111--147.
+
+\bibitem[Vuli{\'{c}} and Moens, 2012]{Vulic:2012:DHC:2380816.2380872}
+Vuli{\'{c}}, I. and Moens, M.-F. (2012).
+\newblock {Detecting Highly Confident Word Translations from Comparable Corpora
+  Without Any Prior Knowledge}.
+\newblock In {\em Proceedings of the 13th Conference of the European Chapter of
+  the Association for Computational Linguistics}, pages 449--459.
+
+\bibitem[Vuli{\'{c}} and Moens, 2013]{10.1007/978-3-642-36973-5_9}
+Vuli{\'{c}}, I. and Moens, M.-F. (2013).
+\newblock {A Unified Framework for Monolingual and Cross-Lingual Relevance
+  Modeling Based on Probabilistic Topic Models}.
+\newblock In {\em Advances in Information Retrieval}, pages 98--109.
+
+\bibitem[Wang et~al., 2016]{Wang2016}
+Wang, J., Liu, W., Kumar, S., and Chang, S.-F. (2016).
+\newblock {Learning to Hash for Indexing Big Data-A Survey}.
+\newblock {\em Proceedings of the IEEE}, 104(1):34--57.
 
 \bibitem[Westergaard et~al., 2017]{Westergaard2017}
 Westergaard, D., St{\ae}rfeldt, H.-h., T{\o}nsberg, C., Jensen, L.~J., and
@@ -247,10 +385,22 @@ Westergaard, D., St{\ae}rfeldt, H.-h., T{\o}nsberg, C., Jensen, L.~J., and
 \newblock {Text mining of 15 million full-text scientific articles}.
 \newblock {\em bioRxiv}.
 
+\bibitem[Zhao et~al., 2013]{Zhao2013}
+Zhao, W.-L., J{\'{e}}gou, H., and Gravier, G. (2013).
+\newblock {Sim-min-hash}.
+\newblock In {\em Proceedings of the 21st ACM international conference on
+  Multimedia - MM '13}, pages 577--580.
+
 \bibitem[Zhen et~al., 2016]{Zhen2016}
 Zhen, Y., Gao, Y., Yeung, D.-Y., Zha, H., and Li, X. (2016).
 \newblock {Spectral Multimodal Hashing and Its Application to Multimedia
   Retrieval}.
 \newblock {\em IEEE Transactions on Cybernetics}, 46(1):27--38.
+
+\bibitem[Zhu et~al., 2013]{zhu-etal-2013-building}
+Zhu, Z., Li, M., Chen, L., and Yang, Z. (2013).
+\newblock {Building Comparable Corpora Based on Bilingual {\{}LDA{\}} Model}.
+\newblock In {\em Proceedings of the 51st Annual Meeting of the Association for
+  Computational Linguistics (Volume 2: Short Papers)}, pages 278--282.
 
 \end{thebibliography}
