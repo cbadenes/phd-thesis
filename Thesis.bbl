@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Agerri et~al., 2014]{Agerri2014}
+Agerri, R., Bermudez, J., and Rigau, G. (2014).
+\newblock {IXA pipeline: Efficient and Ready to Use Multilingual NLP tools}.
+\newblock In {\em Proceedings of the 9th Language Resources and Evaluation
+  Conference (LREC)}, pages 26--31, Reykjavik, Iceland.
+
 \bibitem[Andoni and Indyk, 2006]{Andoni2006}
 Andoni, A. and Indyk, P. (2006).
 \newblock {Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in
@@ -108,6 +114,12 @@ Cunningham, H., Tablan, V., Roberts, A., and Bontcheva, K. (2013).
 Dagan, I., Lee, L., and Pereira, F. C.~N. (1999).
 \newblock {Similarity-Based Models of Word Cooccurrence Probabilities}.
 \newblock {\em Machine Learning}, 34(1-3):43--69.
+
+\bibitem[Danet and Herring, 2007]{danet2007}
+Danet, B. and Herring, S. (2007).
+\newblock {\em {The Multilingual Internet: Language, Culture, and Communication
+  Online}}.
+\newblock Oxford Scholarship.
 
 \bibitem[Datar et~al., 2004]{Datar2004}
 Datar, M., Immorlica, N., Indyk, P., and Mirrokni, V.~S. (2004).
@@ -316,6 +328,11 @@ Rao, C.~R. (1982).
 Rizzo, G., Troncy, R., Corcho, O., Jameson, A., Plu, J., Hermida, J. C.~B.,
   Assaf, A., Barbu, C., Spirescu, A., Kuhn, K.-D., et~al. (2015).
 \newblock 3cixty@ expo milano 2015: Enabling visitors to explore a smart city.
+
+\bibitem[Rob~Johnson and Mabe, 2018]{Ware2018STM}
+Rob~Johnson, A.~W. and Mabe, M. (2018).
+\newblock The stm report: An overview of scientific and scholarly journal
+  publishing fifth edition.
 
 \bibitem[Rus et~al., 2013]{Rus2013}
 Rus, V., Niraula, N., and Banjade, R. (2013).
