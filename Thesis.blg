@@ -25,51 +25,49 @@ I'm skipping whatever remains of this entry
 Warning--empty publisher in Andoni2014
 Warning--there's a number but no volume in Boyd-Graber2010
 Warning--empty publisher in Hall2008
-Warning--empty booktitle in chielang2012
-Warning--empty journal in rizzo20153cixty
 Warning--empty booktitle in Ware2018STM
 Warning--empty publisher in Rus2013
 Warning--empty journal in Sciences2016
 Warning--empty publisher in Terasawa2007
-You've used 70 entries,
+You've used 67 entries,
             1935 wiz_defined-function locations,
-            934 strings with 18256 characters,
-and the built_in function-call counts, 32202 in all, are:
-= -- 3200
-> -- 1375
-< -- 54
-+ -- 472
-- -- 466
-* -- 2617
-:= -- 5302
-add.period$ -- 216
-call.type$ -- 70
-change.case$ -- 578
-chr.to.int$ -- 66
-cite$ -- 79
-duplicate$ -- 1360
-empty$ -- 2241
-format.name$ -- 572
-if$ -- 6568
-int.to.chr$ -- 5
+            921 strings with 17746 characters,
+and the built_in function-call counts, 30934 in all, are:
+= -- 3102
+> -- 1251
+< -- 55
++ -- 425
+- -- 420
+* -- 2483
+:= -- 5040
+add.period$ -- 207
+call.type$ -- 67
+change.case$ -- 542
+chr.to.int$ -- 64
+cite$ -- 74
+duplicate$ -- 1334
+empty$ -- 2197
+format.name$ -- 523
+if$ -- 6360
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 72
-newline$ -- 349
-num.names$ -- 212
-pop$ -- 638
+missing$ -- 68
+newline$ -- 335
+num.names$ -- 203
+pop$ -- 603
 preamble$ -- 1
-purify$ -- 580
+purify$ -- 543
 quote$ -- 0
-skip$ -- 1028
+skip$ -- 1010
 stack$ -- 0
-substring$ -- 2121
-swap$ -- 331
-text.length$ -- 32
+substring$ -- 2111
+swap$ -- 339
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 416
-warning$ -- 9
-while$ -- 264
+type$ -- 400
+warning$ -- 7
+while$ -- 260
 width$ -- 0
-write$ -- 908
+write$ -- 873
 (There was 1 error message)

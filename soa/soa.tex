@@ -36,7 +36,7 @@ Documents are represented as a vector of counts with $W$ components, where $W$ i
 It is not a restrictive clustering model, where each document is assigned to one cluster, but allows documents to exhibit multiple topics. Since LDA is unsupervised, the topics covered in a set of documents are discovered from the own corpus. The mixed-membership assumptions lead to sharper estimates of word co-occurrence patterns, key to this thesis that proposes a \textit{thematic and low-dimensional feature space suitable for big real-world data sets, where documents are only described by their most relevant topics}.
 
 
-\subsection{Distance Measures}
+\section{Distance Measures}
 
 In a \textit{Topic Model} the feature vector is a topic distribution expressed as vector of probabilities. Taking into account this premise, the similarity between two topic-based resources will be based on the distance between their topic distributions, which can be also seen as two probability mass functions. A commonly used metric is the \textit{Kullback-Liebler} (KL) divergence. However, it presents two major problems: (1) when a topic distribution is zero, KL divergence is not defined and (2) it is not symmetric, which does not fit well with semantic similarity measures that are usually symmetric \cite{Rus2013}.
 
@@ -83,23 +83,28 @@ However, all these metrics are not well-defined distance metrics, that is, they 
 
 Making sense out of the similarity score is not easy. As shown in figure \ref{fig:topic_distances}, given a set of pairs of documents, their similarity scores vary according to the number of topics. So the distances between those pairs fluctuate from being more to less distant when changing the number of topics.
 \begin{figure}
-
-\begin{adjustbox}{minipage=0.45\linewidth,frame=1pt 5pt}
+\begin{center}
+\begin{adjustbox}{minipage=0.45\linewidth,frame=0pt 3pt}
 \includegraphics[width=\linewidth]{KL_100_2k.png}
+\centering (a)
 \end{adjustbox}
 \hfill
-\begin{adjustbox}{minipage=0.45\linewidth,frame=1pt 5pt}
+\begin{adjustbox}{minipage=0.45\linewidth,frame=0pt 3pt}
 \includegraphics[width=\linewidth]{JSD_100_2k.png}
+\centering (b)
 \end{adjustbox}
 \hfill
-\begin{adjustbox}{minipage=0.45\linewidth,frame=1pt 5pt}
+\begin{adjustbox}{minipage=0.45\linewidth,frame=0pt 3pt}
 \includegraphics[width=\linewidth]{He_100_2k.png}
+\centering (c)
 \end{adjustbox}
 \hfill
-\begin{adjustbox}{minipage=0.45\linewidth,frame=1pt 5pt}
+\begin{adjustbox}{minipage=0.45\linewidth,frame=0pt 3pt}
 \includegraphics[width=\linewidth]{S2JSD_100_2k.png}
+\centering (d)
 \end{adjustbox}
-\caption{Distance values between 10 pair of documents from topic models with 100-to-2000 dimensions.}
+\end{center}
+\caption{Distance values between 10 pair of documents from topic models with 100-to-2000 dimensions. The Kullback-Liebler(a), Jensen-Shannon Divergence(b), Hellinger(c) and S2JSD(c) metrics are considered.}
 \label{fig:topic_distances}
 \end{figure}
 

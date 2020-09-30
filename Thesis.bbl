@@ -104,22 +104,10 @@ Cheng, X., Yan, X., Lan, Y., and Guo, J. (2014).
 \newblock {\em IEEE Transactions on Knowledge and Data Engineering},
   26(12):2928--2941.
 
-\bibitem[Cunningham et~al., 2013]{gate2013}
-Cunningham, H., Tablan, V., Roberts, A., and Bontcheva, K. (2013).
-\newblock Getting more out of biomedical documents with gate's full lifecycle
-  open source text analytics.
-\newblock {\em PLOS Computational Biology}.
-
 \bibitem[Dagan et~al., 1999]{Dagan1998}
 Dagan, I., Lee, L., and Pereira, F. C.~N. (1999).
 \newblock {Similarity-Based Models of Word Cooccurrence Probabilities}.
 \newblock {\em Machine Learning}, 34(1-3):43--69.
-
-\bibitem[Danet and Herring, 2007]{danet2007}
-Danet, B. and Herring, S. (2007).
-\newblock {\em {The Multilingual Internet: Language, Culture, and Communication
-  Online}}.
-\newblock Oxford Scholarship.
 
 \bibitem[Datar et~al., 2004]{Datar2004}
 Datar, M., Immorlica, N., Indyk, P., and Mirrokni, V.~S. (2004).
@@ -168,12 +156,6 @@ Fielding, R.~T. and Taylor, R.~N. (2002).
 \newblock {Principled Design of the Modern Web Architecture}.
 \newblock {\em ACM Transactions on Internet Technology}, 2(2):407--416.
 
-\bibitem[Furlong et~al., 2008]{furlong2008osirisv1}
-Furlong, L.~I., Dach, H., Hofmann-Apitius, M., and Sanz, F. (2008).
-\newblock Osirisv1. 2: a named entity recognition system for sequence variants
-  of genes in biomedical literature.
-\newblock {\em BMC bioinformatics}, 9(1):84.
-
 \bibitem[Ganguly et~al., 2012]{ganguly-etal-2012-cross}
 Ganguly, D., Leveling, J., and Jones, G. (2012).
 \newblock {Cross-Lingual Topical Relevance Models}.
@@ -198,6 +180,14 @@ Griffiths, T.~L., Steyvers, M., and Tenenbaum, J.~B. (2007).
 \bibitem[Hall et~al., 2008]{Hall2008}
 Hall, D., Jurafsky, D., and Manning, C.~D. (2008).
 \newblock {\em {Studying the History of Ideas Using Topic Models}}.
+
+\bibitem[Hao et~al., 2018]{Hao2018}
+Hao, S., Boyd-Graber, J.~L., and Paul., M.~J. (2018).
+\newblock {Lessons from the Bible on Modern Topics: Adapting Topic Model
+  Evaluation to Multilingual and Low-Resource Settings}.
+\newblock In {\em Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguis- tics: Human Language
+  Technologies, NAACL-HLT}, pages 1090--1100.
 
 \bibitem[He et~al., 2017]{He2017}
 He, J., Li, L., and Wu, X. (2017).
@@ -249,19 +239,14 @@ Kulis, B. and Grauman, K. (2012).
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   34(6):1092--1104.
 
-\bibitem[Li et~al., 2012a]{chielang2012}
-Li, C., Weng, J., He, Q., Yao, Y., Datta, A., Sun, A., and Lee, B.-S. (2012a).
-\newblock Twiner: Named entity recognition in targeted twitter stream.
-\newblock pages 721--730, New York, NY, USA. ACM.
-
 \bibitem[Li and K{\"{o}}nig, 2010]{Li2010b}
 Li, P. and K{\"{o}}nig, C. (2010).
 \newblock {b-Bit minwise hashing}.
 \newblock In {\em Proceedings of the 19th international conference on World
   wide web - WWW '10}, page 671. ACM Press.
 
-\bibitem[Li et~al., 2012b]{Li2012}
-Li, P., Owen, A.~B., and Zhang, C.-H. (2012b).
+\bibitem[Li et~al., 2012]{Li2012}
+Li, P., Owen, A.~B., and Zhang, C.-H. (2012).
 \newblock {One Permutation Hashing}.
 \newblock {\em Advances in Neural Information Processing}.
 
@@ -297,6 +282,13 @@ Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
   Natural Language Processing: Volume 2 - Volume 2}, EMNLP '09, pages 880--889,
   Stroudsburg, PA, USA. Association for Computational Linguistics.
 
+\bibitem[Moritz and Ìˆchler, 2017]{Moritz2017}
+Moritz, M. and Ìˆchler, M.~B. (2017).
+\newblock {Ambiguity in Semantically Related Word Substitutions: an
+  Investigation in Historical Bible Translations.}
+\newblock In {\em Proceedings of the NoDaLiDa 2017 Workshop on Processing
+  Historical Language}, pages 18--23.
+
 \bibitem[Ni et~al., 2011]{Ni:2011:CLT:1935826.1935887}
 Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2011).
 \newblock {Cross Lingual Text Classification by Mining Multilingual Topics from
@@ -323,11 +315,6 @@ Rao, C.~R. (1982).
   Analysis}.
 \newblock {\em Sankhy{\={a}}: The Indian Journal of Statistics, Series A},
   44(1):1--22.
-
-\bibitem[Rizzo et~al., 2015]{rizzo20153cixty}
-Rizzo, G., Troncy, R., Corcho, O., Jameson, A., Plu, J., Hermida, J. C.~B.,
-  Assaf, A., Barbu, C., Spirescu, A., Kuhn, K.-D., et~al. (2015).
-\newblock 3cixty@ expo milano 2015: Enabling visitors to explore a smart city.
 
 \bibitem[Rob~Johnson and Mabe, 2018]{Ware2018STM}
 Rob~Johnson, A.~W. and Mabe, M. (2018).
