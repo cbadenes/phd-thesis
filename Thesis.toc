@@ -26,38 +26,38 @@
 \contentsline {chapter}{\numberline {4}Creation and Publication of Probabilistic Topic Models}{33}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Distributed Topic Modeling}{33}{section.4.1}% 
 \contentsline {subsection}{\numberline {4.1.1}Representing Corpora for Topic Modeling}{34}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Event-oriented Processing Workflow}{35}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Modular Composition}{37}{subsection.4.1.3}% 
-\contentsline {section}{\numberline {4.2}Probabilistic Topics Publication and Exploitation}{38}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Summary}{38}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}Explainable Topic-based Associations}{39}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Topic Relevance}{39}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Topic-based Clustering}{39}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Summary}{39}{section.5.3}% 
-\contentsline {chapter}{\numberline {6}Large-scale Comparisons of Topic Distributions}{41}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Document Similarity}{41}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Hashing Topic Distributions}{41}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Summary}{41}{section.6.3}% 
-\contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{43}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{43}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Cross-lingual Models}{43}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}Summary}{43}{section.7.3}% 
-\contentsline {chapter}{\numberline {8}Evaluation}{45}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Evaluation Metrics}{45}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Text Representativeness}{45}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}Large-scale Text Processing}{45}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}Topic-based Clustering}{47}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}Cross-lingual Similarity}{47}{section.8.5}% 
-\contentsline {section}{\numberline {8.6}Conclusions}{47}{section.8.6}% 
-\contentsline {chapter}{\numberline {9}Experiments}{49}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Polypharmacy and Drug-drug Interactions}{49}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Corpus Viewer}{49}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}ODS Classifier}{49}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Drugs4Covid}{49}{section.9.4}% 
-\contentsline {chapter}{\numberline {10}Conclusions}{51}{chapter.10}% 
-\contentsline {section}{\numberline {10.1}Assumptions and Restrictions}{51}{section.10.1}% 
-\contentsline {section}{\numberline {10.2}Contributions}{51}{section.10.2}% 
-\contentsline {section}{\numberline {10.3}Impact}{51}{section.10.3}% 
-\contentsline {section}{\numberline {10.4}Limitations}{51}{section.10.4}% 
-\contentsline {section}{\numberline {10.5}Future Work}{51}{section.10.5}% 
-\contentsline {chapter}{Bibliography}{53}{chapter*.13}% 
+\contentsline {subsection}{\numberline {4.1.2}Event-oriented Processing Workflow}{36}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Collaborative Modular Execution}{37}{subsection.4.1.3}% 
+\contentsline {section}{\numberline {4.2}Probabilistic Topics Publication and Exploitation}{39}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Summary}{39}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Explainable Topic-based Associations}{41}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Topic Relevance}{41}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Topic-based Clustering}{41}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Summary}{41}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Large-scale Comparisons of Topic Distributions}{43}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Document Similarity}{43}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Hashing Topic Distributions}{43}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Summary}{43}{section.6.3}% 
+\contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{45}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{45}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Cross-lingual Models}{45}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Summary}{45}{section.7.3}% 
+\contentsline {chapter}{\numberline {8}Evaluation}{47}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Evaluation Metrics}{47}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Text Representativeness}{47}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Large-scale Text Processing}{47}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Topic-based Clustering}{49}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}Cross-lingual Similarity}{49}{section.8.5}% 
+\contentsline {section}{\numberline {8.6}Conclusions}{49}{section.8.6}% 
+\contentsline {chapter}{\numberline {9}Experiments}{51}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Polypharmacy and Drug-drug Interactions}{51}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Corpus Viewer}{51}{section.9.2}% 
+\contentsline {section}{\numberline {9.3}ODS Classifier}{51}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Drugs4Covid}{51}{section.9.4}% 
+\contentsline {chapter}{\numberline {10}Conclusions}{53}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}Assumptions and Restrictions}{53}{section.10.1}% 
+\contentsline {section}{\numberline {10.2}Contributions}{53}{section.10.2}% 
+\contentsline {section}{\numberline {10.3}Impact}{53}{section.10.3}% 
+\contentsline {section}{\numberline {10.4}Limitations}{53}{section.10.4}% 
+\contentsline {section}{\numberline {10.5}Future Work}{53}{section.10.5}% 
+\contentsline {chapter}{Bibliography}{55}{chapter*.14}% 

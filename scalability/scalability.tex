@@ -11,44 +11,89 @@
 % -- Scalability
 % -------------------------------------------------------------
 
-This chapter present \textit{\textbf{librAIry}}, our framework to create, publish and exploit probabilistic topic models through a service-oriented approach. In doing so, we reuse existing techniques and standards, which aim to make our results reusable and interoperable with other alternative approaches.
+This chapter present \textit{\textbf{librAIry}} \citep{Badenes-Olmedo2017}, our framework to create, publish and exploit probabilistic topic models through a service-oriented approach. In doing so, we reuse existing techniques and standards, which aim to make our results reusable and interoperable with other alternative approaches.
 
 
 \section{Distributed Topic Modeling}
 
 
-Numerous and varied are the domains where probabilistic topic models have been successfully used in recent years \citep{TapiNzali2017};\citep{ONeill2017};\citep{Greene2016};\citep{He2017}. Each one has its particularities. There are collections with only a few documents, and collections with thousands, and even millions, of texts. There are environments that only have a single machine to process the texts, and distributed environments with several dedicated servers. Taking into account such diversity, topic modeling algorithms have evolved to improve their efficiency in challenging situations, but they only cover the training phase of the model. The probabilistic topic model life-cycle begins with text pre-processing, continues with model training, follows with model distribution, and ends with model exploitation. In order to have a framework that covers the entire process of creating probabilistic topic models in both large- and small-scale, we have focused on adapting and reusing techniques and standards widely used in software engineering domain. 
+Numerous and varied are the domains where probabilistic topic models have been successfully used in recent years \citep{TapiNzali2017, ONeill2017, Greene2016, He2017}. Each one has its particularities. There are collections with only a few documents, and collections with thousands, and even millions, of texts. There are environments that only have a single machine to process the texts, and distributed environments with several dedicated servers. Taking into account such diversity, topic modeling algorithms have evolved to improve their efficiency in challenging situations, but they only cover the training phase of the model. The probabilistic topic model life-cycle begins with text pre-processing, continues with model training, follows with model distribution, and ends with model exploitation. In order to have a framework that covers the entire process of creating probabilistic topic models in both large- and small-scale, we have focused on adapting and reusing techniques and standards widely used in software engineering domain. 
 
 \textit{librAIry} combines topic model training algorithms with natural language processing tools to  create models suitable for stand-alone use. The main objective is to facilitate the creation of reusable topic models by minimizing their technical and formatting dependencies. Methods and algorithms proposed in this thesis have been implemented and evaluated in this framework, which therefore serves as the technological basis for our research.
 
 Our design requirements, which have guided our development process, can be organized into three categories:
 \begin{itemize}
-\item[Corpora representation requirements], which tackle the modeling of document collections and its metadata. This includes texts and their related annotations.
-\item[Task distribution requirements], which refer to event management to notify changes in document collections. Coordination of this information is crucial for robust and reproducible results.  
-\item[Process execution requirements], which capture the operations involved in creating a topic model. The parallel task execution leads to the creation of models.
+\item \textbf{Corpora representation requirements}, which tackle the modeling of document collections and its metadata. This includes texts and their related annotations.
+\item \textbf{Task distribution requirements}, which refer to event management to notify changes in document collections. Coordination of this information is crucial for robust and reproducible results.  
+\item \textbf{Process execution requirements}, which capture the operations involved in creating a topic model. The parallel task execution leads to the creation of models.
 \end{itemize}
 
 The rest of the section describes how we have adapted existing techniques and standards in \textit{librAIry} to address each of the requirements categories described above. An open, distributed and scalable framework has been developed whose source code is publicly available for reuse\footnote{\url{https://github.com/librairy}}.
 
 \subsection{Representing Corpora for Topic Modeling}
 
-Inspired by a Staged Event-Driven Architecture (SEDA) based on message exchanges and status changes, our framework is articulated around three main concepts: \textit{resources}, \textit{actions} and \textit{states}. A \textit{resource} can be a \textit{document} that represents textual data (e.g. full-text of a research paper), or a logical \textit{part} of a textual data (e.g. the abstract section of a scientific article), or a \textit{domain} with a textual dataset (e.g. a conference proceedings) or even an \textit{annotation} made on them (e.g. review comments). An \textit{action} is an operation that can be performed on a resource (e.g. \textit{create}, \textit{update} or \textit{delete}). A \textit{state} is reached by a resource after an action is performed (e.g. \textit{created}, \textit{updated} or \textit{deleted}).  
+Inspired by a Staged Event-Driven Architecture (SEDA) based on message exchanges and status changes, our framework is articulated around \textit{resources} that can change \textit{state} by the execution of an \textit{action}. A \textit{resource} can be a \textit{document} that represents raw texts (e.g. a full-text research paper), or a \textit{snippet} of text with a logical part  (e.g. sections, summaries or even phrases grouped by their rhetoric), or a \textit{domain} that contains a dataset of texts (e.g. a conference proceedings) or even an \textit{annotation} made on them (e.g. review comments, named-entities, topics). \textit{Actions} can be executed on these resources (e.g. \textit{create}, \textit{update} or \textit{delete}), to change their status (e.g. \textit{created}, \textit{updated} or \textit{deleted}).
 
-To better illustrate this model, take the research articles published at the SIGGRAPH conference in 2016\footnote{\url{http://s2016.siggraph.org}}. First, a new \textit{document} is created for each article containing its full-text. Each document is then associated with several \textit{parts}, one for each section of the article. Finally, a \textit{domain} is created that groups all these \textit{documents} under the name of the conference. This initial representation can be extended by \textit{annotations} at different representation levels: at \textit{document level}, text based annotations such as named-entities, compounds or descriptive tags; at \textit{relational level}, comparison based annotations such as semantic similarity-based relations; and finally at \textit{domain level}, keyword based annotations such as tags or topics that describe the corpus.
+To better illustrate this model, take the research articles published at the K-CAP conference in 2019\footnote{\url{http://www.k-cap.org/2019}} (See fig. \ref{fig:librairy-model}). A new \textit{document} is created for each publication with the full text of the article. Each document is then associated with several \textit{snippets}, one for each section of the article. Finally, a \textit{domain} is created that groups all these \textit{documents} under the same conference. This initial representation can be extended with \textit{annotations}, at different levels, that can provide information about named-entities, topics, keywords, etc.
+
+% 
+\begin{figure}
+  \center
+  \includegraphics[scale=0.55]{model}
+  \caption{Representation of two scientific papers published at the International Conference on Knowledge Capture (K-CAP 2019) that mention the same entity, Wordnet, in different sections.}
+  \label{fig:librairy-model}
+\end{figure}
+% -----------
 
 \textit{Resources}, \textit{actions} and \textit{states} are individually addressable and linkable \cite{Turchi2012a} following the Linked Data principles\cite{Bizer2009}. Each of them has: (1) a name, (2) a retrievable (or dereferenceable) HTTP URI so that it can be looked up, (3) a descriptive information provided by using standard notation (e.g. JavaScript Object Notation (JSON)) when it is  looked up by URI, and (4) links to other URIs so that other resources can be discovered from it.
 
+The meta-information associated with each of them is shown below.
+
+\subsubsection{Domain}
+
+A \textit{domain} is a logical group of \textit{documents}. It defines the training set for topic modeling. A default domain is created and every document belongs, at least, to one domain (Fig \ref{fig:librairy-model-domain}).
+
+It contains the following information: 
+\begin{itemize}
+\item \textbf{uri}: a Uniform Resource Identifier automatically created to uniquely identify it.It is a Universally Unique Identifer (UUID) along with a prefix identifying the type of the resource: e.g \textit{domains/de305d54-75b4-431b-adb2-eb6b9e546014}
+\item \textbf{creation-time}: date on which this resource was created. It must be a formatted timestamp following ISO-8601\footnote{\url{https://www.iso.org/standard/40874.html}}.
+\item \textbf{name}: label associated to the resource.
+\item \textbf{description}: additional information about it
+\end{itemize}
 
 \begin{figure}
-  \includegraphics[scale=0.35]{api-domain-deleted}
-  \caption{Domain deleted flow.}
-  \label{fig:librairy-domain-deleted}
+  \center
+  \includegraphics[scale=0.45]{model-domain}
+  \caption{Range and domain of a \textit{domain}.}
+  \label{fig:librairy-model-domain}
 \end{figure}
 
+\subsubsection{Document}
+
+A \textit{document} contains all the meta-information associated to an article. It follows the Open Archives Initiative for Object Reuse and Exchange\footnote{\url{http://www.openarchives.org}} (OAI-ORE) and the Dublin Core Metadata Initiative\footnote{\url{http://dublincore.org}}. A \textit{document} may include:                                                              
+
+\begin{itemize}
+\item \textbf{uri}: a Uniform Resource Identifier automatically created to uniquely identify it.It is a Universally Unique Identifer (UUID) along with a prefix identifying the type of the resource: e.g \textit{documents/de305d54-56f5-431b-adb2-eb6b9e546223}
+\item \textbf{creation-time}: date on which this resource was created. It must be a formatted timestamp following ISO-8601\footnote{\url{https://www.iso.org/standard/40874.html}}.
+\item \textbf{publishedOn}: date on which this resource was published. It must be a formatted timestamp following ISO-8601\footnote{\url{https://www.iso.org/standard/40874.html}}.
+\item \textbf{publishedBy}: an entity responsible for making the document available. It can be a  person, an  organization or a service. It may be different from the entity that conceptually formed the resource (e.g. wrote the document), which is recorded as \textit{authoredBy}. This entity should be identified by a valid Uniform Resource  Identificator (URI), e.g. WebId\footnote{\url{http://www.w3.org/wiki/WebID}}, orcid\footnote{\url{http://orcid.org}} or internal URI. 
+\item \textbf{retrievedFrom}: a URI identifying the repository or source from which the document was derived. This property should be accompanied with \textit{retrievedOn}.
+\item \textbf{retrievedOn}: the time the \textit{document} was retrieved on. If this property is present, the \textit{retrievedFrom} must also be present. It must be a formatted timestamp following ISO-8601.
+\item \textbf{format}: the physical or digital manifestation of the resource. Typically, it includes the media-type (i.e the IANA code\footnote{\url{http://www.iana.org}}) of the \textit{document}.
+\item \textbf{language}: the language in chich the document was written. It is defined by RFC-1766\footnote{\url{ !http://www.ietf.org/rfc/rfc1766.txt}} which includes a two-letter language code followed, optionally, by a two-letter country code.
+\end{itemize}
 
 \subsection{Event-oriented Processing Workflow}
 
 Along with the resources mentioned above, there are two additional elements that provide a special behavior to the system: \textit{modules} and \textit{events}. An event is a message that notifies a new action performed on a resource. They are broadcasted so that any module is aware of the changes made to the resources. Modules are responsible for carrying out operations on the resources (e.g. tokenize a \textit{document} or create a topic model from a \textit{domain}). They can perform actions on one or more resources in response to a new state reached by a given resource. Actions that are paralleled by modules replicated through distributed environments.
+
+\begin{figure}
+  \center
+  \includegraphics[scale=0.45]{api-domain-deleted}
+  \caption{Domain deleted flow.}
+  \label{fig:librairy-domain-deleted}
+\end{figure}
+
 
 The framework follows a publisher/subscriber approach where modules can publish and read \textit{events} to notify and to be notified about the state of a \textit{resource}. An event notifies a performed action (i.e. a resource and its new state), and follows the Representational State Transfer (REST)\cite{Fielding2002} paradigm. It contains the resource type and the new state reached by a specific resource ( i.e \textit{created}, \textit{deleted} or \textit{updated}). For example, when a new \textit{domain} is created, an \textit{event} message is published to the channel: $domain.created$. A channel is a space where events are published and modules can be subscribed to read the events. Events on a channel can be managed by one or more modules subscribed to that channel, that may perform an action (e.g. create a topic model when a domain have been created). Therefore, the workflow is not static and is not explicitly defined. A distributed workflow emerges according to the modules subscribed to the event channels.
 
@@ -62,11 +107,11 @@ We used the Advanced Message Queuing Protocol (AMQP) as the messaging standard t
 \end{figure}
 
 
-\subsection{Modular Execution Composition}
+\subsection{Collaborative Modular Execution}
 
-A module is a processing unit that reacts to events generated from resources. They have been designed following the microservices architectural style. A module is a cohesive, since it implements only functionalities strongly related to the concern that it is meant to model \cite{Dragoni2016}, and independent process working on the framework with a specific purpose. This purpose is defined by both the routing-key and the binding-key associated to the events handled by the module. 
+A microservice-oriented style has been used to define the framework architecture. Through a service composition the system analyzes texts, creates probabilistic topic models, publishes them as new services and uses them to annotate texts. A service is equivalent to a functionality, and each functionality is materialized by a module in the system. A module is then a cohesive and independent process \cite{Dragoni2016} with a specific purpose (i.e functionality) based on the events to which it responds. These events correspond to the routing- and binding- keys attached to the module.
 
-There are three types of modules:
+There are three types of internal modules:
 \begin{itemize}
 	\item \textbf{Harvester}: creates resources such as \textit{documents} and \textit{domains}, from local or remote located textual files.
     \begin{itemize}[rightmargin=\dimexpr\linewidth-5cm-\leftmargin\relax]
@@ -92,7 +137,10 @@ There are three types of modules:
 \end{figure}
 
 
-In addition to these modules, there is an end-user-oriented module, which offers a RESTful Application Program Interface (API) over HTTP. Any external operation motivated by a user is handled here. Some of them, usually those related to reading operations, are completely managed by this module getting all the data from the internal storage. However, those operations implying a modification of the status of some resource (e.g. creation of a \textit{document}), may be also performed by other modules listening for that type of event asynchronously. This module publishes to the following routing-keys: \textit{domain.(created;updated;deleted)}, \textit{document.(created;updated;deleted)}, \textit{part.(created;updated;deleted)}, and \textit{annotation.(created;updated;deleted)}.
+In addition to these internal modules, there is an external user-oriented module that provides a RESTful Application Program Interface (API) over HTTP. Any operation motivated by a user is handled here. Some of them, usually those related to reading operations, are exclusively managed by this module getting all the data from the internal storage. However, operations that modify the status of some resources (e.g. creation of a \textit{document}), may be also performed asynchronously by other modules listening for that type of event. The API module publishes to the following routing-keys: \textit{domain.(created;updated;deleted)}, \textit{document.(created;updated;deleted)}, \textit{part.(created;updated;deleted)}, and \textit{annotation.(created;updated;deleted)}.
+
+Figure 4 shows a sequence diagram that illustrates how the framework modules (i.e. events and actions) behave to create a topic model when loading a document corpus. 
+
 
 Each module is wrapped with an Application Program Interface (API) over HTTP and TCP, for efficiency reasons. It follows the web standards for the RESTful API development over HTTP, and offers an Avro\footnote{\url{https://avro.apache.org}} protocol for TCP requests.  
 
