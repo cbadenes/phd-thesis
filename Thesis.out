@@ -30,37 +30,42 @@
 \BOOKMARK [3][-]{subsubsection.4.1.1.3}{4.1.1.3 Snippet}{subsection.4.1.1}% 30
 \BOOKMARK [3][-]{subsubsection.4.1.1.4}{4.1.1.4 Annotation}{subsection.4.1.1}% 31
 \BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Event-oriented Processing Workflow}{section.4.1}% 32
-\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Combined Modular Execution}{section.4.1}% 33
-\BOOKMARK [1][-]{section.4.2}{4.2 Probabilistic Topics Publication and Exploitation}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.3}{4.3 Summary}{chapter.4}% 35
-\BOOKMARK [0][-]{chapter.5}{5 Explainable Topic-based Associations}{}% 36
-\BOOKMARK [1][-]{section.5.1}{5.1 Topic Relevance}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.2}{5.2 Topic-based Clustering}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.3}{5.3 Summary}{chapter.5}% 39
-\BOOKMARK [0][-]{chapter.6}{6 Large-scale Comparisons of Topic Distributions}{}% 40
-\BOOKMARK [1][-]{section.6.1}{6.1 Document Similarity}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.2}{6.2 Hashing Topic Distributions}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.3}{6.3 Summary}{chapter.6}% 43
-\BOOKMARK [0][-]{chapter.7}{7 Cross-lingual Document Similarity}{}% 44
-\BOOKMARK [1][-]{section.7.1}{7.1 Synset-based Representational Space}{chapter.7}% 45
-\BOOKMARK [1][-]{section.7.2}{7.2 Cross-lingual Models}{chapter.7}% 46
-\BOOKMARK [1][-]{section.7.3}{7.3 Summary}{chapter.7}% 47
-\BOOKMARK [0][-]{chapter.8}{8 Evaluation}{}% 48
-\BOOKMARK [1][-]{section.8.1}{8.1 Evaluation Metrics}{chapter.8}% 49
-\BOOKMARK [1][-]{section.8.2}{8.2 Text Representativeness}{chapter.8}% 50
-\BOOKMARK [1][-]{section.8.3}{8.3 Large-scale Text Processing}{chapter.8}% 51
-\BOOKMARK [1][-]{section.8.4}{8.4 Topic-based Clustering}{chapter.8}% 52
-\BOOKMARK [1][-]{section.8.5}{8.5 Cross-lingual Similarity}{chapter.8}% 53
-\BOOKMARK [1][-]{section.8.6}{8.6 Conclusions}{chapter.8}% 54
-\BOOKMARK [0][-]{chapter.9}{9 Experiments}{}% 55
-\BOOKMARK [1][-]{section.9.1}{9.1 Polypharmacy and Drug-drug Interactions}{chapter.9}% 56
-\BOOKMARK [1][-]{section.9.2}{9.2 Corpus Viewer}{chapter.9}% 57
-\BOOKMARK [1][-]{section.9.3}{9.3 ODS Classifier}{chapter.9}% 58
-\BOOKMARK [1][-]{section.9.4}{9.4 Drugs4Covid}{chapter.9}% 59
-\BOOKMARK [0][-]{chapter.10}{10 Conclusions}{}% 60
-\BOOKMARK [1][-]{section.10.1}{10.1 Assumptions and Restrictions}{chapter.10}% 61
-\BOOKMARK [1][-]{section.10.2}{10.2 Contributions}{chapter.10}% 62
-\BOOKMARK [1][-]{section.10.3}{10.3 Impact}{chapter.10}% 63
-\BOOKMARK [1][-]{section.10.4}{10.4 Limitations}{chapter.10}% 64
-\BOOKMARK [1][-]{section.10.5}{10.5 Future Work}{chapter.10}% 65
-\BOOKMARK [0][-]{chapter*.18}{Bibliography}{}% 66
+\BOOKMARK [2][-]{subsection.4.1.3}{4.1.3 Module-based Model Training}{section.4.1}% 33
+\BOOKMARK [1][-]{section.4.2}{4.2 Reusable Topic Modeling}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Topic Model Publication}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Topic Model Exploitation}{section.4.2}% 36
+\BOOKMARK [3][-]{subsubsection.4.2.2.1}{4.2.2.1 Reproducibility Tasks}{subsection.4.2.2}% 37
+\BOOKMARK [3][-]{subsubsection.4.2.2.2}{4.2.2.2 Exploration Tasks}{subsection.4.2.2}% 38
+\BOOKMARK [3][-]{subsubsection.4.2.2.3}{4.2.2.3 Inference Tasks}{subsection.4.2.2}% 39
+\BOOKMARK [1][-]{section.4.3}{4.3 Summary}{chapter.4}% 40
+\BOOKMARK [0][-]{chapter.5}{5 Explainable Topic-based Associations}{}% 41
+\BOOKMARK [1][-]{section.5.1}{5.1 Topic Relevance}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.2}{5.2 Topic-based Clustering}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.3}{5.3 Summary}{chapter.5}% 44
+\BOOKMARK [0][-]{chapter.6}{6 Large-scale Comparisons of Topic Distributions}{}% 45
+\BOOKMARK [1][-]{section.6.1}{6.1 Document Similarity}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.2}{6.2 Hashing Topic Distributions}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.3}{6.3 Summary}{chapter.6}% 48
+\BOOKMARK [0][-]{chapter.7}{7 Cross-lingual Document Similarity}{}% 49
+\BOOKMARK [1][-]{section.7.1}{7.1 Synset-based Representational Space}{chapter.7}% 50
+\BOOKMARK [1][-]{section.7.2}{7.2 Cross-lingual Models}{chapter.7}% 51
+\BOOKMARK [1][-]{section.7.3}{7.3 Summary}{chapter.7}% 52
+\BOOKMARK [0][-]{chapter.8}{8 Evaluation}{}% 53
+\BOOKMARK [1][-]{section.8.1}{8.1 Evaluation Metrics}{chapter.8}% 54
+\BOOKMARK [1][-]{section.8.2}{8.2 Text Representativeness}{chapter.8}% 55
+\BOOKMARK [1][-]{section.8.3}{8.3 Large-scale Text Processing}{chapter.8}% 56
+\BOOKMARK [1][-]{section.8.4}{8.4 Topic-based Clustering}{chapter.8}% 57
+\BOOKMARK [1][-]{section.8.5}{8.5 Cross-lingual Similarity}{chapter.8}% 58
+\BOOKMARK [1][-]{section.8.6}{8.6 Conclusions}{chapter.8}% 59
+\BOOKMARK [0][-]{chapter.9}{9 Experiments}{}% 60
+\BOOKMARK [1][-]{section.9.1}{9.1 Polypharmacy and Drug-drug Interactions}{chapter.9}% 61
+\BOOKMARK [1][-]{section.9.2}{9.2 Corpus Viewer}{chapter.9}% 62
+\BOOKMARK [1][-]{section.9.3}{9.3 ODS Classifier}{chapter.9}% 63
+\BOOKMARK [1][-]{section.9.4}{9.4 Drugs4Covid}{chapter.9}% 64
+\BOOKMARK [0][-]{chapter.10}{10 Conclusions}{}% 65
+\BOOKMARK [1][-]{section.10.1}{10.1 Assumptions and Restrictions}{chapter.10}% 66
+\BOOKMARK [1][-]{section.10.2}{10.2 Contributions}{chapter.10}% 67
+\BOOKMARK [1][-]{section.10.3}{10.3 Impact}{chapter.10}% 68
+\BOOKMARK [1][-]{section.10.4}{10.4 Limitations}{chapter.10}% 69
+\BOOKMARK [1][-]{section.10.5}{10.5 Future Work}{chapter.10}% 70
+\BOOKMARK [0][-]{chapter*.20}{Bibliography}{}% 71

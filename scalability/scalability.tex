@@ -15,6 +15,7 @@ This chapter present \textit{\textbf{librAIry}} \citep{Badenes-Olmedo2017}, our 
 
 
 \section{Distributed Topic Modeling}
+\label{sec:distributed-topic-modeling}
 
 
 There are numerous and varied domains where probabilistic topic models have been successfully used in recent years \citep{TapiNzali2017, ONeill2017, Greene2016, He2017}. Each one of them with its particularities. Some with only a few documents, and others with thousands, and even millions, texts. There are environments with only one processor, or environments with multiple processors spread over one or several distributed machines. Taking into account such diversity, topic modeling algorithms have evolved to improve their efficiency in challenging situations, but they only cover the training process of the model. The probabilistic topic model life-cycle begins with text pre-processing, continues with model training, follows with model distribution, and ends with model exploitation. In order to have a framework that covers the entire process of creating probabilistic topic models in both large- and small-scale, we have focused on adapting and reusing techniques and standards widely used in software engineering domain. 
@@ -31,6 +32,7 @@ Our design requirements, which have guided our development process, can be organ
 The rest of the section describes how we have adapted existing techniques and standards in \textit{librAIry} to address each of the requirements categories described above. An open, distributed and scalable framework has been developed whose source code is publicly available for reuse\footnote{\url{https://github.com/librairy}}.
 
 \subsection{Representing Corpora for Topic Modeling}
+\label{sec:representing-corpora}
 
 Inspired by a Staged Event-Driven Architecture (SEDA) that exchanges messages and handle status changes, our framework is based on \textit{resources} and \textit{actions}. A \textit{resource} can be a \textit{document} that represents raw texts (e.g. a full-text research paper), or a \textit{snippet} of text with a logical part  (e.g. sections, summaries or even phrases grouped by their rhetoric), or a \textit{domain} that contains a dataset of texts (e.g. a conference proceedings) or even an \textit{annotation} made on them (e.g. review comments, named-entities, topics). \textit{Actions} can be executed on these resources (e.g. \textit{create}, \textit{update} or \textit{delete}), to change their status (e.g. \textit{created}, \textit{updated} or \textit{deleted}).
 
@@ -135,17 +137,17 @@ It contains the following information:
 
 Along with the resources mentioned above, there are two additional elements that provide a special behavior to the system: \textit{modules} and \textit{events}. An \textit{event} is a non-persistent time-based occurrence that describes a new action performed on a resource. \textit{Modules} are responsible for carrying out operations on the resources (e.g. tokenize a \textit{document} or create a topic model from a \textit{domain}). \textit{Events} are broadcasted so that any \textit{module} is aware of the changes made to the resources and  can perform actions on one or more resources in response to a new state reached by a given resource. These actions are paralleled since modules are replicated through distributed environments.
 
-\begin{figure}
-  \center
-  \includegraphics[scale=0.45]{api-domain-deleted}
-  \caption{Domain deleted flow.}
-  \label{fig:librairy-domain-deleted}
-\end{figure}
+%\begin{figure}
+%  \center
+%  \includegraphics[scale=0.45]{api-domain-deleted}
+%  \caption{Domain deleted flow.}
+%  \label{fig:librairy-domain-deleted}
+%\end{figure}
 
 
 The framework follows a publisher/subscriber approach where \textit{modules} can publish and read \textit{events} to notify and to be notified about the state of a \textit{resource} (Fig. \ref{fig:librairy-states}). An \textit{event} notifies a performed action (i.e. a resource and its new state), and follows the Representational State Transfer (REST)\cite{Fielding2002} paradigm. It contains the resource type and the new state reached by a specific resource ( i.e \textit{created}, \textit{deleted} or \textit{updated}). For example, when a new \textit{domain} is created, an \textit{event} message is published to the channel: $domain.created$. A channel is a space where \textit{events} are published and \textit{modules} can be subscribed to read only some \textit{events}. The actions performed by a module depend on the events to which it is subscribed. Therefore, the workflow of the framework is neither static nor explicitly defined. A distributed workflow emerges according to the \textit{modules} subscribed to the \textit{event} channels.
 
-We used the Advanced Message Queuing Protocol (AMQP) as the messaging standard to avoid any cross-platform problem and any dependency to the selected message broker (i.e the server that sends and receives messages). This protocol defines: \textit{exchanges}, \textit{queues}, \textit{routing-keys} and \textit{binding-keys} to communicate publishers (i.e message senders) and consumers (i.e message readers). \textit{Exchanges} are like message inboxes, and \textit{queues} are subscribed to them by specifying the message types they are interested in with a \textit{binding-key}. A message sent by a publisher to an exchange is routed with a \textit{routing-key} and consumers matching that \textit{routing-key} with their \textit{binding-key} (used to connect the \textit{queue} to that \textit{exchange}), will receive the message. This mechanism allows sending and receiving messages between consumers and producers by means of shared keys (i.e. \textit{routing-keys} and \textit{binding-keys}). A key follows the structure: \textit{resource.status}. Since a wildcard-based definition can be used to set the key, this paradigm allow modules both listening to individual type events (e.g. \textit{domains.created} for new \textit{domains}), or multiple type events (e.g. \textit{\#.created} for all new resources).
+We used the Advanced Message Queuing Protocol (AMQP) as the messaging standard to avoid any technical dependency to the message broker (i.e the server that sends and receives messages). This protocol defines: \textit{exchanges}, \textit{queues}, \textit{routing-keys} and \textit{binding-keys} to communicate publishers (i.e message senders) and consumers (i.e message readers). \textit{Exchanges} are like message inboxes, and \textit{queues} are subscribed to them by specifying the message types they are interested in with a \textit{binding-key}. A message sent by a publisher to an exchange is routed with a \textit{routing-key} and consumers matching that \textit{routing-key} with their \textit{binding-key} (used to connect the \textit{queue} to that \textit{exchange}), will receive the message. This mechanism allows sending and receiving messages between consumers and producers by means of shared keys (i.e. \textit{routing-keys} and \textit{binding-keys}). A key follows the structure: \textit{resource.status}. Since a wildcard-based definition can be used to set the key, this paradigm allow modules both listening to individual type events (e.g. \textit{domains.created} for new \textit{domains}), or multiple type events (e.g. \textit{\#.created} for all new resources).
 
 
 \begin{figure}
@@ -156,7 +158,7 @@ We used the Advanced Message Queuing Protocol (AMQP) as the messaging standard t
 \end{figure}
 
 
-\subsection{Combined Modular Execution}
+\subsection{Module-based Model Training}
 
 A microservice-oriented style has been used to define the framework architecture. Through multiple services the system analyzes texts, creates probabilistic topic models, publishes them as new services and uses them to annotate texts. A service is equivalent to a functionality, and each functionality is materialized by a module in the system. A module is then a cohesive and independent process \cite{Dragoni2016} with a specific purpose (i.e functionality) based on the events to which it responds. These events correspond to the routing- and binding- keys attached to the module.
 
@@ -187,7 +189,7 @@ There are four types of modules (Fig. \ref{fig:librairy-modules}):
 \begin{figure} 
   \center
   \includegraphics[scale=0.45]{modules}
-  \caption{Modules.}
+  \caption{Modules (in green), messenger service (in purple) and data storage system (in blue).}
   \label{fig:librairy-modules}
 \end{figure}
 
@@ -198,15 +200,144 @@ Each module is wrapped with an Application Program Interface (API) over HTTP, th
   \center
   \includegraphics[scale=0.45]{librairy-sequence.png}
   \caption{Sequence of messages exchanged between modules to create a topic model from the documents added to a domain.}
-  \label{fig:librairy-modules}
+  \label{fig:librairy-sequence}
 \end{figure}
 
 
 
 
 \section{Reusable Topic Modeling}
+\label{sec:reusable-topic-modeling}
+
+In order to reuse an existing topic model in our framework, which is micro-services-oriented, the model itself needs to be a service. This approach decouples the resources used to train a probabilistic topic model (e.g. data format or algorithm implementation), from the resources needed to use it to make inferences and thus avoids unexpected incompatibilities. In this way, we simultaneously facilitate the reuse of topic models and also their scalable execution.
+
+\subsection{Topic Model Publication}
+\label{sec:topic-model-publication}
+
+We propose distribute topic models as virtual services hosted in online repositories. Models are then packaged in standard units of software that run reliably applications to explore them from one computing environment to another. A model becomes a standalone, executable package of software that includes everything needed to make inferences: code, data, runtime, system tools, system libraries and settings.
+
+There are several technologies that can virtualize services. Among them, Docker\footnote{\url{https://www.docker.com/}} stands out as a de facto standard due to its wide adoption. It is a platform as a service (PaaS) environment that use operating service-level virtualization to deliver software in packages called \textit{containers}. Containers are isolated from one another and bundle their own software, libraries and configuration files. All containers are run by a single operating system kernel and therefore use fewer resources than virtual machines.
+
+Topic Models in \textit{librAIry} are packaged as Docker \textit{containers} and published in online repositories\footnote{\url{https://hub.docker.com/repositories}} so they can be easily downloaded and run on any destination machine. Containers not only offers virtualization advantages, but also version and license control, since they handle some information that we use in the following way:
+\begin{itemize}
+\item \textbf{repository}: model name (e.g. dbpedia-model).
+\item \textbf{author}: model creator (e.g. librAIry)
+\item \textbf{version}: model version (e.g. 3.0)
+\item \textbf{license}: model license (e.g. Apache 2.0)
+\end{itemize}
 
 
+\subsection{Topic Model Exploitation}
+
+Once a topic model has been packaged as a virtual service (i.e. Docker containers) and assembled in an \textit{annotation} module of \textit{librAIry}, it can be used to perform multiple tasks through several interfaces. These models, like the other modules of the framework, provide a double API over HTTP and TCP, based on Swagger(Fig. \ref{fig:librairy-topic-model-swagger}) and Avro\footnote{\url{https://github.com/librairy/modeler-service-facade/blob/master/src/main/avro/model.avpr}} technologies respectively. These services based on probabilistic topic models, have to support the typical tasks of use of this type of models. The \textit{conditions under which the model has been created}, both in relation to the corpus (i.e. number of documents, vocabulary size, ), to the NLP tasks (i.e stopwords, PoS filtering) and to the model itself (i.e. hyperparameters), must be registered and available for query. The \textit{topics and  word distributions} must also be available. The word distribution is usually omitted when publishing topic models providing only the top10 or top5 words per topic. This limits the capacity of the model to be exploited in tasks where that information is required, for example this thesis, as will be seen in chapter 4. It is also required to \textit{infer topic distributions} in new texts. This ability of topic models is the most extended, since it allows clustering documents with similar topic distributions. And finally, another widely used task when using these models is the \textit{assignment of categories} (i.e. topics) to new texts. Unlike the previous task, where the presence of each topic in a text is measured, now only the most relevant topics (e.g. top3) are considered. 
+
+\begin{figure} 
+  \center
+  \includegraphics[scale=0.45]{topic-model-swagger.png}
+  \caption{Swagger-based web interface of a probabilistic topic model service created with \textit{librAIry}.}
+  \label{fig:librairy-topic-model-swagger}
+\end{figure}
+
+
+A summary of the tasks that a topic model can provide and their scope can be found in Table~\ref{table:tasks}. 
+
+\begin{table}[!htbp]
+\centering%
+\begin{tabularx}{\linewidth}{bs}
+\toprule
+\heading{Tasks} & \heading{Scope} \\
+\midrule
+\midrule
+T1: Reproducibility & create the same topic model \\
+\midrule
+T2: Exploration & browse topics and words\\
+\midrule
+T3: Inference & calculate topic distributions\\
+\bottomrule
+\end{tabularx}
+\caption{Tasks and scopes provided by a topic model.}
+\label{table:tasks}
+\end{table}
+
+In order to cover these tasks, the model must offer operations that, individually or partially, allow them to be achieved. A topic model is \textit{reproducible} (T1) when its hyperparameters and the configuration of the training set are known. A topic model is \textit{explorable} (T2) when the word distributions of each topic are known. A topic model is \textit{interpretable} (T3, T4) when the presence of each topic can be measured in a text. Table~\ref{table:operations} summarizes the operations offered by a topic model service and the tasks that can be performed through its web interface.
+
+\begin{table}[!htbp]
+\small
+\centering%
+\begin{tabularx}{\linewidth}{bb}
+\toprule
+\heading{Operations} & \heading{Tasks} \\
+\midrule
+\midrule
+O1: reading of model hyperparameters (i.e alpha, beta, and number of topics) & T1: Reproducibility\\
+\midrule
+O2: reading of pre-processing tasks (i.e stopwords, normalization, PoS filtering) & T1: Reproducibility\\
+\midrule
+O3: reading of training parameters (i.e number of iterations, seed, likelihood) & T1: Reproducibility \\
+\midrule
+O4: reading of topics described by word distributions & T2: Exploration\\
+\midrule
+O5: reading of words described by topic distributions & T2: Exploration\\
+\midrule
+O6: calculation of topic distributions in texts & T3: Inference\\
+\bottomrule
+\end{tabularx}
+\caption{Operations offered by a Probabilistic Topic Model.}
+\label{table:operations}
+\end{table}
+
+The rest of the section describes how the model implements these operations through service methods. An online model is publicly available as web service for review\footnote{\url{http://librairy.linkeddata.es/jrc-en-model}}.
+
+\subsubsection{Reproducibility Tasks}
+Through a single request to the model API, a list of parameters is provided to support the O1, O2, and O3 operations. The method is available by both HTTP-GET requests in \textit{\url{/settings}} and by TCP requests in \textit{getSettings}. An online example is available here\footnote{\url{http://librairy.linkeddata.es/jrc-en-model/settings}}. 
+
+A detailed list of parameters is shown below:
+\begin{itemize}
+\item \textbf{algorithm}: method used to train the model (e.g. LDA, LLDA).
+\item \textbf{date}: date of model creation. It follows the ISO-8601.
+\item \textbf{params}: configuration used during training.
+	\begin{itemize}
+	\item \textbf{seed}: numerical value to ensure consistent results (e.g. 1066).
+	\item \textbf{lowercase}: if true, text is converted to lowercase.
+	\item \textbf{topics}: number of topics.
+	\item \textbf{language}: language of texts.
+	\item \textbf{iterations}: number of sampling iterations.
+	\item \textbf{entities}: if true, NER tasks are performed.
+	\item \textbf{max-doc-ratio}: maximum word presence per document ratio (e.g. 0.9).
+	\item \textbf{min-freq}: minimum word presence per number of document (e.g. 5). 
+	\item \textbf{alpha}: prior distribution over topic weights in each document (e.g. 0.1)
+	\item \textbf{beta}: prior distribution over word weights in each topic (e.g. 0.01)
+	\item \textbf{part-of-speech}: word classes used in the model (e.g. NOUN, VERB, ADJECTIVE)
+	\item \textbf{top-words}: number of words used to describe a topic (e.g. 10)
+	\item \textbf{stop-words}: list of words removed from the corpus (e.g. quantity, datum) 
+	\end{itemize}
+\item \textbf{params}: some performance metrics.
+	\begin{itemize}
+	\item \textbf{loglikelihood}: model fit score with respect to the training set.
+	\item \textbf{vocabulary}: number of unique words.
+	\item \textbf{topic-coherence}: distance between topics from their top words (e.g min, max, mean, mode).
+	\item \textbf{topic-distance}: distance between topics from their word distributions (e.g min, max, mean, mode).
+	\item \textbf{corpus}: number of documents in the training set. 
+	\end{itemize}
+\end{itemize}
+
+
+\subsubsection{Exploration Tasks}
+The Model API offers four different methods for exploring topics and word distributions: 
+
+\begin{itemize}
+\item \textbf{Topic List}(O4). By means of the HTTP-GET \textit{topics}\footnote{\url{http://librairy.linkeddata.es/jrc-en-model/topics}} method and TCP \textit{getTopics} method, all the topics of the model are listed. Each topic is described with an increasing unique \textit{identifier} (from 0 to the maximum number of topics), a label or \textit{name} in case it has been established, and a \textit{description} with the 10 most representative words. 
+\item \textbf{Topic Detail}(O4). By means of the HTTP-GET \textit{\url{topics/_id_}}\footnote{\url{http://librairy.linkeddata.es/jrc-en-model/topics/0}} method and TCP \textit{getTopic} method, a topic identified by \textit{id} is described by providing \textit{identifier}, \textit{name}, \textit{description} and \textit{entropy} (i.e how different is with respect the other topics).
+\item \textbf{Topic Words}(O5). By means of the HTTP-GET \textit{\url{topics/_id_/words}}\footnote{\url{http://librairy.linkeddata.es/jrc-en-model/topics/0/words}} method and TCP \textit{getTopicWords} method, a list of word distributions for the topic identified by \textit{id} is provided. Every word has its weight with respect to the topic.
+\item \textbf{Topic Neighbours}(O4). By means of the HTTP-GET \textit{\url{topics/_id_/neighbours}}\footnote{\url{http://librairy.linkeddata.es/jrc-en-model/topics/0/neighbours}} method and TCP \textit{getTopicNeighbours} method, a list of topics related to the topic identified by \textit{id} is provided. The distance between topics is measured from their word distributions.  
+\end{itemize}
+
+\subsubsection{Inference Tasks}
+
+A single request with the text to be analyzed returns a list with the presence of each topic (O5). The method is available by an HTTP-POST request to \textit{\url{/inferences}} or  TCP request to \textit{createInference} with a JSON message with the following data:
+\begin{itemize}
+\item \textbf{text}: raw text to be analyzed
+\end{itemize} 
 
 % existentes herramientas de análisis de textos: escalabilidad vertical
 
@@ -236,8 +367,17 @@ Each module is wrapped with an Application Program Interface (API) over HTTP, th
 
 \section{Summary}
 
-A distributed framework is proposed where existing algorithms and tools coming from different technologies can work collaboratively to process and analyze huge collections of textual resources. This approach has been successfully applied to some real world scenarios \footnote{\url{http://drinventor.dia.fi.upm.es}}.
- 
-A new model definition based on the previously mentioned principle of maximizing information re-usability and minimize irrelevant data has been studied to create a fine-grained resource design. New domains, in the sense of particular vocabularies or specific textual formats, have been also analyzed to be included into the system via specific harvesters or more precise annotators. Moreover, a template-based mechanism oriented to facilitate the integration of new tools and techniques into the system has been built to make easier to develop new modules as well as increasing the available modules in public repositories.
+In Section \ref{sec:distributed-topic-modeling} we have described \textit{librAIry}, the framework we developed to create probabilistic topic models in a scalable way. Algorithms and tools coming from different technologies can work collaboratively to process and analyze huge collections of textual resources creating and using topic models. 
 
-Our approach to create and inference probabilistic topics is \textbf{scalable} enough to work properly in both situations. This chapter presents a framework for processing topic models in document collections ranging from only a few texts, to large scale corpora. Methods and algorithms proposed in this thesis have been implemented and evaluated in this environment, which therefore serves as the technological basis for our research. The motivation is twofold, on the one hand to create a scalable system to analyze documents and discover topics, and on the other hand to create reusable topic models that can be easily integrated into that system.
+We tested and validated \textit{librAIry} by using the framework in some real world scenarios such as DrInventor\footnote{\url{https://ec.europa.eu/digital-single-market/en/news/dr-inventor-personal-research-computer-assistant-scientific-creativity}}, where thousands of scientific publications were processed, or TheyBuyForYou\footnote{\url{https://theybuyforyou.eu}}, where hundreds of thousands of public procurement texts were analyzed, or 
+CorpusViewer\footnote{\url{https://www.plantl.gob.es/tecnologias-lenguaje/actividades/plataformas/Paginas/corpus-viewer.aspx}}, where millions of patents were automatically organized. Thus, \textit{librAIry} has proven to be a text processing framework and addresses the first technical objective of this thesis ( T01, \textit{create a platform for large scale text processing}).
+
+\textit{librAIry} has been designed to represent corpora by organizing the data in three levels of detail: \textit{snippets} to reflect parts or pieces of texts, \textit{documents} to represent full texts, and \textit{domains} to group documents. Transversally there are \textit{annotations}, which allow providing more details to any of them. Figure \ref{fig:librairy-model} shows how two scientific articles published in the same conference and that mention a same resource in their papers can be represented. On this representation model based on SEDA architectures, actions over resources and status change notification events are introduced, which enable to distribute the processing of resources. Figure \ref{fig:librairy-modules} shows the four modules involved in processing the resources. \textit{Harvester} modules create new \textit{documents}, \textit{snippets} and \textit{domains}. \textit{Annotator} modules react to each new resource and introduce \textit{annotations}. \textit{Modeler} modules create new topic models for each new \textit{domain}. And \textit{Admin} modules perform administrative tasks and allow users to read the data. As shown in figure \ref{fig:librairy-sequence}, modules coordinate their actions by reacting to the notifications. The actions are then executed in parallel through a distributed workflow and the first research objective of this thesis is addressed (RO1, \textit{define a distributed text-processing model for creating large probabilistic topic models}).
+
+In Section \ref{sec:reusable-topic-modeling} we propose the publication of topic models as web services that can be used separately or easily integrated into the \textit{librAIry} framework where can be processed in a scalable way. Regardless of the API used, since it works both over HTTP and over TCP, there are four types of tasks that guide the definition of the service: reproducibility, exploration, inference and classification. Tables~\ref{table:tasks} and \ref{table:operations} detail the operations that support these tasks. This definition of a topic model as a service covers the second research objective of this thesis (R02, \textit{define a template to package probabilistic topic models as web services}).
+ 
+And finally, in order to facilitate the reuse of the topic models published as web services, section \ref{sec:topic-model-publication} presents an online repository based on virtual services. This covers the second technical objective of the thesis (T02, \textit{create a repository of topic-based web services}). 
+ 
+%A new model definition based on the previously mentioned principle of maximizing information re-usability and minimize irrelevant data has been studied to create a fine-grained resource design. New domains, in the sense of particular vocabularies or specific textual formats, have been also analyzed to be included into the system via specific harvesters or more precise annotators. Moreover, a template-based mechanism oriented to facilitate the integration of new tools and techniques into the system has been built to make easier to develop new modules as well as increasing the available modules in public repositories.
+
+%Our approach to create and inference probabilistic topics is \textbf{scalable} enough to work properly in both situations. This chapter presents a framework for processing topic models in document collections ranging from only a few texts, to large scale corpora. Methods and algorithms proposed in this thesis have been implemented and evaluated in this environment, which therefore serves as the technological basis for our research. The motivation is twofold, on the one hand to create a scalable system to analyze documents and discover topics, and on the other hand to create reusable topic models that can be easily integrated into that system.

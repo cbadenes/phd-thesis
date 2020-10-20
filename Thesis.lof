@@ -10,10 +10,10 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Relation between \textit {domain} and \textit {document}.\relax }}{36}{figure.caption.11}% 
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Relation between \textit {document} and \textit {snippet}.\relax }}{38}{figure.caption.12}% 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Relation between \textit {annotations} and other resources.\relax }}{39}{figure.caption.13}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Domain deleted flow.\relax }}{40}{figure.caption.14}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Resource states.\relax }}{41}{figure.caption.15}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Modules.\relax }}{42}{figure.caption.16}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Sequence of messages exchanged between modules to create a topic model from the documents added to a domain.\relax }}{43}{figure.caption.17}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Resource states.\relax }}{41}{figure.caption.14}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Modules (in green), messenger service (in purple) and data storage system (in blue).\relax }}{42}{figure.caption.15}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Sequence of messages exchanged between modules to create a topic model from the documents added to a domain.\relax }}{43}{figure.caption.16}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Swagger-based web interface of a probabilistic topic model service created with \textit {librAIry}.\relax }}{46}{figure.caption.17}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

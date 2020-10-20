@@ -31,37 +31,42 @@
 \contentsline {subsubsection}{\numberline {4.1.1.3}Snippet}{38}{subsubsection.4.1.1.3}% 
 \contentsline {subsubsection}{\numberline {4.1.1.4}Annotation}{39}{subsubsection.4.1.1.4}% 
 \contentsline {subsection}{\numberline {4.1.2}Event-oriented Processing Workflow}{39}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Combined Modular Execution}{41}{subsection.4.1.3}% 
-\contentsline {section}{\numberline {4.2}Probabilistic Topics Publication and Exploitation}{43}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Summary}{43}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}Explainable Topic-based Associations}{45}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Topic Relevance}{45}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Topic-based Clustering}{45}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Summary}{45}{section.5.3}% 
-\contentsline {chapter}{\numberline {6}Large-scale Comparisons of Topic Distributions}{47}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Document Similarity}{47}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Hashing Topic Distributions}{47}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Summary}{47}{section.6.3}% 
-\contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{49}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{49}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Cross-lingual Models}{49}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}Summary}{49}{section.7.3}% 
-\contentsline {chapter}{\numberline {8}Evaluation}{51}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Evaluation Metrics}{51}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Text Representativeness}{51}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}Large-scale Text Processing}{51}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}Topic-based Clustering}{53}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}Cross-lingual Similarity}{53}{section.8.5}% 
-\contentsline {section}{\numberline {8.6}Conclusions}{53}{section.8.6}% 
-\contentsline {chapter}{\numberline {9}Experiments}{55}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Polypharmacy and Drug-drug Interactions}{55}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Corpus Viewer}{55}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}ODS Classifier}{55}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Drugs4Covid}{55}{section.9.4}% 
-\contentsline {chapter}{\numberline {10}Conclusions}{57}{chapter.10}% 
-\contentsline {section}{\numberline {10.1}Assumptions and Restrictions}{57}{section.10.1}% 
-\contentsline {section}{\numberline {10.2}Contributions}{57}{section.10.2}% 
-\contentsline {section}{\numberline {10.3}Impact}{57}{section.10.3}% 
-\contentsline {section}{\numberline {10.4}Limitations}{57}{section.10.4}% 
-\contentsline {section}{\numberline {10.5}Future Work}{57}{section.10.5}% 
-\contentsline {chapter}{Bibliography}{59}{chapter*.18}% 
+\contentsline {subsection}{\numberline {4.1.3}Module-based Model Training}{41}{subsection.4.1.3}% 
+\contentsline {section}{\numberline {4.2}Reusable Topic Modeling}{43}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Topic Model Publication}{43}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Topic Model Exploitation}{44}{subsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Reproducibility Tasks}{45}{subsubsection.4.2.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Exploration Tasks}{48}{subsubsection.4.2.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.3}Inference Tasks}{49}{subsubsection.4.2.2.3}% 
+\contentsline {section}{\numberline {4.3}Summary}{49}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Explainable Topic-based Associations}{51}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Topic Relevance}{51}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Topic-based Clustering}{51}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Summary}{51}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Large-scale Comparisons of Topic Distributions}{53}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Document Similarity}{53}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Hashing Topic Distributions}{53}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Summary}{53}{section.6.3}% 
+\contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{55}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{55}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Cross-lingual Models}{55}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Summary}{55}{section.7.3}% 
+\contentsline {chapter}{\numberline {8}Evaluation}{57}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Evaluation Metrics}{57}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Text Representativeness}{57}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Large-scale Text Processing}{57}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Topic-based Clustering}{59}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}Cross-lingual Similarity}{59}{section.8.5}% 
+\contentsline {section}{\numberline {8.6}Conclusions}{59}{section.8.6}% 
+\contentsline {chapter}{\numberline {9}Experiments}{61}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Polypharmacy and Drug-drug Interactions}{61}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Corpus Viewer}{61}{section.9.2}% 
+\contentsline {section}{\numberline {9.3}ODS Classifier}{61}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Drugs4Covid}{61}{section.9.4}% 
+\contentsline {chapter}{\numberline {10}Conclusions}{63}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}Assumptions and Restrictions}{63}{section.10.1}% 
+\contentsline {section}{\numberline {10.2}Contributions}{63}{section.10.2}% 
+\contentsline {section}{\numberline {10.3}Impact}{63}{section.10.3}% 
+\contentsline {section}{\numberline {10.4}Limitations}{63}{section.10.4}% 
+\contentsline {section}{\numberline {10.5}Future Work}{63}{section.10.5}% 
+\contentsline {chapter}{Bibliography}{65}{chapter*.20}% 
