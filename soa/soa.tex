@@ -3,7 +3,7 @@
 % content in this file will be fed into the main document
 
 %: ----------------------- introduction file header -----------------------
-\chapter{Related Work}\label{ch:soa}
+\chapter{State of the Art}\label{ch:soa}
 
 \graphicspath{{soa/figures/}}
 
@@ -36,7 +36,7 @@ Documents are represented as a vector of counts with $W$ components, where $W$ i
 It is not a restrictive clustering model, where each document is assigned to one cluster, but allows documents to exhibit multiple topics. Since LDA is unsupervised, the topics covered in a set of documents are discovered from the own corpus. The mixed-membership assumptions lead to sharper estimates of word co-occurrence patterns, key to this thesis that proposes a \textit{thematic and low-dimensional feature space suitable for big real-world data sets, where documents are only described by their most relevant topics}.
 
 
-\section{Distance Measures}
+\section{Distance Measures for Document Similarity}
 
 In a \textit{Topic Model} the feature vector is a topic distribution expressed as vector of probabilities. Taking into account this premise, the similarity between two topic-based resources will be based on the distance between their topic distributions, which can be also seen as two probability mass functions. A commonly used metric is the \textit{Kullback-Liebler} (KL) divergence. However, it presents two major problems: (1) when a topic distribution is zero, KL divergence is not defined and (2) it is not symmetric, which does not fit well with semantic similarity measures that are usually symmetric \cite{Rus2013}.
 
