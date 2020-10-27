@@ -17,57 +17,52 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-I was expecting a `,' or a `}'---line 1422 of file bibliography/references.bib
- : 
- : @inproceedings{Celikyilmaz2010,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Sciences2016"
 Warning--empty publisher in Andoni2014
 Warning--there's a number but no volume in Boyd-Graber2010
 Warning--empty publisher in Hall2008
 Warning--empty booktitle in Ware2018STM
 Warning--empty publisher in Rus2013
-Warning--empty journal in Sciences2016
 Warning--empty publisher in Terasawa2007
-You've used 68 entries,
+You've used 71 entries,
             1935 wiz_defined-function locations,
-            928 strings with 17848 characters,
-and the built_in function-call counts, 31213 in all, are:
-= -- 3128
-> -- 1258
-< -- 56
-+ -- 427
-- -- 422
-* -- 2501
-:= -- 5092
-add.period$ -- 210
-call.type$ -- 68
-change.case$ -- 547
-chr.to.int$ -- 65
-cite$ -- 75
-duplicate$ -- 1348
-empty$ -- 2220
-format.name$ -- 526
-if$ -- 6415
+            953 strings with 18693 characters,
+and the built_in function-call counts, 32920 in all, are:
+= -- 3315
+> -- 1317
+< -- 59
++ -- 447
+- -- 442
+* -- 2625
+:= -- 5347
+add.period$ -- 222
+call.type$ -- 71
+change.case$ -- 571
+chr.to.int$ -- 68
+cite$ -- 77
+duplicate$ -- 1429
+empty$ -- 2340
+format.name$ -- 551
+if$ -- 6789
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 70
-newline$ -- 340
-num.names$ -- 206
-pop$ -- 610
+missing$ -- 74
+newline$ -- 356
+num.names$ -- 215
+pop$ -- 635
 preamble$ -- 1
-purify$ -- 549
+purify$ -- 574
 quote$ -- 0
-skip$ -- 1020
+skip$ -- 1090
 stack$ -- 0
-substring$ -- 2123
-swap$ -- 340
-text.length$ -- 33
+substring$ -- 2258
+swap$ -- 374
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 404
-warning$ -- 7
-while$ -- 262
+type$ -- 420
+warning$ -- 6
+while$ -- 275
 width$ -- 0
-write$ -- 886
-(There was 1 error message)
+write$ -- 933
+(There were 7 warnings)

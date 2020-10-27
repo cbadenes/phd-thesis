@@ -64,11 +64,6 @@ Bizer, C., Heath, T., and Berners-Lee, T. (2009).
 \newblock {\em International journal on Semantic Web and Information Systems},
   5(3):1--22.
 
-\bibitem[Blei et~al., 2010]{Blei2010}
-Blei, D., Carin, L., and Dunson, D. (2010).
-\newblock {Probabilistic topic models}.
-\newblock {\em IEEE Signal Processing Magazine}, 27(6):55--65.
-
 \bibitem[Blei and Lafferty, 2007]{Blei2007a}
 Blei, D.~M. and Lafferty, J.~D. (2007).
 \newblock {A correlated topic model of Science}.
@@ -104,6 +99,11 @@ Cheng, X., Yan, X., Lan, Y., and Guo, J. (2014).
 \newblock {\em IEEE Transactions on Knowledge and Data Engineering},
   26(12):2928--2941.
 
+\bibitem[Christopher D.~Manning and Schütze, 2008]{Manning2008}
+Christopher D.~Manning, P.~R. and Schütze, H. (2008).
+\newblock {\em Introduction to Information Retrieval}.
+\newblock Cambridge University Press, UK.
+
 \bibitem[Dagan et~al., 1999]{Dagan1998}
 Dagan, I., Lee, L., and Pereira, F. C.~N. (1999).
 \newblock {Similarity-Based Models of Word Cooccurrence Probabilities}.
@@ -133,7 +133,7 @@ Deerwester, S., Dumais, S.~T., Furnas, G.~W., Landauer, T.~K., and Harshman, R.
   (1990).
 \newblock {Indexing by Latent Semantic Analysis}.
 \newblock {\em Journal of the American Society for Information Science},
-  41:391--407.
+  41(6):391--407.
 
 \bibitem[Divoli et~al., 2012]{Divoli2012}
 Divoli, A., Nakov, P., and Hearst, M.~A. (2012).
@@ -207,6 +207,14 @@ Hofmann, T. (2001).
 \newblock {Unsupervised Learning by Probabilistic Latent Semantic Analysis}.
 \newblock {\em Machine Learning}, 42(1-2):177--196.
 
+\bibitem[Indyk and Motwani, 1998]{Indyk1998}
+Indyk, P. and Motwani, R. (1998).
+\newblock Approximate nearest neighbors: Towards removing the curse of
+  dimensionality.
+\newblock In {\em Proceedings of the Thirtieth Annual ACM Symposium on Theory
+  of Computing}, STOC '98, page 604–613, New York, NY, USA. Association for
+  Computing Machinery.
+
 \bibitem[Ji et~al., 2013]{Ji2013}
 Ji, J., Li, J., Yan, S., Tian, Q., and Zhang, B. (2013).
 \newblock {Min-Max Hash for Jaccard Similarity}.
@@ -217,8 +225,8 @@ Ji, J., Li, J., Yan, S., Tian, Q., and Zhang, B. (2013).
 Kenter, T. and de~Rijke, M. (2015).
 \newblock {Short Text Similarity with Word Embeddings Categories and Subject
   Descriptors}.
-\newblock {\em Proc. 24th ACM Int. Conf. Inf. Knowl. Manag. (CIKM 2015)}, pages
-  1411--1420.
+\newblock {\em Proceedings of 24th ACM International Conference on Information
+  and Knowledge Management}, pages 1411--1420.
 
 \bibitem[Krstovski and Smith, 2011]{Krstovski2011}
 Krstovski, K. and Smith, D.~A. (2011).
@@ -238,6 +246,13 @@ Kulis, B. and Grauman, K. (2012).
 \newblock {Kernelized Locality-Sensitive Hashing}.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   34(6):1092--1104.
+
+\bibitem[Levy et~al., 2015]{levy2015}
+Levy, O., Goldberg, Y., and Dagan, I. (2015).
+\newblock Improving distributional similarity with lessons learned from word
+  embeddings.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  3:211--225.
 
 \bibitem[Li and K{\"{o}}nig, 2010]{Li2010b}
 Li, P. and K{\"{o}}nig, C. (2010).
@@ -274,6 +289,13 @@ Mao, X., Feng, B.-S., Hao, Y.-J., Nie, L., Huang, H., and Wen, G. (2017).
   Distributions}.
 \newblock In {\em AAAI}.
 
+\bibitem[Mikolov et~al., 2013]{Mikolov2013c}
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G., and Dean, J. (2013).
+\newblock {Distributed Representations of Words and Phrases and their
+  Compositionality}.
+\newblock {\em Proceedings of the 26th International Conference on Neural
+  Information Processing Systems}, 2:3111--3119.
+
 \bibitem[Mimno et~al., 2009]{Mimno:2009:PTM:1699571.1699627}
 Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
   (2009).
@@ -300,6 +322,13 @@ Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2011).
 O’Neill, J., Robin, C., O’Brien, L., and Buitelaar, P. (2017).
 \newblock {An analysis of topic modelling for legislative texts}.
 \newblock {\em CEUR Workshop Proceedings}, 2143.
+
+\bibitem[Pennington et~al., 2014]{pennington2014}
+Pennington, J., Socher, R., and Manning, C. (2014).
+\newblock {G}lo{V}e: Global vectors for word representation.
+\newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing ({EMNLP})}, pages 1532--1543, Doha, Qatar.
+  Association for Computational Linguistics.
 
 \bibitem[Platt et~al., 2010]{Platt:2010:TDR:1870658.1870683}
 Platt, J.~C., Toutanova, K., and Yih, W.-t. (2010).
@@ -331,12 +360,6 @@ Rus, V., Niraula, N., and Banjade, R. (2013).
 Salton, G. (1983).
 \newblock {\em Introduction to Modern Information Retrieval}.
 \newblock McGraw-Hill, Inc., USA.
-
-\bibitem[Sciences and life, 2016]{Sciences2016}
-Sciences, E. R. S. f.~P. and life (2016).
-\newblock {Harnessing the power of content - Extracting value from scientific
-  literature: the power of mining full-text articles for pathway analysis
-  Harnessing the Power of content}.
 
 \bibitem[Tapi~Nzali et~al., 2017]{TapiNzali2017}
 Tapi~Nzali, M.~D., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.
