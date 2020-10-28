@@ -74,6 +74,13 @@ Blei, D.~M., Ng, A.~Y., and Jordan, M.~I. (2003).
 \newblock {Latent Dirichlet Allocation}.
 \newblock {\em Journal of Machine Learning Research}, 3(4-5):993--1022.
 
+\bibitem[Boyd-Graber and Blei, 2009]{Graber2009}
+Boyd-Graber, J. and Blei, D.~M. (2009).
+\newblock Multilingual topic models for unaligned text.
+\newblock In {\em Proceedings of the Twenty-Fifth Conference on Uncertainty in
+  Artificial Intelligence}, UAI '09, page 75–82, Arlington, Virginia, USA.
+  AUAI Press.
+
 \bibitem[Boyd-Graber and Resnik, 2010]{Boyd-Graber2010}
 Boyd-Graber, J. and Resnik, P. (2010).
 \newblock {Holistic Sentiment Analysis Across Languages: Multilingual
@@ -115,8 +122,16 @@ Datar, M., Immorlica, N., Indyk, P., and Mirrokni, V.~S. (2004).
 \newblock In {\em Proceedings of the twentieth annual symposium on
   Computational geometry - SCG '04}, page 253. ACM Press.
 
-\bibitem[De~Smet and Moens, 2009]{DeSmet2009}
-De~Smet, W. and Moens, M.-F. (2009).
+\bibitem[De~Smet and Moens, 2009a]{Smet2009}
+De~Smet, W. and Moens, M.-F. (2009a).
+\newblock Cross-language linking of news stories on the web using interlingual
+  topic modelling.
+\newblock In {\em Proceedings of the 2nd ACM Workshop on Social Web Search and
+  Mining}, SWSM '09, page 57–64, New York, NY, USA. Association for Computing
+  Machinery.
+
+\bibitem[De~Smet and Moens, 2009b]{DeSmet2009}
+De~Smet, W. and Moens, M.-F. (2009b).
 \newblock {Cross-language linking of news stories on the web using interlingual
   topic modelling}.
 \newblock In {\em Proceedings of the 2nd ACM workshop on Social web search and
@@ -156,6 +171,13 @@ Fielding, R.~T. and Taylor, R.~N. (2002).
 \newblock {Principled Design of the Modern Web Architecture}.
 \newblock {\em ACM Transactions on Internet Technology}, 2(2):407--416.
 
+\bibitem[Fukumasu et~al., 2012]{Fukumasu2012}
+Fukumasu, K., Eguchi, K., and Xing, E.~P. (2012).
+\newblock {Symmetric correspondence topic models for multilingual text
+  analysis}.
+\newblock In {\em Proceedings of the 25th annual conference on advances in
+  neural information processing systems (NIPS)}, pages 1295--1303.
+
 \bibitem[Ganguly et~al., 2012]{ganguly-etal-2012-cross}
 Ganguly, D., Leveling, J., and Jones, G. (2012).
 \newblock {Cross-Lingual Topical Relevance Models}.
@@ -189,6 +211,13 @@ Hao, S., Boyd-Graber, J.~L., and Paul., M.~J. (2018).
   Chapter of the Association for Computational Linguis- tics: Human Language
   Technologies, NAACL-HLT}, pages 1090--1100.
 
+\bibitem[Hao and Paul, 2018]{hao-paul-2018-learning}
+Hao, S. and Paul, M.~J. (2018).
+\newblock Learning multilingual topics from incomparable corpora.
+\newblock In {\em Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 2595--2609, Santa Fe, New Mexico, USA.
+  Association for Computational Linguistics.
+
 \bibitem[He et~al., 2017]{He2017}
 He, J., Li, L., and Wu, X. (2017).
 \newblock {A self-adaptive sliding window based topic model for non-uniform
@@ -214,6 +243,13 @@ Indyk, P. and Motwani, R. (1998).
 \newblock In {\em Proceedings of the Thirtieth Annual ACM Symposium on Theory
   of Computing}, STOC '98, page 604–613, New York, NY, USA. Association for
   Computing Machinery.
+
+\bibitem[Jagarlamudi and Daum\'{e}, 2010]{Jagarlamudi2010}
+Jagarlamudi, J. and Daum\'{e}, H. (2010).
+\newblock Extracting multilingual topics from unaligned comparable corpora.
+\newblock In {\em Proceedings of the 32nd European Conference on Advances in
+  Information Retrieval}, ECIR'2010, page 444–456, Berlin, Heidelberg.
+  Springer-Verlag.
 
 \bibitem[Ji et~al., 2013]{Ji2013}
 Ji, J., Li, J., Yan, S., Tian, Q., and Zhang, B. (2013).
@@ -270,6 +306,13 @@ Lin, J. (1991).
 \newblock {Divergence Measures Based on the Shannon Entropy}.
 \newblock {\em IEEE Transactions on Information Theory}, 37(1):145--151.
 
+\bibitem[Lisena et~al., 2020]{Lisena:NLPOSS2020}
+Lisena, P., Harrando, I., Kandakji, O., and Troncy, R. (2020).
+\newblock {ToModAPI: A Topic Modeling API to Train, Use and Compare Topic
+  Models}.
+\newblock In {\em 2$^{nd}$ International Workshop for Natural Language
+  Processing Open Source Software (NLP-OSS)}.
+
 \bibitem[Lu et~al., 2016]{Lu2016}
 Lu, H.~M., Wei, C.~P., and Hsiao, F.~Y. (2016).
 \newblock {Modeling healthcare data using multiple-channel latent Dirichlet
@@ -296,9 +339,17 @@ Mikolov, T., Sutskever, I., Chen, K., Corrado, G., and Dean, J. (2013).
 \newblock {\em Proceedings of the 26th International Conference on Neural
   Information Processing Systems}, 2:3111--3119.
 
-\bibitem[Mimno et~al., 2009]{Mimno:2009:PTM:1699571.1699627}
+\bibitem[Mimno et~al., 2009a]{mimno-etal-2009-polylingual}
 Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
-  (2009).
+  (2009a).
+\newblock Polylingual topic models.
+\newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
+  Natural Language Processing}, pages 880--889, Singapore. Association for
+  Computational Linguistics.
+
+\bibitem[Mimno et~al., 2009b]{Mimno:2009:PTM:1699571.1699627}
+Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
+  (2009b).
 \newblock {Polylingual Topic Models}.
 \newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
   Natural Language Processing: Volume 2 - Volume 2}, EMNLP '09, pages 880--889,
@@ -310,6 +361,13 @@ Moritz, M. and Ìˆchler, M.~B. (2017).
   Investigation in Historical Bible Translations.}
 \newblock In {\em Proceedings of the NoDaLiDa 2017 Workshop on Processing
   Historical Language}, pages 18--23.
+
+\bibitem[Ni et~al., 2009]{Ni2009}
+Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2009).
+\newblock Mining multilingual topics from wikipedia.
+\newblock In {\em Proceedings of the 18th International Conference on World
+  Wide Web}, WWW '09, page 1155–1156, New York, NY, USA. Association for
+  Computing Machinery.
 
 \bibitem[Ni et~al., 2011]{Ni:2011:CLT:1935826.1935887}
 Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2011).
@@ -329,6 +387,11 @@ Pennington, J., Socher, R., and Manning, C. (2014).
 \newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
   Natural Language Processing ({EMNLP})}, pages 1532--1543, Doha, Qatar.
   Association for Computational Linguistics.
+
+\bibitem[{Piccardi} and {West}, 2020]{2020arXiv200911207P}
+{Piccardi}, T. and {West}, R. (2020).
+\newblock {Crosslingual Topic Modeling with WikiPDA}.
+\newblock {\em arXiv e-prints}.
 
 \bibitem[Platt et~al., 2010]{Platt:2010:TDR:1870658.1870683}
 Platt, J.~C., Toutanova, K., and Yih, W.-t. (2010).
@@ -416,6 +479,20 @@ Westergaard, D., St{\ae}rfeldt, H.-h., T{\o}nsberg, C., Jensen, L.~J., and
   Brunak, S. (2017).
 \newblock {Text mining of 15 million full-text scientific articles}.
 \newblock {\em bioRxiv}.
+
+\bibitem[Zhang et~al., 2010]{zhang-etal-2010-cross}
+Zhang, D., Mei, Q., and Zhai, C. (2010).
+\newblock Cross-lingual latent topic extraction.
+\newblock In {\em Proceedings of the 48th Annual Meeting of the Association for
+  Computational Linguistics}, pages 1128--1137, Uppsala, Sweden. Association
+  for Computational Linguistics.
+
+\bibitem[Zhang et~al., 2013]{Zhang2013}
+Zhang, T., Liu, K., and Zhao, J. (2013).
+\newblock Cross lingual entity linking with bilingual topic model.
+\newblock In {\em Proceedings of the Twenty-Third International Joint
+  Conference on Artificial Intelligence}, IJCAI '13, page 2218–2224. AAAI
+  Press.
 
 \bibitem[Zhao et~al., 2013]{Zhao2013}
 Zhao, W.-L., J{\'{e}}gou, H., and Gravier, G. (2013).

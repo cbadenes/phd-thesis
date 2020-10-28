@@ -17,52 +17,51 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-Warning--I didn't find a database entry for "Sciences2016"
 Warning--empty publisher in Andoni2014
 Warning--there's a number but no volume in Boyd-Graber2010
 Warning--empty publisher in Hall2008
 Warning--empty booktitle in Ware2018STM
 Warning--empty publisher in Rus2013
 Warning--empty publisher in Terasawa2007
-You've used 71 entries,
+You've used 82 entries,
             1935 wiz_defined-function locations,
-            953 strings with 18693 characters,
-and the built_in function-call counts, 32920 in all, are:
-= -- 3315
-> -- 1317
-< -- 59
-+ -- 447
-- -- 442
-* -- 2625
-:= -- 5347
-add.period$ -- 222
-call.type$ -- 71
-change.case$ -- 571
-chr.to.int$ -- 68
-cite$ -- 77
-duplicate$ -- 1429
-empty$ -- 2340
-format.name$ -- 551
-if$ -- 6789
-int.to.chr$ -- 4
+            1021 strings with 21040 characters,
+and the built_in function-call counts, 38893 in all, are:
+= -- 3966
+> -- 1510
+< -- 73
++ -- 513
+- -- 506
+* -- 3013
+:= -- 6216
+add.period$ -- 263
+call.type$ -- 82
+change.case$ -- 658
+chr.to.int$ -- 77
+cite$ -- 88
+duplicate$ -- 1759
+empty$ -- 2761
+format.name$ -- 636
+if$ -- 8140
+int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 74
-newline$ -- 356
-num.names$ -- 215
-pop$ -- 635
+missing$ -- 85
+newline$ -- 411
+num.names$ -- 248
+pop$ -- 738
 preamble$ -- 1
-purify$ -- 574
+purify$ -- 661
 quote$ -- 0
-skip$ -- 1090
+skip$ -- 1384
 stack$ -- 0
-substring$ -- 2258
-swap$ -- 374
-text.length$ -- 35
+substring$ -- 2632
+swap$ -- 522
+text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 420
+type$ -- 486
 warning$ -- 6
-while$ -- 275
+while$ -- 314
 width$ -- 0
-write$ -- 933
-(There were 7 warnings)
+write$ -- 1094
+(There were 6 warnings)
