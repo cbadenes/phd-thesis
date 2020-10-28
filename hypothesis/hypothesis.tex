@@ -11,14 +11,14 @@
 % -- Research Objectives 
 % -------------------------------------------------------------
 
-The work presented in this thesis aims to facilitate the exploration of huge collections of multilingual documents through thematic associations inferred from their content. Each of the challenges arising from this objective defines a working dimension and guides the research carried out in this thesis.
+The work presented in this thesis aims to facilitate the exploration of huge collections of multilingual documents through thematic associations inferred from their content. It assumes that, given a multilingual corpus, similar documents will contain the same topics. Each of the challenges arising from this objective defines a working dimension and guides the research carried out in this thesis.
 
 % Hacer referencia a secciones de los capitulos 1 y 2 cuando estén terminados
 The first dimension focuses on \textbf{scalability}, in order to create the text processing flows that are required to create or apply learning models. The workload required to process a corpus varies according to the number of documents, the length of texts and the kind of knowledge (annotations) that need to be inferred from the text. If the design of the workflow is scalable, there is no need to modify the processing logic when working with larger collections of documents, since adding a reasonable amount of computational resources is enough to perform it. These resources can be machines (i.e horizontal scaling) or processing units (e.g CPU, RAM) in an existing machine (i.e vertical scaling). 
 
 The second dimension covers the \textbf{representativeness} of the text annotations when projected into spaces where they are manipulated. The idea behind these spaces is to represent documents as points (or vectors in a vector space) that are close together when the texts are semantically similar, and far apart when they are semantically distant. The ability of these spaces to create meaningful representations is also studied in this work.
 
-In the third dimension, data structures that efficiently \textbf{sort} texts from their representations based on probabilistic topics are studied. Divisions of space into semantically-related regions are convenient to allow browsing large document collections. The \textit{representativeness} covered in the previous dimension enables the interpretation of the relations and regions obtained.
+In the third dimension, data structures that efficiently \textbf{cluster} texts from their representations based on probabilistic topics are studied. Divisions of space into semantically-related regions are convenient to allow browsing large document collections. The \textit{representativeness} covered in the previous dimension enables the interpretation of the relations and regions obtained.
 
 And finally, the fourth dimension handles the \textbf{multilingualism} of collections that contain documents in several languages. On a multilingual space, documents are described and related across languages.
 
@@ -30,10 +30,10 @@ We define our main hypothesis as follows:
 
 \textbf{Hypothesis 1} \textit{Large multilingual document collections can be automatically analyzed to discover appropriate thematic relations that facilitate a semantically-enabled text browsing}.
 
-Our hypothesis can be divided into four different sub-parts, which are related to the aforementioned scalability, representativeness, sorting, and multilinguality dimensions respectively. First, by \textit{distributing both natural language processing tasks and representational models we can efficiently process huge collections of documents (\textbf{H1.1})}.
+Our hypothesis can be divided into four different sub-parts, which are related to the aforementioned scalability, representativeness, clustering, and multilinguality dimensions. First, by \textit{distributing both natural language processing tasks and representational models we can efficiently process huge collections of documents (\textbf{H1.1})}.
 
 % topics no se ha utilizado hasta ahora?
-Second, we can \textit{semantically relate documents by comparing their most relevant topics (\textbf{H1.2})}. Furthermore, for this purpose we hypothesize that the use of \textit{topic hierarchies (\textbf{H1.2.1}) and similarity metrics based on relevance levels (\textbf{H1.2.2}) can help quantifying the semantic distance between texts}. Third, by \textit{dividing the representational space into regions based on topics and relevance levels we can search for related documents without having to calculate all pairwise comparisons and without losing the ability to rely on topics for further processing (\textbf{H1.3})}.
+Second, it is possible to \textit{semantically relate documents by comparing their most relevant topics (\textbf{H1.2})}. Furthermore, for this purpose we hypothesize that the use of \textit{topic hierarchies (\textbf{H1.2.1}) and similarity metrics based on relevance levels (\textbf{H1.2.2}) help quantifying the semantic distance between texts}. Third, by \textit{dividing the representational space into regions based on topics and relevance levels we can search for related documents without having to calculate all pairwise comparisons and without losing the ability to rely on topics for further processing (\textbf{H1.3})}.
 
 And finally, \textit{by abstracting the topic representations into concept-based descriptions across languages we can relate documents in various languages without having to translate them (\textbf{H1.5})}.
 
@@ -68,10 +68,9 @@ Several research challenges emerge from these hypotheses. First, in order to fac
 
 \subsection{Topic-model Programming Interface}
 
-Although some initiatives to standardize the format of machine-learning models and to provide tools that facilitate their transformation among the most widespread proprietary formats already exist in the literature, there are still some software restrictions that can limit their reuse. These models may hold certain software dependencies that e.g. force using a specific version of a programming language (python2 vs python3\footnote{\url{https://www.python.org}}) or an operating system (e.g., linux kernel vs on-cloud environments\footnote{\url{https://vespa.ai}}) to load them or to launch the service that deploys them (e.g., ONNX\footnote{\url{https://onnx.ai}}). This limits their ability to be reused in domains that are not familiar with these technological stacks. \textit{Integrating pre-trained topic models into general-purpose systems is not easy \textbf{(RCInterface1)}}.
+Although some initiatives to facilitate the use of machine-learning models exist in the literature as discussed in section \ref{sec:topic-reuse}, there are still some restrictions that limit the reuse of topic models. Technical dependencies or closed data formats are the main reasons that prevent or make reproducibility of these models difficult by imposing conditions to work with them. It is common to offer the model through its functionality, rather than its properties, which prevents it from being used for a different purpose than when it was created. \textit{Integrating pre-trained topic models into different-purpose solutions is not easy \textbf{(RCInterface1)}}.
 
-
-Topic models, as many other machine learning models, may be distributed in a proprietary or standard format with software dependencies or by directly providing the data. However, \textit{there is no standard way to specify the topics and the operations that can be performed on them \textbf{(RCInterface2)}}. Sometimes topics are described by the top ten or five most relevant words, and occasionally these word lists are not accompanied by weights, making a density-based analysis impossible. These differences in presenting the models can sometimes limit their reusability if they cannot infer new topic distributions even when the learning algorithm allows for it.
+The properties and functions offered by a topic model, instead of being uniform, vary according to the method used to build it. This limits the ability to reproduce the work done in this area and reuse topic models without losing information or knowledge. \textit{There is no standard to specify the attributes and operations that a topic model can provide \textbf{(RCInterface2)}}. Sometimes topics are described by the top ten or five most relevant words, and occasionally these word lists are not accompanied by weights, making a density-based analysis impossible. These differences in presenting the models can sometimes limit their reusability if they cannot infer new topic distributions even when the learning algorithm allows for it.
 
 
 \subsection{Explainable Topic-based Associations}
@@ -103,7 +102,7 @@ A summary of the challenges covered in this work and how they map to the hypothe
 \heading{Research Challenge} & \heading{Hypotheses} \\
 \midrule
 \midrule
-RCInterface1: integrating pre-trained topic models into general-purpose systems is not easy & H1.1: documents can be efficiently annotated on a large scale by distributing natural language processing tasks and representation models\\
+RCInterface1: integrating pre-trained topic models into different-purpose systems is not easy & H1.1: documents can be efficiently annotated on a large scale by distributing natural language processing tasks and representation models\\
 \midrule
 RCInterface2: there is no standard presentation of topics that facilitates their reuse & H1.1: documents can be efficiently annotated on a large scale by distributing natural language processing tasks and representation models\\
 \midrule
