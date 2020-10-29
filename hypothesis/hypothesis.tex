@@ -18,7 +18,7 @@ The first dimension focuses on \textbf{scalability}, in order to create the text
 
 The second dimension covers the \textbf{representativeness} of the text annotations when projected into spaces where they are manipulated. The idea behind these spaces is to represent documents as points (or vectors in a vector space) that are close together when the texts are semantically similar, and far apart when they are semantically distant. The ability of these spaces to create meaningful representations is also studied in this work.
 
-In the third dimension, data structures that efficiently \textbf{cluster} texts from their representations based on probabilistic topics are studied. Divisions of space into semantically-related regions are convenient to allow browsing large document collections. The \textit{representativeness} covered in the previous dimension enables the interpretation of the relations and regions obtained.
+In the third dimension, we explore the usage of data structures that efficiently \textbf{cluster} texts from their representations based on probabilistic topics. Divisions of space into semantically-related regions are convenient to allow browsing large document collections. The \textit{representativeness} covered in the previous dimension enables the interpretation of the relations and regions obtained.
 
 And finally, the fourth dimension handles the \textbf{multilingualism} of collections that contain documents in several languages. On a multilingual space, documents are described and related across languages.
 
@@ -30,10 +30,10 @@ We define our main hypothesis as follows:
 
 \textbf{Hypothesis 1} \textit{Large multilingual document collections can be automatically analyzed to discover appropriate thematic relations that facilitate a semantically-enabled text browsing}.
 
-Our hypothesis can be divided into four different sub-parts, which are related to the aforementioned scalability, representativeness, clustering, and multilinguality dimensions. First, by \textit{distributing both natural language processing tasks and representational models we can efficiently process huge collections of documents (\textbf{H1.1})}.
+Our hypothesis can be divided into four different sub-parts, which are related to the aforementioned scalability, representativeness, clustering, and multilinguality dimensions. First, by \textit{distributing across different computation nodes both natural language processing tasks and representational models we can efficiently process huge collections of documents (\textbf{H1.1})}.
 
 % topics no se ha utilizado hasta ahora?
-Second, it is possible to \textit{semantically relate documents by comparing their most relevant topics (\textbf{H1.2})}. Furthermore, for this purpose we hypothesize that the use of \textit{topic hierarchies (\textbf{H1.2.1}) and similarity metrics based on relevance levels (\textbf{H1.2.2}) help quantifying the semantic distance between texts}. Third, by \textit{dividing the representational space into regions based on topics and relevance levels we can search for related documents without having to calculate all pairwise comparisons and without losing the ability to rely on topics for further processing (\textbf{H1.3})}.
+Second, it is possible to \textit{semantically relate documents by comparing their most relevant topics (\textbf{H1.2})}. Furthermore, for this purpose we hypothesize that the use of \textit{topic hierarchies (\textbf{H1.2.1}) and similarity metrics based on relevance levels (\textbf{H1.2.2}) help quantifying the semantic distance between texts}. Third, by \textit{dividing the representational space into regions based on topics and relevance levels we can search for related documents without having to calculate all pairwise comparisons and without discarding the notion of topics for further processing (\textbf{H1.3})}.
 
 And finally, \textit{by abstracting the topic representations into concept-based descriptions across languages we can relate documents in various languages without having to translate them (\textbf{H1.5})}.
 
@@ -48,13 +48,13 @@ A summary of the hypotheses and how they tackle our research dimensions can be f
 \midrule
 H1: Large multilingual document collections can be automatically analyzed to be semantically-browsed through thematic relations & D1: Scalability, D2: Representativeness, D3: Sorting, D4: Multilingualism \\
 \midrule
-H1.1: it is possible to efficiently annotate documents on a large scale by distributing natural language processing tasks and representation models & D1: Scalability\\
+H1.1: it is possible to efficiently annotate documents on a large scale by distributing across different computation nodes natural language processing tasks and representation models & D1: Scalability\\
 \midrule
 H1.2: it is possible to semantically relate texts from their most relevant topics & D2: Representativeness\\
 \midrule
-H1.3: it is possible to find documents with similar topic distributions without calculating all pairwise comparisons and without losing the ability to explore them through their topics & D3: Sorting\\
+H1.3: it is possible to find relevant documents with similar topic distributions without calculating all pairwise comparisons and without discarding the notion of topics from their representation & D3: Sorting\\
 \midrule
-H1.4: it is possible to relate documents in different languages without having to translate them using language agnostic concepts from their main topics & D4: Multilingualism\\
+H1.4: it is possible to relate documents in different languages without having to translate them, by using language agnostic concepts from their main topics & D4: Multilingualism\\
 \bottomrule
 \end{tabularx}
 \caption{Hypotheses and research dimensions.}
@@ -66,23 +66,23 @@ H1.4: it is possible to relate documents in different languages without having t
 
 Several research challenges emerge from these hypotheses. First, in order to facilitate reusing existing topic models by processing systems with different architectures and technological stacks, we need to define \textit{topic-model programming interfaces}. Second, in order to describe and thematically relate documents, we must address how to produce \textit{explainable topic-based associations}. Third, by working with huge collections of documents described by topics, we need to handle \textit{large-scale comparisons of topic distributions}. Finally, in order to explore multilingual document collections from shared topic-based representational spaces, we have to provide \textit{automatic cross-lingual topic alignment}. Each of these research challenges are described below and covered throughout this thesis.
 
-\subsection{Topic-model Programming Interface}
+\subsection{Scalable Creation and Inference of Topics}
 
-Although some initiatives to facilitate the use of machine-learning models exist in the literature as discussed in section \ref{sec:topic-reuse}, there are still some restrictions that limit the reuse of topic models. Technical dependencies or closed data formats are the main reasons that prevent or make reproducibility of these models difficult by imposing conditions to work with them. It is common to offer the model through its functionality, rather than its properties, which prevents it from being used for a different purpose than when it was created. \textit{Integrating pre-trained topic models into different-purpose solutions is not easy \textbf{(RCInterface1)}}.
+Although some initiatives to facilitate the reuse of machine-learning models exist in the literature as discussed in section \ref{sec:topic-reuse}, there are still some restrictions that limit the use of topic models. Technical dependencies or closed data formats are the main reasons that prevent or make reproducibility of these models difficult by imposing conditions to work with them. It is common to provide the model only through its functionality, rather than its properties, which prevents it from being used for a different purpose than when it was created. \textit{Reuse of topic models is limited by incompatibility problems \textbf{(RCInterface1)}}.
 
 The properties and functions offered by a topic model, instead of being uniform, vary according to the method used to build it. This limits the ability to reproduce the work done in this area and reuse topic models without losing information or knowledge. \textit{There is no standard to specify the attributes and operations that a topic model can provide \textbf{(RCInterface2)}}. Sometimes topics are described by the top ten or five most relevant words, and occasionally these word lists are not accompanied by weights, making a density-based analysis impossible. These differences in presenting the models can sometimes limit their reusability if they cannot infer new topic distributions even when the learning algorithm allows for it.
 
 
-\subsection{Explainable Topic-based Associations}
+\subsection{Explainable Topic-based Relations}
 
-In order to facilitate the exploration of document collections, vector space models are often used to semantically relate texts based on their word distributions. These models first create a dictionary with the words used in the collection, and then represent  documents by vectors whose dimensions correspond to each word in the dictionary. In large collections, these models need to be adapted to make operations on vectors more manageable. As a result, a new abstraction method based on topics emerged that reduces the dimensions of vectors. Topics are described by word distributions over the entire vocabulary and documents by vectors containing topic distributions. Despite the extensive use of these representation models, \textit{there is no common criteria for identifying the most representative topics in a document \textbf{(RCExplainable1)}}. 
+In order to facilitate the exploration of document collections, vector space models are often used to semantically relate texts based on their word distributions. As described in Section \ref{sec:related-work}, these models first create a dictionary with the words used in the collection, and then represent  documents by vectors whose dimensions correspond to each word in the dictionary. In large collections, these models need to be adapted to make operations on vectors more manageable. As a result, a new abstraction method based on emerged topics that reduces the dimensions of vectors. Topics are described by word distributions over the entire vocabulary and documents by vectors containing topic distributions. Despite the extensive use of these representation models, \textit{there is no common criteria for identifying the most representative topics in a document \textbf{(RCExplainable1)}}. 
 
-In addition, since similarity metrics over this representation space are based on accumulating the difference in topic densities, \textit{it is difficult to explain the distance between topic distributions \textbf{(RCExplainable2)}}. And, unless a minimum distance threshold is defined or a n-top topics agreed, \textit{there is no common criterion for determining whether two documents are related \textbf{(RCExplainable3)}}.  
+In addition, since similarity metrics over this representation space are based on accumulating the difference in topic densities, \textit{it is difficult to explain the distance between topic distributions \textbf{(RCExplainable2)}}. And, unless a minimum distance threshold can be defined or a set of n-top topics agreed, \textit{there is no common criterion for determining whether two documents are related \textbf{(RCExplainable3)}}.  
 
 
 \subsection{Large-scale Comparisons of Topic Distributions}
 
-There are many scenarios where finding related documents in a huge corpus is desirable (e.g. a researcher doing literature review, or an R\&D  manager analyzing project proposals). Experts can benefit from discovering those connections to achieve these goals, but brute-force pairwise comparisons are not computationally adequate when the size of the corpus is too large. Some algorithms in the literature divide the search space into regions containing potentially similar documents, which are later processed separately from the rest in order to reduce the number of pairs compared. However, \textit{there are no mechanisms that efficiently partition the topic-based search space without compromising the ability for thematic exploration \textbf{(RCComparison1)}}.
+There are many scenarios where we need to find related documents (e.g. a researcher doing literature review, or an R\&D  manager analyzing project proposals). Experts can benefit from discovering those connections to achieve these goals, but brute-force pairwise comparisons are not computationally adequate when the size of the corpus is too large. Some algorithms in the literature divide the search space into regions containing potentially similar documents, which are later processed separately from the rest in order to reduce the number of pairs compared. However, \textit{there are no mechanisms that efficiently partition the topic-based search space without compromising the ability for thematic exploration \textbf{(RCComparison1)}}.
 
 In addition, documents from the same region should be compared and \textit{there are no similarity metrics that compare partial distributions of topics \textbf{(RCComparison2)}}.
 
@@ -90,7 +90,7 @@ In addition, documents from the same region should be compared and \textit{there
 \subsection{Unsupervised Cross-lingual Topic Alignment}
 
 % actualizar referencias a secciones del sota
-With the ongoing growth in the number of texts in different languages, we need annotation methods that enable browsing multi-lingual corpora. As discussed in section \ref{ch:soa}, multilingual probabilistic topic models have recently emerged as a group of semi-supervised machine learning models that can be used to perform thematic explorations on collections of texts in multiple languages. However, \textit{there are no approaches that abstract the representation of probabilistic topics in language-independent spaces without translating texts or aligning documents \textbf{(RCCrossLingual1)}}. Existing approaches require parallel or comparable training data to create a language-independent space. 
+With the ongoing growth in the number of texts in different languages, we need annotation methods that enable browsing multilingual corpora. As discussed in section \ref{ch:soa}, multilingual probabilistic topic models have recently emerged as a group of semi-supervised machine learning models that can be used to perform thematic explorations on collections of texts in multiple languages. However, \textit{there are no approaches that abstract the representation of probabilistic topics in language-independent spaces without translating texts or aligning documents \textbf{(RCCrossLingual1)}}. Existing approaches require parallel or comparable training data to create a language-independent space. 
 
 A summary of the challenges covered in this work and how they map to the hypotheses is presented in table  \ref{table:challenges}.
 
@@ -102,9 +102,9 @@ A summary of the challenges covered in this work and how they map to the hypothe
 \heading{Research Challenge} & \heading{Hypotheses} \\
 \midrule
 \midrule
-RCInterface1: integrating pre-trained topic models into different-purpose systems is not easy & H1.1: documents can be efficiently annotated on a large scale by distributing natural language processing tasks and representation models\\
+RCInterface1: reuse of topic models is limited by incompatibility problems & H1.1: documents can be efficiently annotated on a large scale by distributing across different computation nodes both natural language processing tasks and representation models\\
 \midrule
-RCInterface2: there is no standard presentation of topics that facilitates their reuse & H1.1: documents can be efficiently annotated on a large scale by distributing natural language processing tasks and representation models\\
+RCInterface2: there is no standard that unifies the representation of topic models & H1.1: documents can be efficiently annotated on a large scale by distributing across different computation nodes both natural language processing tasks and representation models\\
 \midrule
 RCExplainable1: there is no common criteria for identifying the most representative topics in a document & H1.2: texts can be semantically related from their most relevant topics, H1.3: documents with similar topic distributions can be found without calculate all pairwise comparisons and without losing the ability to explore them through their topics \\
 \midrule
@@ -134,7 +134,7 @@ Technical objectives (i.e., develop a new resource) or research objectives (i.e.
 
 \subsection{Scalable Creation and Inference of Topics}
 
-This first dimension arose when we had to analyze a huge collection of documents describing research and innovation projects to discover which research areas are being addressed, measure their presence in the collection, and characterize them so their presence can be inferred in unseen documents. Such a high volume of data made difficult to process it manually, so we needed to automate the required processing to draw insights from it. Probabilistic topics allow describing research areas, so we defined a \textit{distributed text-processing model for creating large probabilistic topic models (\textbf{RO1})} and a \textit{web service template to distribute them (\textbf{RO2})}. In this way, the models themselves could be easily integrated into scalable text processing pipelines. As a result, we created a \textit{platform for large-scale text analysis (\textbf{TO1})}, and produced a \textit{model-as-a-service repository with pre-trained topic models (\textbf{T02})}. The efficiency of this solution was validated by processing a corpus of 100,000 documents collected from the CORDIS dataset\footnote{\url{https://data.europa.eu/euodp/es/data/dataset/cordisH2020projects}}, which contains descriptions of projects funded by the European Union under a framework programme since 1990 \citep{Badenes-Olmedo2017}. 
+This first dimension arose when we had to analyze a huge collection of documents describing research and innovation projects to discover which research areas are being addressed, measure their presence in the collection, and characterize them so their presence can be inferred in unseen documents. Such a high volume of data made difficult to process it manually, so we needed to automate the required processing to draw insights from it. Probabilistic topics allow describing research areas, so we defined a \textit{distributed text-processing model for creating large probabilistic topic models (\textbf{RO1})} and a \textit{Web service template to distribute them (\textbf{RO2})}. In this way, the models themselves could be easily integrated into scalable text processing pipelines. As a result, we created a \textit{platform for large-scale text analysis (\textbf{TO1})}, and produced a \textit{model-as-a-service repository with pre-trained topic models (\textbf{T02})}. The efficiency of this solution was validated by processing a corpus of 100,000 documents collected from the CORDIS dataset\footnote{\url{https://data.europa.eu/euodp/es/data/dataset/cordisH2020projects}}, which contains descriptions of projects funded by the European Union under a framework programme since 1990 \citep{Badenes-Olmedo2017}. 
 
 The main contributions under this dimension are described in Chapter \ref{ch:scalability} as follows:
 \begin{itemize}
@@ -144,7 +144,7 @@ The main contributions under this dimension are described in Chapter \ref{ch:sca
 \end{itemize} 
 
 
-\subsection{Explainable Topic-based Associations}
+\subsection{Explainable Topic-based Relations}
 
 In the second dimension we needed to browse scientific papers through their content-based relations. The problem of massively annotating documents with topic distributions came up. We had to \textit{create annotations based on topic models in a way that was computationally affordable and enabled a semantic-aware exploration of the knowledge inside them (\textbf{RO3})}. Once documents were annotated, a \textit{metric that compares documents and facilitates their interpretation from topic annotations (\textbf{RO4})} was required. As a result, we integrated \textit{the annotation method into the topic model service (\textbf{TO3})} and implemented a text comparison metric based on partial representations of topics. These proposals were validated by classifying 500,000 scientific articles from the Open Research Corpus\footnote{\url{https://allenai.org/data/open-research-corpus}} in domains such as Computer Science, Neuroscience and Biomedicine \citep{Badenes-Olmedo2017b, Badenes-Olmedo2017c, Badenes-Olmedo2019b}. 
 
@@ -156,8 +156,8 @@ The main contributions under this dimension are described in Chapter \ref{ch:exp
 \end{itemize} 
 
 \begin{figure}[!htbp]
-\includegraphics[scale=0.25]{dimensions.png}
 \centering
+\includegraphics[scale=0.25]{dimensions.png}
 \caption{Research dimensions of the thesis. The first ones must be overcome before reaching higher dimensions. }
 \label{fig:dimensions}
 \end{figure}
@@ -173,7 +173,7 @@ The main contributions under this dimension are described in Chapter~\ref{ch:com
 \end{itemize} 
 
 
-\subsection{Automatic Cross-lingual Topic Alignment}
+\subsection{Unsupervised Cross-lingual Topic Alignment}
 
 Finally, a new dimension on top of the previous ones emerged to relate texts coming from different languages. In particular, since document relations were based on their topics, this dimension was focused on aligning topics without supervision from models trained with texts in different languages. Since each language defined its own vocabulary, the topics were model-specific and could not be directly compared. We abstracted the \textit{topic representations to create a single space out of the particularities of the language (\textbf{RO6})}. This approach was validated on the English, Spanish, French, Italian and Portuguese editions of the JCR-Acquis\footnote{\url{https://ec.europa.eu/jrc/en/language-technologies/jrc-acquis}} corpora and revealed promising results on classifying and sorting documents by similar content across languages \citep{Badenes-Olmedo2019, Badenes-Olmedo2019b}. 
 

@@ -5,26 +5,26 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Contributions}{4}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Thesis Structure}{5}{section.1.2}% 
-\contentsline {section}{\numberline {1.3}Publications}{5}{section.1.3}% 
+\contentsline {section}{\numberline {1.3}Publications}{6}{section.1.3}% 
 \contentsline {chapter}{\numberline {2}State of the Art}{9}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Related Work}{9}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Research Areas}{13}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Topic Creation and Reuse}{14}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.1}Topic Creation and Reuse}{15}{subsection.2.2.1}% 
 \contentsline {subsection}{\numberline {2.2.2}Topic Explainability}{16}{subsection.2.2.2}% 
 \contentsline {subsection}{\numberline {2.2.3}Document Similarity}{18}{subsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.2.4}Multilingual Topic Alignment}{19}{subsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.2.4}Multilingual Topic Alignment}{20}{subsection.2.2.4}% 
 \contentsline {chapter}{\numberline {3}Methodology}{23}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Research Hypotheses}{24}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Research Challenges}{26}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Topic-model Programming Interface}{26}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}Explainable Topic-based Associations}{27}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Scalable Creation and Inference of Topics}{26}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Explainable Topic-based Relations}{27}{subsection.3.2.2}% 
 \contentsline {subsection}{\numberline {3.2.3}Large-scale Comparisons of Topic Distributions}{27}{subsection.3.2.3}% 
 \contentsline {subsection}{\numberline {3.2.4}Unsupervised Cross-lingual Topic Alignment}{28}{subsection.3.2.4}% 
 \contentsline {section}{\numberline {3.3}Research Methodology}{28}{section.3.3}% 
 \contentsline {subsection}{\numberline {3.3.1}Scalable Creation and Inference of Topics}{30}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Explainable Topic-based Associations}{30}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.2}Explainable Topic-based Relations}{30}{subsection.3.3.2}% 
 \contentsline {subsection}{\numberline {3.3.3}Large-scale Comparisons of Topic Distributions}{32}{subsection.3.3.3}% 
-\contentsline {subsection}{\numberline {3.3.4}Automatic Cross-lingual Topic Alignment}{32}{subsection.3.3.4}% 
+\contentsline {subsection}{\numberline {3.3.4}Unsupervised Cross-lingual Topic Alignment}{32}{subsection.3.3.4}% 
 \contentsline {chapter}{\numberline {4}Creation and Publication of Probabilistic Topic Models}{35}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Distributed Topic Modeling}{35}{section.4.1}% 
 \contentsline {subsection}{\numberline {4.1.1}Representing Corpora for Topic Modeling}{36}{subsection.4.1.1}% 

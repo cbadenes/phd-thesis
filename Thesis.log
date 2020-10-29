@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  28 OCT 2020 06:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  29 OCT 2020 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -737,108 +737,110 @@ Chapter 1.
 [1
 
 
-] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
+] [2] [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
- [3]
-[4] [5] [6]) [7]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+
+[4] [5] [6] [7]) [8]
 \openout2 = `soa/soa.aux'.
 
- (./soa/soa.tex [8
-
-
-
-]
+ (./soa/soa.tex
 Chapter 2.
-[9] [10] [11] [12] [13] [14] [15]
-<soa/figures/KL_100_2k.png, id=784, 1233.60875pt x 738.76pt>
+[9
+
+
+
+] [10] [11] [12] [13] [14] [15]
+<soa/figures/KL_100_2k.png, id=797, 1233.60875pt x 738.76pt>
 File: soa/figures/KL_100_2k.png Graphic file (type png)
 <use soa/figures/KL_100_2k.png>
-Package pdftex.def Info: soa/figures/KL_100_2k.png  used on input line 125.
+Package pdftex.def Info: soa/figures/KL_100_2k.png  used on input line 126.
 (pdftex.def)             Requested size: 206.28247pt x 123.52466pt.
-<soa/figures/JSD_100_2k.png, id=786, 1239.63126pt x 732.7375pt>
+<soa/figures/JSD_100_2k.png, id=799, 1239.63126pt x 732.7375pt>
 File: soa/figures/JSD_100_2k.png Graphic file (type png)
 <use soa/figures/JSD_100_2k.png>
-Package pdftex.def Info: soa/figures/JSD_100_2k.png  used on input line 130.
+Package pdftex.def Info: soa/figures/JSD_100_2k.png  used on input line 131.
 (pdftex.def)             Requested size: 206.28247pt x 121.9251pt.
-<soa/figures/He_100_2k.png, id=787, 1243.64626pt x 747.79375pt>
+<soa/figures/He_100_2k.png, id=800, 1243.64626pt x 747.79375pt>
 File: soa/figures/He_100_2k.png Graphic file (type png)
 <use soa/figures/He_100_2k.png>
-Package pdftex.def Info: soa/figures/He_100_2k.png  used on input line 135.
+Package pdftex.def Info: soa/figures/He_100_2k.png  used on input line 136.
 (pdftex.def)             Requested size: 206.28247pt x 124.03104pt.
-<soa/figures/S2JSD_100_2k.png, id=788, 1242.6425pt x 732.7375pt>
+<soa/figures/S2JSD_100_2k.png, id=801, 1242.6425pt x 732.7375pt>
 File: soa/figures/S2JSD_100_2k.png Graphic file (type png)
 <use soa/figures/S2JSD_100_2k.png>
-Package pdftex.def Info: soa/figures/S2JSD_100_2k.png  used on input line 140.
+Package pdftex.def Info: soa/figures/S2JSD_100_2k.png  used on input line 141.
 (pdftex.def)             Requested size: 206.28247pt x 121.63438pt.
 
 
-LaTeX Warning: Float too large for page by 66.58952pt on input line 146.
+LaTeX Warning: Float too large for page by 66.58952pt on input line 147.
 
 [16] [17 <./soa/figures/KL_100_2k.png> <./soa/figures/JSD_100_2k.png> <./soa/fi
-gures/He_100_2k.png> <./soa/figures/S2JSD_100_2k.png>]
-
-LaTeX Warning: Reference `sec:similarity' on page 18 undefined on input line 15
-9.
-
-[18] [19]) [20] [21]
+gures/He_100_2k.png> <./soa/figures/S2JSD_100_2k.png>] [18] [19] [20]) [21]
 \openout2 = `hypothesis/hypothesis.aux'.
 
- (./hypothesis/hypothesis.tex [22
+
+(./hypothesis/hypothesis.tex [22
 
 
 
 ]
 Chapter 3.
 [23] [24] [25] [26] [27] [28] [29] [30]
-<hypothesis/figures/dimensions.png, id=1013, 1566.85374pt x 959.585pt>
+<hypothesis/figures/dimensions.png, id=1020, 1654.18pt x 982.67125pt>
 File: hypothesis/figures/dimensions.png Graphic file (type png)
 <use hypothesis/figures/dimensions.png>
 Package pdftex.def Info: hypothesis/figures/dimensions.png  used on input line 
 160.
-(pdftex.def)             Requested size: 391.71248pt x 239.89566pt.
- [31 <./hypothesis/figures/dimensions.png>] [32]) [33] [34]
+(pdftex.def)             Requested size: 413.54399pt x 245.6672pt.
+
+Overfull \hbox (0.97903pt too wide) in paragraph at lines 160--161
+ [][] 
+ []
+
+[31 <./hypothesis/figures/dimensions.png>] [32]) [33] [34]
 \openout2 = `scalability/scalability.aux'.
 
- (./scalability/scalability.tex
+
+(./scalability/scalability.tex
 Chapter 4.
 [35
 
 
 
 ] [36]
-<scalability/figures/model.png, id=1079, 677.8926pt x 428.3202pt>
+<scalability/figures/model.png, id=1086, 677.8926pt x 428.3202pt>
 File: scalability/figures/model.png Graphic file (type png)
 <use scalability/figures/model.png>
 Package pdftex.def Info: scalability/figures/model.png  used on input line 44.
 (pdftex.def)             Requested size: 372.84209pt x 235.57683pt.
  [37 <./scalability/figures/model.png>]
-<scalability/figures/model-domain.png, id=1096, 623.4492pt x 128.6406pt>
+<scalability/figures/model-domain.png, id=1103, 623.4492pt x 128.6406pt>
 File: scalability/figures/model-domain.png Graphic file (type png)
 <use scalability/figures/model-domain.png>
 Package pdftex.def Info: scalability/figures/model-domain.png  used on input li
 ne 68.
 (pdftex.def)             Requested size: 280.54955pt x 57.88773pt.
  [38 <./scalability/figures/model-domain.png>] [39]
-<scalability/figures/model-document.png, id=1128, 647.0574pt x 185.493pt>
+<scalability/figures/model-document.png, id=1135, 647.0574pt x 185.493pt>
 File: scalability/figures/model-document.png Graphic file (type png)
 <use scalability/figures/model-document.png>
 Package pdftex.def Info: scalability/figures/model-document.png  used on input 
 line 100.
 (pdftex.def)             Requested size: 291.17314pt x 83.47107pt.
  [40 <./scalability/figures/model-document.png>]
-<scalability/figures/model-annotation.png, id=1141, 1029.6066pt x 350.2686pt>
+<scalability/figures/model-annotation.png, id=1148, 1029.6066pt x 350.2686pt>
 File: scalability/figures/model-annotation.png Graphic file (type png)
 <use scalability/figures/model-annotation.png>
 Package pdftex.def Info: scalability/figures/model-annotation.png  used on inpu
 t line 131.
 (pdftex.def)             Requested size: 411.83534pt x 140.10495pt.
  [41 <./scalability/figures/model-annotation.png>]
-<scalability/figures/resource-states.png, id=1151, 1031.052pt x 190.311pt>
+<scalability/figures/resource-states.png, id=1158, 1031.052pt x 190.311pt>
 File: scalability/figures/resource-states.png Graphic file (type png)
 <use scalability/figures/resource-states.png>
 Package pdftex.def Info: scalability/figures/resource-states.png  used on input
@@ -868,13 +870,13 @@ Overfull \hbox (77.24109pt too wide) in paragraph at lines 185--186
 in.(created;updated;deleted)\OT1/cmr/m/n/10.95 ,
  []
 
-<scalability/figures/modules.png, id=1166, 729.4452pt x 410.4936pt>
+<scalability/figures/modules.png, id=1173, 729.4452pt x 410.4936pt>
 File: scalability/figures/modules.png Graphic file (type png)
 <use scalability/figures/modules.png>
 Package pdftex.def Info: scalability/figures/modules.png  used on input line 19
 1.
 (pdftex.def)             Requested size: 328.2473pt x 184.72041pt.
-<scalability/figures/librairy-sequence.png, id=1169, 735.2268pt x 518.8986pt>
+<scalability/figures/librairy-sequence.png, id=1176, 735.2268pt x 518.8986pt>
 File: scalability/figures/librairy-sequence.png Graphic file (type png)
 <use scalability/figures/librairy-sequence.png>
 Package pdftex.def Info: scalability/figures/librairy-sequence.png  used on inp
@@ -885,7 +887,7 @@ Underfull \vbox (badness 1221) has occurred while \output is active []
 
  [44 <./scalability/figures/modules.png>] [45 <./scalability/figures/librairy-s
 equence.png>] [46]
-<scalability/figures/topic-model-swagger.png, id=1197, 874.26625pt x 970.62625p
+<scalability/figures/topic-model-swagger.png, id=1204, 874.26625pt x 970.62625p
 t>
 File: scalability/figures/topic-model-swagger.png Graphic file (type png)
 <use scalability/figures/topic-model-swagger.png>
@@ -977,28 +979,19 @@ abstract.aux) (./intro/acronyms.aux) (./intro/intro.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 352.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 352.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 95DF124AF743908F87F1D6E7238CC240;5388.
-
-
-Package rerunfilecheck Warning: File `Thesis.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `Thesis.brf':
-(rerunfilecheck)             Before: 0C4F0FB25315887F2543348BAC134EDF;4540
-(rerunfilecheck)             After:  3B5EB307A55365F66BD29712A45BAAC9;5190.
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: A6214D964D37F9FA41874E6C2B7BF476;5393.
+Package rerunfilecheck Info: File `Thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: 15D2E262DAA5B53C251B525FE78A58CE;5190.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 352.
  ) 
 Here is how much of TeX's memory you used:
  13630 strings out of 492616
- 210652 string characters out of 6129481
+ 210649 string characters out of 6129481
  532975 words of memory out of 5000000
- 16862 multiletter control sequences out of 15000+600000
+ 16861 multiletter control sequences out of 15000+600000
  17502 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,79p,2311b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,12n,79p,2327b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -1016,10 +1009,10 @@ ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (97 pages, 1477978 bytes).
+Output written on Thesis.pdf (97 pages, 1481665 bytes).
 PDF statistics:
- 1590 PDF objects out of 1728 (max. 8388607)
- 1430 compressed objects within 15 object streams
- 332 named destinations out of 1000 (max. 500000)
+ 1608 PDF objects out of 1728 (max. 8388607)
+ 1448 compressed objects within 15 object streams
+ 333 named destinations out of 1000 (max. 500000)
  655 words of extra memory for PDF output out of 10000 (max. 10000000)
 

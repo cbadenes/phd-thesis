@@ -15,15 +15,15 @@
 \BOOKMARK [0][-]{chapter.3}{3 Methodology}{}% 15
 \BOOKMARK [1][-]{section.3.1}{3.1 Research Hypotheses}{chapter.3}% 16
 \BOOKMARK [1][-]{section.3.2}{3.2 Research Challenges}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Topic-model Programming Interface}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Explainable Topic-based Associations}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Scalable Creation and Inference of Topics}{section.3.2}% 18
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Explainable Topic-based Relations}{section.3.2}% 19
 \BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 Large-scale Comparisons of Topic Distributions}{section.3.2}% 20
 \BOOKMARK [2][-]{subsection.3.2.4}{3.2.4 Unsupervised Cross-lingual Topic Alignment}{section.3.2}% 21
 \BOOKMARK [1][-]{section.3.3}{3.3 Research Methodology}{chapter.3}% 22
 \BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Scalable Creation and Inference of Topics}{section.3.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Explainable Topic-based Associations}{section.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Explainable Topic-based Relations}{section.3.3}% 24
 \BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Large-scale Comparisons of Topic Distributions}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Automatic Cross-lingual Topic Alignment}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Unsupervised Cross-lingual Topic Alignment}{section.3.3}% 26
 \BOOKMARK [0][-]{chapter.4}{4 Creation and Publication of Probabilistic Topic Models}{}% 27
 \BOOKMARK [1][-]{section.4.1}{4.1 Distributed Topic Modeling}{chapter.4}% 28
 \BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Representing Corpora for Topic Modeling}{section.4.1}% 29
