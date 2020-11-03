@@ -313,6 +313,14 @@ Lisena, P., Harrando, I., Kandakji, O., and Troncy, R. (2020).
 \newblock In {\em 2$^{nd}$ International Workshop for Natural Language
   Processing Open Source Software (NLP-OSS)}.
 
+\bibitem[Liu et~al., 2015]{10.1145/2736277.2741106}
+Liu, X., Zeng, J., Yang, X., Yan, J., and Yang, Q. (2015).
+\newblock Scalable parallel em algorithms for latent dirichlet allocation in
+  multi-core systems.
+\newblock In {\em Proceedings of the 24th International Conference on World
+  Wide Web}, WWW '15, page 669–679, Republic and Canton of Geneva, CHE.
+  International World Wide Web Conferences Steering Committee.
+
 \bibitem[Lu et~al., 2016]{Lu2016}
 Lu, H.~M., Wei, C.~P., and Hsiao, F.~Y. (2016).
 \newblock {Modeling healthcare data using multiple-channel latent Dirichlet

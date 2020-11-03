@@ -25,7 +25,7 @@
 \BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Large-scale Comparisons of Topic Distributions}{section.3.3}% 25
 \BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Unsupervised Cross-lingual Topic Alignment}{section.3.3}% 26
 \BOOKMARK [0][-]{chapter.4}{4 Creation and Publication of Probabilistic Topic Models}{}% 27
-\BOOKMARK [1][-]{section.4.1}{4.1 Distributed Topic Modeling}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.1}{4.1 Topic Modeling Framework}{chapter.4}% 28
 \BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Representing Corpora for Topic Modeling}{section.4.1}% 29
 \BOOKMARK [3][-]{subsubsection.4.1.1.1}{4.1.1.1 Domain}{subsection.4.1.1}% 30
 \BOOKMARK [3][-]{subsubsection.4.1.1.2}{4.1.1.2 Document}{subsection.4.1.1}% 31
@@ -70,4 +70,4 @@
 \BOOKMARK [1][-]{section.10.3}{10.3 Impact}{chapter.10}% 70
 \BOOKMARK [1][-]{section.10.4}{10.4 Limitations}{chapter.10}% 71
 \BOOKMARK [1][-]{section.10.5}{10.5 Future Work}{chapter.10}% 72
-\BOOKMARK [0][-]{chapter*.21}{Bibliography}{}% 73
+\BOOKMARK [0][-]{chapter*.22}{Bibliography}{}% 73
