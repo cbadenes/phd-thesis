@@ -27,20 +27,20 @@
 \contentsline {subsection}{\numberline {3.3.4}Unsupervised Cross-lingual Topic Alignment}{32}{subsection.3.3.4}% 
 \contentsline {chapter}{\numberline {4}Creation and Publication of Probabilistic Topic Models}{35}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Topic Modeling Framework}{35}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Representing Corpora for Topic Modeling}{37}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Corpora Representation for Topic Modeling}{37}{subsection.4.1.1}% 
 \contentsline {subsubsection}{\numberline {4.1.1.1}Domain}{38}{subsubsection.4.1.1.1}% 
 \contentsline {subsubsection}{\numberline {4.1.1.2}Document}{39}{subsubsection.4.1.1.2}% 
 \contentsline {subsubsection}{\numberline {4.1.1.3}Snippet}{41}{subsubsection.4.1.1.3}% 
 \contentsline {subsubsection}{\numberline {4.1.1.4}Annotation}{41}{subsubsection.4.1.1.4}% 
 \contentsline {subsection}{\numberline {4.1.2}Event-oriented Processing Workflow}{42}{subsection.4.1.2}% 
 \contentsline {subsection}{\numberline {4.1.3}Module-based Model Training}{43}{subsection.4.1.3}% 
-\contentsline {section}{\numberline {4.2}Reusable Topic Modeling}{46}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Reusable Topic Modeling}{45}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}Topic Model Publication}{46}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}Topic Model Exploitation}{47}{subsection.4.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.2.1}Reproducibility Tasks}{49}{subsubsection.4.2.2.1}% 
-\contentsline {subsubsection}{\numberline {4.2.2.2}Exploration Tasks}{50}{subsubsection.4.2.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Reproducibility Tasks}{50}{subsubsection.4.2.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Exploration Tasks}{51}{subsubsection.4.2.2.2}% 
 \contentsline {subsubsection}{\numberline {4.2.2.3}Inference Tasks}{51}{subsubsection.4.2.2.3}% 
-\contentsline {section}{\numberline {4.3}Summary}{51}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Summary}{52}{section.4.3}% 
 \contentsline {chapter}{\numberline {5}Explainable Topic-based Associations}{55}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Topic Relevance}{55}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Topic-based Clustering}{55}{section.5.2}% 

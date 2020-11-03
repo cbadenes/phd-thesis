@@ -134,7 +134,7 @@ Technical objectives (i.e., develop a new resource) or research objectives (i.e.
 
 \subsection{Scalable Creation and Inference of Topics}
 
-This first dimension arose when we had to analyze a huge collection of documents describing research and innovation projects to discover which research areas are being addressed, measure their presence in the collection, and characterize them so their presence can be inferred in unseen documents. Such a high volume of data made difficult to process it manually, so we needed to automate the required processing to draw insights from it. Probabilistic topics allow describing research areas, so we defined a \textit{distributed text-processing model for creating large probabilistic topic models (\textbf{RO1})} and a \textit{Web service template to distribute them (\textbf{RO2})}. In this way, the models themselves could be easily integrated into scalable text processing pipelines. As a result, we created a \textit{platform for large-scale text analysis (\textbf{TO1})}, and produced a \textit{model-as-a-service repository with pre-trained topic models (\textbf{T02})}. The efficiency of this solution was validated by processing a corpus of 100,000 documents collected from the CORDIS dataset\footnote{\url{https://data.europa.eu/euodp/es/data/dataset/cordisH2020projects}}, which contains descriptions of projects funded by the European Union under a framework programme since 1990 \citep{Badenes-Olmedo2017}. 
+This first dimension arose when we had to analyze a huge collection of documents describing research and innovation projects to discover which research areas are being addressed, measure their presence in the collection, and characterize them so their presence can be inferred in unseen documents. Such a high volume of data made difficult to process it manually, so we needed to automate the required processing to draw insights from it. Probabilistic topics allow describing research areas, so we defined a \textit{distributed text-processing model for creating large probabilistic topic models (\textbf{RO1})} and a \textit{Web service template to distribute them (\textbf{RO2})}. In this way, the models themselves could be easily integrated into scalable text processing pipelines. As a result, we created a \textit{scalable platform for topic modeling (\textbf{TO1})}, and produced a \textit{model-as-a-service repository with pre-trained topic models (\textbf{T02})}. The efficiency of this solution was validated by processing a corpus of 100,000 documents collected from the CORDIS dataset\footnote{\url{https://data.europa.eu/euodp/es/data/dataset/cordisH2020projects}}, which contains descriptions of projects funded by the European Union under a framework programme since 1990 \citep{Badenes-Olmedo2017}. 
 
 The main contributions under this dimension are described in Chapter \ref{ch:scalability} as follows:
 \begin{itemize}
@@ -157,7 +157,7 @@ The main contributions under this dimension are described in Chapter \ref{ch:exp
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[scale=0.25]{dimensions.png}
+\includegraphics[scale=0.24]{dimensions.png}
 \caption{Research dimensions of the thesis. The first ones must be overcome before reaching higher dimensions. }
 \label{fig:dimensions}
 \end{figure}
@@ -206,7 +206,7 @@ RO5: Define nearest-neighbor techniques to organize documents in regions with si
 \midrule
 R06: Define a transformation of the topic-based annotations to create a unique representational space out of the particularities from each language & RCCrossLingual1\\
 \midrule
-TO1: Create a platform for large scale text processing & RCInterface1, RCInterface2\\
+TO1: Create a scalable platform for topic modeling & RCInterface1, RCInterface2\\
 \midrule
 T02: Create a repository of Topic-based web services & RCInterface2\\
 \midrule
