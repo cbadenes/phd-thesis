@@ -25,6 +25,17 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces R at different similarity thresholds\relax }}{62}{figure.caption.26}% 
 \contentsline {figure}{\numberline {5.8}{\ignorespaces f-measure performance\relax }}{63}{figure.caption.27}% 
 \contentsline {figure}{\numberline {5.9}{\ignorespaces f-measure deviation\relax }}{63}{figure.caption.27}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Similarity values grouped by frequency in AIES\relax }}{69}{figure.caption.28}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Effectiveness (JS-based) in AIES\relax }}{72}{figure.caption.29}% 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Effectiveness (He-based) in AIES\relax }}{72}{figure.caption.30}% 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Clusters in AIES\relax }}{72}{figure.caption.31}% 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Cost (JS-based) in AIES\relax }}{75}{figure.caption.36}% 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Cost (He-based) in AIES\relax }}{75}{figure.caption.37}% 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Efficiency (JS-based) in AIES\relax }}{76}{figure.caption.38}% 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Efficiency (He-based) in AIES\relax }}{76}{figure.caption.39}% 
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Similarity values grouped by frequency in DRM\relax }}{77}{figure.caption.40}% 
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Effectiveness (JS based) in DRM\relax }}{77}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Effectiveness (JS based) in DRM2\relax }}{78}{figure.caption.42}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

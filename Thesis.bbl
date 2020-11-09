@@ -58,6 +58,15 @@ Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2017c).
 \newblock In {\em 9th International Conference on Knowledge Capture (K-CAP)},
   page~8.
 
+\bibitem[Badenes-Olmedo et~al., 2017d]{Badenes-Olmedo2017a}
+Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2017d).
+\newblock {librAIry/eval-similarity-calculation}.
+
+\bibitem[Bahmani et~al., 2012]{Bahmani2012}
+Bahmani, B., Moseley, B., Vattani, A., Kumar, R., and Vassilvitskii, S. (2012).
+\newblock {Scalable K-Means ++}.
+\newblock {\em Proceedings of the VLDB Endowment (PVLDB)}, 5:622--633.
+
 \bibitem[Bizer et~al., 2009]{Bizer2009}
 Bizer, C., Heath, T., and Berners-Lee, T. (2009).
 \newblock {Linked data-the story so far}.
@@ -172,6 +181,12 @@ Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
 Endres, D. and Schindelin, J. (2003).
 \newblock {A new metric for probability distributions}.
 \newblock {\em IEEE Transactions on Information Theory}, 49(7):1858--1860.
+
+\bibitem[Ester et~al., 1996]{Ester1996}
+Ester, M., Kriegel, H.-p., S, J., and Xu, X. (1996).
+\newblock {A density-based algorithm for discovering clusters in large spatial
+  databases with noise}.
+\newblock pages 226--231.
 
 \bibitem[Fielding and Taylor, 2002]{Fielding2002}
 Fielding, R.~T. and Taylor, R.~N. (2002).
@@ -470,6 +485,13 @@ Sciences, E. R. S. f.~P. and life (2016).
   Indexing and Summarization}.
 \newblock In {\em CSLI Studies in Computational Linguistics}.
 
+\bibitem[Steyvers et~al., 2006]{Steyvers2006}
+Steyvers, M., Ths, G., and {T} (2006).
+\newblock {Probabilistic topic models}.
+\newblock {\em In Landauer, T., McNamara, D., Dennis, S., and Kintsch, W.,
+  editors, Latent Semantic Analysis: A Road to Meaning. Laurence Erlbaum. Tang,
+  Z. and MacLennan, J}.
+
 \bibitem[Tapi~Nzali et~al., 2017]{TapiNzali2017}
 Tapi~Nzali, M.~D., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.
   (2017).
@@ -489,6 +511,11 @@ Teufel, S., Siddharthan, A., and Batchelor, C. (2009).
   chemistry and computational linguistics}.
 \newblock {\em Conference on Empirical Methods in Natural Language Processing},
   pages 1493--1502.
+
+\bibitem[Towne et~al., 2016]{Towne2016}
+Towne, W.~B., Ros\'{e}, C.~P., and Herbsleb, J.~D. (2016).
+\newblock Measuring similarity similarly: Lda and human perception.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology}, 8(1).
 
 \bibitem[Turchi et~al., 2012]{Turchi2012a}
 Turchi, S., Ciofi, L., Paganelli, F., Pirri, F., and Giuli, D. (2012).

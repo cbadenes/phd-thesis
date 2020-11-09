@@ -17,8 +17,14 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
+Repeated entry---line 1532 of file bibliography/references.bib
+ : @article{Towne2016
+ :                   ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Halkidi2001a"
 Warning--empty publisher in Andoni2014
 Warning--there's a number but no volume in Boyd-Graber2010
+Warning--empty journal in Ester1996
 Warning--empty publisher in Hall2008
 Warning--empty publisher in Nair2014
 Warning--empty booktitle in Ware2018STM
@@ -26,45 +32,45 @@ Warning--empty publisher in Rus2013
 Warning--empty journal in Sciences2016
 Warning--empty publisher in SimoneTeufel2010
 Warning--empty publisher in Terasawa2007
-You've used 90 entries,
+You've used 95 entries,
             1935 wiz_defined-function locations,
-            1067 strings with 22789 characters,
-and the built_in function-call counts, 42650 in all, are:
-= -- 4355
-> -- 1628
-< -- 85
-+ -- 551
-- -- 544
-* -- 3272
-:= -- 6789
-add.period$ -- 287
-call.type$ -- 90
-change.case$ -- 717
-chr.to.int$ -- 85
-cite$ -- 99
-duplicate$ -- 1952
-empty$ -- 3040
-format.name$ -- 692
-if$ -- 8958
-int.to.chr$ -- 6
+            1094 strings with 23697 characters,
+and the built_in function-call counts, 44669 in all, are:
+= -- 4550
+> -- 1733
+< -- 86
++ -- 588
+- -- 580
+* -- 3443
+:= -- 7147
+add.period$ -- 301
+call.type$ -- 95
+change.case$ -- 760
+chr.to.int$ -- 89
+cite$ -- 105
+duplicate$ -- 2025
+empty$ -- 3160
+format.name$ -- 733
+if$ -- 9344
+int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 93
-newline$ -- 450
-num.names$ -- 272
-pop$ -- 812
+missing$ -- 97
+newline$ -- 474
+num.names$ -- 287
+pop$ -- 852
 preamble$ -- 1
-purify$ -- 720
+purify$ -- 763
 quote$ -- 0
-skip$ -- 1547
+skip$ -- 1608
 stack$ -- 0
-substring$ -- 2880
-swap$ -- 591
-text.length$ -- 50
+substring$ -- 2997
+swap$ -- 603
+text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 534
-warning$ -- 9
-while$ -- 344
+type$ -- 564
+warning$ -- 10
+while$ -- 359
 width$ -- 0
-write$ -- 1197
-(There were 9 warnings)
+write$ -- 1257
+(There was 1 error message)

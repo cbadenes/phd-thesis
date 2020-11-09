@@ -128,6 +128,10 @@
 
 %\usepackage{todonotes}
 
+\newenvironment{conditions}[1][where:]
+  {#1 \begin{tabular}[t]{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\\[\belowdisplayskip]}
+
 \newcolumntype{b}{X}
 \newcolumntype{s}{>{\hsize=.6\hsize}X}
 \newcommand{\heading}[1]{\multicolumn{1}{c}{#1}}
