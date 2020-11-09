@@ -11,8 +11,29 @@
 % -- Explainability
 % -------------------------------------------------------------
 
+As stated in Chapter \ref{ch:hypothesys}, one of our hypotheses aims to determine whether is possible to semantically relate texts from their most relevant topics (H1.2). In particular, our goal is to determine whether two documents can be related by identifying their most representative topics.
+
+However, as seen in Section \ref{sec:topic-explainability}, interpreting how documents are related from their topic distributions is hard when using density-based measures. The same pair of documents may vary their distance from each other when using topic models with different dimensions to represent them, as shown in figure \ref{fig:topic_distances}. \textit{High dimensional models create more specific topics than models with fewer dimensions}, and this topic specificity influences the way in which topic distributions are related. 
+
+In order to better understand the representivity of topics, in section \ref{sec:topic-relevance} we compare scientific articles from their topic distributions over different parts of texts. Two types of representativity are considered: (i) \textit{internal}, focused on describe the content, and \textit{external}, focused on discover relations.    
+
+In Section \ref{sec:topic-clustering}, once we have identified the behavior of the topics to represent and relate texts from their distributions, we propose a new topic-based annotation based only on the most representative topics and a new distance measure that takes advantage of these representations. The main goal is not only to relate texts through their most relevant topics, but also to facilitate their interpretation. 
+
+
 \section{Topic Relevance}
+\label{sec:topic-relevance}
+
 
 \section{Topic-based Clustering}
+\label{sec:topic-clustering}
+
 
 \section{Summary}
+
+In Section \ref{sec:topic-relevance}, we have analyzed the representativeness of topics to describe texts. In the particular case of scientific articles, it is concluded that the abstracts are not sufficiently representative to describe, by means of topics, the content of a paper. This behavior suggests that texts with greater vocabulary that also emphasize key terms through repetition, favor topic-based representation.
+
+Taking into account the relevance of topics to describe texts, we analyze in Section {\ref{sec:topic-clustering}} the behavior of topic distributions to calculate distances between documents using topic models with different dimensions. By using clustering techniques at the topic level, the most representative topics of a topic distribution are identified regardless of the number of dimensions that the model has. A topic-based representation is then proposed that covers the third research objective of this thesis (R03, \textit{define annotations based on topics that enable a semantic-aware exploration of the knowledge inside a corpus}). 
+
+A new distance metric is also proposed that takes advantage of such representation to compare documents. Its performance is analyzed by automatically clustering the JRC-Acquis corpus according to EUROVOC categories. Tables XX and XY show results with high precision and recall in unsupervised classification tasks. This new way of relating documents from their most representative topics covers the fourth research objective of this thesis (R04, \textit{define a metric based on topic annotations that compares documents and facilitates their interpretation}). 
+
+In order to perform the experiments, both the representation based on the most relevant topics and the distance metric based on these representations have been implemented in \textit{librAIry}. This partially covers the third and fourth technical objectives (T03, \textit{integrate the annotation method base on topic hierarchies into the topic model service}) (T04, \textit{create a system capable of finding similar document automatically}).
