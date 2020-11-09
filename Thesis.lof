@@ -16,6 +16,14 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Sequence of \textit {events} exchanged between modules to create a topic model from the \textit {documents} added to a \textit {domain}.\relax }}{46}{figure.caption.18}% 
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Swagger-based web interface of a probabilistic topic model service created with \textit {librAIry}.\relax }}{48}{figure.caption.19}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces length of summaries\relax }}{59}{figure.caption.22}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces relevance of text parts\relax }}{59}{figure.caption.22}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces number of pairwises by similarity score (rounded up to two decimals)\relax }}{61}{figure.caption.24}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces topics per article with value above 0.5\relax }}{61}{figure.caption.24}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces P at different similarity thresholds\relax }}{62}{figure.caption.25}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces R at different similarity thresholds\relax }}{62}{figure.caption.25}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces f-measure performance\relax }}{63}{figure.caption.26}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces f-measure deviation\relax }}{63}{figure.caption.26}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

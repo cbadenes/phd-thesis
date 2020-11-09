@@ -111,6 +111,13 @@ Christopher D.~Manning, P.~R. and Schütze, H. (2008).
 \newblock {\em Introduction to Information Retrieval}.
 \newblock Cambridge University Press, UK.
 
+\bibitem[Cohan and Goharian, 2015]{Cohan2015}
+Cohan, A. and Goharian, N. (2015).
+\newblock {Scientific Article Summarization Using Citation-Context and
+  Article's Discourse Structure}.
+\newblock In {\em Conference on Empirical Methods in Natural Language
+  Processing}, pages 390--400.
+
 \bibitem[Dagan et~al., 1999]{Dagan1998}
 Dagan, I., Lee, L., and Pereira, F. C.~N. (1999).
 \newblock {Similarity-Based Models of Word Cooccurrence Probabilities}.
@@ -235,6 +242,12 @@ Hearst, M.~a. and Hall, S. (1999).
 Hofmann, T. (2001).
 \newblock {Unsupervised Learning by Probabilistic Latent Semantic Analysis}.
 \newblock {\em Machine Learning}, 42(1-2):177--196.
+
+\bibitem[Hong and Davison, 2010]{Hong2010}
+Hong, L. and Davison, B.~D. (2010).
+\newblock {Empirical study of topic modeling in Twitter}.
+\newblock {\em Proceedings of the First Workshop on Social Media Analytics -
+  SOMA '10}, pages 80--88.
 
 \bibitem[Indyk and Motwani, 1998]{Indyk1998}
 Indyk, P. and Motwani, R. (1998).
@@ -370,6 +383,12 @@ Moritz, M. and Ìˆchler, M.~B. (2017).
 \newblock In {\em Proceedings of the NoDaLiDa 2017 Workshop on Processing
   Historical Language}, pages 18--23.
 
+\bibitem[Nair and Nair, 2014]{Nair2014}
+Nair, P.~R. and Nair, V.~D. (2014).
+\newblock {Organization of a Research Paper: The IMRAD Format}.
+\newblock In {\em Scientific Writing and Communication in Agriculture and
+  Natural Resources}, page 150.
+
 \bibitem[Ni et~al., 2009]{Ni2009}
 Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2009).
 \newblock Mining multilingual topics from wikipedia.
@@ -421,6 +440,13 @@ Rob~Johnson, A.~W. and Mabe, M. (2018).
 \newblock The stm report: An overview of scientific and scholarly journal
   publishing fifth edition.
 
+\bibitem[Ronzano and Saggion, 2015]{Ronzano2015}
+Ronzano, F. and Saggion, H. (2015).
+\newblock {Dr. Inventor Framework: Extracting Structured Information from
+  Scientific Publications}.
+\newblock In {\em Discovery Science: 18th International Conference}, pages
+  209--220.
+
 \bibitem[Rus et~al., 2013]{Rus2013}
 Rus, V., Niraula, N., and Banjade, R. (2013).
 \newblock {Similarity Measures Based on Latent Dirichlet Allocation}.
@@ -431,6 +457,18 @@ Rus, V., Niraula, N., and Banjade, R. (2013).
 Salton, G. (1983).
 \newblock {\em Introduction to Modern Information Retrieval}.
 \newblock McGraw-Hill, Inc., USA.
+
+\bibitem[Sciences and life, 2016]{Sciences2016}
+Sciences, E. R. S. f.~P. and life (2016).
+\newblock {Harnessing the power of content - Extracting value from scientific
+  literature: the power of mining full-text articles for pathway analysis
+  Harnessing the Power of content}.
+
+\bibitem[{Simone Teufel}, 2010]{SimoneTeufel2010}
+{Simone Teufel} (2010).
+\newblock {The Structure of Scientific Articles - Applications to Citation
+  Indexing and Summarization}.
+\newblock In {\em CSLI Studies in Computational Linguistics}.
 
 \bibitem[Tapi~Nzali et~al., 2017]{TapiNzali2017}
 Tapi~Nzali, M.~D., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.
@@ -444,6 +482,13 @@ Terasawa, K. and Tanaka, Y. (2007).
 \newblock {Spherical LSH for Approximate Nearest Neighbor Search on Unit
   Hypersphere}.
 \newblock In {\em Algorithms and Data Structures}, pages 27--38.
+
+\bibitem[Teufel et~al., 2009]{Teufel2009}
+Teufel, S., Siddharthan, A., and Batchelor, C. (2009).
+\newblock {Towards discipline-independent Argumentative Zoning: Evidence from
+  chemistry and computational linguistics}.
+\newblock {\em Conference on Empirical Methods in Natural Language Processing},
+  pages 1493--1502.
 
 \bibitem[Turchi et~al., 2012]{Turchi2012a}
 Turchi, S., Ciofi, L., Paganelli, F., Pirri, F., and Giuli, D. (2012).
