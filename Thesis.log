@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  9 NOV 2020 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  9 NOV 2020 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,67 +884,76 @@ Underfull \vbox (badness 6032) has occurred while \output is active []
 
 ]
 Chapter 5.
-[55] [56] [57] [58]
+[55]
+<explainability/figures/internal-external.png, id=1390, 974.64125pt x 680.5425p
+t>
+File: explainability/figures/internal-external.png Graphic file (type png)
+<use explainability/figures/internal-external.png>
+Package pdftex.def Info: explainability/figures/internal-external.png  used on 
+input line 32.
+(pdftex.def)             Requested size: 233.91867pt x 163.33353pt.
+ [56] [57 <./explainability/figures/internal-external.png>] [58]
 <explainability/figures/size.png, id=1437, 644.4075pt x 397.485pt>
 File: explainability/figures/size.png Graphic file (type png)
 <use explainability/figures/size.png>
-Package pdftex.def Info: explainability/figures/size.png  used on input line 72
+Package pdftex.def Info: explainability/figures/size.png  used on input line 80
 .
 (pdftex.def)             Requested size: 202.15909pt x 124.69896pt.
 <explainability/figures/relativeSize.png, id=1438, 715.67375pt x 441.65pt>
 File: explainability/figures/relativeSize.png Graphic file (type png)
 <use explainability/figures/relativeSize.png>
 Package pdftex.def Info: explainability/figures/relativeSize.png  used on input
- line 76.
+ line 84.
 (pdftex.def)             Requested size: 202.15909pt x 124.75287pt.
- [59 <./explainability/figures/size.png> <./explainability/figures/relativeSize
-.png>]
-Overfull \hbox (12.40553pt too wide) in paragraph at lines 87--97
+ [59]
+Overfull \hbox (12.40553pt too wide) in paragraph at lines 95--105
  [][] 
  []
 
-[60]
-<explainability/figures/similarities.png, id=1468, 590.205pt x 361.35pt>
+[60 <./explainability/figures/size.png> <./explainability/figures/relativeSize.
+png>]
+<explainability/figures/similarities.png, id=1470, 590.205pt x 361.35pt>
 File: explainability/figures/similarities.png Graphic file (type png)
 <use explainability/figures/similarities.png>
 Package pdftex.def Info: explainability/figures/similarities.png  used on input
- line 108.
+ line 116.
 (pdftex.def)             Requested size: 202.15909pt x 123.76714pt.
-<explainability/figures/articlesTopic.png, id=1469, 590.205pt x 361.35pt>
+<explainability/figures/articlesTopic.png, id=1471, 590.205pt x 361.35pt>
 File: explainability/figures/articlesTopic.png Graphic file (type png)
 <use explainability/figures/articlesTopic.png>
 Package pdftex.def Info: explainability/figures/articlesTopic.png  used on inpu
-t line 112.
+t line 120.
 (pdftex.def)             Requested size: 202.15909pt x 123.76714pt.
- [61 <./explainability/figures/similarities.png> <./explainability/figures/arti
-clesTopic.png>]
-<explainability/figures/precision.png, id=1477, 645.41125pt x 396.48125pt>
+ [61]
+<explainability/figures/precision.png, id=1479, 645.41125pt x 396.48125pt>
 File: explainability/figures/precision.png Graphic file (type png)
 <use explainability/figures/precision.png>
 Package pdftex.def Info: explainability/figures/precision.png  used on input li
-ne 121.
+ne 129.
 (pdftex.def)             Requested size: 202.15909pt x 124.18442pt.
-<explainability/figures/recall.png, id=1478, 645.41125pt x 396.48125pt>
+<explainability/figures/recall.png, id=1480, 645.41125pt x 396.48125pt>
 File: explainability/figures/recall.png Graphic file (type png)
 <use explainability/figures/recall.png>
 Package pdftex.def Info: explainability/figures/recall.png  used on input line 
-125.
+133.
 (pdftex.def)             Requested size: 202.15909pt x 124.18442pt.
-<explainability/figures/fmeasure.png, id=1482, 630.355pt x 385.44pt>
+ [62 <./explainability/figures/similarities.png> <./explainability/figures/arti
+clesTopic.png> <./explainability/figures/precision.png> <./explainability/figur
+es/recall.png>]
+<explainability/figures/fmeasure.png, id=1492, 630.355pt x 385.44pt>
 File: explainability/figures/fmeasure.png Graphic file (type png)
 <use explainability/figures/fmeasure.png>
 Package pdftex.def Info: explainability/figures/fmeasure.png  used on input lin
-e 136.
+e 144.
 (pdftex.def)             Requested size: 202.15909pt x 123.61386pt.
-<explainability/figures/stdeviation.png, id=1483, 593.21625pt x 361.35pt>
+<explainability/figures/stdeviation.png, id=1493, 593.21625pt x 361.35pt>
 File: explainability/figures/stdeviation.png Graphic file (type png)
 <use explainability/figures/stdeviation.png>
 Package pdftex.def Info: explainability/figures/stdeviation.png  used on input 
-line 140.
+line 148.
 (pdftex.def)             Requested size: 202.15909pt x 123.14409pt.
- [62 <./explainability/figures/precision.png> <./explainability/figures/recall.
-png>] [63 <./explainability/figures/fmeasure.png> <./explainability/figures/std
-eviation.png>]) [64]
+ [63 <./explainability/figures/fmeasure.png> <./explainability/figures/stdeviat
+ion.png>]) [64]
 \openout2 = `comparisons/comparisons.aux'.
 
  (./comparisons/comparisons.tex
@@ -1013,45 +1022,65 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 352.
 (./conclusions/conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 352.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 352.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3472F69872CC1116A5C485745FEB3C9A;5997.
-Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 9D5031448E060CD8FD45B44F26B4E52F;5980.
 
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: 3472F69872CC1116A5C485745FEB3C9A;5997
+(rerunfilecheck)             After:  BB0F9EBB300852016AD5E05491C642B0;5997.
+
+Package rerunfilecheck Warning: File `Thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `Thesis.brf':
+(rerunfilecheck)             Before: 9D5031448E060CD8FD45B44F26B4E52F;5980
+(rerunfilecheck)             After:  3575CC611BFC60E0EECFAF45D7B65E8D;5986.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 352.
  ) 
 Here is how much of TeX's memory you used:
- 13795 strings out of 492616
- 214184 string characters out of 6129481
+ 13804 strings out of 492616
+ 214461 string characters out of 6129481
  532975 words of memory out of 5000000
- 16969 multiletter control sequences out of 15000+600000
+ 16973 multiletter control sequences out of 15000+600000
  17502 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,12n,79p,2327b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
-></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
-ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
-/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (108 pages, 2110061 bytes).
+pdfTeX warning (dest): name{table.caption.23} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.27} has been referenced but does not exist
+, replaced by a fixed one
+
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Thesis.pdf (108 pages, 2757612 bytes).
 PDF statistics:
- 1854 PDF objects out of 2073 (max. 8388607)
- 1663 compressed objects within 17 object streams
- 381 named destinations out of 1000 (max. 500000)
- 756 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1861 PDF objects out of 2073 (max. 8388607)
+ 1668 compressed objects within 17 object streams
+ 385 named destinations out of 1000 (max. 500000)
+ 761 words of extra memory for PDF output out of 10000 (max. 10000000)
 

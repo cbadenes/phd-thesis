@@ -27,6 +27,14 @@ This section studies the ability of topic distributions to capture the represent
 
 Recent studies \citep{Westergaard2017, Sciences2016} have shown that text mining of full research articles give consistently better results than using only their corresponding abstracts. Given the size limitations and concise nature of abstracts, they often omit descriptions or results that are considered to be less relevant but still are important in certain Information Retrieval (IR) tasks. Thus, when other researchers cite a particular paper, 20\% of the keywords that they mention are not present in the abstract \citep{Divoli2012}.
 
+\begin{figure}[!htbp]
+\centering
+\includegraphics[scale=0.24]{internal-external.png}
+\caption{Internal and External Representativeness. }
+\label{fig:dimensions}
+\end{figure}
+
+
 An analysis about the \textit{representativeness} of research article summaries based on topic distributions is presented, considering those based exclusively on abstracts and those based on their discursive structure (\textit{approach}, \textit{challenge}, \textit{background}, \textit{outcomes} and \textit{future work})\citep{SimoneTeufel2010}. The \textit{representativeness} of a summary with respect to the original full-text is assumed as the degree of relation with the original one (\textit{internal-representativeness}), along with the capacity of mimicking the full text when finding related items (\textit{external-representativeness}). In order to quantify this notions of internal-external representativeness, a probabilistic topic model is trained to have a vectorial representation of each text retrieved from a paper: full content-based and summary-based. The vectorial representations of full-papers is used to measure the distance between them and those derived from abstract or summaries (\textit{internal-representativeness}), and also to find similar documents (\textit{external- representativeness}) based on the distance between their vectorial representations. An upper distance threshold is specified to filter less similar pairs and compose a set of related papers for each paper. Then, a comparison in terms of \textit{precision} and \textit{recall} is performed between sets obtained by only using the vectorial representation of full-papers, against sets produced by using other kind of summaries.
 
 \subsection{Summaries based on Rhetorical Discourse parts}
