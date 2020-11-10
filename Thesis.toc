@@ -57,7 +57,7 @@
 \contentsline {subsubsection}{\numberline {5.2.1.3}Cumulative Ranking-based Clustering}{67}{subsubsection.5.2.1.3}% 
 \contentsline {subsection}{\numberline {5.2.2}Experiments}{68}{subsection.5.2.2}% 
 \contentsline {subsubsection}{\numberline {5.2.2.1}Datasets}{68}{subsubsection.5.2.2.1}% 
-\contentsline {subsubsection}{\numberline {5.2.2.2}Similarity Threshold}{68}{subsubsection.5.2.2.2}% 
+\contentsline {subsubsection}{\numberline {5.2.2.2}Similarity Threshold}{69}{subsubsection.5.2.2.2}% 
 \contentsline {subsubsection}{\numberline {5.2.2.3}Baselines}{69}{subsubsection.5.2.2.3}% 
 \contentsline {subsubsection}{\numberline {5.2.2.4}Measure}{70}{subsubsection.5.2.2.4}% 
 \contentsline {subsubsection}{\numberline {5.2.2.5}Results}{71}{subsubsection.5.2.2.5}% 

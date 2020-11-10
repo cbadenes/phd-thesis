@@ -31,7 +31,7 @@ Recent studies \citep{Westergaard2017, Sciences2016} have shown that text mining
 \centering
 \includegraphics[scale=0.24]{internal-external.png}
 \caption{Internal and External Representativeness. }
-\label{fig:dimensions}
+\label{fig:representativeness}
 \end{figure}
 
 
@@ -163,7 +163,7 @@ A way to explore the knowledge inside document collections is by moving from one
 
 Our work is derived from a real need in the domain of digital libraries, where we targeted the task of finding relations among texts based on similar content inside a corpus containing 7,487 digital books and 97,532 chapters (104,960 documents in total). Since the time consumed in calculating the similarity score between two documents was $t=7.62*10^{-4}$ seconds in a 15x CPU@2.30Ghz and 64GB RAM server, the total time to compute all combinations over the whole corpus went up to around 5 days. Considering that other tasks leveraging the entire collection such as training a Topic Model only required 48 minutes to be executed, calculating the similarity scores between pairs of documents becomes a significant bottleneck when making sense of big collections of documents.
 
-One possible way of finding similarity-based links between pair of documents, is to 1) process the items following different annotation techniques (entities, keywords, etc) that allow machines to programmatically leverage on their content; 2) create a vectorial representation based on those features for each document and 3) compare them following some distance/divergence functions \cite{Kenter2015}.
+One possible way of finding similarity-based links between pair of documents, is to 1) process the items following different annotation techniques (entities, keywords, etc) that allow machines to programmatically leverage on their content; 2) create a vectorial representation based on those features for each document and 3) compare them following some distance/divergence functions \citep{Kenter2015}.
 
 In order to reduce the execution time, some approaches have introduced mechanisms (mainly pre-election methods) to alleviate the problem of making this calculation over the whole set of pairs in the collection. However those methods are still quite costly.
 
@@ -177,9 +177,9 @@ Our algorithms to identify the most relevant topics draw inspiration from other 
 The classification method needs to take advantage of both the vectorial representations of the documents and the similarity measure used to relate them in a corpus. Since the representational model considered is based on Probabilistic Topic Models (and more specifically on LDA), the classification method leverages on the particular behavior of Dirichlet distributions, which describes each document by a density vector where the sum of all the probability values must be equal to 1.0. Thus, analyzing the relations between the topics that compose a topic distribution becomes more important than comparing their probability values with another topic distribution.
 
 Our hypothesis is that, given a collection of topic distributions, an unsupervised classification with high precision and linear computing time can be performed by considering only the topic distribution of each document and without needing to further compare it with other document's distributions.
-% \cite{Towne2016}
+% \citep{Towne2016}
 
-All algorithms have been compared in terms of \textit{cost}, \textit{effectiveness} and \textit{efficiency} \cite{Halkidi2001a}. \textit{Cost} is based on the number of pairwise similarity values. \textit{Effectiveness} handles relevance measures such as \textit{precision} and \textit{recall}. And \textit{efficiency} tries to measure the overall balance between \textit{cost} and \textit{effectiveness}. More details about those measures will be included in Section~\ref{sec:clustering-experiments}.
+All algorithms have been compared in terms of \textit{cost}, \textit{effectiveness} and \textit{efficiency} \citep{Halkidi2001a}. \textit{Cost} is based on the number of pairwise similarity values. \textit{Effectiveness} handles relevance measures such as \textit{precision} and \textit{recall}. And \textit{efficiency} tries to measure the overall balance between \textit{cost} and \textit{effectiveness}. More details about those measures will be included in Section~\ref{sec:clustering-experiments}.
 
 \subsubsection{Trends-based Clustering}
 
@@ -197,13 +197,13 @@ For example, given the distribution $P_1=[0.23, 0.18, 0.33, 0.13, 0.13]$, the as
 
 \subsubsection{Ranking-based Clustering}
 
-We propose a clustering technique named \textit{Ranking on Dirichlet distribution-based Clustering} (RDC) that only considers the top $n$ topics from the ranked list of probability distributions to classify similar topic distributions. It is based on the focal document selection proposed by \cite{Towne2016} to validate LDA-based similarity algorithms against human perception of similarity. RDC is defined as:
+We propose a clustering technique named \textit{Ranking on Dirichlet distribution-based Clustering} (RDC) that only considers the top $n$ topics from the ranked list of probability distributions to classify similar topic distributions. It is based on the focal document selection proposed by \citep{Towne2016} to validate LDA-based similarity algorithms against human perception of similarity. RDC is defined as:
 \begin{equation}
 RDC(P)=R
 \end{equation}
 where  $\forall i \in R, R_i>=R_{i+1}$ and $\forall j \in P, R_1>=P_j$
 
-This is based on the assumption that the highest weighted topics have a high influence in the rest of topics in terms of calculating distances, when comparing continuous multivariate probability distributions. Since similarity measures (Section ~\ref{sec:similarity}) based on probability distributions are oriented to determine the uncertainty of the distribution, when a mixture of probability distributions is considered, as in the case of Topic Models, the top $n$ distributions (i.e. the most relevant topics) should be sufficient to allow us grouping similar distributions. Taking into account the above considerations, the RDC algorithm classifies a topic distribution according to only $n$ highest probability values. For instance, given the following topic distribution: $P_2=[0.23, 0.18, 0.33, 0.13, 0.13]$, the assigned cluster is \textit{3} from RDC-1 because that is the topic with the highest weight.
+This is based on the assumption that the highest weighted topics have a high influence in the rest of topics in terms of calculating distances, when comparing continuous multivariate probability distributions. Since similarity measures (Section ~\ref{sec:related-work}) based on probability distributions are oriented to determine the uncertainty of the distribution, when a mixture of probability distributions is considered, as in the case of Topic Models, the top $n$ distributions (i.e. the most relevant topics) should be sufficient to allow us grouping similar distributions. Taking into account the above considerations, the RDC algorithm classifies a topic distribution according to only $n$ highest probability values. For instance, given the following topic distribution: $P_2=[0.23, 0.18, 0.33, 0.13, 0.13]$, the assigned cluster is \textit{3} from RDC-1 because that is the topic with the highest weight.
 
 \subsubsection{Cumulative Ranking-based Clustering}
 
@@ -223,11 +223,11 @@ In this section we present the experimental setup for evaluating our trends-base
 
 \subsubsection{Datasets}
 \label{sec:clustering-datasets}
-We used two datasets to evaluate the performance of the algorithms. The first dataset, DIRICHLET-RANDOM-MIXTURE (DRM), is synthetic \cite{Badenes-Olmedo2017a}. To generate the dataset, we sampled \textit{k} probabilistic distributions from a \textit{randomly k-dimensional selector} based on Dirichlet distributions. This implies that all probabilities must to sum to 1 for each sampled point. The number of sampled points from this mixture of Dirichlet distributions is $n=1000$.
+We used two datasets to evaluate the performance of the algorithms. The first dataset, DIRICHLET-RANDOM-MIXTURE (DRM), is synthetic \citep{Badenes-Olmedo2017a}. To generate the dataset, we sampled \textit{k} probabilistic distributions from a \textit{randomly k-dimensional selector} based on Dirichlet distributions. This implies that all probabilities must to sum to 1 for each sampled point. The number of sampled points from this mixture of Dirichlet distributions is $n=1000$.
 
-The second dataset has been created from a collection of research papers published in the \textit{Advances in Engineering Software} (AIES) journal. They were retrieved from the Springer API by using the librAIry \cite{Badenes-Olmedo2017} framework and a Topic Model based on LDA was created from them. The sample is also composed by $n=1000$ documents.
+The second dataset has been created from a collection of research papers published in the \textit{Advances in Engineering Software} (AIES) journal. They were retrieved from the Springer API by using the librAIry \citep{Badenes-Olmedo2017} framework and a Topic Model based on LDA was created from them. The sample is also composed by $n=1000$ documents.
 
-Topic models were trained from these datasets by using the criteria described by \cite{Steyvers2006}: $\alpha= 50/k$ , $\beta= 0.01$ and $k=2*(\sqrt{(n/2)})$, where $k$ is the number of topics and $n$ is the number of documents. Since both datasets contain $1000$ documents ($n$), the hyper-parameters $\alpha$ and $\beta$ are assigned as follow: $\alpha=1.136$, and $\beta=0.01$, and the number of topics is fixed to $k=44$. Further tuning of the settings is not crucial in this evaluation process, because we are not focusing on the quality of the model but on the efficiency when calculating similarities from their representational distributions.
+Topic models were trained from these datasets by using the criteria described by \citep{Steyvers2006}: $\alpha= 50/k$ , $\beta= 0.01$ and $k=2*(\sqrt{(n/2)})$, where $k$ is the number of topics and $n$ is the number of documents. Since both datasets contain $1000$ documents ($n$), the hyper-parameters $\alpha$ and $\beta$ are assigned as follow: $\alpha=1.136$, and $\beta=0.01$, and the number of topics is fixed to $k=44$. Further tuning of the settings is not crucial in this evaluation process, because we are not focusing on the quality of the model but on the efficiency when calculating similarities from their representational distributions.
 
 \subsubsection{Similarity Threshold}
 \label{sec:clustering-threshold}
@@ -248,9 +248,9 @@ We compare the performance of TDC, RDC and CRDC algorithms against the following
   \item \textit{Random}, which randomly selects $R$ from the dataset
 \end{itemize}
 
-Initially, \textit{K-Means} \cite{Bahmani2012} randomly composes a set of centroids and assigns each point of the sample to its nearest cluster based on a distance measure. Then, a new set of centroids is calculated from the previous ones according to the assigned points. This process is repeated until the set of centroids does not change significantly between consecutive iterations or a maximum number of iterations is reached. The \textit{scalable K-Means} approach used in our experiments is an improved version of \textit{k-means} which obtains an initial set of centers ideally close to the optimum solution. The algorithm implemented at the Apache Commons Math library \footnote{ http://commons.apache.org/proper/commons-math/} was used in the experiments. Based on empirical results, the best configuration is: $k=number-of-topics=44$ and $maxIterations=50$
+Initially, \textit{K-Means} \citep{Bahmani2012} randomly composes a set of centroids and assigns each point of the sample to its nearest cluster based on a distance measure. Then, a new set of centroids is calculated from the previous ones according to the assigned points. This process is repeated until the set of centroids does not change significantly between consecutive iterations or a maximum number of iterations is reached. The \textit{scalable K-Means} approach used in our experiments is an improved version of \textit{k-means} which obtains an initial set of centers ideally close to the optimum solution. The algorithm implemented at the Apache Commons Math library \footnote{ http://commons.apache.org/proper/commons-math/} was used in the experiments. Based on empirical results, the best configuration is: $k=number-of-topics=44$ and $maxIterations=50$
 
-A widely known density-based algorithm is \textit{DBSCAN} \cite{Ester1996}, which compose clusters from the neighborhood of each point considering at least a minimum number of points and a given radius. Thus, it requires to specify the radius of the point's neighborhood, \textit{Eps}, and the minimum number of points in the neighborhood \textit{MinPts}. Based on empirical results, the best results were obtained with the following configuration: $eps=0.1$ and $minPts=50$
+A widely known density-based algorithm is \textit{DBSCAN} \citep{Ester1996}, which compose clusters from the neighborhood of each point considering at least a minimum number of points and a given radius. Thus, it requires to specify the radius of the point's neighborhood, \textit{Eps}, and the minimum number of points in the neighborhood \textit{MinPts}. Based on empirical results, the best results were obtained with the following configuration: $eps=0.1$ and $minPts=50$
 
 The \textit{Random} algorithm takes as input a parameter \textit{m} and randomly divides the dataset into \textit{m} equal-sized groups of similar documents. For the evaluation, $m$ was set to the number of topics, the dimension of the dataset.
 
@@ -266,7 +266,7 @@ We considered three measures to evaluate our algorithms with respect to the base
 \begin{equation}
 cost=(reqSim - minSim)/(totalSim - minSim)
 \end{equation}
-The \textit{minSim} corresponds to the number of similar documents obtained from using the \textit{threshold} score previously mentioned in section ~\ref{sec:threshold}. The \textit{totalSim} corresponds to the Cartesian product of existing documents: $totalSim=n*n=1,000,000$. And the \textit{reqSim} corresponds to the number of similarities calculated by the algorithm.
+The \textit{minSim} corresponds to the number of similar documents obtained from using the \textit{threshold} score previously mentioned in section ~\ref{sec:clustering-threshold}. The \textit{totalSim} corresponds to the Cartesian product of existing documents: $totalSim=n*n=1,000,000$. And the \textit{reqSim} corresponds to the number of similarities calculated by the algorithm.
   \item \textbf{\textit{effectiveness}}: based on $precision$ and $recall$. It expresses the quality of the algorithm:
 \begin{equation}
  effectiveness = \frac{precision^2  + recall^2}{2}
@@ -279,7 +279,7 @@ The \textit{minSim} corresponds to the number of similar documents obtained from
 
 \subsubsection{Results}
 
-The code used to evaluate the algorithms along with the results obtained are available on GitHub \cite{Badenes-Olmedo2017a}.
+The code used to evaluate the algorithms along with the results obtained are available on GitHub \citep{Badenes-Olmedo2017a}.
 
 \textbf{In terms of \textit{effectiveness}} (Figures ~\ref{fig:effectivenessJS} and ~\ref{fig:effectivenessHe}), the results highlight that \textit{K-Means} and \textit{CRDC} outperform the other algorithms. \textit{K-Means} was expected to be a top performer because the algorithm itself performs comparisons to map clusters. The fact that \textit{CRDC} has such good performance encourages us to think that, in fact, the most relevant topics when they altogether exceed a certain high weight threshold, are those that best represent the document and allow to group together similar documents. However, as shown in tables ~\ref{tab:precisionJS}, ~\ref{tab:precisionHe}, ~\ref{tab:recallJS} and ~\ref{tab:recallHe}, considering a fixed number of more relevant topics (\textit{RDC}) or considering the trend of their weights (\textit{TDC}) does not seem to perform so well on aggregating similar documents, since their \textit{precision} and \textit{recall} values are very low in both cases. It is surprising that the \textit{DBSCAN} has such low value. Taking a look at its \textit{precision} and \textit{recall} values, and also seeing the number of groups that each algorithm has created (Figure ~\ref{fig:clusters}), we believe that having a corpus containing a very cohesive set of documents (all papers in corpus belong to the same journal) affects the performance of this algorithm since it divides the corpus into a lower number of groups. This way, it obtains high values of \textit{recall} because most of the pair-wise distances are computed, but very low \textit{precision}.
 
@@ -410,7 +410,7 @@ Finally, \textbf{in terms of \textit{efficiency}} (Figures ~\ref{fig:efficiencyJ
   \label{fig:efficiencyHe}
 \end{figure}
 
-We have also created a synthetic dataset, DRM (Section ~\ref{sec:datasets}), composed of 1000 Dirichlet distributions with the same dimensions than topics in AIES: $k=44$. Unlike AIES, topic distributions have been randomly generated which imply that the similarity values are not so high: $min=0.06$, $mean=0.18$ and $max=0.61$. Following the same criteria than before (Section ~\ref{sec:threshold}), the similarity threshold is now fixed to 0.34 (Figure ~\ref{fig:similaritiesDRM}). Results \textbf{in terms of \textit{effectiveness}} (Figure ~\ref{fig:effectivenessDRMJS}) show a poor performance of the RDC and CRDC algorithms. The reason is that both are based on the fact that the highest weighted topics are shared between similar distributions. However, this condition is not satisfied when the similarity value between them is low.
+We have also created a synthetic dataset, DRM (Section ~\ref{sec:clustering-datasets}), composed of 1000 Dirichlet distributions with the same dimensions than topics in AIES: $k=44$. Unlike AIES, topic distributions have been randomly generated which imply that the similarity values are not so high: $min=0.06$, $mean=0.18$ and $max=0.61$. Following the same criteria than before (Section ~\ref{sec:clustering-threshold}), the similarity threshold is now fixed to 0.34 (Figure ~\ref{fig:similaritiesDRM}). Results \textbf{in terms of \textit{effectiveness}} (Figure ~\ref{fig:effectivenessDRMJS}) show a poor performance of the RDC and CRDC algorithms. The reason is that both are based on the fact that the highest weighted topics are shared between similar distributions. However, this condition is not satisfied when the similarity value between them is low.
 
 
 \begin{figure}
@@ -426,7 +426,7 @@ We have also created a synthetic dataset, DRM (Section ~\ref{sec:datasets}), com
 \end{figure}
 
 
-To confirm this behavior, we created a third dataset (DRM2) with the same size but with only 4 dimensions (4 topics). The goal is to achieve more similar distributions than in DRM even though they are also randomly generated. Since the similarity values range from $min=0.04$, $mean=0.34$ to $max=0.99$, the similarity threshold is now fixed to 0.66 (more details in section ~\ref{sec:threshold}). The results (Figure ~\ref{fig:effectivenessDRM2JS}) show an improvement in the accuracy of both the RDC and CRDC algorithms. Although scores are still not as high as for the AIES dataset, the increase compared to the DRM dataset shows that their \textit{precision} and \textit{recall} improve when the similarity threshold is higher. On the other hand, both the DBSCAN and TDC algorithms show similar behavior in both datasets, which means that their performance is not affected by the similarity threshold.
+To confirm this behavior, we created a third dataset (DRM2) with the same size but with only 4 dimensions (4 topics). The goal is to achieve more similar distributions than in DRM even though they are also randomly generated. Since the similarity values range from $min=0.04$, $mean=0.34$ to $max=0.99$, the similarity threshold is now fixed to 0.66 (more details in section ~\ref{sec:clustering-threshold}). The results (Figure ~\ref{fig:effectivenessDRM2JS}) show an improvement in the accuracy of both the RDC and CRDC algorithms. Although scores are still not as high as for the AIES dataset, the increase compared to the DRM dataset shows that their \textit{precision} and \textit{recall} improve when the similarity threshold is higher. On the other hand, both the DBSCAN and TDC algorithms show similar behavior in both datasets, which means that their performance is not affected by the similarity threshold.
 
 \begin{figure}
   \includegraphics[scale=0.27]{effectivenessDRM2JS.png}

@@ -17,11 +17,6 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-Repeated entry---line 1532 of file bibliography/references.bib
- : @article{Towne2016
- :                   ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Halkidi2001a"
 Warning--empty publisher in Andoni2014
 Warning--there's a number but no volume in Boyd-Graber2010
 Warning--empty journal in Ester1996
@@ -32,45 +27,45 @@ Warning--empty publisher in Rus2013
 Warning--empty journal in Sciences2016
 Warning--empty publisher in SimoneTeufel2010
 Warning--empty publisher in Terasawa2007
-You've used 95 entries,
+You've used 96 entries,
             1935 wiz_defined-function locations,
-            1094 strings with 23697 characters,
-and the built_in function-call counts, 44669 in all, are:
-= -- 4550
-> -- 1733
+            1101 strings with 23858 characters,
+and the built_in function-call counts, 45155 in all, are:
+= -- 4601
+> -- 1751
 < -- 86
-+ -- 588
-- -- 580
-* -- 3443
-:= -- 7147
-add.period$ -- 301
-call.type$ -- 95
-change.case$ -- 760
-chr.to.int$ -- 89
-cite$ -- 105
-duplicate$ -- 2025
-empty$ -- 3160
-format.name$ -- 733
-if$ -- 9344
++ -- 594
+- -- 586
+* -- 3491
+:= -- 7227
+add.period$ -- 304
+call.type$ -- 96
+change.case$ -- 768
+chr.to.int$ -- 90
+cite$ -- 106
+duplicate$ -- 2040
+empty$ -- 3196
+format.name$ -- 740
+if$ -- 9438
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 97
-newline$ -- 474
-num.names$ -- 287
-pop$ -- 852
+missing$ -- 98
+newline$ -- 479
+num.names$ -- 290
+pop$ -- 858
 preamble$ -- 1
-purify$ -- 763
+purify$ -- 771
 quote$ -- 0
-skip$ -- 1608
+skip$ -- 1617
 stack$ -- 0
-substring$ -- 2997
-swap$ -- 603
+substring$ -- 3050
+swap$ -- 604
 text.length$ -- 51
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 564
+type$ -- 570
 warning$ -- 10
-while$ -- 359
+while$ -- 365
 width$ -- 0
-write$ -- 1257
-(There was 1 error message)
+write$ -- 1270
+(There were 10 warnings)

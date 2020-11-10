@@ -221,6 +221,11 @@ Griffiths, T.~L., Steyvers, M., and Tenenbaum, J.~B. (2007).
 \newblock {Topics in semantic representation}.
 \newblock {\em Psychological Review}, 114(2):211--244.
 
+\bibitem[Halkidi et~al., 2001]{Halkidi2001a}
+Halkidi, M., Batistakis, Y., and Vazirgiannis, M. (2001).
+\newblock {On clustering validation techniques}.
+\newblock {\em Journal of Intelligent Information Systems}, 17(2-3):107--145.
+
 \bibitem[Hall et~al., 2008]{Hall2008}
 Hall, D., Jurafsky, D., and Manning, C.~D. (2008).
 \newblock {\em {Studying the History of Ideas Using Topic Models}}.
@@ -515,7 +520,8 @@ Teufel, S., Siddharthan, A., and Batchelor, C. (2009).
 \bibitem[Towne et~al., 2016]{Towne2016}
 Towne, W.~B., Ros\'{e}, C.~P., and Herbsleb, J.~D. (2016).
 \newblock Measuring similarity similarly: Lda and human perception.
-\newblock {\em ACM Transactions on Intelligent Systems and Technology}, 8(1).
+\newblock {\em ACM Transactions on Intelligent Systems and Technology},
+  8(1):1--25.
 
 \bibitem[Turchi et~al., 2012]{Turchi2012a}
 Turchi, S., Ciofi, L., Paganelli, F., Pirri, F., and Giuli, D. (2012).

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  9 NOV 2020 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  10 NOV 2020 05:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -574,13 +574,9 @@ Package chngcntr Info: \counterwithout already defined.
 (./Thesis.aux (./intro/dedication.aux) (./intro/acknowledgement.aux)
 (./intro/abstract.aux) (./intro/acronyms.aux) (./intro/intro.aux)
 (./soa/soa.aux) (./hypothesis/hypothesis.aux) (./scalability/scalability.aux)
-(./explainability/explainability.aux
-
-LaTeX Warning: Label `fig:dimensions' multiply defined.
-
-) (./comparisons/comparisons.aux) (./multilinguality/multilinguality.aux)
-(./evaluation/evaluation.aux) (./experiments/experiments.aux)
-(./conclusions/conclusions.aux))
+(./explainability/explainability.aux) (./comparisons/comparisons.aux)
+(./multilinguality/multilinguality.aux) (./evaluation/evaluation.aux)
+(./experiments/experiments.aux) (./conclusions/conclusions.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 198.
@@ -961,152 +957,102 @@ Package pdftex.def Info: explainability/figures/stdeviation.png  used on input
 line 148.
 (pdftex.def)             Requested size: 202.15909pt x 123.14409pt.
  [63 <./explainability/figures/fmeasure.png> <./explainability/figures/stdeviat
-ion.png>] [64]
-
-Package natbib Warning: Citation `Halkidi2001a' on page 65 undefined on input l
-ine 182.
-
-[65]
-
-Package natbib Warning: Citation `Towne2016' on page 66 undefined on input line
- 200.
-
-[66]
-
-LaTeX Warning: Reference `sec:similarity' on page 67 undefined on input line 20
-6.
-
-[67]
-
-Package natbib Warning: Citation `Badenes-Olmedo2017a' on page 68 undefined on 
-input line 226.
-
-
-Package natbib Warning: Citation `Steyvers2006' on page 68 undefined on input l
-ine 230.
-
-[68]
-<explainability/figures/similarity-threshold.png, id=1622, 735.74875pt x 450.68
+ion.png>] [64] [65] [66] [67] [68]
+<explainability/figures/similarity-threshold.png, id=1635, 735.74875pt x 450.68
 375pt>
 File: explainability/figures/similarity-threshold.png Graphic file (type png)
 <use explainability/figures/similarity-threshold.png>
 Package pdftex.def Info: explainability/figures/similarity-threshold.png  used 
 on input line 237.
 (pdftex.def)             Requested size: 242.79784pt x 148.72609pt.
-
-
-Package natbib Warning: Citation `Bahmani2012' on page 69 undefined on input li
-ne 251.
-
-[69 <./explainability/figures/similarity-threshold.png>]
-
-Package natbib Warning: Citation `Ester1996' on page 70 undefined on input line
- 253.
-
-
-LaTeX Warning: Reference `sec:threshold' on page 70 undefined on input line 269
-.
-
-[70]
-
-Package natbib Warning: Citation `Badenes-Olmedo2017a' on page 71 undefined on 
-input line 282.
-
-<explainability/figures/effectivenessJS.png, id=1645, 906.38625pt x 559.08875pt
+ [69 <./explainability/figures/similarity-threshold.png>] [70] [71]
+<explainability/figures/effectivenessJS.png, id=1673, 906.38625pt x 559.08875pt
 >
 File: explainability/figures/effectivenessJS.png Graphic file (type png)
 <use explainability/figures/effectivenessJS.png>
 Package pdftex.def Info: explainability/figures/effectivenessJS.png  used on in
 put line 289.
 (pdftex.def)             Requested size: 244.72755pt x 150.95598pt.
-<explainability/figures/effectivenessHe.png, id=1646, 916.42375pt x 555.07375pt
+<explainability/figures/effectivenessHe.png, id=1674, 916.42375pt x 555.07375pt
 >
 File: explainability/figures/effectivenessHe.png Graphic file (type png)
 <use explainability/figures/effectivenessHe.png>
 Package pdftex.def Info: explainability/figures/effectivenessHe.png  used on in
 put line 295.
 (pdftex.def)             Requested size: 247.43771pt x 149.8719pt.
-<explainability/figures/clusters.png, id=1647, 861.2175pt x 531.9875pt>
+<explainability/figures/clusters.png, id=1675, 861.2175pt x 531.9875pt>
 File: explainability/figures/clusters.png Graphic file (type png)
 <use explainability/figures/clusters.png>
 Package pdftex.def Info: explainability/figures/clusters.png  used on input lin
 e 301.
 (pdftex.def)             Requested size: 232.53183pt x 143.63853pt.
-[71] [72 <./explainability/figures/effectivenessJS.png> <./explainability/figur
-es/effectivenessHe.png> <./explainability/figures/clusters.png>] [73]
-<explainability/figures/costJS.png, id=1668, 857.2025pt x 522.95375pt>
+ [72 <./explainability/figures/effectivenessJS.png> <./explainability/figures/e
+ffectivenessHe.png>]
+
+LaTeX Warning: Text page 73 contains only floats.
+
+[73 <./explainability/figures/clusters.png>]
+<explainability/figures/costJS.png, id=1690, 857.2025pt x 522.95375pt>
 File: explainability/figures/costJS.png Graphic file (type png)
 <use explainability/figures/costJS.png>
 Package pdftex.def Info: explainability/figures/costJS.png  used on input line 
 389.
 (pdftex.def)             Requested size: 231.44777pt x 141.19939pt.
-<explainability/figures/costHe.png, id=1669, 849.1725pt x 526.96875pt>
+<explainability/figures/costHe.png, id=1691, 849.1725pt x 526.96875pt>
 File: explainability/figures/costHe.png Graphic file (type png)
 <use explainability/figures/costHe.png>
 Package pdftex.def Info: explainability/figures/costHe.png  used on input line 
 394.
 (pdftex.def)             Requested size: 229.27963pt x 142.28346pt.
- [74]
-[75 <./explainability/figures/costJS.png> <./explainability/figures/costHe.png>
-]
-<explainability/figures/efficiencyJS.png, id=1683, 856.19875pt x 526.96875pt>
+ [74] [75 <./explainability/figures/costJS.png> <./explainability/figures/costH
+e.png>]
+<explainability/figures/efficiencyJS.png, id=1705, 856.19875pt x 526.96875pt>
 File: explainability/figures/efficiencyJS.png Graphic file (type png)
 <use explainability/figures/efficiencyJS.png>
 Package pdftex.def Info: explainability/figures/efficiencyJS.png  used on input
  line 402.
 (pdftex.def)             Requested size: 231.17674pt x 142.28346pt.
-<explainability/figures/efficiencyHe.png, id=1684, 855.195pt x 530.98375pt>
+<explainability/figures/efficiencyHe.png, id=1706, 855.195pt x 530.98375pt>
 File: explainability/figures/efficiencyHe.png Graphic file (type png)
 <use explainability/figures/efficiencyHe.png>
 Package pdftex.def Info: explainability/figures/efficiencyHe.png  used on input
  line 408.
 (pdftex.def)             Requested size: 230.90573pt x 143.36752pt.
-
-
-LaTeX Warning: Reference `sec:datasets' on page 76 undefined on input line 413.
-
-
-
-LaTeX Warning: Reference `sec:threshold' on page 76 undefined on input line 413
-.
-
-<explainability/figures/similaritiesDRM.png, id=1687, 744.7825pt x 449.68pt>
+ [76 <./explainability/figures/efficiencyJS.png> <./explainability/figures/effi
+ciencyHe.png>]
+<explainability/figures/similaritiesDRM.png, id=1717, 744.7825pt x 449.68pt>
 File: explainability/figures/similaritiesDRM.png Graphic file (type png)
 <use explainability/figures/similaritiesDRM.png>
 Package pdftex.def Info: explainability/figures/similaritiesDRM.png  used on in
 put line 417.
 (pdftex.def)             Requested size: 223.43648pt x 134.90503pt.
-<explainability/figures/effectivenessDRMJS.png, id=1688, 902.37125pt x 545.0362
+<explainability/figures/effectivenessDRMJS.png, id=1718, 902.37125pt x 545.0362
 5pt>
 File: explainability/figures/effectivenessDRMJS.png Graphic file (type png)
 <use explainability/figures/effectivenessDRMJS.png>
 Package pdftex.def Info: explainability/figures/effectivenessDRMJS.png  used on
  input line 423.
 (pdftex.def)             Requested size: 243.6435pt x 147.16176pt.
-
-LaTeX Warning: Reference `sec:threshold' on page 76 undefined on input line 429
-.
-
-[76 <./explainability/figures/efficiencyJS.png> <./explainability/figures/effic
-iencyHe.png>] [77 <./explainability/figures/similaritiesDRM.png> <./explainabil
-ity/figures/effectivenessDRMJS.png>]
-<explainability/figures/effectivenessDRM2JS.png, id=1702, 893.3375pt x 555.0737
+<explainability/figures/effectivenessDRM2JS.png, id=1721, 893.3375pt x 555.0737
 5pt>
 File: explainability/figures/effectivenessDRM2JS.png Graphic file (type png)
 <use explainability/figures/effectivenessDRM2JS.png>
 Package pdftex.def Info: explainability/figures/effectivenessDRM2JS.png  used o
 n input line 432.
 (pdftex.def)             Requested size: 241.20435pt x 149.8719pt.
- [78 <./explainability/figures/effectivenessDRM2JS.png>] [79]) [80]
+ [77 <./explainability/figures/similaritiesDRM.png> <./explainability/figures/e
+ffectivenessDRMJS.png>] [78 <./explainability/figures/effectivenessDRM2JS.png>]
+) [79]
 \openout2 = `comparisons/comparisons.aux'.
 
- (./comparisons/comparisons.tex
-Chapter 6.
-) [81
+
+(./comparisons/comparisons.tex [80
 
 
 
 ]
+Chapter 6.
+) [81]
 \openout2 = `multilinguality/multilinguality.aux'.
 
  (./multilinguality/multilinguality.tex [82
@@ -1152,43 +1098,34 @@ Chapter 10.
 ] [93] [94] [95] [96] [97] [98] [99]
 [100]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 498.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 531.
  [101])
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-[102]
+ [102]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
- (./Thesis.aux (./intro/dedication.aux) (./intro/acknowledgement.aux)
-(./intro/abstract.aux) (./intro/acronyms.aux) (./intro/intro.aux)
-(./soa/soa.aux) (./hypothesis/hypothesis.aux) (./scalability/scalability.aux)
-(./explainability/explainability.aux) (./comparisons/comparisons.aux)
-(./multilinguality/multilinguality.aux) (./evaluation/evaluation.aux)
-(./experiments/experiments.aux) (./conclusions/conclusions.aux))
+ (./Thesis.aux (./intro/dedication.aux)
+(./intro/acknowledgement.aux) (./intro/abstract.aux) (./intro/acronyms.aux)
+(./intro/intro.aux) (./soa/soa.aux) (./hypothesis/hypothesis.aux)
+(./scalability/scalability.aux) (./explainability/explainability.aux)
+(./comparisons/comparisons.aux) (./multilinguality/multilinguality.aux)
+(./evaluation/evaluation.aux) (./experiments/experiments.aux)
+(./conclusions/conclusions.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AD7E4ABA7D40F28F9977C63A5386A897;6950.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: E18783442FFB6691EA8D34FE0527DF00;6154.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: 2A33A173C50C8EAB59D04D5B86909FE4;6595.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
  ) 
 Here is how much of TeX's memory you used:
- 13942 strings out of 492616
- 217987 string characters out of 6129481
- 544048 words of memory out of 5000000
- 17054 multiletter control sequences out of 15000+600000
+ 13982 strings out of 492616
+ 218716 string characters out of 6129481
+ 541048 words of memory out of 5000000
+ 17088 multiletter control sequences out of 15000+600000
  17502 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,79p,2327b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,12n,79p,2327b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -1206,10 +1143,10 @@ ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (124 pages, 4067935 bytes).
+Output written on Thesis.pdf (124 pages, 4070044 bytes).
 PDF statistics:
- 2084 PDF objects out of 2487 (max. 8388607)
- 1851 compressed objects within 19 object streams
- 431 named destinations out of 1000 (max. 500000)
+ 2119 PDF objects out of 2487 (max. 8388607)
+ 1886 compressed objects within 19 object streams
+ 437 named destinations out of 1000 (max. 500000)
  904 words of extra memory for PDF output out of 10000 (max. 10000000)
 
