@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  10 NOV 2020 05:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  10 NOV 2020 07:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -574,9 +574,13 @@ Package chngcntr Info: \counterwithout already defined.
 (./Thesis.aux (./intro/dedication.aux) (./intro/acknowledgement.aux)
 (./intro/abstract.aux) (./intro/acronyms.aux) (./intro/intro.aux)
 (./soa/soa.aux) (./hypothesis/hypothesis.aux) (./scalability/scalability.aux)
-(./explainability/explainability.aux) (./comparisons/comparisons.aux)
-(./multilinguality/multilinguality.aux) (./evaluation/evaluation.aux)
-(./experiments/experiments.aux) (./conclusions/conclusions.aux))
+(./explainability/explainability.aux
+
+LaTeX Warning: Label `fig:similarityThreshold' multiply defined.
+
+) (./comparisons/comparisons.aux) (./multilinguality/multilinguality.aux)
+(./evaluation/evaluation.aux) (./experiments/experiments.aux)
+(./conclusions/conclusions.aux))
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 198.
@@ -714,19 +718,20 @@ Package pdftex.def Info: intro/figures/escudofi.pdf  used on input line 221.
 \tf@lof=\write6
 \openout6 = `Thesis.lof'.
 
- [18] (./Thesis.lot)
+ [18] [19] [20
+
+]
+(./Thesis.lot)
 \tf@lot=\write7
 \openout7 = `Thesis.lot'.
 
-[19
-
-]
+ [21]
 \openout2 = `intro/acronyms.aux'.
 
- (./intro/acronyms.tex [20
+ (./intro/acronyms.tex [22
 
 
-]) [21] [22
+]) [23] [24
 
 
 ]
@@ -755,22 +760,22 @@ Chapter 2.
 
 
 ] [10] [11] [12] [13] [14] [15]
-<soa/figures/KL_100_2k.png, id=936, 1233.60875pt x 738.76pt>
+<soa/figures/KL_100_2k.png, id=950, 1233.60875pt x 738.76pt>
 File: soa/figures/KL_100_2k.png Graphic file (type png)
 <use soa/figures/KL_100_2k.png>
 Package pdftex.def Info: soa/figures/KL_100_2k.png  used on input line 126.
 (pdftex.def)             Requested size: 206.28247pt x 123.52466pt.
-<soa/figures/JSD_100_2k.png, id=938, 1239.63126pt x 732.7375pt>
+<soa/figures/JSD_100_2k.png, id=952, 1239.63126pt x 732.7375pt>
 File: soa/figures/JSD_100_2k.png Graphic file (type png)
 <use soa/figures/JSD_100_2k.png>
 Package pdftex.def Info: soa/figures/JSD_100_2k.png  used on input line 131.
 (pdftex.def)             Requested size: 206.28247pt x 121.9251pt.
-<soa/figures/He_100_2k.png, id=939, 1243.64626pt x 747.79375pt>
+<soa/figures/He_100_2k.png, id=953, 1243.64626pt x 747.79375pt>
 File: soa/figures/He_100_2k.png Graphic file (type png)
 <use soa/figures/He_100_2k.png>
 Package pdftex.def Info: soa/figures/He_100_2k.png  used on input line 136.
 (pdftex.def)             Requested size: 206.28247pt x 124.03104pt.
-<soa/figures/S2JSD_100_2k.png, id=940, 1242.6425pt x 732.7375pt>
+<soa/figures/S2JSD_100_2k.png, id=954, 1242.6425pt x 732.7375pt>
 File: soa/figures/S2JSD_100_2k.png Graphic file (type png)
 <use soa/figures/S2JSD_100_2k.png>
 Package pdftex.def Info: soa/figures/S2JSD_100_2k.png  used on input line 141.
@@ -791,7 +796,7 @@ gures/He_100_2k.png> <./soa/figures/S2JSD_100_2k.png>] [18] [19] [20]) [21]
 ]
 Chapter 3.
 [23] [24] [25] [26] [27] [28] [29] [30]
-<hypothesis/figures/dimensions.png, id=1158, 1654.18pt x 982.67125pt>
+<hypothesis/figures/dimensions.png, id=1173, 1654.18pt x 982.67125pt>
 File: hypothesis/figures/dimensions.png Graphic file (type png)
 <use hypothesis/figures/dimensions.png>
 Package pdftex.def Info: hypothesis/figures/dimensions.png  used on input line 
@@ -807,20 +812,20 @@ Chapter 4.
 
 
 ]
-<scalability/figures/life-cycle.png, id=1222, 1901.1025pt x 428.60126pt>
+<scalability/figures/life-cycle.png, id=1236, 1901.1025pt x 428.60126pt>
 File: scalability/figures/life-cycle.png Graphic file (type png)
 <use scalability/figures/life-cycle.png>
 Package pdftex.def Info: scalability/figures/life-cycle.png  used on input line
  25.
 (pdftex.def)             Requested size: 399.2433pt x 90.00891pt.
  [36 <./scalability/figures/life-cycle.png>]
-<scalability/figures/model.png, id=1233, 677.8926pt x 428.3202pt>
+<scalability/figures/model.png, id=1247, 677.8926pt x 428.3202pt>
 File: scalability/figures/model.png Graphic file (type png)
 <use scalability/figures/model.png>
 Package pdftex.def Info: scalability/figures/model.png  used on input line 52.
 (pdftex.def)             Requested size: 372.84209pt x 235.57683pt.
  [37]
-<scalability/figures/model-domain.png, id=1249, 623.4492pt x 128.6406pt>
+<scalability/figures/model-domain.png, id=1264, 623.4492pt x 128.6406pt>
 File: scalability/figures/model-domain.png Graphic file (type png)
 <use scalability/figures/model-domain.png>
 Package pdftex.def Info: scalability/figures/model-domain.png  used on input li
@@ -828,27 +833,27 @@ ne 76.
 (pdftex.def)             Requested size: 280.54955pt x 57.88773pt.
  [38 <./scalability/figures/model.png>] [39 <./scalability/figures/model-domain
 .png>]
-<scalability/figures/model-document.png, id=1279, 647.0574pt x 185.493pt>
+<scalability/figures/model-document.png, id=1294, 647.0574pt x 185.493pt>
 File: scalability/figures/model-document.png Graphic file (type png)
 <use scalability/figures/model-document.png>
 Package pdftex.def Info: scalability/figures/model-document.png  used on input 
 line 108.
 (pdftex.def)             Requested size: 291.17314pt x 83.47107pt.
  [40 <./scalability/figures/model-document.png>]
-<scalability/figures/model-annotation.png, id=1290, 1029.6066pt x 350.2686pt>
+<scalability/figures/model-annotation.png, id=1304, 1029.6066pt x 350.2686pt>
 File: scalability/figures/model-annotation.png Graphic file (type png)
 <use scalability/figures/model-annotation.png>
 Package pdftex.def Info: scalability/figures/model-annotation.png  used on inpu
 t line 139.
 (pdftex.def)             Requested size: 411.83534pt x 140.10495pt.
  [41] [42 <./scalability/figures/model-annotation.png>]
-<scalability/figures/resource-states.png, id=1304, 1031.052pt x 190.311pt>
+<scalability/figures/resource-states.png, id=1318, 1031.052pt x 190.311pt>
 File: scalability/figures/resource-states.png Graphic file (type png)
 <use scalability/figures/resource-states.png>
 Package pdftex.def Info: scalability/figures/resource-states.png  used on input
  line 163.
 (pdftex.def)             Requested size: 309.318pt x 57.09373pt.
-<scalability/figures/modules.png, id=1307, 509.7444pt x 375.3222pt>
+<scalability/figures/modules.png, id=1321, 509.7444pt x 375.3222pt>
 File: scalability/figures/modules.png Graphic file (type png)
 <use scalability/figures/modules.png>
 Package pdftex.def Info: scalability/figures/modules.png  used on input line 17
@@ -856,14 +861,14 @@ Package pdftex.def Info: scalability/figures/modules.png  used on input line 17
 (pdftex.def)             Requested size: 229.38286pt x 168.89343pt.
  [43 <./scalability/figures/resource-states.png>] [44 <./scalability/figures/mo
 dules.png>]
-<scalability/figures/librairy-sequence.png, id=1353, 735.2268pt x 518.8986pt>
+<scalability/figures/librairy-sequence.png, id=1368, 735.2268pt x 518.8986pt>
 File: scalability/figures/librairy-sequence.png Graphic file (type png)
 <use scalability/figures/librairy-sequence.png>
 Package pdftex.def Info: scalability/figures/librairy-sequence.png  used on inp
 ut line 210.
 (pdftex.def)             Requested size: 330.849pt x 233.5022pt.
  [45] [46 <./scalability/figures/librairy-sequence.png>]
-<scalability/figures/topic-model-swagger.png, id=1378, 874.26625pt x 970.62625p
+<scalability/figures/topic-model-swagger.png, id=1392, 874.26625pt x 970.62625p
 t>
 File: scalability/figures/topic-model-swagger.png Graphic file (type png)
 <use scalability/figures/topic-model-swagger.png>
@@ -885,168 +890,206 @@ Underfull \vbox (badness 6032) has occurred while \output is active []
 ]
 Chapter 5.
 [55]
-<explainability/figures/internal-external.png, id=1480, 974.64125pt x 680.5425p
+<explainability/figures/internal-external.png, id=1496, 974.64125pt x 680.5425p
 t>
 File: explainability/figures/internal-external.png Graphic file (type png)
 <use explainability/figures/internal-external.png>
 Package pdftex.def Info: explainability/figures/internal-external.png  used on 
 input line 32.
 (pdftex.def)             Requested size: 233.91867pt x 163.33353pt.
- [56] [57 <./explainability/figures/internal-external.png>] [58]
-<explainability/figures/size.png, id=1528, 644.4075pt x 397.485pt>
+ [56] [57 <./explainability/figures/internal-external.png>]
+<explainability/figures/similarity-experiment.png, id=1526, 950.55125pt x 639.3
+8875pt>
+File: explainability/figures/similarity-experiment.png Graphic file (type png)
+<use explainability/figures/similarity-experiment.png>
+Package pdftex.def Info: explainability/figures/similarity-experiment.png  used
+ on input line 48.
+(pdftex.def)             Requested size: 380.21376pt x 255.75096pt.
+ [58 <./explainability/figures/similarity-experiment.png>] [59]
+<explainability/figures/size.png, id=1553, 644.4075pt x 397.485pt>
 File: explainability/figures/size.png Graphic file (type png)
 <use explainability/figures/size.png>
-Package pdftex.def Info: explainability/figures/size.png  used on input line 80
+Package pdftex.def Info: explainability/figures/size.png  used on input line 91
 .
 (pdftex.def)             Requested size: 202.15909pt x 124.69896pt.
-<explainability/figures/relativeSize.png, id=1529, 715.67375pt x 441.65pt>
+<explainability/figures/relativeSize.png, id=1554, 715.67375pt x 441.65pt>
 File: explainability/figures/relativeSize.png Graphic file (type png)
 <use explainability/figures/relativeSize.png>
 Package pdftex.def Info: explainability/figures/relativeSize.png  used on input
- line 84.
+ line 95.
 (pdftex.def)             Requested size: 202.15909pt x 124.75287pt.
- [59]
-Overfull \hbox (12.40553pt too wide) in paragraph at lines 95--105
+ [60 <./explainability/figures/size.png> <./explainability/figures/relativeSize
+.png>]
+Overfull \hbox (12.40553pt too wide) in paragraph at lines 106--116
  [][] 
  []
 
-
-Underfull \vbox (badness 1205) has occurred while \output is active []
-
- [60 <./explainability/figures/size.png> <./explainability/figures/relativeSize
-.png>]
-<explainability/figures/similarities.png, id=1560, 590.205pt x 361.35pt>
+[61]
+<explainability/figures/similarities.png, id=1585, 590.205pt x 361.35pt>
 File: explainability/figures/similarities.png Graphic file (type png)
 <use explainability/figures/similarities.png>
 Package pdftex.def Info: explainability/figures/similarities.png  used on input
- line 116.
+ line 127.
 (pdftex.def)             Requested size: 202.15909pt x 123.76714pt.
-<explainability/figures/articlesTopic.png, id=1561, 590.205pt x 361.35pt>
+<explainability/figures/articlesTopic.png, id=1586, 590.205pt x 361.35pt>
 File: explainability/figures/articlesTopic.png Graphic file (type png)
 <use explainability/figures/articlesTopic.png>
 Package pdftex.def Info: explainability/figures/articlesTopic.png  used on inpu
-t line 120.
+t line 131.
 (pdftex.def)             Requested size: 202.15909pt x 123.76714pt.
-
-[61]
-<explainability/figures/precision.png, id=1567, 645.41125pt x 396.48125pt>
+<explainability/figures/precision.png, id=1588, 645.41125pt x 396.48125pt>
 File: explainability/figures/precision.png Graphic file (type png)
 <use explainability/figures/precision.png>
 Package pdftex.def Info: explainability/figures/precision.png  used on input li
-ne 129.
+ne 140.
 (pdftex.def)             Requested size: 202.15909pt x 124.18442pt.
-<explainability/figures/recall.png, id=1568, 645.41125pt x 396.48125pt>
+<explainability/figures/recall.png, id=1589, 645.41125pt x 396.48125pt>
 File: explainability/figures/recall.png Graphic file (type png)
 <use explainability/figures/recall.png>
 Package pdftex.def Info: explainability/figures/recall.png  used on input line 
-133.
+144.
 (pdftex.def)             Requested size: 202.15909pt x 124.18442pt.
  [62 <./explainability/figures/similarities.png> <./explainability/figures/arti
-clesTopic.png> <./explainability/figures/precision.png> <./explainability/figur
-es/recall.png>]
-<explainability/figures/fmeasure.png, id=1580, 630.355pt x 385.44pt>
+clesTopic.png>]
+<explainability/figures/fmeasure.png, id=1599, 630.355pt x 385.44pt>
 File: explainability/figures/fmeasure.png Graphic file (type png)
 <use explainability/figures/fmeasure.png>
 Package pdftex.def Info: explainability/figures/fmeasure.png  used on input lin
-e 144.
+e 155.
 (pdftex.def)             Requested size: 202.15909pt x 123.61386pt.
-<explainability/figures/stdeviation.png, id=1581, 593.21625pt x 361.35pt>
+<explainability/figures/stdeviation.png, id=1600, 593.21625pt x 361.35pt>
 File: explainability/figures/stdeviation.png Graphic file (type png)
 <use explainability/figures/stdeviation.png>
 Package pdftex.def Info: explainability/figures/stdeviation.png  used on input 
-line 148.
+line 159.
 (pdftex.def)             Requested size: 202.15909pt x 123.14409pt.
- [63 <./explainability/figures/fmeasure.png> <./explainability/figures/stdeviat
-ion.png>] [64] [65] [66] [67] [68]
-<explainability/figures/similarity-threshold.png, id=1635, 735.74875pt x 450.68
+ [63 <./explainability/figures/precision.png> <./explainability/figures/recall.
+png> <./explainability/figures/fmeasure.png> <./explainability/figures/stdeviat
+ion.png>] [64]
+<explainability/figures/lda-cluster.png, id=1616, 1005.7575pt x 365.365pt>
+File: explainability/figures/lda-cluster.png Graphic file (type png)
+<use explainability/figures/lda-cluster.png>
+Package pdftex.def Info: explainability/figures/lda-cluster.png  used on input 
+line 181.
+(pdftex.def)             Requested size: 432.4673pt x 157.10388pt.
+
+Overfull \hbox (19.90234pt too wide) in paragraph at lines 181--182
+ [][] 
+ []
+
+[65 <./explainability/figures/lda-cluster.png>] [66]
+<explainability/figures/tdc-cluster.png, id=1632, 933.98938pt x 231.36438pt>
+File: explainability/figures/tdc-cluster.png Graphic file (type png)
+<use explainability/figures/tdc-cluster.png>
+Package pdftex.def Info: explainability/figures/tdc-cluster.png  used on input 
+line 215.
+(pdftex.def)             Requested size: 308.21745pt x 76.35046pt.
+<explainability/figures/rdc-cluster.png, id=1636, 981.6675pt x 229.35687pt>
+File: explainability/figures/rdc-cluster.png Graphic file (type png)
+<use explainability/figures/rdc-cluster.png>
+Package pdftex.def Info: explainability/figures/rdc-cluster.png  used on input 
+line 233.
+(pdftex.def)             Requested size: 323.95128pt x 75.68799pt.
+ [67 <./explainability/figures/tdc-cluster.png>]
+<explainability/figures/crdc-cluster.png, id=1645, 869.2475pt x 324.21124pt>
+File: explainability/figures/crdc-cluster.png Graphic file (type png)
+<use explainability/figures/crdc-cluster.png>
+Package pdftex.def Info: explainability/figures/crdc-cluster.png  used on input
+ line 252.
+(pdftex.def)             Requested size: 286.85255pt x 106.99004pt.
+ [68 <./explainability/figures/rdc-cluster.png>]
+Underfull \vbox (badness 1939) has occurred while \output is active []
+
+ [69 <./explainability/figures/crdc-cluster.png>]
+<explainability/figures/similarity-threshold.png, id=1666, 735.74875pt x 450.68
 375pt>
 File: explainability/figures/similarity-threshold.png Graphic file (type png)
 <use explainability/figures/similarity-threshold.png>
 Package pdftex.def Info: explainability/figures/similarity-threshold.png  used 
-on input line 237.
+on input line 276.
 (pdftex.def)             Requested size: 242.79784pt x 148.72609pt.
- [69 <./explainability/figures/similarity-threshold.png>] [70] [71]
-<explainability/figures/effectivenessJS.png, id=1673, 906.38625pt x 559.08875pt
+ [70 <./explainability/figures/similarity-threshold.png>] [71] [72]
+<explainability/figures/effectivenessJS.png, id=1703, 906.38625pt x 559.08875pt
 >
 File: explainability/figures/effectivenessJS.png Graphic file (type png)
 <use explainability/figures/effectivenessJS.png>
 Package pdftex.def Info: explainability/figures/effectivenessJS.png  used on in
-put line 289.
-(pdftex.def)             Requested size: 244.72755pt x 150.95598pt.
-<explainability/figures/effectivenessHe.png, id=1674, 916.42375pt x 555.07375pt
+put line 329.
+(pdftex.def)             Requested size: 202.15909pt x 124.69757pt.
+<explainability/figures/effectivenessHe.png, id=1704, 916.42375pt x 555.07375pt
 >
 File: explainability/figures/effectivenessHe.png Graphic file (type png)
 <use explainability/figures/effectivenessHe.png>
 Package pdftex.def Info: explainability/figures/effectivenessHe.png  used on in
-put line 295.
-(pdftex.def)             Requested size: 247.43771pt x 149.8719pt.
-<explainability/figures/clusters.png, id=1675, 861.2175pt x 531.9875pt>
+put line 333.
+(pdftex.def)             Requested size: 202.15909pt x 122.44691pt.
+<explainability/figures/clusters.png, id=1705, 861.2175pt x 531.9875pt>
 File: explainability/figures/clusters.png Graphic file (type png)
 <use explainability/figures/clusters.png>
 Package pdftex.def Info: explainability/figures/clusters.png  used on input lin
-e 301.
-(pdftex.def)             Requested size: 232.53183pt x 143.63853pt.
- [72 <./explainability/figures/effectivenessJS.png> <./explainability/figures/e
-ffectivenessHe.png>]
+e 340.
+(pdftex.def)             Requested size: 430.6077pt x 265.9931pt.
 
-LaTeX Warning: Text page 73 contains only floats.
+Overfull \hbox (18.04274pt too wide) in paragraph at lines 340--341
+ [] 
+ []
 
-[73 <./explainability/figures/clusters.png>]
-<explainability/figures/costJS.png, id=1690, 857.2025pt x 522.95375pt>
+[73 <./explainability/figures/effectivenessJS.png> <./explainability/figures/ef
+fectivenessHe.png>] [74 <./explainability/figures/clusters.png>]
+<explainability/figures/costJS.png, id=1721, 857.2025pt x 522.95375pt>
 File: explainability/figures/costJS.png Graphic file (type png)
 <use explainability/figures/costJS.png>
 Package pdftex.def Info: explainability/figures/costJS.png  used on input line 
-389.
-(pdftex.def)             Requested size: 231.44777pt x 141.19939pt.
-<explainability/figures/costHe.png, id=1691, 849.1725pt x 526.96875pt>
+429.
+(pdftex.def)             Requested size: 202.15909pt x 123.33302pt.
+<explainability/figures/costHe.png, id=1722, 849.1725pt x 526.96875pt>
 File: explainability/figures/costHe.png Graphic file (type png)
 <use explainability/figures/costHe.png>
 Package pdftex.def Info: explainability/figures/costHe.png  used on input line 
-394.
-(pdftex.def)             Requested size: 229.27963pt x 142.28346pt.
- [74] [75 <./explainability/figures/costJS.png> <./explainability/figures/costH
-e.png>]
-<explainability/figures/efficiencyJS.png, id=1705, 856.19875pt x 526.96875pt>
+433.
+(pdftex.def)             Requested size: 202.15909pt x 125.45389pt.
+ [75]
+<explainability/figures/efficiencyJS.png, id=1729, 856.19875pt x 526.96875pt>
 File: explainability/figures/efficiencyJS.png Graphic file (type png)
 <use explainability/figures/efficiencyJS.png>
 Package pdftex.def Info: explainability/figures/efficiencyJS.png  used on input
- line 402.
-(pdftex.def)             Requested size: 231.17674pt x 142.28346pt.
-<explainability/figures/efficiencyHe.png, id=1706, 855.195pt x 530.98375pt>
+ line 443.
+(pdftex.def)             Requested size: 202.15909pt x 124.42465pt.
+<explainability/figures/efficiencyHe.png, id=1730, 855.195pt x 530.98375pt>
 File: explainability/figures/efficiencyHe.png Graphic file (type png)
 <use explainability/figures/efficiencyHe.png>
 Package pdftex.def Info: explainability/figures/efficiencyHe.png  used on input
- line 408.
-(pdftex.def)             Requested size: 230.90573pt x 143.36752pt.
- [76 <./explainability/figures/efficiencyJS.png> <./explainability/figures/effi
-ciencyHe.png>]
-<explainability/figures/similaritiesDRM.png, id=1717, 744.7825pt x 449.68pt>
+ line 447.
+(pdftex.def)             Requested size: 202.15909pt x 125.51848pt.
+<explainability/figures/similaritiesDRM.png, id=1735, 744.7825pt x 449.68pt>
 File: explainability/figures/similaritiesDRM.png Graphic file (type png)
 <use explainability/figures/similaritiesDRM.png>
 Package pdftex.def Info: explainability/figures/similaritiesDRM.png  used on in
-put line 417.
-(pdftex.def)             Requested size: 223.43648pt x 134.90503pt.
-<explainability/figures/effectivenessDRMJS.png, id=1718, 902.37125pt x 545.0362
+put line 457.
+(pdftex.def)             Requested size: 372.39034pt x 224.83945pt.
+<explainability/figures/effectivenessDRMJS.png, id=1736, 902.37125pt x 545.0362
 5pt>
 File: explainability/figures/effectivenessDRMJS.png Graphic file (type png)
 <use explainability/figures/effectivenessDRMJS.png>
 Package pdftex.def Info: explainability/figures/effectivenessDRMJS.png  used on
- input line 423.
-(pdftex.def)             Requested size: 243.6435pt x 147.16176pt.
-<explainability/figures/effectivenessDRM2JS.png, id=1721, 893.3375pt x 555.0737
+ input line 464.
+(pdftex.def)             Requested size: 202.15909pt x 122.10391pt.
+<explainability/figures/effectivenessDRM2JS.png, id=1737, 893.3375pt x 555.0737
 5pt>
 File: explainability/figures/effectivenessDRM2JS.png Graphic file (type png)
 <use explainability/figures/effectivenessDRM2JS.png>
 Package pdftex.def Info: explainability/figures/effectivenessDRM2JS.png  used o
-n input line 432.
-(pdftex.def)             Requested size: 241.20435pt x 149.8719pt.
- [77 <./explainability/figures/similaritiesDRM.png> <./explainability/figures/e
-ffectivenessDRMJS.png>] [78 <./explainability/figures/effectivenessDRM2JS.png>]
-) [79]
+n input line 468.
+(pdftex.def)             Requested size: 202.15909pt x 125.60612pt.
+ [76 <./explainability/figures/costJS.png> <./explainability/figures/costHe.png
+> <./explainability/figures/efficiencyJS.png> <./explainability/figures/efficie
+ncyHe.png>] [77 <./explainability/figures/similaritiesDRM.png> <./explainabilit
+y/figures/effectivenessDRMJS.png> <./explainability/figures/effectivenessDRM2JS
+.png>]
+[78]) [79]
 \openout2 = `comparisons/comparisons.aux'.
 
-
-(./comparisons/comparisons.tex [80
+ (./comparisons/comparisons.tex [80
 
 
 
@@ -1113,16 +1156,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AD7E4ABA7D40F28F9977C63A5386A897;6950.
+(rerunfilecheck)             Checksum: ECFD84CBECF4E1052A0C53D4917A082A;6932.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 2A33A173C50C8EAB59D04D5B86909FE4;6595.
+(rerunfilecheck)             Checksum: 1DCEBB03B7BA2912CFDA786BACBCAC59;6497.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
  ) 
 Here is how much of TeX's memory you used:
- 13982 strings out of 492616
- 218716 string characters out of 6129481
+ 14014 strings out of 492616
+ 219816 string characters out of 6129481
  541048 words of memory out of 5000000
- 17088 multiletter control sequences out of 15000+600000
+ 17112 multiletter control sequences out of 15000+600000
  17502 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,12n,79p,2327b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1143,10 +1190,10 @@ ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
 19/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (124 pages, 4070044 bytes).
+Output written on Thesis.pdf (126 pages, 4670747 bytes).
 PDF statistics:
- 2119 PDF objects out of 2487 (max. 8388607)
- 1886 compressed objects within 19 object streams
- 437 named destinations out of 1000 (max. 500000)
- 904 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2144 PDF objects out of 2487 (max. 8388607)
+ 1899 compressed objects within 19 object streams
+ 440 named destinations out of 1000 (max. 500000)
+ 929 words of extra memory for PDF output out of 10000 (max. 10000000)
 

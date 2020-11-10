@@ -17,25 +17,30 @@
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Swagger-based web interface of a probabilistic topic model service created with \textit {librAIry}.\relax }}{48}{figure.caption.19}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Internal and External Representativeness. \relax }}{57}{figure.caption.22}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces length of summaries\relax }}{60}{figure.caption.23}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces relevance of text parts\relax }}{60}{figure.caption.23}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces number of pairwises by similarity score (rounded up to two decimals)\relax }}{62}{figure.caption.25}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces topics per article with value above 0.5\relax }}{62}{figure.caption.25}% 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces P at different similarity thresholds\relax }}{62}{figure.caption.26}% 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces R at different similarity thresholds\relax }}{62}{figure.caption.26}% 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces f-measure performance\relax }}{63}{figure.caption.27}% 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces f-measure deviation\relax }}{63}{figure.caption.27}% 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Similarity values grouped by frequency in AIES\relax }}{69}{figure.caption.28}% 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Effectiveness (JS-based) in AIES\relax }}{72}{figure.caption.29}% 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Effectiveness (He-based) in AIES\relax }}{72}{figure.caption.30}% 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Clusters in AIES\relax }}{73}{figure.caption.31}% 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Cost (JS-based) in AIES\relax }}{75}{figure.caption.36}% 
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Cost (He-based) in AIES\relax }}{75}{figure.caption.37}% 
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Efficiency (JS-based) in AIES\relax }}{76}{figure.caption.38}% 
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Efficiency (He-based) in AIES\relax }}{76}{figure.caption.39}% 
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Similarity values grouped by frequency in DRM\relax }}{77}{figure.caption.40}% 
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Effectiveness (JS based) in DRM\relax }}{77}{figure.caption.41}% 
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Effectiveness (JS based) in DRM2\relax }}{78}{figure.caption.42}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Experiment to analyze the ability of topic-based representations to create relations from summaries \textit {vs} full-texts. \relax }}{58}{figure.caption.23}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces length of summaries\relax }}{60}{figure.caption.24}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces length of text parts\relax }}{60}{figure.caption.24}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces number of pairwises by similarity score (rounded up to two decimals)\relax }}{62}{figure.caption.26}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces topics per article with value above 0.5\relax }}{62}{figure.caption.26}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Precision at different similarity thresholds\relax }}{63}{figure.caption.27}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Recall at different similarity thresholds\relax }}{63}{figure.caption.27}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces f-measure performance\relax }}{63}{figure.caption.28}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces f-measure deviation\relax }}{63}{figure.caption.28}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Probabilistic Topic Models and in particular, on Latent Dirichlet Allocation (LDA) can efficiently divide the search space and speed up the process of finding relations among documents inside big collections.\relax }}{65}{figure.caption.29}% 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces TDC considers variations across consecutive topics inside a document\IeC {\textquoteright }s topic distribution.\relax }}{67}{figure.caption.30}% 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces RDC only considers the top n topics from the ranked list of probability distributions.\relax }}{68}{figure.caption.31}% 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces CRDC only considers the top n topics until the sum of the weights of the highest topics exceeded a given threshold.\relax }}{69}{figure.caption.32}% 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Similarity values grouped by frequency in AIES\relax }}{70}{figure.caption.33}% 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Effectiveness (JS-based) in AIES\relax }}{73}{figure.caption.34}% 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Effectiveness (He-based) in AIES\relax }}{73}{figure.caption.34}% 
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Clusters in AIES\relax }}{74}{figure.caption.35}% 
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Cost (JS-based) in AIES\relax }}{76}{figure.caption.40}% 
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Cost (He-based) in AIES\relax }}{76}{figure.caption.40}% 
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Efficiency (JS-based) in AIES\relax }}{76}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Efficiency (He-based) in AIES\relax }}{76}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Similarity values grouped by frequency in DRM\relax }}{77}{figure.caption.42}% 
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Effectiveness (JS based) in DRM\relax }}{77}{figure.caption.43}% 
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Effectiveness (JS based) in DRM2\relax }}{77}{figure.caption.43}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
