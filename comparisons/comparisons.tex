@@ -11,6 +11,8 @@
 % -- Comparisons
 % -------------------------------------------------------------
 
+As we showed in Section \ref{sec:topic-clustering}, topic groupings based on cumulative ranking are useful mechanisms for simplifying representations based on topic distributions. Relevant topics are those whose accumulated weight exceeds a threshold, starting with those who have more, and have shown a promising performance to cluster documents ( Section \ref{sec:clustering-results}). This suggests that \textit{similar documents share the most relevant topics}. However, this definition has two main limitations: it depends on the manual tuning of a parameter, the threshold; and it does not measure degrees of similarity, it only establishes whether or not two documents are similar. As shown in Chapter {ch:hypothesis}, we hypothesize that is possible to find relevant documents with similar topic distributions without calculating all pairwise comparisons and without discarding the notion of topics from their representation. 
+
 \section{Document Similarity}
 
 \section{Hashing Topic Distributions}

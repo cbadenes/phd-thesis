@@ -245,7 +245,7 @@ CRDC(P)=C
 where  $\forall i \in C, C_i >=C_{i+1}$ and $\sum\limits_{i=1}^T C_i >= w$ with $T$ size of $C$, and $w$ a cumulative weight threshold.
 
 
-For instance, considering a CRDC algorithm considering a cumulative weight threshold of 0.9, and the following topic distribution: $P_3=[0.36, 0.58, 0.05, 0.01]$. The assigned cluster will be \textit{21}. To come up with this cluster, a ranked list of topics based on their weights is first calculated, $R_p=2|1|3|4$. Then, a sum of weights according to the order described by $R_p$ is performed. When the accumulated sum is greater than the threshold, the topics taking part of the sum will be selected to ``label'' the cluster. In this case, the cumulative weight threshold is 0.9 therefore using only the first two topics we exceed the threshold: $w=0.58+0.36=0.94$
+For instance, considering a CRDC algorithm with a cumulative weight threshold of 0.9, and the following topic distribution: $P_3=[0.36, 0.58, 0.05, 0.01]$. The assigned cluster will be \textit{21}. To come up with this cluster, a ranked list of topics based on their weights is first calculated, $R_p=2|1|3|4$. Then, a sum of weights according to the order described by $R_p$ is performed. When the accumulated sum is greater than the threshold, the topics taking part of the sum will be selected to ``label'' the cluster. In this case, the cumulative weight threshold is 0.9 therefore using only the first two topics we exceed the threshold: $w=0.58+0.36=0.94$
 
 \begin{figure}
   \centering
@@ -317,6 +317,7 @@ The \textit{minSim} corresponds to the number of similar documents obtained from
 \end{itemize}
 
 \subsubsection{Results}
+\label{sec:clustering-results}
 
 The code used to evaluate the algorithms along with the results obtained are publicy available\citep{Badenes-Olmedo2017a}.
 
