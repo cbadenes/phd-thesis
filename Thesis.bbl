@@ -6,6 +6,13 @@ Agerri, R., Bermudez, J., and Rigau, G. (2014).
 \newblock In {\em Proceedings of the 9th Language Resources and Evaluation
   Conference (LREC)}, pages 26--31, Reykjavik, Iceland.
 
+\bibitem[Aletras et~al., 2017]{Aletras2017}
+Aletras, N., Baldwin, T., Lau, J.~H., and Stevenson, M. (2017).
+\newblock {Evaluating topic representations for exploring document
+  collections}.
+\newblock {\em Journal of the Association for Information Science and
+  Technology}, 68(1):154--167.
+
 \bibitem[Andoni and Indyk, 2006]{Andoni2006}
 Andoni, A. and Indyk, P. (2006).
 \newblock {Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in
@@ -62,6 +69,10 @@ Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2017c).
 Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2017d).
 \newblock {librAIry/eval-similarity-calculation}.
 
+\bibitem[Badenes-Olmedo et~al., 2019c]{Badenes-Olmedo2019a}
+Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2019c).
+\newblock {Large-scale Topic-based Search Java Algorithm}.
+
 \bibitem[Bahmani et~al., 2012]{Bahmani2012}
 Bahmani, B., Moseley, B., Vattani, A., Kumar, R., and Vassilvitskii, S. (2012).
 \newblock {Scalable K-Means ++}.
@@ -102,6 +113,13 @@ Celikyilmaz, a., Hakkani-Tur, D., and Tur, G. (2010).
 \newblock {LDA Based Similarity Modeling for Question Answering}.
 \newblock In {\em Proceedings of the NAACL HLT 2010 Workshop on Semantic
   Search}, pages 1--9.
+
+\bibitem[Cha, 2007]{Cha2007}
+Cha, S.-H. (2007).
+\newblock {Comprehensive Survey on Distance/Similarity Measures between
+  Probability Density Functions}.
+\newblock {\em International Journal of Mathematical Models and Methods in
+  Applied Sciences}, 1(4):1--8.
 
 \bibitem[Charikar, 2002]{Charikar2002}
 Charikar, M.~S. (2002).
@@ -216,6 +234,12 @@ Greene, D. and Cross, J.~P. (2016).
   dynamic topic modeling approach}.
 \newblock {\em Political Analysis}, 25(1):77--94.
 
+\bibitem[Griffiths and Steyvers, 2004]{Griffiths2004b}
+Griffiths, T.~L. and Steyvers, M. (2004).
+\newblock {Finding scientific topics.}
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 101 Suppl:5228--35.
+
 \bibitem[Griffiths et~al., 2007]{Griffiths2007}
 Griffiths, T.~L., Steyvers, M., and Tenenbaum, J.~B. (2007).
 \newblock {Topics in semantic representation}.
@@ -268,6 +292,12 @@ Hong, L. and Davison, B.~D. (2010).
 \newblock {Empirical study of topic modeling in Twitter}.
 \newblock {\em Proceedings of the First Workshop on Social Media Analytics -
   SOMA '10}, pages 80--88.
+
+\bibitem[Huang et~al., 2018]{Huang2018}
+Huang, L.~K., Yang, Q., and Zheng, W.~S. (2018).
+\newblock {Online Hashing}.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  29(6):2309--2322.
 
 \bibitem[Indyk and Motwani, 1998]{Indyk1998}
 Indyk, P. and Motwani, R. (1998).
@@ -372,6 +402,10 @@ Mao, X., Feng, B.-S., Hao, Y.-J., Nie, L., Huang, H., and Wen, G. (2017).
 \newblock {S2JSD-LSH: A Locality-Sensitive Hashing Schema for Probability
   Distributions}.
 \newblock In {\em AAAI}.
+
+\bibitem[McCallum, 2002]{McCallum2002}
+McCallum, A. (2002).
+\newblock {MALLET: A Machine Learning for Language Toolkit}.
 
 \bibitem[Mikolov et~al., 2013]{Mikolov2013c}
 Mikolov, T., Sutskever, I., Chen, K., Corrado, G., and Dean, J. (2013).
@@ -554,6 +588,14 @@ Vuli{\'{c}}, I. and Moens, M.-F. (2013).
 \newblock {A Unified Framework for Monolingual and Cross-Lingual Relevance
   Modeling Based on Probabilistic Topic Models}.
 \newblock In {\em Advances in Information Retrieval}, pages 98--109.
+
+\bibitem[Waleed et~al., 2018]{Waleed2018}
+Waleed, A., Dirk, G., Chandra, B., Iz, B., Miles, C., Doug, D., Jason, D.,
+  Ahmed, E., Sergey, F., Vu, H., Rodney, K., Sebastian, K., Kyle, L., Tyler,
+  M., Hsu-Han, O., Matthew, P., Joanna, P., Sam, S., Lucy, Lu, W., Chris, W.,
+  Zheng, Y., Madeleine, v.~Z., and Oren, E. (2018).
+\newblock {Construction of the Literature Graph in Semantic Scholar}.
+\newblock In {\em NAACL}.
 
 \bibitem[Wang et~al., 2016]{Wang2016}
 Wang, J., Liu, W., Kumar, S., and Chang, S.-F. (2016).
