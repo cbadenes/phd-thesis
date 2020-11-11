@@ -11,10 +11,16 @@
 % -- Comparisons
 % -------------------------------------------------------------
 
-As we showed in Section \ref{sec:topic-clustering}, topic groupings based on cumulative ranking are useful mechanisms for simplifying representations based on topic distributions. Relevant topics are those whose accumulated weight exceeds a threshold, starting with those who have more, and have shown a promising performance to cluster documents ( Section \ref{sec:clustering-results}). This suggests that \textit{similar documents share the most relevant topics}. However, this definition has two main limitations: it depends on the manual tuning of a parameter, the threshold; and it does not measure degrees of similarity, it only establishes whether or not two documents are similar. As shown in Chapter {ch:hypothesis}, we hypothesize that is possible to find relevant documents with similar topic distributions without calculating all pairwise comparisons and without discarding the notion of topics from their representation. 
+As we showed in Section \ref{sec:topic-clustering}, topic groupings based on cumulative ranking are useful mechanisms for simplifying representations based on topic distributions. Relevant topics are those whose accumulated weight exceeds a threshold, after ordering them and starting from the top, and have shown a promising performance to cluster documents ( Section \ref{sec:clustering-results}). This suggests that \textit{similar documents share the most relevant topics}. However, this definition has two main limitations: it depends on the manual tuning of a parameter, the threshold; and it does not measure degrees of similarity since it only establishes whether or not two documents are similar. As shown in Chapter {ch:hypothesis}, we hypothesize that is possible to find relevant documents with similar topic distributions without calculating all pairwise comparisons and without discarding the notion of topics from their representation. In this chapter we introduce levels of relevance between topics and present our approach to compare documents through hierarchical representations of their topic distributions.
 
 \section{Document Similarity}
 
 \section{Hashing Topic Distributions}
 
 \section{Summary}
+
+In this chapter we have introduced our approach to represent topic distributions through  hierarchies of relevant topics. In doing so, we have showed a way to annotate in levels the inferences that topic models make about texts. This addresses the technical objective of this thesis T03 (\textit{integrate the annotation method based on topic hierarchies into the topic model service}).
+
+We have also proposed a method to compare and organize huge document collections based on similar topic-based annotations, thus addressing the research objective R05 (\textit{define nearest-neighbor techniques to organize documents in regions with similar topic hierarchies}).
+
+In addition, we have implemented the technique to compare documents in our librAIry framework, encouraging the achievement of the T04 technical objective (create a system capable of finding similar documents automatically).
