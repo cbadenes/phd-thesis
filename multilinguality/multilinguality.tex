@@ -19,8 +19,27 @@
 % - Yang et al., 2019. A Multilingual Topic Model for Learning Weighted Topic Links Across Corpora with Low Comparability.
 
 
+As stated in Chapter \ref{ch:hypothesis}, the last of our hypotheses aims to determine whether documents in different languages can be related without having to translate them, by using language agnostic concepts from their main topics (H1.4). In particular, our goal is to find abstractions that capture the content of documents, independently from the language used, in order to draw relations between them. For example, one way of achieving abstraction is by creating multilingual topics from comparable or parallel corpora and relating documents from their topic distributions. A parallel corpora contains sentence-aligned documents (e.g. Europarl\footnote{https://ec.europa.eu/jrc/en/language-technologies/dcep} corpora), and a comparable corpora contains theme-aligned documents e.g. Wikipedia\footnote{https://www.wikipedia.org/} articles). Other types of abstractions may be obtained using multiwhat is lingual dictionaries to translate documents in a common language from which they can be related, as shown in Section \ref{sec:multi-topic-alignment}. 
+
+However, approaches based on aligned corpora or document translations require prior knowledge. Connections at document-level (by parallel or comparable corpora) or at word-level (by dictionaries) are necessary to create a topic model that represents documents in a common, language-independent space. In this way, the pre-established language relations condition the creation of the topics (supervised method), instead of being inferred from the topics themselves as a posteriori knowledge (non-supervised method). We propose a completely unsupervised way of building cross-lingual topic models that uses sets of cognitive synonyms (synsets) to establish relations between language-specific topics once the model is created and does not require parallel or comparable data for training. These models can be used for large-scale multi-lingual document classification and information retrieval tasks.
+
+In Section \ref{sec:synset-space}, we define the language independent conceptual abstractions for topic models. They are based on a multilingual knowledge base where nouns, verbs, adjectives and adverbs are grouped into sets of synsets, each expressing a distinct concept. Topics are no longer described by words, but by concepts.
+
+In Section \ref{sec:crosslingual-models} and \ref{sec:crosslingual-evaluation}, we create cross-lingual models from synset-based representations of topics and analyze relations between documents described with these models. The analyses were performed from different perspectives. One analysis consists of cross-lingual document classification, while the other one performs cross-lingual information retrieval.
+
 \section{Synset-based Representational Space}
+\label{sec:synset-space}
 
 \section{Cross-lingual Models}
+\label{sec:crosslingual-models}
+
+\section{Evaluation}
+\label{sec:crosslingual-evaluation}
 
 \section{Summary}
+\label{sec:crosslingual-summary}
+
+In this chapter we have described documents based on topic models that create a unique space of representation between different languages. Topics are created independently for each language, and are projected on concepts instead of words. On concept-based representations, documents in different languages coexist together and can be related. This addresses the last research objective of this thesis (R06, \textit{define a transformation of the topic-based annotations to create a unique representational space out of the particularities from each language}). Representations are analyzed in classification and information retrieval tasks on multilingual document collections. As expected, the performance in terms of accuracy is not as good as that of the approach based on prior knowledge (i.e. topics previously aligned by documents annotated with categories). However, in terms of coverage, the performance of the unsupervised approach is much greater than that offered by the semi-supervised approach, to the point of offering better overall performance (i.e f1) in classification tasks. 
+In addition, the algorithm has proved to perform close to the semi-supervised algorithm in information retrieval task, which makes us think that the process of topic annotation by set of synonyms should be improved to filter those elements that are not sufficiently representative. 
+
+In order to perform the evaluations, the new representation system was implemented in our libAIry framework. This extension, together with those described in chapters \ref{ch:explainability} and \ref{ch:comparisons}, cover the last technical objective of this thesis (T04, \textit{create a system capable of finding similar documents automatically}). 
