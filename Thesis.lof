@@ -53,6 +53,8 @@
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Precision at 5 (\textit {mean}) of density-based hashing method when number of topics varies in CORDIS dataset.\relax }}{99}{figure.caption.63}% 
 \contentsline {figure}{\numberline {6.10}{\ignorespaces Most relevant topics in similar documents from using a document as query (Q1) and setting topic t10 as mandatory (Q2).\relax }}{100}{figure.caption.65}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Cross-lingual hash-expression (H) of a document based on WordNet-synset annotations created from the top words of each topic distribution. The most relevant topics are grouped according to their importance in three levels (h0, h1 and h2)\relax }}{105}{figure.caption.66}% 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces topic distributions from the same document in English ($h_{EN}=\{(t3062),(t335),(t8278)\}$) and Spanish ($h_{ES}=\{(t335),(t4060),(t5769)\}$).\relax }}{106}{figure.caption.67}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

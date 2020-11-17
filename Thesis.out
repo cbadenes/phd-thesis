@@ -78,24 +78,29 @@
 \BOOKMARK [1][-]{section.6.3}{6.3 Summary}{chapter.6}% 78
 \BOOKMARK [0][-]{chapter.7}{7 Cross-lingual Document Similarity}{}% 79
 \BOOKMARK [1][-]{section.7.1}{7.1 Synset-based Representational Space}{chapter.7}% 80
-\BOOKMARK [1][-]{section.7.2}{7.2 Cross-lingual Models}{chapter.7}% 81
-\BOOKMARK [1][-]{section.7.3}{7.3 Summary}{chapter.7}% 82
-\BOOKMARK [0][-]{chapter.8}{8 Evaluation}{}% 83
-\BOOKMARK [1][-]{section.8.1}{8.1 Evaluation Metrics}{chapter.8}% 84
-\BOOKMARK [1][-]{section.8.2}{8.2 Text Representativeness}{chapter.8}% 85
-\BOOKMARK [1][-]{section.8.3}{8.3 Large-scale Text Processing}{chapter.8}% 86
-\BOOKMARK [1][-]{section.8.4}{8.4 Topic-based Clustering}{chapter.8}% 87
-\BOOKMARK [1][-]{section.8.5}{8.5 Cross-lingual Similarity}{chapter.8}% 88
-\BOOKMARK [1][-]{section.8.6}{8.6 Conclusions}{chapter.8}% 89
-\BOOKMARK [0][-]{chapter.9}{9 Experiments}{}% 90
-\BOOKMARK [1][-]{section.9.1}{9.1 Polypharmacy and Drug-drug Interactions}{chapter.9}% 91
-\BOOKMARK [1][-]{section.9.2}{9.2 Corpus Viewer}{chapter.9}% 92
-\BOOKMARK [1][-]{section.9.3}{9.3 ODS Classifier}{chapter.9}% 93
-\BOOKMARK [1][-]{section.9.4}{9.4 Drugs4Covid}{chapter.9}% 94
-\BOOKMARK [0][-]{chapter.10}{10 Conclusions}{}% 95
-\BOOKMARK [1][-]{section.10.1}{10.1 Assumptions and Restrictions}{chapter.10}% 96
-\BOOKMARK [1][-]{section.10.2}{10.2 Contributions}{chapter.10}% 97
-\BOOKMARK [1][-]{section.10.3}{10.3 Impact}{chapter.10}% 98
-\BOOKMARK [1][-]{section.10.4}{10.4 Limitations}{chapter.10}% 99
-\BOOKMARK [1][-]{section.10.5}{10.5 Future Work}{chapter.10}% 100
-\BOOKMARK [0][-]{chapter*.66}{Bibliography}{}% 101
+\BOOKMARK [2][-]{subsection.7.1.1}{7.1.1 Document representation}{section.7.1}% 81
+\BOOKMARK [2][-]{subsection.7.1.2}{7.1.2 Similarity metric}{section.7.1}% 82
+\BOOKMARK [1][-]{section.7.2}{7.2 Cross-lingual Models}{chapter.7}% 83
+\BOOKMARK [1][-]{section.7.3}{7.3 Evaluation}{chapter.7}% 84
+\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 Cross-lingual Document Classification}{section.7.3}% 85
+\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 Cross-lingual Information Retrieval}{section.7.3}% 86
+\BOOKMARK [1][-]{section.7.4}{7.4 Summary}{chapter.7}% 87
+\BOOKMARK [0][-]{chapter.8}{8 Evaluation}{}% 88
+\BOOKMARK [1][-]{section.8.1}{8.1 Evaluation Metrics}{chapter.8}% 89
+\BOOKMARK [1][-]{section.8.2}{8.2 Text Representativeness}{chapter.8}% 90
+\BOOKMARK [1][-]{section.8.3}{8.3 Large-scale Text Processing}{chapter.8}% 91
+\BOOKMARK [1][-]{section.8.4}{8.4 Topic-based Clustering}{chapter.8}% 92
+\BOOKMARK [1][-]{section.8.5}{8.5 Cross-lingual Similarity}{chapter.8}% 93
+\BOOKMARK [1][-]{section.8.6}{8.6 Conclusions}{chapter.8}% 94
+\BOOKMARK [0][-]{chapter.9}{9 Experiments}{}% 95
+\BOOKMARK [1][-]{section.9.1}{9.1 Polypharmacy and Drug-drug Interactions}{chapter.9}% 96
+\BOOKMARK [1][-]{section.9.2}{9.2 Corpus Viewer}{chapter.9}% 97
+\BOOKMARK [1][-]{section.9.3}{9.3 ODS Classifier}{chapter.9}% 98
+\BOOKMARK [1][-]{section.9.4}{9.4 Drugs4Covid}{chapter.9}% 99
+\BOOKMARK [0][-]{chapter.10}{10 Conclusions}{}% 100
+\BOOKMARK [1][-]{section.10.1}{10.1 Assumptions and Restrictions}{chapter.10}% 101
+\BOOKMARK [1][-]{section.10.2}{10.2 Contributions}{chapter.10}% 102
+\BOOKMARK [1][-]{section.10.3}{10.3 Impact}{chapter.10}% 103
+\BOOKMARK [1][-]{section.10.4}{10.4 Limitations}{chapter.10}% 104
+\BOOKMARK [1][-]{section.10.5}{10.5 Future Work}{chapter.10}% 105
+\BOOKMARK [0][-]{chapter*.73}{Bibliography}{}% 106

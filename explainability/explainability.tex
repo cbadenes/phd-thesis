@@ -75,7 +75,7 @@ similarity(D_i , D_j) = 10^{- JSD(p,q)}
 \end{equation}
 where  $D_i,D_j$ are the documents and $p,q$ the topics distributions of each of them.
 
-\subsection{Experiments}
+\subsection{Evaluation}
 \label{sec:topic-relevance-experiments}
 
 The corpus used in the experiments was created by combining journals in different scientific domains such as \textit{Advances in Space Research}, \textit{Procedia Chemistry}, \textit{Journal of Pharmaceutical Analysis} and \textit{Journal of Web Semantics} (Figure \ref{fig:similarity-experiment}). In total 1,000 papers were added, 250 from each journal. Both the abstract and the \textit{full-content} of these documents were directly retrieved from the Elsevier API \footnote{https://dev.elsevier.com} by using our \textit{Harvester module} \footnote{https://github.com/librairy/harvester-elsevier}. The code used to perform the analysis along with the results obtained are publicly available\footnote{https://github.com/librairy/study-semantic-similarity}.
@@ -255,7 +255,7 @@ For instance, considering a CRDC algorithm with a cumulative weight threshold of
 \end{figure}
 
 
-\subsection{Experiments}
+\subsection{Evaluation}
 \label{sec:clustering-experiments}
 In this section we present the experimental setup for evaluating our trends-based (TDC), ranking-based (RDC) and cumulative ranking-based (CRDC) clustering approaches, considering both JS divergence and He distance as similarity measures. We describe the datasets and baseline algorithms that will be used for comparison.
 
@@ -295,7 +295,7 @@ The \textit{Random} algorithm takes as input a parameter \textit{m} and randomly
 
 With respect to the proposed algorithms and taking into account empirical results, the RDC algorithm is set to use the \textit{top1} highest topics, and the cumulative weight threshold for the CRDC algorithm is set to $0.9$.
 
-\subsubsection{Evaluation}
+\subsubsection{Measures}
 
 A gold-standard is created for each dataset and distance metric considered. They are created by calculating all pairwise similarities from their documents. Since the $n \times n$ similarity matrix requires $O(n^2)$ time to be calculated, the selected size of datasets has not been too large $n=1000$.
 

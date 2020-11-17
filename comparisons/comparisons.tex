@@ -140,7 +140,7 @@ Hashing methods are batch-mode learning models that require huge data for learni
 
 Our methods rely on topic models to build hash codes. These models do not require to be updated to make inferences about data not seen during training. In this way, the proposed hashing algorithms can work on large-scale and real-time data, as the size and the novelty of the collection does not influence the annotation process.
 
-\section{Experiments}
+\section{Evaluation}
 \label{sec:comparison-experiments}
 
 As mentioned in Section \ref{sec:topic-explainability}, it is difficult to interpret the similarity score calculated by metrics in a probability space. Since all of them are based on adding the distance between each dimension of the model (eq. \ref{eq:kl}, \ref{eq:jsdivergence} and \ref{eq:hedistance}), distributions that share a fair amount of the less representative topics may still get higher similarity values than those that share the most representative ones specially if the model has a high number of dimensions.

@@ -78,25 +78,30 @@
 \contentsline {subsection}{\numberline {6.2.3}Exploration}{98}{subsection.6.2.3}% 
 \contentsline {section}{\numberline {6.3}Summary}{100}{section.6.3}% 
 \contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{103}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{103}{section.7.1}% 
-\contentsline {section}{\numberline {7.2}Cross-lingual Models}{103}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}Summary}{103}{section.7.3}% 
-\contentsline {chapter}{\numberline {8}Evaluation}{105}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Evaluation Metrics}{105}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Text Representativeness}{105}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}Large-scale Text Processing}{105}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}Topic-based Clustering}{107}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}Cross-lingual Similarity}{107}{section.8.5}% 
-\contentsline {section}{\numberline {8.6}Conclusions}{107}{section.8.6}% 
-\contentsline {chapter}{\numberline {9}Experiments}{109}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Polypharmacy and Drug-drug Interactions}{109}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Corpus Viewer}{109}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}ODS Classifier}{109}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Drugs4Covid}{109}{section.9.4}% 
-\contentsline {chapter}{\numberline {10}Conclusions}{111}{chapter.10}% 
-\contentsline {section}{\numberline {10.1}Assumptions and Restrictions}{111}{section.10.1}% 
-\contentsline {section}{\numberline {10.2}Contributions}{111}{section.10.2}% 
-\contentsline {section}{\numberline {10.3}Impact}{111}{section.10.3}% 
-\contentsline {section}{\numberline {10.4}Limitations}{111}{section.10.4}% 
-\contentsline {section}{\numberline {10.5}Future Work}{111}{section.10.5}% 
-\contentsline {chapter}{Bibliography}{113}{chapter*.66}% 
+\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{104}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.1.1}Document representation}{105}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {7.1.2}Similarity metric}{106}{subsection.7.1.2}% 
+\contentsline {section}{\numberline {7.2}Cross-lingual Models}{107}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Evaluation}{110}{section.7.3}% 
+\contentsline {subsection}{\numberline {7.3.1}Cross-lingual Document Classification}{110}{subsection.7.3.1}% 
+\contentsline {subsection}{\numberline {7.3.2}Cross-lingual Information Retrieval}{111}{subsection.7.3.2}% 
+\contentsline {section}{\numberline {7.4}Summary}{112}{section.7.4}% 
+\contentsline {chapter}{\numberline {8}Evaluation}{115}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Evaluation Metrics}{115}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Text Representativeness}{115}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Large-scale Text Processing}{115}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Topic-based Clustering}{117}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}Cross-lingual Similarity}{117}{section.8.5}% 
+\contentsline {section}{\numberline {8.6}Conclusions}{117}{section.8.6}% 
+\contentsline {chapter}{\numberline {9}Experiments}{119}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Polypharmacy and Drug-drug Interactions}{119}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Corpus Viewer}{119}{section.9.2}% 
+\contentsline {section}{\numberline {9.3}ODS Classifier}{119}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Drugs4Covid}{119}{section.9.4}% 
+\contentsline {chapter}{\numberline {10}Conclusions}{121}{chapter.10}% 
+\contentsline {section}{\numberline {10.1}Assumptions and Restrictions}{121}{section.10.1}% 
+\contentsline {section}{\numberline {10.2}Contributions}{121}{section.10.2}% 
+\contentsline {section}{\numberline {10.3}Impact}{121}{section.10.3}% 
+\contentsline {section}{\numberline {10.4}Limitations}{121}{section.10.4}% 
+\contentsline {section}{\numberline {10.5}Future Work}{121}{section.10.5}% 
+\contentsline {chapter}{Bibliography}{123}{chapter*.73}% 
