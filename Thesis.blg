@@ -12,7 +12,6 @@ A level-1 auxiliary file: scalability/scalability.aux
 A level-1 auxiliary file: explainability/explainability.aux
 A level-1 auxiliary file: comparisons/comparisons.aux
 A level-1 auxiliary file: multilinguality/multilinguality.aux
-A level-1 auxiliary file: evaluation/evaluation.aux
 A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
@@ -20,52 +19,55 @@ Database file #1: bibliography/references.bib
 Warning--empty publisher in Andoni2014
 Warning--there's a number but no volume in Boyd-Graber2010
 Warning--empty journal in Ester1996
+Warning--there's a number but no volume in Gliozzo2007
 Warning--empty publisher in Hall2008
 Warning--empty publisher in Nair2014
+Warning--there's a number but no series in Ramage2009a
 Warning--empty booktitle in Ware2018STM
 Warning--empty publisher in Rus2013
 Warning--empty journal in Sciences2016
 Warning--empty publisher in SimoneTeufel2010
+Warning--can't use both volume and number fields in Steinberger2006
 Warning--empty publisher in Terasawa2007
-You've used 103 entries,
+You've used 113 entries,
             1935 wiz_defined-function locations,
-            1141 strings with 25340 characters,
-and the built_in function-call counts, 48314 in all, are:
-= -- 4893
-> -- 1955
-< -- 89
-+ -- 669
-- -- 660
-* -- 3788
-:= -- 7799
-add.period$ -- 323
-call.type$ -- 103
-change.case$ -- 840
-chr.to.int$ -- 96
-cite$ -- 113
-duplicate$ -- 2134
-empty$ -- 3372
-format.name$ -- 823
-if$ -- 10022
+            1203 strings with 27912 characters,
+and the built_in function-call counts, 53833 in all, are:
+= -- 5462
+> -- 2154
+< -- 103
++ -- 739
+- -- 728
+* -- 4213
+:= -- 8633
+add.period$ -- 355
+call.type$ -- 113
+change.case$ -- 924
+chr.to.int$ -- 106
+cite$ -- 126
+duplicate$ -- 2386
+empty$ -- 3779
+format.name$ -- 907
+if$ -- 11206
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 103
-newline$ -- 512
-num.names$ -- 311
-pop$ -- 922
+missing$ -- 114
+newline$ -- 563
+num.names$ -- 341
+pop$ -- 1027
 preamble$ -- 1
-purify$ -- 843
+purify$ -- 927
 quote$ -- 0
-skip$ -- 1684
+skip$ -- 1882
 stack$ -- 0
-substring$ -- 3228
-swap$ -- 609
-text.length$ -- 51
+substring$ -- 3666
+swap$ -- 699
+text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 612
-warning$ -- 10
-while$ -- 387
+type$ -- 672
+warning$ -- 13
+while$ -- 435
 width$ -- 0
-write$ -- 1354
-(There were 10 warnings)
+write$ -- 1490
+(There were 13 warnings)

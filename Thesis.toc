@@ -46,7 +46,7 @@
 \contentsline {subsection}{\numberline {5.1.1}Research Articles Summaries}{57}{subsection.5.1.1}% 
 \contentsline {subsection}{\numberline {5.1.2}Feature Vectors}{58}{subsection.5.1.2}% 
 \contentsline {subsection}{\numberline {5.1.3}Similarity Measure}{59}{subsection.5.1.3}% 
-\contentsline {subsection}{\numberline {5.1.4}Experiments}{59}{subsection.5.1.4}% 
+\contentsline {subsection}{\numberline {5.1.4}Evaluation}{59}{subsection.5.1.4}% 
 \contentsline {subsubsection}{\numberline {5.1.4.1}Internal Representativeness}{60}{subsubsection.5.1.4.1}% 
 \contentsline {subsubsection}{\numberline {5.1.4.2}External-Representativeness}{61}{subsubsection.5.1.4.2}% 
 \contentsline {subsection}{\numberline {5.1.5}Conclusion}{64}{subsection.5.1.5}% 
@@ -55,11 +55,11 @@
 \contentsline {subsubsection}{\numberline {5.2.1.1}Trends-based Clustering Method}{66}{subsubsection.5.2.1.1}% 
 \contentsline {subsubsection}{\numberline {5.2.1.2}Ranking-based Clustering Method}{67}{subsubsection.5.2.1.2}% 
 \contentsline {subsubsection}{\numberline {5.2.1.3}Cumulative Ranking-based Clustering Method}{68}{subsubsection.5.2.1.3}% 
-\contentsline {subsection}{\numberline {5.2.2}Experiments}{68}{subsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.2.2}Evaluation}{68}{subsection.5.2.2}% 
 \contentsline {subsubsection}{\numberline {5.2.2.1}Datasets}{69}{subsubsection.5.2.2.1}% 
 \contentsline {subsubsection}{\numberline {5.2.2.2}Settings}{70}{subsubsection.5.2.2.2}% 
 \contentsline {subsubsection}{\numberline {5.2.2.3}Baselines}{70}{subsubsection.5.2.2.3}% 
-\contentsline {subsubsection}{\numberline {5.2.2.4}Evaluation}{71}{subsubsection.5.2.2.4}% 
+\contentsline {subsubsection}{\numberline {5.2.2.4}Measures}{71}{subsubsection.5.2.2.4}% 
 \contentsline {subsubsection}{\numberline {5.2.2.5}Results}{72}{subsubsection.5.2.2.5}% 
 \contentsline {subsection}{\numberline {5.2.3}Conclusion}{78}{subsection.5.2.3}% 
 \contentsline {section}{\numberline {5.3}Summary}{79}{section.5.3}% 
@@ -72,7 +72,7 @@
 \contentsline {subsubsection}{\numberline {6.1.3.2}Centroid-based Hierarchical Hashing Method}{86}{subsubsection.6.1.3.2}% 
 \contentsline {subsubsection}{\numberline {6.1.3.3}Density-based Hierarchical Hashing Method}{87}{subsubsection.6.1.3.3}% 
 \contentsline {subsection}{\numberline {6.1.4}Online-mode Hashing}{88}{subsection.6.1.4}% 
-\contentsline {section}{\numberline {6.2}Experiments}{88}{section.6.2}% 
+\contentsline {section}{\numberline {6.2}Evaluation}{88}{section.6.2}% 
 \contentsline {subsection}{\numberline {6.2.1}Datasets and Evaluation Metrics}{89}{subsection.6.2.1}% 
 \contentsline {subsection}{\numberline {6.2.2}Retrieving Similar Documents}{90}{subsection.6.2.2}% 
 \contentsline {subsection}{\numberline {6.2.3}Exploration}{98}{subsection.6.2.3}% 
@@ -85,23 +85,16 @@
 \contentsline {section}{\numberline {7.3}Evaluation}{110}{section.7.3}% 
 \contentsline {subsection}{\numberline {7.3.1}Cross-lingual Document Classification}{110}{subsection.7.3.1}% 
 \contentsline {subsection}{\numberline {7.3.2}Cross-lingual Information Retrieval}{111}{subsection.7.3.2}% 
-\contentsline {section}{\numberline {7.4}Summary}{112}{section.7.4}% 
-\contentsline {chapter}{\numberline {8}Evaluation}{115}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Evaluation Metrics}{115}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Text Representativeness}{115}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}Large-scale Text Processing}{115}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}Topic-based Clustering}{117}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}Cross-lingual Similarity}{117}{section.8.5}% 
-\contentsline {section}{\numberline {8.6}Conclusions}{117}{section.8.6}% 
-\contentsline {chapter}{\numberline {9}Experiments}{119}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Polypharmacy and Drug-drug Interactions}{119}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Corpus Viewer}{119}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}ODS Classifier}{119}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Drugs4Covid}{119}{section.9.4}% 
-\contentsline {chapter}{\numberline {10}Conclusions}{121}{chapter.10}% 
-\contentsline {section}{\numberline {10.1}Assumptions and Restrictions}{121}{section.10.1}% 
-\contentsline {section}{\numberline {10.2}Contributions}{121}{section.10.2}% 
-\contentsline {section}{\numberline {10.3}Impact}{121}{section.10.3}% 
-\contentsline {section}{\numberline {10.4}Limitations}{121}{section.10.4}% 
-\contentsline {section}{\numberline {10.5}Future Work}{121}{section.10.5}% 
-\contentsline {chapter}{Bibliography}{123}{chapter*.73}% 
+\contentsline {section}{\numberline {7.4}Summary}{113}{section.7.4}% 
+\contentsline {chapter}{\numberline {8}Experiments}{115}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Polypharmacy and Drug-drug Interactions}{115}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Corpus Viewer}{115}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}ODS Classifier}{115}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Drugs4Covid}{115}{section.8.4}% 
+\contentsline {chapter}{\numberline {9}Conclusions}{117}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{117}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Contributions}{117}{section.9.2}% 
+\contentsline {section}{\numberline {9.3}Impact}{117}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Limitations}{117}{section.9.4}% 
+\contentsline {section}{\numberline {9.5}Future Work}{117}{section.9.5}% 
+\contentsline {chapter}{Bibliography}{119}{chapter*.73}% 
