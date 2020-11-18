@@ -83,8 +83,8 @@
 \contentsline {subsection}{\numberline {7.1.2}Similarity metric}{106}{subsection.7.1.2}% 
 \contentsline {section}{\numberline {7.2}Cross-lingual Models}{107}{section.7.2}% 
 \contentsline {section}{\numberline {7.3}Evaluation}{111}{section.7.3}% 
-\contentsline {subsection}{\numberline {7.3.1}Cross-lingual Document Classification}{111}{subsection.7.3.1}% 
-\contentsline {subsection}{\numberline {7.3.2}Cross-lingual Information Retrieval}{112}{subsection.7.3.2}% 
+\contentsline {subsection}{\numberline {7.3.1}Cross-lingual Document Classification}{112}{subsection.7.3.1}% 
+\contentsline {subsection}{\numberline {7.3.2}Cross-lingual Information Retrieval}{113}{subsection.7.3.2}% 
 \contentsline {section}{\numberline {7.4}Summary}{114}{section.7.4}% 
 \contentsline {chapter}{\numberline {8}Experiments}{117}{chapter.8}% 
 \contentsline {section}{\numberline {8.1}Polypharmacy and Drug-drug Interactions}{117}{section.8.1}% 

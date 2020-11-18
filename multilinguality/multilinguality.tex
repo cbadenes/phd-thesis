@@ -75,11 +75,13 @@ In order to be able to compare the performance of our unsupervised algorithm wit
 The JRC-Acquis corpus is annotated with EUROVOC categories. These categories are shared among languages and will serve as support for building the topic models. Moreover, the topic independence assumption \citep{Blei2003} of LDA models should be also satisfied, so the categories must first be moved to their base concepts and therefore disjointed categories. The EUROVOC taxonomy has 7,193 concepts/labels from 21 domain areas such as politics, international relations, european union, law, economics, etc. There are 4,904 reciprocal hierarchical relationships (no polyhierarchy) and 6,992 reciprocal associative relationships. Using hierarchical relations, we identified the root concepts from which all other categories derive. The initial 7,193 labels were then reduced to 452 labels, which are independent (topic independence assumption from LDA is satisfied), and can be used to train the topic models. 
 
 \begin{table*}\centering
-  \scriptsize
-  \begin{tabularx}{\linewidth}{sssss}
+  \small
+  \noindent
+  \begin{tabularx}{\linewidth}{@{} CCCCC @{}}
+  %\begin{tabularx}{\linewidth}{sssss}
   \hline
  \textbf{EN-Topic 3} & \textbf{ES-Topic 3} & \textbf{FR-Topic 26} & \textbf{PT-Topic 10} & \textbf{IT-Topic 3}  \\
- \textbf{\textit{"communications systems"}} & \textbf{\textit{"sistema de comunicaci\'on"}} & \textbf{\textit{"systeme de communication"}} & \textbf{\textit{"meios de comunicação"}} & \textbf{\textit{"strutture di comunicazione"}} \\ 
+\textbf{\textit{{\scriptsize "communications systems"}}} & \textbf{\textit{{\scriptsize "sistema de comunicaci\'on"}}} & \textbf{\textit{{\scriptsize "systeme de communication"}}} & \textbf{\textit{{\scriptsize "meios de comunicação"}}} & \textbf{\textit{{\scriptsize "strutture di comunicazione"}}} \\ 
 %      \multicolumn{1}{c}{EN-Topic 3} & \multicolumn{1}{c}{ES-Topic 3} & \multicolumn{1}{c}{FR-Topic 26} & \multicolumn{1}{c}{PT-Topic 10} & \multicolumn{1}{c}{IT-Topic 3}  \\
       %\multicolumn{1}{c}{\textit{"communications systems"}} & \multicolumn{1}{c}{\textit{"sistema de comunicaci\'on"}} & \multicolumn{1}{c}{\textit{"systeme de communication"}} & \multicolumn{1}{c}{\textit{"meios de comunicação"}} & \multicolumn{1}{c}{\textit{"strutture di comunicazione"}} \\
   \hline
@@ -118,32 +120,34 @@ A way to evaluate our cross-lingual document similarity algorithm is to test how
 \begin{table}[ht]\centering
 \begin{center}
 \small
-\begin{tabular}{cc|rr||rr||rr}
+\begin{tabular}{cc|rr||rr||rr||rr||rr}
     \hline
-    \multicolumn{8}{c}{\textbf{JRC-Acquis Corpora}} \\
+    \multicolumn{14}{c}{\textbf{JRC-Acquis Corpora}} \\
     \hline
     & & \multicolumn{2}{c}{\textbf{en}} &
       \multicolumn{2}{c}{\textbf{es}} &
-      \multicolumn{2}{c}{\textbf{fr}} \\
-    & & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} \\
+      \multicolumn{2}{c}{\textbf{fr}} &
+      \multicolumn{2}{c}{\textbf{pt}} &
+      \multicolumn{2}{c}{\textbf{it}}\\
+    & & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} \\
     \hline
     \multirow{4}{*}{\textbf{prec}} 
-    &{\textit{min}}     &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 \\
-    &{\textit{max}}     &1.00 &0.95 &1.00 &0.87 &1.00 &0.87 \\
-    &{\textit{mean}}    &\textbf{0.58} &0.48 &\textbf{0.55} &0.48 &\textbf{0.55} &0.41 \\
-    &{\textit{dev}}     &0.27 &0.23 &0.27 &0.22 &0.26 &0.20 \\
+    &{\textit{min}}     &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 \\
+    &{\textit{max}}     &1.00 &0.95 &1.00 &0.87 &1.00 &0.87 &1.00 &0.83 &1.00 &0.85\\
+    &{\textit{mean}}    &\textbf{0.58} &0.48 &\textbf{0.55} &0.48 &\textbf{0.55} &0.41 &\textbf{0.53} &0.42 &\textbf{0.54} &0.45 \\
+    &{\textit{dev}}     &0.27 &0.23 &0.27 &0.22 &0.26 &0.20 &0.24 &0.21 &0.25 &0.22 \\
     \hline
     \multirow{4}{*}{\textbf{rec}} 
-    &{\textit{min}}     &0.01 &0.03 &0.01 &0.04 &0.01 &0.05 \\
-    &{\textit{max}}     &0.96 &1.00 &0.93 &1.00 &0.95 &1.00 \\
-    &{\textit{mean}}    &0.39 &\textbf{0.52} &0.36 &\textbf{0.49} &0.42 &\textbf{0.51} \\
-    &{\textit{dev}}     &0.24 &0.20 &0.23 &0.20 &0.23 &0.23 \\
+    &{\textit{min}}     &0.01 &0.03 &0.01 &0.04 &0.01 &0.05 &0.01 &0.04 &0.01 &0.05\\
+    &{\textit{max}}     &0.96 &1.00 &0.93 &1.00 &0.95 &1.00 &0.92 &1.00 &0.94 &1.00\\
+    &{\textit{mean}}    &0.39 &\textbf{0.52} &0.36 &\textbf{0.49} &0.42 &\textbf{0.51} &0.40 &\textbf{0.47} &0.39 &\textbf{0.48} \\
+    &{\textit{dev}}     &0.24 &0.20 &0.23 &0.20 &0.23 &0.23 &0.23 &0.21 &0.23 &0.20 \\
     \hline
     \multirow{4}{*}{\textbf{f1}} 
-    &{\textit{min}}     &0.02 &0.03 &0.01 &0.02 &0.02 &0.03 \\
-    &{\textit{max}}     &0.70 &0.75 &0.70 &0.71 &0.70 &0.73 \\
-    &{\textit{mean}}    &0.35 &\textbf{0.42} &0.32 &\textbf{0.41} &0.37 &\textbf{0.39} \\
-    &{\textit{dev}}     &0.16 &0.15 &0.15 &0.15 &0.17 &0.17 \\
+    &{\textit{min}}     &0.02 &0.03 &0.01 &0.02 &0.02 &0.03 &0.02 &0.02 &0.01 &0.02 \\
+    &{\textit{max}}     &0.70 &0.75 &0.70 &0.71 &0.70 &0.73 &0.70 &0.71 &0.70 &0.72\\
+    &{\textit{mean}}    &0.35 &\textbf{0.42} &0.32 &\textbf{0.41} &0.37 &\textbf{0.39} &0.35 &\textbf{0.38} &0.31 &\textbf{0.40} \\
+    &{\textit{dev}}     &0.16 &0.15 &0.15 &0.15 &0.17 &0.17 &0.16 &0.16 &0.16 &0.15\\
 \end{tabular}
 \end{center}
 \caption{Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in monolingual document collections (en, es, fr)}
