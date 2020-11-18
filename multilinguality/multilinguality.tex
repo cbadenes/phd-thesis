@@ -122,7 +122,7 @@ A way to evaluate our cross-lingual document similarity algorithm is to test how
 \small
 \begin{tabular}{cc|rr||rr||rr||rr||rr}
     \hline
-    \multicolumn{14}{c}{\textbf{JRC-Acquis Corpora}} \\
+    \multicolumn{12}{c}{\textbf{JRC-Acquis Corpora}} \\
     \hline
     & & \multicolumn{2}{c}{\textbf{en}} &
       \multicolumn{2}{c}{\textbf{es}} &
@@ -169,28 +169,28 @@ A random group of 1k documents from the JRC-Acquis corpora, which have not been 
     \multicolumn{10}{c}{\textbf{JRC-Acquis Corpora}} \\
     \hline
     & & \multicolumn{2}{c}{\textbf{en-es}} &
-      \multicolumn{2}{c}{\textbf{en-fr}} &
-      \multicolumn{2}{c}{\textbf{es-fr}} &
-      \multicolumn{2}{c}{\textbf{en-es-fr}} \\
+      \multicolumn{2}{c}{\textbf{en-es-fr}} &
+      \multicolumn{2}{c}{\textbf{en-es-fr-pt}} &
+      \multicolumn{2}{c}{\textbf{en-es-fr-pt-it}} \\
     & & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} \\
     \hline
     \multirow{4}{*}{\textbf{prec}} 
-    &{\textit{min}}     &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 &0.02 &0.02\\
-    &{\textit{max}}     &1.00 &0.97 &1.00 &0.98 &1.00 &0.97 &1.00 &0.98\\
-    &{\textit{mean}}    &\textbf{0.62} &0.55 &\textbf{0.62} &0.56 &\textbf{0.61} &0.56 &\textbf{0.59} &0.52\\
-    &{\textit{dev}}     &0.26 &0.23 &0.25 &0.23 &0.26 &0.23 &0.26 &0.23\\
+    &{\textit{min}}     &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 &0.01\\
+    &{\textit{max}}     &1.00 &0.97 &1.00 &0.98 &1.00 &0.97 &1.00 &0.95\\
+    &{\textit{mean}}    &\textbf{0.62} &0.55 &\textbf{0.59} &0.52 &\textbf{0.56} &0.50 &\textbf{0.54} &0.48\\
+    &{\textit{dev}}     &0.26 &0.23 &0.26 &0.25 &0.26 &0.26 &0.27 &0.28\\
     \hline
     \multirow{4}{*}{\textbf{rec}} 
-    &{\textit{min}}     &0.01 &0.09 &0.00 &0.06 &0.01 &0.07 &0.01 &0.07\\
-    &{\textit{max}}     &1.00 &1.00 &0.94 &0.97 &0.91 &0.93 &0.86 &0.93\\
-    &{\textit{mean}}    &0.33 &\textbf{0.57} &0.36 &\textbf{0.50} &0.30 &\textbf{0.40} &0.25 &\textbf{0.39}\\
-    &{\textit{dev}}     &0.16 &0.23 &0.17 &0.19 &0.13 &0.13 &0.13 &0.15\\
+    &{\textit{min}}     &0.01 &0.09 &0.01 &0.07 &0.01 &0.06 &0.01 &0.04\\
+    &{\textit{max}}     &1.00 &1.00 &0.86 &0.93 &0.83 &0.91 &0.80 &0.89\\
+    &{\textit{mean}}    &0.33 &\textbf{0.57} &0.25 &\textbf{0.39} &0.21 &\textbf{0.36} &0.19 &\textbf{0.34}\\
+    &{\textit{dev}}     &0.16 &0.23 &0.13 &0.15 &0.12 &0.13 &0.11 &0.12\\
     \hline
     \multirow{4}{*}{\textbf{f1}} 
-    &{\textit{min}}     &0.02 &0.02 &0.01 &0.02 &0.02 &0.02 &0.02 &0.05\\
-    &{\textit{max}}     &0.75 &0.81 &0.76 &0.81 &0.68 &0.72 &0.62 &0.66\\
-    &{\textit{mean}}    &0.36 &\textbf{0.49} &0.38 &\textbf{0.47} &0.35 &\textbf{0.41} &0.30 &\textbf{0.38}\\
-    &{\textit{dev}}     &0.16 &0.18 &0.15 &0.18 &0.14 &0.14 &0.11 &0.12\\
+    &{\textit{min}}     &0.02 &0.02 &0.02 &0.05 &0.02 &0.06 &0.02 &0.08\\
+    &{\textit{max}}     &0.75 &0.81 &0.62 &0.66 &0.61 &0.64 &0.59 &0.62\\
+    &{\textit{mean}}    &0.36 &\textbf{0.49} &0.30 &\textbf{0.38} &0.29 &\textbf{0.35} &0.27 &\textbf{0.33}\\
+    &{\textit{dev}}     &0.16 &0.18 &0.11 &0.12 &0.11 &0.11 &0.10 &0.11\\
 \end{tabular}
 \end{center}
 \caption{Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in multi-lingual document collections (en-es, en-fr, es-fr, en-es-fr)}
