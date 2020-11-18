@@ -78,12 +78,9 @@ The JRC-Acquis corpus is annotated with EUROVOC categories. These categories are
   \small
   \noindent
   \begin{tabularx}{\linewidth}{@{} CCCCC @{}}
-  %\begin{tabularx}{\linewidth}{sssss}
   \hline
  \textbf{EN-Topic 3} & \textbf{ES-Topic 3} & \textbf{FR-Topic 26} & \textbf{PT-Topic 10} & \textbf{IT-Topic 3}  \\
 \textbf{\textit{{\scriptsize "communications systems"}}} & \textbf{\textit{{\scriptsize "sistema de comunicaci\'on"}}} & \textbf{\textit{{\scriptsize "systeme de communication"}}} & \textbf{\textit{{\scriptsize "meios de comunicação"}}} & \textbf{\textit{{\scriptsize "strutture di comunicazione"}}} \\ 
-%      \multicolumn{1}{c}{EN-Topic 3} & \multicolumn{1}{c}{ES-Topic 3} & \multicolumn{1}{c}{FR-Topic 26} & \multicolumn{1}{c}{PT-Topic 10} & \multicolumn{1}{c}{IT-Topic 3}  \\
-      %\multicolumn{1}{c}{\textit{"communications systems"}} & \multicolumn{1}{c}{\textit{"sistema de comunicaci\'on"}} & \multicolumn{1}{c}{\textit{"systeme de communication"}} & \multicolumn{1}{c}{\textit{"meios de comunicação"}} & \multicolumn{1}{c}{\textit{"strutture di comunicazione"}} \\
   \hline
      radio          & equipo                & communications		& rede         & rete        \\
      equipment      & red                   & reseaux            & comunicação   & comunicazione        \\
@@ -150,7 +147,7 @@ A way to evaluate our cross-lingual document similarity algorithm is to test how
     &{\textit{dev}}     &0.16 &0.15 &0.15 &0.15 &0.17 &0.17 &0.16 &0.16 &0.16 &0.15\\
 \end{tabular}
 \end{center}
-\caption{Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in monolingual document collections (en, es, fr)}
+\caption{Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in monolingual document collections}
 \label{tb:mono-class}
 \end{table}
 
@@ -176,24 +173,24 @@ A random group of 1k documents from the JRC-Acquis corpora, which have not been 
     \hline
     \multirow{4}{*}{\textbf{prec}} 
     &{\textit{min}}     &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 &0.01 &0.01\\
-    &{\textit{max}}     &1.00 &0.97 &1.00 &0.98 &1.00 &0.97 &1.00 &0.95\\
-    &{\textit{mean}}    &\textbf{0.62} &0.55 &\textbf{0.59} &0.52 &\textbf{0.56} &0.50 &\textbf{0.54} &0.48\\
-    &{\textit{dev}}     &0.26 &0.23 &0.26 &0.25 &0.26 &0.26 &0.27 &0.28\\
+    &{\textit{max}}     &1.00 &0.97 &1.00 &0.98 &1.00 &0.97 &1.00 &0.98\\
+    &{\textit{mean}}    &\textbf{0.62} &0.55 &\textbf{0.59} &0.52 &\textbf{0.56} &0.50 &\textbf{0.57} &0.52\\
+    &{\textit{dev}}     &0.26 &0.23 &0.26 &0.25 &0.26 &0.26 &0.26 &0.26\\
     \hline
     \multirow{4}{*}{\textbf{rec}} 
     &{\textit{min}}     &0.01 &0.09 &0.01 &0.07 &0.01 &0.06 &0.01 &0.04\\
     &{\textit{max}}     &1.00 &1.00 &0.86 &0.93 &0.83 &0.91 &0.80 &0.89\\
-    &{\textit{mean}}    &0.33 &\textbf{0.57} &0.25 &\textbf{0.39} &0.21 &\textbf{0.36} &0.19 &\textbf{0.34}\\
-    &{\textit{dev}}     &0.16 &0.23 &0.13 &0.15 &0.12 &0.13 &0.11 &0.12\\
+    &{\textit{mean}}    &0.33 &\textbf{0.57} &0.25 &\textbf{0.39} &0.21 &\textbf{0.36} &0.23 &\textbf{0.37}\\
+    &{\textit{dev}}     &0.16 &0.23 &0.13 &0.15 &0.12 &0.13 &0.12 &0.15\\
     \hline
     \multirow{4}{*}{\textbf{f1}} 
     &{\textit{min}}     &0.02 &0.02 &0.02 &0.05 &0.02 &0.06 &0.02 &0.08\\
     &{\textit{max}}     &0.75 &0.81 &0.62 &0.66 &0.61 &0.64 &0.59 &0.62\\
-    &{\textit{mean}}    &0.36 &\textbf{0.49} &0.30 &\textbf{0.38} &0.29 &\textbf{0.35} &0.27 &\textbf{0.33}\\
-    &{\textit{dev}}     &0.16 &0.18 &0.11 &0.12 &0.11 &0.11 &0.10 &0.11\\
+    &{\textit{mean}}    &0.36 &\textbf{0.49} &0.30 &\textbf{0.38} &0.29 &\textbf{0.35} &0.30 &\textbf{0.36}\\
+    &{\textit{dev}}     &0.16 &0.18 &0.11 &0.12 &0.11 &0.11 &0.11 &0.12\\
 \end{tabular}
 \end{center}
-\caption{Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in multi-lingual document collections (en-es, en-fr, es-fr, en-es-fr)}
+\caption{Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in multi-lingual document collections}
 \label{tb:multi-class}
 \end{table}
 
@@ -207,29 +204,31 @@ Given a set of documents and a text, the task is to rank the documents according
 \begin{table}[ht]\centering
 \begin{center}
 \small
-\begin{tabular}{cc|rr||rr||rr}
+\begin{tabular}{cc|rr||rr||rr||rr||rr}
     \hline
-    \multicolumn{8}{c}{\textbf{JRC-Acquis Corpora}} \\
+    \multicolumn{12}{c}{\textbf{JRC-Acquis Corpora}} \\
     \hline
     & & \multicolumn{2}{c}{\textbf{en}} &
       \multicolumn{2}{c}{\textbf{es}} &
-      \multicolumn{2}{c}{\textbf{fr}} \\
-    & & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} \\
+      \multicolumn{2}{c}{\textbf{fr}} &
+      \multicolumn{2}{c}{\textbf{pt}} &
+      \multicolumn{2}{c}{\textbf{it}} \\
+    & & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} \\
     \hline
     \multirow{2}{*}{\textbf{p@3}} 
-    &{\textit{mean}}    &\textbf{0.84} &0.83 &\textbf{0.81} &0.78 &\textbf{0.83} &0.74 \\
-    &{\textit{dev}}     &0.26 &0.26 &0.27 &0.29 &0.26 &0.32 \\
+    &{\textit{mean}}    &\textbf{0.84} &0.83 &\textbf{0.81} &0.78 &\textbf{0.83} &0.74 &\textbf{0.79} &0.78 &\textbf{0.80} &0.75 \\
+    &{\textit{dev}}     &0.26 &0.26 &0.27 &0.29 &0.26 &0.32 &0.27 &0.29 &0.27 &0.29 \\
     \hline
     \multirow{2}{*}{\textbf{p@5}} 
-    &{\textit{mean}}    &\textbf{0.82} &0.80 &\textbf{0.79} &0.75 &\textbf{0.80} &0.72 \\
-    &{\textit{dev}}     &0.25 &0.25 &0.25 &0.27 &0.25 &0.29 \\
+    &{\textit{mean}}    &\textbf{0.82} &0.80 &\textbf{0.79} &0.75 &\textbf{0.80} &0.72 &\textbf{0.77} &0.75 &\textbf{0.78} &0.72 \\
+    &{\textit{dev}}     &0.25 &0.25 &0.25 &0.27 &0.25 &0.29 &0.25 &0.26 &0.26 &0.28 \\
     \hline
     \multirow{2}{*}{\textbf{p@10}} 
-    &{\textit{mean}}    &\textbf{0.77} &0.76 &\textbf{0.75} &0.73 &\textbf{0.77} &0.68 \\
-    &{\textit{dev}}     &0.23 &0.25 &0.25 &0.27 &0.24 &0.27 \\
+    &{\textit{mean}}    &\textbf{0.77} &0.76 &\textbf{0.75} &0.73 &\textbf{0.77} &0.68 &\textbf{0.72} &0.71 &\textbf{0.74} &0.68 \\
+    &{\textit{dev}}     &0.23 &0.25 &0.25 &0.27 &0.24 &0.27 &0.25 &0.27 &0.25 &0.26 \\
 \end{tabular}
 \end{center}
-\caption{Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in monolingual document collections (en, es, fr)}
+\caption{Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in monolingual document collections}
 \label{tb:mono-ir}
 \end{table}
 
@@ -242,25 +241,25 @@ Given a set of documents and a text, the task is to rank the documents according
     \multicolumn{10}{c}{\textbf{JRC-Acquis Corpora}} \\
     \hline
     & & \multicolumn{2}{c}{\textbf{en-es}} &
-      \multicolumn{2}{c}{\textbf{en-fr}} &
-      \multicolumn{2}{c}{\textbf{es-fr}} &
-      \multicolumn{2}{c}{\textbf{en-es-fr}} \\
+      \multicolumn{2}{c}{\textbf{en-es-fr}} &
+      \multicolumn{2}{c}{\textbf{en-es-fr-pt}} &
+      \multicolumn{2}{c}{\textbf{en-es-fr-pt-it}} \\
     & & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} & {\textit{cat}} & {\textit{syn}} \\
     \hline
     \multirow{2}{*}{\textbf{p@3}} 
-    &{\textit{mean}}    &\textbf{0.84} &0.79 &\textbf{0.86} &0.77 &\textbf{0.85} &0.78 &\textbf{0.85} &0.75\\
-    &{\textit{dev}}     &0.25 &0.28 &0.23 &0.28 &0.25 &0.29 &0.24 &0.31\\
+    &{\textit{mean}}    &\textbf{0.84} &0.79 &\textbf{0.85} &0.75 &\textbf{0.81} &0.69 &\textbf{0.82} &0.71\\
+    &{\textit{dev}}     &0.25 &0.28 &0.24 &0.31 &0.23 &0.29 &0.25 &0.29\\
     \hline
     \multirow{2}{*}{\textbf{p@5}} 
-    &{\textit{mean}}    &\textbf{0.82} &0.76 &\textbf{0.84} &0.75 &\textbf{0.82} &0.76 &\textbf{0.81} &0.72\\
-    &{\textit{dev}}     &0.24 &0.26 &0.23 &0.27 &0.23 &0.27 &0.23 &0.28\\
+    &{\textit{mean}}    &\textbf{0.82} &0.76 &\textbf{0.81} &0.72 &\textbf{0.78} &0.67 &\textbf{0.79} &0.69\\
+    &{\textit{dev}}     &0.24 &0.26 &0.23 &0.27 &0.24 &0.25 &0.21 &0.26\\
     \hline
     \multirow{2}{*}{\textbf{p@10}} 
-    &{\textit{mean}}    &\textbf{0.78} &0.73 &\textbf{0.80} &0.70 &\textbf{0.77} &0.72 &\textbf{0.76} &0.67\\
-    &{\textit{dev}}     &0.22 &0.24 &0.22 &0.24 &0.23 &0.26 &0.23 &0.26\\
+    &{\textit{mean}}    &\textbf{0.78} &0.73 &\textbf{0.76} &0.67 &\textbf{0.73} &0.62 &\textbf{0.74} &0.63\\
+    &{\textit{dev}}     &0.22 &0.24 &0.23 &0.26 &0.22 &0.24 &0.23 &0.24\\
 \end{tabular}
 \end{center}
-\caption{Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in multi-lingual document collections (en-es, en-fr, es-fr, en-es-fr)}
+\caption{Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit{cat}) and synset-based (\textit{syn}) topic alignment algorithms in multi-lingual document collections}
 \label{tb:multi-ir}
 \end{table}
 
