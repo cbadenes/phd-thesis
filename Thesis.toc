@@ -80,21 +80,22 @@
 \contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{103}{chapter.7}% 
 \contentsline {section}{\numberline {7.1}Synset-based Representational Space}{104}{section.7.1}% 
 \contentsline {subsection}{\numberline {7.1.1}Document representation}{105}{subsection.7.1.1}% 
-\contentsline {subsection}{\numberline {7.1.2}Similarity metric}{106}{subsection.7.1.2}% 
-\contentsline {section}{\numberline {7.2}Cross-lingual Models}{107}{section.7.2}% 
-\contentsline {section}{\numberline {7.3}Evaluation}{111}{section.7.3}% 
-\contentsline {subsection}{\numberline {7.3.1}Cross-lingual Document Classification}{112}{subsection.7.3.1}% 
-\contentsline {subsection}{\numberline {7.3.2}Cross-lingual Information Retrieval}{113}{subsection.7.3.2}% 
-\contentsline {section}{\numberline {7.4}Summary}{114}{section.7.4}% 
-\contentsline {chapter}{\numberline {8}Experiments}{117}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Polypharmacy and Drug-drug Interactions}{117}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Corpus Viewer}{117}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}ODS Classifier}{117}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}Drugs4Covid}{117}{section.8.4}% 
-\contentsline {chapter}{\numberline {9}Conclusions}{119}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{119}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Contributions}{119}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}Impact}{119}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Limitations}{119}{section.9.4}% 
-\contentsline {section}{\numberline {9.5}Future Work}{119}{section.9.5}% 
-\contentsline {chapter}{Bibliography}{121}{chapter*.74}% 
+\contentsline {subsection}{\numberline {7.1.2}Similarity metric}{107}{subsection.7.1.2}% 
+\contentsline {subsection}{\numberline {7.1.3}Cross-lingual Models}{107}{subsection.7.1.3}% 
+\contentsline {section}{\numberline {7.2}Evaluation}{111}{section.7.2}% 
+\contentsline {subsection}{\numberline {7.2.1}Cross-lingual Document Classification}{112}{subsection.7.2.1}% 
+\contentsline {subsection}{\numberline {7.2.2}Cross-lingual Information Retrieval}{113}{subsection.7.2.2}% 
+\contentsline {subsection}{\numberline {7.2.3}Text Length on Cross-lingual Representations}{114}{subsection.7.2.3}% 
+\contentsline {section}{\numberline {7.3}Summary}{121}{section.7.3}% 
+\contentsline {chapter}{\numberline {8}Experiments}{123}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Polypharmacy and Drug-drug Interactions}{123}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Corpus Viewer}{123}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}ODS Classifier}{123}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Drugs4Covid}{123}{section.8.4}% 
+\contentsline {chapter}{\numberline {9}Conclusions}{125}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{125}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Contributions}{125}{section.9.2}% 
+\contentsline {section}{\numberline {9.3}Impact}{125}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Limitations}{125}{section.9.4}% 
+\contentsline {section}{\numberline {9.5}Future Work}{125}{section.9.5}% 
+\contentsline {chapter}{Bibliography}{127}{chapter*.82}% 

@@ -13,6 +13,12 @@ Aletras, N., Baldwin, T., Lau, J.~H., and Stevenson, M. (2017).
 \newblock {\em Journal of the Association for Information Science and
   Technology}, 68(1):154--167.
 
+\bibitem[{\'A}lvarez, 2020]{Lozano2020}
+{\'A}lvarez, B.~L. (2020).
+\newblock {The influence of text length for probabilistic topic models and
+  their hierarchical representation}.
+\newblock {\em Master Thesis}.
+
 \bibitem[Andoni and Indyk, 2006]{Andoni2006}
 Andoni, A. and Indyk, P. (2006).
 \newblock {Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in
@@ -584,6 +590,13 @@ Sciences, E. R. S. f.~P. and life (2016).
 \newblock {The Structure of Scientific Articles - Applications to Citation
   Indexing and Summarization}.
 \newblock In {\em CSLI Studies in Computational Linguistics}.
+
+\bibitem[Steinberger et~al., 2014]{Steinberger2014}
+Steinberger, R., Ebrahim, M., Poulis, A., Carrasco-Benitez, M., Schl{\"{u}}ter,
+  P., Przybyszewski, M., and Gilbro, S. (2014).
+\newblock {An overview of the European Union's highly multilingual parallel
+  corpora}.
+\newblock {\em Language Resources and Evaluation}, 48(4):679--707.
 
 \bibitem[Steinberger et~al., 2006]{Steinberger2006}
 Steinberger, R., Pouliquen, B., Widiger, A., Ignat, C., Erjavec, T., Tufis, D.,

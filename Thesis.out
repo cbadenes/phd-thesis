@@ -80,20 +80,21 @@
 \BOOKMARK [1][-]{section.7.1}{7.1 Synset-based Representational Space}{chapter.7}% 80
 \BOOKMARK [2][-]{subsection.7.1.1}{7.1.1 Document representation}{section.7.1}% 81
 \BOOKMARK [2][-]{subsection.7.1.2}{7.1.2 Similarity metric}{section.7.1}% 82
-\BOOKMARK [1][-]{section.7.2}{7.2 Cross-lingual Models}{chapter.7}% 83
-\BOOKMARK [1][-]{section.7.3}{7.3 Evaluation}{chapter.7}% 84
-\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 Cross-lingual Document Classification}{section.7.3}% 85
-\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 Cross-lingual Information Retrieval}{section.7.3}% 86
-\BOOKMARK [1][-]{section.7.4}{7.4 Summary}{chapter.7}% 87
-\BOOKMARK [0][-]{chapter.8}{8 Experiments}{}% 88
-\BOOKMARK [1][-]{section.8.1}{8.1 Polypharmacy and Drug-drug Interactions}{chapter.8}% 89
-\BOOKMARK [1][-]{section.8.2}{8.2 Corpus Viewer}{chapter.8}% 90
-\BOOKMARK [1][-]{section.8.3}{8.3 ODS Classifier}{chapter.8}% 91
-\BOOKMARK [1][-]{section.8.4}{8.4 Drugs4Covid}{chapter.8}% 92
-\BOOKMARK [0][-]{chapter.9}{9 Conclusions}{}% 93
-\BOOKMARK [1][-]{section.9.1}{9.1 Assumptions and Restrictions}{chapter.9}% 94
-\BOOKMARK [1][-]{section.9.2}{9.2 Contributions}{chapter.9}% 95
-\BOOKMARK [1][-]{section.9.3}{9.3 Impact}{chapter.9}% 96
-\BOOKMARK [1][-]{section.9.4}{9.4 Limitations}{chapter.9}% 97
-\BOOKMARK [1][-]{section.9.5}{9.5 Future Work}{chapter.9}% 98
-\BOOKMARK [0][-]{chapter*.74}{Bibliography}{}% 99
+\BOOKMARK [2][-]{subsection.7.1.3}{7.1.3 Cross-lingual Models}{section.7.1}% 83
+\BOOKMARK [1][-]{section.7.2}{7.2 Evaluation}{chapter.7}% 84
+\BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 Cross-lingual Document Classification}{section.7.2}% 85
+\BOOKMARK [2][-]{subsection.7.2.2}{7.2.2 Cross-lingual Information Retrieval}{section.7.2}% 86
+\BOOKMARK [2][-]{subsection.7.2.3}{7.2.3 Text Length on Cross-lingual Representations}{section.7.2}% 87
+\BOOKMARK [1][-]{section.7.3}{7.3 Summary}{chapter.7}% 88
+\BOOKMARK [0][-]{chapter.8}{8 Experiments}{}% 89
+\BOOKMARK [1][-]{section.8.1}{8.1 Polypharmacy and Drug-drug Interactions}{chapter.8}% 90
+\BOOKMARK [1][-]{section.8.2}{8.2 Corpus Viewer}{chapter.8}% 91
+\BOOKMARK [1][-]{section.8.3}{8.3 ODS Classifier}{chapter.8}% 92
+\BOOKMARK [1][-]{section.8.4}{8.4 Drugs4Covid}{chapter.8}% 93
+\BOOKMARK [0][-]{chapter.9}{9 Conclusions}{}% 94
+\BOOKMARK [1][-]{section.9.1}{9.1 Assumptions and Restrictions}{chapter.9}% 95
+\BOOKMARK [1][-]{section.9.2}{9.2 Contributions}{chapter.9}% 96
+\BOOKMARK [1][-]{section.9.3}{9.3 Impact}{chapter.9}% 97
+\BOOKMARK [1][-]{section.9.4}{9.4 Limitations}{chapter.9}% 98
+\BOOKMARK [1][-]{section.9.5}{9.5 Future Work}{chapter.9}% 99
+\BOOKMARK [0][-]{chapter*.82}{Bibliography}{}% 100
