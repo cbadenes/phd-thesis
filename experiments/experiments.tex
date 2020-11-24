@@ -13,6 +13,43 @@
 
 The hypotheses raised in this thesis have been further validated in real projects. The implementation of the proposed algorithms and their execution in systems used by third parties, has allowed us to verify the results obtained during the evaluations. Some of these projects are framed in the health field, specifically in the area of HIV treatment (Section \ref{sec:polypharmacy}) and, recently, in the field of COVID-19 treatment (Section \ref{sec:drugs4covid}). In both cases our algorithms have helped to analyze the use of drugs to treat diseases. There are also projects aimed at measuring the impact of scientific research, at a national level through the creation of patents and research collaborations (Section \ref{sec:corpus-viewer}), and by research area from a point of view of originality and creativity of research (Section \ref{sec:drinventor}). Finally, the results of this thesis have also been used to facilitate the exploration of public procurement data in Europe (Section \ref{sec:tbfy}). Tenders performed by public administrations across Europe were related in an automatic and language-independent way to facilitate their exploration and allow local administrations to know how similar processes are managed in other countries.  
 
+\section{DrInventor}
+\label{sec:drinventor}
+
+Scientific creativity and innovation are key concepts at a time of rapid technological change. Technologies have great potential to supplement human ingenuity in science by overcoming the limitations that people suffer in pursuing scientific discovery. DrInventor\footnote{\url{http://drinventor.eu}} proposes an original system to provide inspiration for scientific creativity by utilizing the rich presence of web-based research resources \citep{Dong2017DrIP}. It is like a personal research assistant that informs researchers of a broad spectrum of relevant research concepts and approaches, by assessing the novelty of research ideas, and by offering suggestions of new concepts and workflows with unexpected features for new scientific discovery.
+
+Our topic modeling framework, librAIry (more details in Chapter \ref{ch:scalability}), and the topic-based characterization to measure the similarity between documents (described in Section \ref{sec:topicmodel}) powered the DrInventor platform to automatically relate scientific publications from their content. We created a harvester module\footnote{\url{https://github.com/cbadenes/camel-oaipmh}} (Section \ref{sec:librairy-modules})  that was able to ingest and index research resources from external sources based on the Open Archive Initiative Protocol for Metadata Harvesting\footnote{\url{https://www.openarchives.org/pmh/}}. The resources were processed at different levels of granularity: from the entire documents, to their individual items, parts or even individual words contained in them. On top of those resources DRInventor attaches different annotations that further described the instances and gave support to different operations leveraging on them. The model (Figure \ref{fig:drinventor-model}) provided a standard way of representing research documents, and was flexible enough to give support to a great variety of analysis techniques bringing value to the information stored in it. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\linewidth]{drinventor-model.png}
+    \caption{Overview of Resources in DRInventor Platform}
+    \label{fig:drinventor-model}
+\end{figure}
+
+
+The main types of resources that were considered in DRInventor, from the most fine/grained to the most general ones, were:
+\begin{itemize}
+\item \textbf{Word}: a meaningful element of writing inside a document, composed by a sequence of characters.
+\item \textbf{Part}: logical division of a document, based on categories of the research discourse such as abstract, introduction, methods, results, conclusions, etc., including also the types of rhetorical sentences \citep{Ronzano2015} (i.e. approach, background, challenge, future work or outcomes).
+\item \textbf{Item}: element that make up a research object such as a paper, programming-code, an image, a workflow, and so on.
+\item \textbf{Document}: aggregation of \textit{items} that composes a research object.
+\item \textbf{Source}: repository where research objects are located. It is used from the platform to automatically retrieve resources.
+\item \textbf{Domain}: collection of resources created after ingesting the research objects from a repository specified by a \textit{source}.
+\item \textbf{Analysis}: execution of an algorithm over a particular \textit{domain} in the platform. It is responsible for the creation of annotations, such as \textit{topics} and \textit{relations}.
+\item \textbf{Term}: concepts results of the execution of different Natural Language Processing algorithms.
+\item \textbf{Entity}: named entities such as person, location, or organization.
+\item \textbf{Topic}: subject that the corpus is elaborating on, such as research areas or trending issues in scientific domain.
+\item \textbf{Relation}: associative or semantic connection between two resources in a \textit{domain}.
+\end{itemize}
+
+The DrInventor model served us to refine the model proposed in this thesis (see Section \ref{sec:representing-corpora}). Some resources have not been addressed (e.g. \textit{Source}, \textit{analysis}, \textit{topic} and \textit{relation}) to minimize the representation elements to those that can be used to create probabilistic topic models and to calculate similarities between documents (e.g. document, domain, annotation). It has also allowed us to generalize our model by adding a \textit{snippet} resource to represent any element (e.g. part, sentence, entity) that may appears in a document.
+
+
+\section{Corpus Viewer}
+\label{sec:corpus-viewer}
+...
+
 
 \section{Polypharmacy and Drug-drug Interactions}
 \label{sec:polypharmacy}
@@ -22,7 +59,7 @@ Does the number of concomitant drugs in people living with Human Immunodeficienc
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\linewidth]{polypharmacy.png}
+    \includegraphics[width=0.7\linewidth]{polypharmacy.png}
     \caption{Representation of patients through topic hierarchies based on the interactions between primary-drugs and co-drugs}
     \label{fig:polypharmacy-topics}
 \end{figure}
@@ -47,45 +84,25 @@ We built a representation system where each primary-drug was represented as a to
 
 Our contribution facilitates the analysis of patients and drugs (interactions) without having to make all the comparisons between them (Figure \ref{fig:polypharmacy}). Patients are grouped by interactions on the same primary medications. The source code we have developed to discover drug interactions is publicly available for reuse\footnote{\url{https://github.com/cbadenes/hiv-ichart-client}}, but for privacy reasons we cannot publish the code to manage patients. 
 
-\section{DrInventor}
-\label{sec:drinventor}
+\section{TheyBuyForYou}
+\label{sec:tbfy}
 
-Scientific creativity and innovation are key concepts at a time of rapid technological change. Technologies have great potential to supplement human ingenuity in science by overcoming the limitations that people suffer in pursuing scientific discovery. DrInventor\footnote{\url{http://drinventor.eu}} proposes an original system to provide inspiration for scientific creativity by utilizing the rich presence of web-based research resources \citep{Dong2017DrIP}. It is like a personal research assistant that informs researchers of a broad spectrum of relevant research concepts and approaches, by assessing the novelty of research ideas, and by offering suggestions of new concepts and workflows with unexpected features for new scientific discovery.
+In order to improve public procurement in European Union (UE), this work \citep{Ahmet2020} aimed to provide high quality, open, and integrated procurement data. There is a lack of common agreement across the EU on the data formats for exposing such data sources and on the data models for representing such data, leading to a highly heterogeneous technical landscape. In this context, a knowledge graph (KG) based platform and end-users tools for integrating and reconciling cross-border and cross-language procurement and company data were created and publicly released. But procurement processes were not only creating structured data, but also constantly creating additional documents (tender specifications, contract clauses, etc.). These are commonly published in the official language of the corresponding public administrations. Only some of these, for instance those published in TED\footnote{\url{https://ted.europa.eu}}, are multilingual, but the documents in the local language are typically longer and much more detailed than their translations into other languages.
 
-Our topic modeling framework, librAIry (more details in Chapter \ref{ch:scalability}), and the topic-based characterization to measure the similarity between documents (described in Section \ref{sec:topicmodel}) powered the DrInventor platform to automatically relate scientific publications from their content. We created a harvester module\footnote{\url{https://github.com/cbadenes/camel-oaipmh}} (Section \ref{sec:librairy-modules})  that was able to ingest and index research resources from external sources based on the Open Archive Initiative Protocol for Metadata Harvesting\footnote{\url{https://www.openarchives.org/pmh/}}. The resources were processed at different levels of granularity: from the entire documents, to their individual items, parts or even individual words contained in them. On top of those resources DRInventor attaches different annotations that further described the instances and gave support to different operations leveraging on them. The model (Figure XXX) provided a standard way of representing research documents, and was flexible enough to give support to a great variety of analysis techniques bringing value to the information stored in it. 
+A civil servant working at a public administration on a contracting process may be interested in understanding how other public administrations in the same country or in different countries (and with different languages) have worked on similar contexts. Examples may include finding organizations related to a particular procurement process, or search for tenders related to given
+procurement text. We worked on an cross-lingual search engine\footnote{\url{tbfy.librairy.linkeddata.es/search-api}} (Figure \ref{fig:tbfy-architecture}) based on our results to create language-independent probabilistic topic models (Chapter \ref{ch:multilinguality}) in order to provide support to these types of users, with the possibility of finding documents that are similar to a given one independently of the language in which it is made available. We also generated a Jupyter notebook with some representative examples, so as to facilitate its use\footnote{\url{http://bit.ly/tbfy-search-demo}}.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\linewidth]{drinventor-model.png}
-    \caption{Overview of Resources in DRInventor Platform}
-    \label{fig:drinventor-model}
+    \includegraphics[width=0.7\linewidth]{tbfy-architecture.png}
+    \caption{High-level architecture of the TheyBuyForYou platform}
+    \label{fig:tbfy-architecture}
 \end{figure}
 
+The document search engine is based on the use of cross-lingual labels created from sets of cognitive synonyms (synsets) and unsupervised probabilistic topic models \cite{Badenes-Olmedo2019a}. The original low-dimensional latent space created by probabilistic topic models was extended with two new languages. In addition to the original English, French and Spanish models, we created Portuguese and Italian models to increase the common space shared by all languages. Topics were described by cross-lingual labels created from the list of concepts retrieved from the Open Multilingual WordNet. Each word is queried to retrieve its synsets. The final set of synsets for a topic is the union of the synsets from the individual top-words of a topic (see Section \ref{sec:crosslingual-models}). Documents are then represented as data points and transformed from the original feature space based on mono-lingual topic distributions into a cross-lingual hierarchical-based space, so that similar data points share relevant cross-lingual concepts (see Figure~\ref{fig:topic_models}). Since topic models create latent themes from word co-occurrence statistics in a corpus, a cross-lingual topic specifies the knowledge about the word-word relations it contains for each language. 
 
-The main types of resources (Figure \ref{fig:drinventor-model}) that were considered in DRInventor, from the most fine/grained to the most general ones, were:
-\begin{itemize}
-\item \textbf{Word}: a meaningful element of writing inside a document, formed by a sequence of characters with no blanks.
-\item \textbf{Part}: logical division of a document, based on categories of the research discourse such as abstract, introduction, methods, results, conclusions, etc., including also the types of rhetorical sentences \citep{Ronzano2015} (i.e. approach, background, challenge, future work or outcomes).
-\item \textbf{Item}: each of the elements that make up a research object (i.e. a document) such as a paper, programming-code, an image, a workflow, and so on.
-\item \textbf{Document}: meta-information retrieved from a research object. A document is composed by a set of \textit{items}.
-\item \textbf{Source}: indicates the repository where the raw research objects were collected from a link where the platform can look at in order to retrieve them.
-\item \textbf{Domain}: represents the collection of the resources inside DRInventor generated after ingesting the research objects from the repository specified by the \textit{source}.
-\item \textbf{Analysis}: it represents the execution of an algorithm over a particular \textit{domain} in the platform. It is responsible for the creation of annotations, such as \textit{topics} and \textit{relations}.
-\item \textbf{Term}: represents and abstracts concepts, such as \textit{entities} (persons, locations, organizations...) as results of the execution of different Natural Language Processing algorithms.
-\item \textbf{Topic}: helps to materialize the main subjects that the corpus is elaborating on, such as the research areas or trending issues in the scientific domain.
-\item \textbf{Relation}: is an associative or semantic connection between resources in a domain. It can model for example the high degree of similarity between two \textit{parts} belonging to different research objects.
-\end{itemize}
+The data and platform components were made available openly for the community to contribute and use; a catalogue is available online\footnote{\url{https://tbfy.github.io/platform}} with pointers to the code repositories, online versions of the artefacts, and relevant documentation
 
-The DrInventor model served us to refine the model proposed in this thesis (see Section \ref{sec:representing-corpora}). Some resources were eliminated (e.g. \textit{Source}) to minimize the representation elements to those that can be used to create probabilistic topic models and to calculate similarities between documents (e.g. document, domain, annotation). It has also allowed us to generalize our model by adding a \textit{snippet} resource to represent any element (e.g. part, sentence, entity) that may appears in a document.
-
-
-\section{Corpus Viewer}
-\label{sec:corpus-viewer}
-...
-
-\section{TheyBuyForYou}
-\label{sec:tbfy}
-...
 
 \section{Drugs4Covid}
 \label{sec:drugs4covid}

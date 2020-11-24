@@ -16,8 +16,12 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
+Warning--string name "impact" is undefined
+--line 1591 of file bibliography/references.bib
 Warning--empty publisher in Andoni2014
 Warning--there's a number but no volume in Boyd-Graber2010
+Warning--empty booktitle in Dong2017DrIP
+Warning--there's a number but no series in Dong2017DrIP
 Warning--empty journal in Ester1996
 Warning--there's a number but no volume in Gliozzo2007
 Warning--empty publisher in Hall2008
@@ -29,45 +33,45 @@ Warning--empty journal in Sciences2016
 Warning--empty publisher in SimoneTeufel2010
 Warning--can't use both volume and number fields in Steinberger2006
 Warning--empty publisher in Terasawa2007
-You've used 116 entries,
+You've used 117 entries,
             1935 wiz_defined-function locations,
-            1221 strings with 28926 characters,
-and the built_in function-call counts, 55333 in all, are:
-= -- 5592
-> -- 2272
-< -- 104
-+ -- 783
-- -- 772
-* -- 4358
-:= -- 8913
-add.period$ -- 364
-call.type$ -- 116
-change.case$ -- 961
-chr.to.int$ -- 109
-cite$ -- 129
-duplicate$ -- 2426
-empty$ -- 3849
-format.name$ -- 954
-if$ -- 11476
+            1227 strings with 29312 characters,
+and the built_in function-call counts, 56435 in all, are:
+= -- 5695
+> -- 2355
+< -- 107
++ -- 815
+- -- 804
+* -- 4461
+:= -- 9085
+add.period$ -- 367
+call.type$ -- 117
+change.case$ -- 982
+chr.to.int$ -- 110
+cite$ -- 132
+duplicate$ -- 2460
+empty$ -- 3901
+format.name$ -- 987
+if$ -- 11700
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 117
-newline$ -- 578
-num.names$ -- 350
-pop$ -- 1061
+missing$ -- 118
+newline$ -- 583
+num.names$ -- 353
+pop$ -- 1085
 preamble$ -- 1
-purify$ -- 964
+purify$ -- 985
 quote$ -- 0
-skip$ -- 1913
+skip$ -- 1943
 stack$ -- 0
-substring$ -- 3727
-swap$ -- 702
-text.length$ -- 61
+substring$ -- 3795
+swap$ -- 719
+text.length$ -- 64
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 690
-warning$ -- 13
-while$ -- 443
+type$ -- 696
+warning$ -- 15
+while$ -- 451
 width$ -- 0
-write$ -- 1527
-(There were 13 warnings)
+write$ -- 1541
+(There were 16 warnings)
