@@ -167,6 +167,7 @@ We used the Advanced Message Queuing Protocol (AMQP) as the messaging standard t
 
 
 \subsection{Module-based Model Training}
+\label{sec:librairy-modules}
 
 A microservice-oriented style has been used to define the framework architecture. Through multiple services the system analyzes texts, creates probabilistic topic models, publishes them as new services and uses them to annotate texts. A service is equivalent to a functionality, and each functionality is materialized by a \textit{module} in the system. A \textit{module} is then a cohesive and independent process \citep{Dragoni2016} with a specific purpose (i.e functionality) based on the \textit{events} to which it responds. These \textit{events} correspond to the routing- and binding- keys attached to the module.
 
