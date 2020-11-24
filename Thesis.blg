@@ -29,45 +29,45 @@ Warning--empty journal in Sciences2016
 Warning--empty publisher in SimoneTeufel2010
 Warning--can't use both volume and number fields in Steinberger2006
 Warning--empty publisher in Terasawa2007
-You've used 115 entries,
+You've used 116 entries,
             1935 wiz_defined-function locations,
-            1216 strings with 28393 characters,
-and the built_in function-call counts, 54656 in all, are:
-= -- 5539
-> -- 2199
+            1221 strings with 28926 characters,
+and the built_in function-call counts, 55333 in all, are:
+= -- 5592
+> -- 2272
 < -- 104
-+ -- 755
-- -- 744
-* -- 4287
-:= -- 8783
-add.period$ -- 361
-call.type$ -- 115
-change.case$ -- 942
-chr.to.int$ -- 108
-cite$ -- 128
-duplicate$ -- 2413
-empty$ -- 3829
-format.name$ -- 925
-if$ -- 11359
++ -- 783
+- -- 772
+* -- 4358
+:= -- 8913
+add.period$ -- 364
+call.type$ -- 116
+change.case$ -- 961
+chr.to.int$ -- 109
+cite$ -- 129
+duplicate$ -- 2426
+empty$ -- 3849
+format.name$ -- 954
+if$ -- 11476
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 116
-newline$ -- 573
-num.names$ -- 347
-pop$ -- 1042
+missing$ -- 117
+newline$ -- 578
+num.names$ -- 350
+pop$ -- 1061
 preamble$ -- 1
-purify$ -- 945
+purify$ -- 964
 quote$ -- 0
-skip$ -- 1903
+skip$ -- 1913
 stack$ -- 0
-substring$ -- 3715
-swap$ -- 701
+substring$ -- 3727
+swap$ -- 702
 text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 684
+type$ -- 690
 warning$ -- 13
-while$ -- 441
+while$ -- 443
 width$ -- 0
-write$ -- 1515
+write$ -- 1527
 (There were 13 warnings)

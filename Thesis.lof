@@ -62,4 +62,8 @@
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Distribution of articles by number of tokens in corpora\relax }}{116}{figure.caption.76}% 
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Time needed (in milliseconds) to perform the document similarity task using similarity metrics in a corpus of $10^4$ synthetic documents \relax }}{121}{figure.caption.81}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Representation of patients through topic hierarchies based on the interactions between primary-drugs and co-drugs\relax }}{124}{figure.caption.82}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Patients grouped by age\relax }}{125}{figure.caption.83}% 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Patients grouped by gender\relax }}{125}{figure.caption.83}% 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Distribution of polypharmacy among people living with and without HIV according to age and gender \citep {Badenes-Olmedo2019c}.\relax }}{125}{figure.caption.83}% 
 \addvspace {10\p@ }
