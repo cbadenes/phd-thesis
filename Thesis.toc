@@ -88,15 +88,15 @@
 \contentsline {subsection}{\numberline {7.2.3}Text Length on Cross-lingual Representations}{114}{subsection.7.2.3}% 
 \contentsline {section}{\numberline {7.3}Summary}{121}{section.7.3}% 
 \contentsline {chapter}{\numberline {8}Experiments}{123}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Polypharmacy and Drug-drug Interactions}{123}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}DrInventor}{126}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}Corpus Viewer}{128}{section.8.3}% 
+\contentsline {section}{\numberline {8.1}DrInventor}{123}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Corpus Viewer}{126}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Polypharmacy and Drug-drug Interactions}{127}{section.8.3}% 
 \contentsline {section}{\numberline {8.4}TheyBuyForYou}{128}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}Drugs4Covid}{128}{section.8.5}% 
-\contentsline {chapter}{\numberline {9}Conclusions}{129}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{129}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Contributions}{129}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}Impact}{129}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Limitations}{129}{section.9.4}% 
-\contentsline {section}{\numberline {9.5}Future Work}{129}{section.9.5}% 
-\contentsline {chapter}{Bibliography}{131}{chapter*.85}% 
+\contentsline {section}{\numberline {8.5}Drugs4Covid}{131}{section.8.5}% 
+\contentsline {chapter}{\numberline {9}Conclusions}{133}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{133}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Contributions}{133}{section.9.2}% 
+\contentsline {section}{\numberline {9.3}Impact}{133}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Limitations}{133}{section.9.4}% 
+\contentsline {section}{\numberline {9.5}Future Work}{133}{section.9.5}% 
+\contentsline {chapter}{Bibliography}{135}{chapter*.87}% 
