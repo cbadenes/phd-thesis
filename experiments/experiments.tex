@@ -51,7 +51,6 @@ The DrInventor model served us to refine the model proposed in this thesis (see 
 \section{Corpus Viewer}
 \label{sec:corpus-viewer}
 
-
 In order to take advantage of the overwhelming volume of textual information in electronic format on information and communication technologies (ICT), the Spanish Ministry of Industry developed a plan for the promotion of language technologies. It aims to encourage the development of the natural language processing and machine translation sector in Spain, and to take advantage of these new capabilities to improve public service. In particular, the Corpus Viewer platform\footnote{\url{https://www.plantl.gob.es/tecnologias-lenguaje/actividades/plataformas/Documents/corpus-viewer/manual-corpus-viewer-en.pdf}} has as main objective to improve the performance of the Ministry in areas such as (1) \textit{aid to the ICT sector} by identifying similar projects and comparing the different actions, (2) \textit{training and employment in the ICT sector} by means of studies on the adequacy of training supply and demand in the Spanish ICT labor market, and (3) \textit{innovation and research in the ICT sector} by means of comparison with other advanced countries and innovation forecasting.
 
 
@@ -61,6 +60,14 @@ In order to take advantage of the overwhelming volume of textual information in 
     \caption{The Corpus Viewer platform provides tools for the selection of evaluators or the retrieval of relevant documents (patents, scientific publications, grants and R+D proposals for innovation evaluation). In addition, it is used for plagiarism detection, identification of double funding cases and fraud in aid grants and proposals submitted for national funding.}
     \label{fig:drinventor-model}
 \end{figure}
+
+Three document collections were available for the project: a small-size collection of around 70 thousand technical and administrative texts about Spanish R+D projects; a medium-size collection with more than 500 thousand descriptions of R+D projects funded by the European Union retrieved from the CORDIS\footnote{\url{https://cordis.europa.eu}} dataset; and a large-size collection created from UPSTO\footnote{\url{https://www.uspto.gov}} with more than 32 million American patents.
+
+Our contribution in this project through the framework librAIry (see Chapter \ref{ch:scalability}), that covers the complete life cycle of probabilistic topic models, and the algorithms that build topic hierarchies based on relevance (see Chapter \ref{ch:explainability}) and compare texts efficiently from topic distributions (see Chapter \ref{ch:comparisons}) served to identify the main themes and to semantically relate the texts of the documentary collections \citep{Samy2019}. 
+
+Multiple topic models were created for each documentary corpus, with different configurations (i.e. number of topics, Part-of-Speech filters, lemmas). For each configuration, the texts were indexed, through an inverse index, in databases where they were also annotated with the topic hierarchies and the similarities between their texts were calculated from these topic-based representations. All this information was offered through a Restful API to a web interface where the documents were linked in a network. The source code of the algorithms implemented in the system, the models and the data are publicly available for reuse \footnote{\url{https://github.com/cbadenes/corpus-viewer-addons}}.
+
+The platform is currently used by R+D policy makers, R+D program managers and coordinators (policy implementation), grant and aid evaluators, and researchers and public research organizations as well as companies. The most common use cases are: (1) public policy design, (2) management of calls through classification of applications, assignment of evaluators, similarity of documents, estimation of innovation, and evaluation and selection of applications, (3) monitoring the results of the intervention and measuring its impact and (4) alarms for detection of plagiarism and fraud patterns. 
 
 \section{Polypharmacy and Drug-drug Interactions}
 \label{sec:polypharmacy}
