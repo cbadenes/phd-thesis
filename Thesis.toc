@@ -1,7 +1,7 @@
 \babel@toc {english}{}
 \contentsline {chapter}{List of Figures}{xvii}{chapter*.2}% 
-\contentsline {chapter}{List of Tables}{xxi}{chapter*.3}% 
-\contentsline {chapter}{Acronyms }{xxv}{chapter*.4}% 
+\contentsline {chapter}{List of Tables}{xxiii}{chapter*.3}% 
+\contentsline {chapter}{Acronyms }{xxvii}{chapter*.4}% 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Contributions}{4}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Thesis Structure}{5}{section.1.2}% 
@@ -88,15 +88,28 @@
 \contentsline {subsection}{\numberline {7.2.3}Text Length on Cross-lingual Representations}{114}{subsection.7.2.3}% 
 \contentsline {section}{\numberline {7.3}Summary}{121}{section.7.3}% 
 \contentsline {chapter}{\numberline {8}Experiments}{123}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}DrInventor}{123}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Corpus Viewer}{126}{section.8.2}% 
+\contentsline {section}{\numberline {8.1}Scientific Creativity and Innovation}{123}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Innovation and Research in the ICT sector}{126}{section.8.2}% 
 \contentsline {section}{\numberline {8.3}Polypharmacy and Drug-drug Interactions}{127}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}TheyBuyForYou}{130}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}Drugs4Covid}{132}{section.8.5}% 
-\contentsline {chapter}{\numberline {9}Conclusions}{135}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{135}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Contributions}{135}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}Impact}{135}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Limitations}{135}{section.9.4}% 
-\contentsline {section}{\numberline {9.5}Future Work}{135}{section.9.5}% 
-\contentsline {chapter}{Bibliography}{137}{chapter*.87}% 
+\contentsline {section}{\numberline {8.4}Public Procurement Data}{130}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}COVID-19 and Coronavirus-related Research}{132}{section.8.5}% 
+\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{135}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{136}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Contributions}{137}{section.9.2}% 
+\contentsline {subsection}{\numberline {9.2.1}Topic Model Distribution}{137}{subsection.9.2.1}% 
+\contentsline {subsubsection}{\numberline {9.2.1.1}librAIry Framework}{137}{subsubsection.9.2.1.1}% 
+\contentsline {subsubsection}{\numberline {9.2.1.2}Methodology for publishing topic models as Web Services}{138}{subsubsection.9.2.1.2}% 
+\contentsline {subsection}{\numberline {9.2.2}Explainable Similarity}{138}{subsection.9.2.2}% 
+\contentsline {subsubsection}{\numberline {9.2.2.1}Most Relevant Topics}{138}{subsubsection.9.2.2.1}% 
+\contentsline {subsubsection}{\numberline {9.2.2.2}Distance Metric}{139}{subsubsection.9.2.2.2}% 
+\contentsline {subsection}{\numberline {9.2.3}Large-Scale Comparisons}{139}{subsection.9.2.3}% 
+\contentsline {subsubsection}{\numberline {9.2.3.1}Topic Hierarchies}{139}{subsubsection.9.2.3.1}% 
+\contentsline {subsubsection}{\numberline {9.2.3.2}Nearest Documents}{140}{subsubsection.9.2.3.2}% 
+\contentsline {subsection}{\numberline {9.2.4}Multilingual Corpora}{140}{subsection.9.2.4}% 
+\contentsline {subsubsection}{\numberline {9.2.4.1}Cross-lingual Topics}{140}{subsubsection.9.2.4.1}% 
+\contentsline {section}{\numberline {9.3}Impact}{141}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Future Work}{143}{section.9.4}% 
+\contentsline {subsection}{\numberline {9.4.1}Extend the Reuse of Topic Models}{143}{subsection.9.4.1}% 
+\contentsline {subsection}{\numberline {9.4.2}Combined Representation of Topic Models}{144}{subsection.9.4.2}% 
+\contentsline {subsection}{\numberline {9.4.3}Refine the Conceptual Abstractions of Topics }{145}{subsection.9.4.3}% 
+\contentsline {chapter}{Bibliography}{147}{chapter*.91}% 
