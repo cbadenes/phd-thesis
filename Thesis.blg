@@ -16,8 +16,6 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-Warning--string name "impact" is undefined
---line 1591 of file bibliography/references.bib
 Warning--empty publisher in Andoni2014
 Warning--there's a number but no volume in Boyd-Graber2010
 Warning--empty booktitle in Dong2017DrIP
@@ -35,7 +33,7 @@ Warning--can't use both volume and number fields in Steinberger2006
 Warning--empty publisher in Terasawa2007
 You've used 122 entries,
             1935 wiz_defined-function locations,
-            1256 strings with 30715 characters,
+            1257 strings with 30721 characters,
 and the built_in function-call counts, 58803 in all, are:
 = -- 5907
 > -- 2511
@@ -74,4 +72,4 @@ warning$ -- 15
 while$ -- 467
 width$ -- 0
 write$ -- 1605
-(There were 16 warnings)
+(There were 15 warnings)

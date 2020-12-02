@@ -59,18 +59,18 @@ Thus, we have used a LDA model to describe the inherent topic distribution of pa
 
 
 \subsection{Similarity Measure}
-Feature vectors in Topic Models are topic distributions expressed as vectors of probabilities. Hence we opt for \textit{Jensen-Shannon divergence} (JSD) (See Section \ref{sec:related-work})  instead of the commonly used \textit{Kullback-Liebler divergence} (KLD). The reason for this is that KLD is not defined when a topic distribution is zero and is not symmetric, what does not fit well with semantic similarity measures which in general are symmetric \citep{Rus2013}. JSD considers the average of the distributions as follows :
+Feature vectors in Topic Models are topic distributions expressed as vectors of probabilities. Hence we opt for \textit{Jensen-Shannon divergence} (JS) (See Section \ref{sec:related-work})  instead of the commonly used \textit{Kullback-Liebler divergence} (KL). The reason for this is that KL is not defined when a topic distribution is zero and is not symmetric, what does not fit well with semantic similarity measures which in general are symmetric \citep{Rus2013}. JS considers the average of the distributions as follows :
 
 \begin{equation}
-JSD(p,q) = \sum\limits_{i=1}^T p_{i}*\log \frac{2*p_{i}}{p_{i}+q_{i}}  +  \sum\limits_{i=1}^T q_{i}*\log \frac{2*q_{i}}{q_{i}+p_{i}}
+JS(p,q) = \sum\limits_{i=1}^T p_{i}*\log \frac{2*p_{i}}{p_{i}+q_{i}}  +  \sum\limits_{i=1}^T q_{i}*\log \frac{2*q_{i}}{q_{i}+p_{i}}
 \label{eq:jsd}
 \end{equation}
 where  $T$ is the number of topics and $p,q$ are the topics distributions.
 
-And the \textit{similarity measure} used in our analysis is based on the JSD transformed into a similarity measure as follows \citep{Dagan1998} :
+And the \textit{similarity measure} used in our analysis is based on the JS transformed into a similarity measure as follows \citep{Dagan1998} :
 
 \begin{equation}
-similarity(D_i , D_j) = 10^{- JSD(p,q)}
+similarity(D_i , D_j) = 10^{- JS(p,q)}
 \label{eq:simcontent}
 \end{equation}
 where  $D_i,D_j$ are the documents and $p,q$ the topics distributions of each of them.
@@ -84,7 +84,7 @@ Since the annotation process to automatically discovers the rhetorical parts of 
 
 \subsubsection{Internal Representativeness}
 
-The \textit{internal-representativeness} of a text measures the similarity of a summary against the original full-text. This measure is based on the JSD between the topic distribution of each of them. 
+The \textit{internal-representativeness} of a text measures the similarity of a summary against the original full-text. This measure is based on the JS between the topic distribution of each of them. 
 
 \begin{figure}[!htb]\centering
    \begin{minipage}{0.49\textwidth}
