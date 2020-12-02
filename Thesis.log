@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  1 DEC 2020 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  2 DEC 2020 06:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,13 +735,12 @@ Package pdftex.def Info: intro/figures/escudofi.pdf  used on input line 224.
 
  (./intro/abstract.tex [9
 
-] [10
+] [10] [11
 
-] [11])
-[12
+]
+[12]) (./Thesis.toc [13
 
 
-] (./Thesis.toc [13
 
 ] [14] [15])
 \tf@toc=\write5
@@ -1357,7 +1356,7 @@ t>
 File: conclusions/figures/context-similarity.png Graphic file (type png)
 <use conclusions/figures/context-similarity.png>
 Package pdftex.def Info: conclusions/figures/context-similarity.png  used on in
-put line 182.
+put line 180.
 (pdftex.def)             Requested size: 288.7942pt x 150.56203pt.
  [144 <./conclusions/figures/context-similarity.png>]) [145] (./Thesis.bbl (./T
 hesis.brf)
@@ -1388,20 +1387,16 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: DB2D5831A39EA0CAB79FF1B4053B3F29;9239.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 56E86FA61AC723C46F24B3AECA87DB49;9986.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 15164 strings out of 492616
- 238936 string characters out of 6129481
+ 15165 strings out of 492616
+ 238944 string characters out of 6129481
  627605 words of memory out of 5000000
- 18024 multiletter control sequences out of 15000+600000
+ 18025 multiletter control sequences out of 15000+600000
  18881 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,15n,79p,2327b,693s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,15n,79p,2700b,693s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1424,7 +1419,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (188 pages, 7310476 bytes).
+Output written on Thesis.pdf (188 pages, 7315267 bytes).
 PDF statistics:
  3182 PDF objects out of 3580 (max. 8388607)
  2811 compressed objects within 29 object streams
