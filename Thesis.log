@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  3 DEC 2020 05:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  3 DEC 2020 07:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,12 +735,13 @@ Package pdftex.def Info: intro/figures/escudofi.pdf  used on input line 224.
 
  (./intro/abstract.tex [9
 
-] [10] [11
+] [10
 
-]
-[12]) (./Thesis.toc [13
+] [11])
+[12
 
 
+] (./Thesis.toc [13
 
 ] [14] [15])
 \tf@toc=\write5
@@ -1384,14 +1385,8 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: DB2D5831A39EA0CAB79FF1B4053B3F29;9239.
-
-
-Package rerunfilecheck Warning: File `Thesis.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `Thesis.brf':
-(rerunfilecheck)             Before: 56E86FA61AC723C46F24B3AECA87DB49;9986
-(rerunfilecheck)             After:  EF72E85D9DE419A6F8D09BBE00254AD9;10248.
+Package rerunfilecheck Info: File `Thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: EF72E85D9DE419A6F8D09BBE00254AD9;10248.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
  ) 
 Here is how much of TeX's memory you used:
@@ -1401,7 +1396,7 @@ Here is how much of TeX's memory you used:
  18049 multiletter control sequences out of 15000+600000
  18881 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,15n,79p,2700b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,15n,79p,2327b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1424,10 +1419,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (188 pages, 7317618 bytes).
+Output written on Thesis.pdf (188 pages, 7315842 bytes).
 PDF statistics:
- 3194 PDF objects out of 3580 (max. 8388607)
- 2823 compressed objects within 29 object streams
+ 3198 PDF objects out of 3580 (max. 8388607)
+ 2827 compressed objects within 29 object streams
  645 named destinations out of 1000 (max. 500000)
  1233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
