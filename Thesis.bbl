@@ -126,12 +126,20 @@ Boyd-Graber, J. and Blei, D.~M. (2009).
   Artificial Intelligence}, UAI '09, page 75–82, Arlington, Virginia, USA.
   AUAI Press.
 
-\bibitem[Boyd-Graber and Resnik, 2010]{Boyd-Graber2010}
-Boyd-Graber, J. and Resnik, P. (2010).
+\bibitem[Boyd-Graber and Resnik, 2010a]{Boyd-Graber2010}
+Boyd-Graber, J. and Resnik, P. (2010a).
 \newblock {Holistic Sentiment Analysis Across Languages: Multilingual
   Supervised Latent Dirichlet Allocation}.
 \newblock {\em Proceedings of the 2010 Conference on Empirical Methods in
   Natural Language Processing}, (October):45--55.
+
+\bibitem[Boyd-Graber and Resnik, 2010b]{10.5555/1870658.1870663}
+Boyd-Graber, J. and Resnik, P. (2010b).
+\newblock Holistic sentiment analysis across languages: Multilingual supervised
+  latent dirichlet allocation.
+\newblock In {\em Proceedings of the 2010 Conference on Empirical Methods in
+  Natural Language Processing}, EMNLP '10, page 45–55, USA. Association for
+  Computational Linguistics.
 
 \bibitem[Celikyilmaz et~al., 2010]{Celikyilmaz2010}
 Celikyilmaz, a., Hakkani-Tur, D., and Tur, G. (2010).
@@ -614,6 +622,14 @@ Sciences, E. R. S. f.~P. and life (2016).
   literature: the power of mining full-text articles for pathway analysis
   Harnessing the Power of content}.
 
+\bibitem[Shi et~al., 2016]{shi-etal-2016-detecting}
+Shi, B., Lam, W., Bing, L., and Xu, Y. (2016).
+\newblock Detecting common discussion topics across culture from news reader
+  comments.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 676--685, Berlin,
+  Germany. Association for Computational Linguistics.
+
 \bibitem[{Simone Teufel}, 2010]{SimoneTeufel2010}
 {Simone Teufel} (2010).
 \newblock {The Structure of Scientific Articles - Applications to Citation
@@ -743,6 +759,23 @@ y~David Perez-Fernandez~y Jeronimo Arenas-Garcia, D.~S. (2019).
 \newblock Landscaping language technologies using topic modeling and graph
   analysis: Overview of the spanish contribution.
 \newblock {\em Procesamiento del Lenguaje Natural}, 63(0):129--136.
+
+\bibitem[Yang et~al., 2019]{yang2019multilingual}
+Yang, W., Boyd-Graber, J., and Resnik, P. (2019).
+\newblock A multilingual topic model for learning weighted topic links across
+  corpora with low comparability.
+\newblock In {\em Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP)}, pages 1243--1248.
+
+\bibitem[Yuan et~al., 2018]{NEURIPS2018_28b9f8aa}
+Yuan, M., Van~Durme, B., and Ying, J.~L. (2018).
+\newblock Multilingual anchoring: Interactive topic modeling and alignment
+  across languages.
+\newblock In Bengio, S., Wallach, H., Larochelle, H., Grauman, K.,
+  Cesa-Bianchi, N., and Garnett, R., editors, {\em Advances in Neural
+  Information Processing Systems}, volume~31, pages 8653--8663. Curran
+  Associates, Inc.
 
 \bibitem[Zhang et~al., 2010]{zhang-etal-2010-cross}
 Zhang, D., Mei, Q., and Zhai, C. (2010).
