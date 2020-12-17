@@ -32,6 +32,15 @@ Andoni, A., Indyk, P., Nguyá»…n, H.~L., and Razenshteyn, I. (2014).
 \newblock In {\em Proceedings of the Twenty-Fifth Annual ACM-SIAM Symposium on
   Discrete Algorithms}, pages 1018--1028.
 
+\bibitem[Badenes-Olmedo et~al., 2020a]{badenesolmedo2020drugs4covid}
+Badenes-Olmedo, C., Chaves-Fraga, D., Poveda-VillalÓn, M., Iglesias-Molina,
+  A., Calleja, P., Bernardos, S., MartÍn-Chozas, P., Fernández-Izquierdo, A.,
+  Amador-Domínguez, E., Espinoza-Arias, P., Pozo, L., Ruckhaus, E.,
+  González-Guardia, E., Cedazo, R., López-Centeno, B., and Corcho, O.
+  (2020a).
+\newblock Drugs4covid: Drug-driven knowledge exploitation based on scientific
+  publications.
+
 \bibitem[Badenes-Olmedo et~al., 2017a]{Badenes-Olmedo2017c}
 Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2017a).
 \newblock {An Initial Analysis of Topic-based Similarity among Scientific
@@ -59,8 +68,8 @@ Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2019b).
 \newblock In {\em Proceedings of the 10th International Conference on Knowledge
   Capture}, pages 147--153.
 
-\bibitem[Badenes-Olmedo et~al., 2020]{Badenes-Olmedo2020}
-Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2020).
+\bibitem[Badenes-Olmedo et~al., 2020b]{Badenes-Olmedo2020}
+Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2020b).
 \newblock {Large-Scale Semantic Exploration of Scientific Literature using
   Topic-based Hashing Algorithms}.
 \newblock {\em Semantic Web}.

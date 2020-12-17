@@ -17,6 +17,7 @@ A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
 Warning--empty publisher in Andoni2014
+Warning--empty journal in badenesolmedo2020drugs4covid
 Warning--there's a number but no volume in Boyd-Graber2010
 Warning--empty booktitle in Dong2017DrIP
 Warning--there's a number but no series in Dong2017DrIP
@@ -31,45 +32,45 @@ Warning--empty journal in Sciences2016
 Warning--empty publisher in SimoneTeufel2010
 Warning--can't use both volume and number fields in Steinberger2006
 Warning--empty publisher in Terasawa2007
-You've used 126 entries,
+You've used 127 entries,
             1935 wiz_defined-function locations,
-            1280 strings with 31846 characters,
-and the built_in function-call counts, 61205 in all, are:
-= -- 6158
-> -- 2603
+            1283 strings with 32326 characters,
+and the built_in function-call counts, 61938 in all, are:
+= -- 6213
+> -- 2686
 < -- 118
-+ -- 904
-- -- 890
-* -- 4850
-:= -- 9870
-add.period$ -- 398
-call.type$ -- 126
-change.case$ -- 1064
++ -- 937
+- -- 922
+* -- 4930
+:= -- 10010
+add.period$ -- 400
+call.type$ -- 127
+change.case$ -- 1085
 chr.to.int$ -- 118
-cite$ -- 141
-duplicate$ -- 2657
-empty$ -- 4202
-format.name$ -- 1084
-if$ -- 12679
-int.to.chr$ -- 9
+cite$ -- 143
+duplicate$ -- 2670
+empty$ -- 4222
+format.name$ -- 1117
+if$ -- 12804
+int.to.chr$ -- 10
 int.to.str$ -- 0
-missing$ -- 127
-newline$ -- 628
-num.names$ -- 384
-pop$ -- 1172
+missing$ -- 128
+newline$ -- 632
+num.names$ -- 387
+pop$ -- 1195
 preamble$ -- 1
-purify$ -- 1067
+purify$ -- 1088
 quote$ -- 0
-skip$ -- 2105
+skip$ -- 2114
 stack$ -- 0
-substring$ -- 4080
+substring$ -- 4092
 swap$ -- 784
 text.length$ -- 71
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 750
-warning$ -- 15
-while$ -- 486
+type$ -- 756
+warning$ -- 16
+while$ -- 488
 width$ -- 0
-write$ -- 1664
-(There were 15 warnings)
+write$ -- 1674
+(There were 16 warnings)

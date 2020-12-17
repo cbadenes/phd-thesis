@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  3 DEC 2020 07:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  17 DEC 2020 06:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1351,7 +1351,7 @@ ne 135.
 ]
 Chapter 9.
 [135] [136] [137] [138] [139] [140] [141] [142] [143]
-<conclusions/figures/context-similarity.png, id=2723, 1056.94875pt x 551.05875p
+<conclusions/figures/context-similarity.png, id=2726, 1056.94875pt x 551.05875p
 t>
 File: conclusions/figures/context-similarity.png Graphic file (type png)
 <use conclusions/figures/context-similarity.png>
@@ -1369,7 +1369,7 @@ hesis.brf)
 ] [147]
 [148] [149] [150] [151] [152] [153] [154] [155]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 542.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 551.
  [156] [157] [158] [159])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
 
@@ -1386,17 +1386,17 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: DB2D5831A39EA0CAB79FF1B4053B3F29;9239.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: EF72E85D9DE419A6F8D09BBE00254AD9;10248.
+(rerunfilecheck)             Checksum: E9A3CEB19F24CCD02FA755CFEE8BBC2F;10320.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
  ) 
 Here is how much of TeX's memory you used:
- 15193 strings out of 492616
- 239710 string characters out of 6129481
+ 15201 strings out of 492616
+ 239955 string characters out of 6129481
  627605 words of memory out of 5000000
- 18049 multiletter control sequences out of 15000+600000
+ 18056 multiletter control sequences out of 15000+600000
  18881 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,15n,79p,2327b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,15n,79p,2327b,697s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1419,10 +1419,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (188 pages, 7315842 bytes).
+Output written on Thesis.pdf (188 pages, 7316094 bytes).
 PDF statistics:
- 3198 PDF objects out of 3580 (max. 8388607)
- 2827 compressed objects within 29 object streams
- 645 named destinations out of 1000 (max. 500000)
+ 3202 PDF objects out of 3580 (max. 8388607)
+ 2831 compressed objects within 29 object streams
+ 646 named destinations out of 1000 (max. 500000)
  1233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
