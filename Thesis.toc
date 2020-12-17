@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Topic Creation and Reuse}{15}{subsection.2.2.1}% 
 \contentsline {subsection}{\numberline {2.2.2}Topic Explainability}{16}{subsection.2.2.2}% 
 \contentsline {subsection}{\numberline {2.2.3}Document Similarity}{18}{subsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.2.4}Multilingual Topic Alignment}{20}{subsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.2.4}Multilingual Topic Alignment}{19}{subsection.2.2.4}% 
 \contentsline {chapter}{\numberline {3}Methodology}{23}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Research Hypotheses}{24}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Research Challenges}{26}{section.3.2}% 

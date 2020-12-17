@@ -127,31 +127,37 @@ Some approaches have advanced in this direction and offer the creation and explo
 \label{sec:topic-explainability}
 
 Even though distance metrics mentioned in Section~\ref{sec:related-work} have been proposed and used in the SoA, making sense out of the similarity score based on compare topic distributions is not easy. As shown in figure \ref{fig:topic_distances}, given a set of pairs of documents, their similarity scores vary according to the number of topics. So the distances between the same pairs fluctuate from being more to less distant when changing the number of topics, and are hence difficult to use for relate semantically documents. In this conditions, which of those distances is better representing the underlying collection?
-\begin{figure}
-\begin{center}
-\begin{adjustbox}{minipage=0.50\linewidth,frame=0pt 3pt}
+
+
+\begin{figure}[ht]
+\begin{subfigure}[b]{0.5\linewidth}
+\centering
 \includegraphics[width=\linewidth]{KL_100_2k.png}
-\centering (a)
-\end{adjustbox}
-\hfill
-\begin{adjustbox}{minipage=0.50\linewidth,frame=0pt 3pt}
+\caption{Kullback-Liebler divergence}
+\vspace{4ex}
+\end{subfigure}
+\begin{subfigure}[b]{0.5\linewidth}
+\centering
 \includegraphics[width=\linewidth]{JSD_100_2k.png}
-\centering (b)
-\end{adjustbox}
-\hfill
-\begin{adjustbox}{minipage=0.50\linewidth,frame=0pt 3pt}
+\caption{Jensen-Shannon divergence}
+\vspace{4ex}
+\end{subfigure}
+\begin{subfigure}[b]{0.5\linewidth}
+\centering
 \includegraphics[width=\linewidth]{He_100_2k.png}
-\centering (c)
-\end{adjustbox}
-\hfill
-\begin{adjustbox}{minipage=0.50\linewidth,frame=0pt 3pt}
+\caption{Hellinger distance}
+\vspace{4ex}
+\end{subfigure}
+\begin{subfigure}[b]{0.5\linewidth}
+\centering
 \includegraphics[width=\linewidth]{S2JSD_100_2k.png}
-\centering (d)
-\end{adjustbox}
-\end{center}
-\caption{Distance values of 10 pairs of documents calculated in topic models with 100-to-2000 dimensions. The Kullback-Liebler(a), Jensen-Shannon Divergence(b), Hellinger(c) and S2JSD(c) metrics are considered.}
+\caption{S2JSD distance}
+\vspace{4ex}
+\end{subfigure}
+\caption{Evolution of the distance between a set of document pairs when increasing the number of topics in the models and using different metrics \citep{Badenes-Olmedo2020}.}
 \label{fig:topic_distances}
 \end{figure}
+
 
 Distances between documents based on topic distributions, because it is a vector space, generally increase as the number of dimensions of the space increases. This is due to the fact that as the number of topics describing the model increases, the more specific the topics will be. Topics shared by a pair of documents can be broken down into more specific topics that are not shared by those documents. \textit{Document similarity is then dependent on the model used to represent documents when considering this type of metrics}. 
 

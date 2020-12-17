@@ -23,7 +23,7 @@ Topic models have been successfully used in multiple domains in the last years \
 \begin{figure}
   \center
   \includegraphics[scale=0.21]{life-cycle.png}
-  \caption{Topic model life-cycle. First texts are processed to retrieve tokens and build bags-of-words (BoW). They are then used to train a model that identifies patterns among words and builds topics. The model, which is also enabled to make inferences in unseen texts, is published as a service in an online repository. Finally, the service is used as resource in a particular solution, for example to categorize documents.}
+  \caption{Stages in the creation and reuse of topic models. Texts are first processed to retrieve tokens and create bags-of-words (BoW). These structures are used to train a model that identifies word distributions called topics. The model is enabled to make topic inferences in unseen texts. It is published as a web service in an online repository. The service can then be (re)used as web resource, for example to categorize documents.}
   \label{fig:life-cycle}
 \end{figure}
 
@@ -173,8 +173,8 @@ A microservice-oriented style has been used to define the framework architecture
 
 \begin{figure} 
   \center
-  \includegraphics[scale=0.45]{modules}
-  \caption{Modules (in green) publishing or receiving events from the messenger service (in purple).}
+  \includegraphics[scale=0.45]{modulesBN}
+  \caption{Modules (in gray) publishing or receiving events from the messenger service (in purple).}
   \label{fig:librairy-modules}
 \end{figure}
 
@@ -259,18 +259,18 @@ A summary of the tasks, and their purposes, provided by a topic model can be fou
 \heading{Task} & \heading{Purpose} \\
 \midrule
 \midrule
-T1: Reproducibility & create a similar model\\
+T1: Replication & create similar topics\\
 \midrule
 T2: Exploration & browse topics and words\\
 \midrule
 T3: Inference & calculate topic distributions\\
 \bottomrule
 \end{tabularx}
-\caption{Tasks and scopes provided by a topic model.}
+\caption{Potential uses of a topic model.}
 \label{table:tasks}
 \end{table}
 
-In order to cover these tasks by topic services, the API must offer operations that, individually or partially, allow them to be achieved. A topic model is: \textit{reproducible} (T1) when its hyperparameters and the configuration of the training set are known, \textit{explorable} (T2) when the word distributions of each topic are known, and is \textit{interpretable} (T3) when the presence of each topic can be measured in a text. Table~\ref{table:operations} summarizes the operations offered by a topic model-as-a-service to support the tasks provided by a topic model.
+In order to cover these tasks by topic services, the API must offer operations that, individually or partially, allow them to be achieved. A topic model is: \textit{reproducible} (T1) when its hyperparameters and the configuration of the training set are known, \textit{explorable} (T2) when the word distributions of each topic are known, and is \textit{interpretable} (T3) when the presence of each topic can be measured in a text. Table~\ref{table:operations} summarizes the operations offered by a topic model-as-a-service to support the potential uses.
 
 \begin{table}[!htbp]
 \small
@@ -280,11 +280,11 @@ In order to cover these tasks by topic services, the API must offer operations t
 \heading{Operations} & \heading{Tasks} \\
 \midrule
 \midrule
-O1: reading of model hyperparameters (i.e alpha, beta, and number of topics) & T1: Reproducibility\\
+O1: reading of model hyperparameters (i.e alpha, beta, and number of topics) & T1: Replication\\
 \midrule
-O2: reading of pre-processing tasks (i.e stopwords, normalization, PoS filtering) & T1: Reproducibility\\
+O2: reading of pre-processing tasks (i.e stopwords, normalization, PoS filtering) & T1: Replication\\
 \midrule
-O3: reading of learning parameters (i.e number of iterations, seed, likelihood) & T1: Reproducibility \\
+O3: reading of learning parameters (i.e iterations, seed, likelihood) & T1: Replication \\
 \midrule
 O4: reading of topics described by word distributions (i.e topic relevance) & T2: Exploration\\
 \midrule
@@ -293,7 +293,7 @@ O5: reading of words described by topic distributions (i.e word relevance) & T2:
 O6: calculation of topic distributions in texts (i.e vector of topic distributions) & T3: Inference\\
 \bottomrule
 \end{tabularx}
-\caption{Operations offered by a Probabilistic Topic Model.}
+\caption{Operations offered by a topic model-as-a-service to cover potential tasks.}
 \label{table:operations}
 \end{table}
 
