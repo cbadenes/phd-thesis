@@ -37,9 +37,9 @@
 \contentsline {section}{\numberline {4.2}Reusable Topic Modeling}{45}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}Topic Model Publication}{46}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}Topic Model Exploitation}{47}{subsection.4.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.2.1}Reproducibility Tasks}{50}{subsubsection.4.2.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Reproducibility Tasks}{49}{subsubsection.4.2.2.1}% 
 \contentsline {subsubsection}{\numberline {4.2.2.2}Exploration Tasks}{51}{subsubsection.4.2.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.2.3}Inference Tasks}{52}{subsubsection.4.2.2.3}% 
+\contentsline {subsubsection}{\numberline {4.2.2.3}Inference Tasks}{51}{subsubsection.4.2.2.3}% 
 \contentsline {section}{\numberline {4.3}Summary}{52}{section.4.3}% 
 \contentsline {chapter}{\numberline {5}Explainable Topic-based Associations}{55}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Topic-based Relations}{56}{section.5.1}% 
