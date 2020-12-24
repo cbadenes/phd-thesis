@@ -112,4 +112,4 @@
 \contentsline {subsection}{\numberline {9.4.1}Extend the Reuse of Topic Models}{143}{subsection.9.4.1}% 
 \contentsline {subsection}{\numberline {9.4.2}Combined Representation of Topic Models}{144}{subsection.9.4.2}% 
 \contentsline {subsection}{\numberline {9.4.3}Refine the Conceptual Abstractions of Topics }{145}{subsection.9.4.3}% 
-\contentsline {chapter}{Bibliography}{147}{chapter*.91}% 
+\contentsline {chapter}{Bibliography}{147}{chapter*.92}% 
