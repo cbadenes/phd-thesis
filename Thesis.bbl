@@ -226,6 +226,12 @@ Deerwester, S., Dumais, S.~T., Furnas, G.~W., Landauer, T.~K., and Harshman, R.
 \newblock {\em Journal of the American Society for Information Science},
   41(6):391--407.
 
+\bibitem[Dieng et~al., 2020]{Dieng2020TopicMI}
+Dieng, A.~B., Ruiz, F. J.~R., and Blei, D. (2020).
+\newblock Topic modeling in embedding spaces.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  8:439--453.
+
 \bibitem[Divoli et~al., 2012]{Divoli2012}
 Divoli, A., Nakov, P., and Hearst, M.~A. (2012).
 \newblock {Do peers see more in a paper than its authors?}
