@@ -34,34 +34,34 @@ Warning--can't use both volume and number fields in Steinberger2006
 Warning--empty publisher in Terasawa2007
 You've used 123 entries,
             1935 wiz_defined-function locations,
-            1265 strings with 31564 characters,
-and the built_in function-call counts, 59974 in all, are:
-= -- 6011
-> -- 2600
-< -- 111
-+ -- 904
-- -- 894
-* -- 4785
-:= -- 9703
+            1265 strings with 31571 characters,
+and the built_in function-call counts, 60040 in all, are:
+= -- 6016
+> -- 2611
+< -- 110
++ -- 908
+- -- 898
+* -- 4795
+:= -- 9715
 add.period$ -- 387
 call.type$ -- 123
-change.case$ -- 1053
+change.case$ -- 1055
 chr.to.int$ -- 119
 cite$ -- 139
 duplicate$ -- 2573
 empty$ -- 4098
-format.name$ -- 1081
-if$ -- 12378
+format.name$ -- 1085
+if$ -- 12389
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 126
 newline$ -- 614
 num.names$ -- 373
-pop$ -- 1160
+pop$ -- 1163
 preamble$ -- 1
-purify$ -- 1056
+purify$ -- 1058
 quote$ -- 0
-skip$ -- 2034
+skip$ -- 2033
 stack$ -- 0
 substring$ -- 3995
 swap$ -- 744

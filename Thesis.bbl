@@ -600,6 +600,12 @@ Salton, G. (1983).
 \newblock {\em Introduction to Modern Information Retrieval}.
 \newblock McGraw-Hill, Inc., USA.
 
+\bibitem[Samy et~al., 2019]{Samy2019}
+Samy, D., Perez-Fernandez, D., and Arenas-Garcia, J. (2019).
+\newblock Landscaping language technologies using topic modeling and graph
+  analysis: Overview of the spanish contribution.
+\newblock {\em Procesamiento del Lenguaje Natural}, 63(0):129--136.
+
 \bibitem[Sciences and life, 2016]{Sciences2016}
 Sciences, E. R. S. f.~P. and life (2016).
 \newblock {Harnessing the power of content - Extracting value from scientific
@@ -733,12 +739,6 @@ Westergaard, D., St{\ae}rfeldt, H.-h., T{\o}nsberg, C., Jensen, L.~J., and
   Brunak, S. (2017).
 \newblock {Text mining of 15 million full-text scientific articles}.
 \newblock {\em bioRxiv}.
-
-\bibitem[y~David Perez-Fernandez~y Jeronimo Arenas-Garcia, 2019]{Samy2019}
-y~David Perez-Fernandez~y Jeronimo Arenas-Garcia, D.~S. (2019).
-\newblock Landscaping language technologies using topic modeling and graph
-  analysis: Overview of the spanish contribution.
-\newblock {\em Procesamiento del Lenguaje Natural}, 63(0):129--136.
 
 \bibitem[Yang et~al., 2019]{yang2019multilingual}
 Yang, W., Boyd-Graber, J., and Resnik, P. (2019).
