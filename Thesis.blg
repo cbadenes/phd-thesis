@@ -16,7 +16,7 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-Warning--I didn't find a database entry for "DeSmet2009"
+Warning--I didn't find a database entry for "Mimno:2009:PTM:1699571.1699627"
 Warning--empty publisher in Andoni2014
 Warning--empty journal in badenesolmedo2020drugs4covid
 Warning--there's a number but no volume in Boyd-Graber2010
@@ -33,45 +33,45 @@ Warning--empty journal in Sciences2016
 Warning--empty publisher in SimoneTeufel2010
 Warning--can't use both volume and number fields in Steinberger2006
 Warning--empty publisher in Terasawa2007
-You've used 124 entries,
+You've used 123 entries,
             1935 wiz_defined-function locations,
-            1275 strings with 31995 characters,
-and the built_in function-call counts, 60834 in all, are:
-= -- 6100
-> -- 2642
-< -- 114
-+ -- 919
-- -- 908
-* -- 4861
-:= -- 9831
-add.period$ -- 392
-call.type$ -- 124
-change.case$ -- 1063
+            1269 strings with 31763 characters,
+and the built_in function-call counts, 60211 in all, are:
+= -- 6035
+> -- 2614
+< -- 113
++ -- 908
+- -- 898
+* -- 4812
+:= -- 9735
+add.period$ -- 388
+call.type$ -- 123
+change.case$ -- 1053
 chr.to.int$ -- 119
-cite$ -- 140
-duplicate$ -- 2608
-empty$ -- 4152
-format.name$ -- 1096
-if$ -- 12566
-int.to.chr$ -- 6
+cite$ -- 139
+duplicate$ -- 2581
+empty$ -- 4110
+format.name$ -- 1085
+if$ -- 12432
+int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 127
-newline$ -- 619
-num.names$ -- 378
-pop$ -- 1169
+missing$ -- 126
+newline$ -- 614
+num.names$ -- 375
+pop$ -- 1157
 preamble$ -- 1
-purify$ -- 1066
+purify$ -- 1056
 quote$ -- 0
-skip$ -- 2064
+skip$ -- 2044
 stack$ -- 0
-substring$ -- 4063
-swap$ -- 763
-text.length$ -- 69
+substring$ -- 4019
+swap$ -- 753
+text.length$ -- 68
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 738
+type$ -- 732
 warning$ -- 16
-while$ -- 482
+while$ -- 477
 width$ -- 0
-write$ -- 1638
+write$ -- 1623
 (There were 17 warnings)

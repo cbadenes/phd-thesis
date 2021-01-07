@@ -218,7 +218,7 @@ Divoli, A., Nakov, P., and Hearst, M.~A. (2012).
 Dong, F., O'Donoghue, D., Ersotelos, N., Wu, S., Saggion, H., Ronzano, F.,
   Corcho, {\'O}., Hurley, D., Abgaz, Y.~M., Zhang, J., Chaudhry, E., Yang, X.,
   Wei, H., Deng, Z., Mahdian, B., and Careil, J. (2017).
-\newblock Dr. inventor, promoting scientific creativity by utilising web-based
+\newblock Dr.inventor, promoting scientific creativity by utilising web-based
   research objects.
 \newblock Number~2, pages 40--44.
 
@@ -266,7 +266,7 @@ Ganguly, D., Leveling, J., and Jones, G. (2012).
 \bibitem[Garcia, 2020]{Teresa2020}
 Garcia, T. G.-C. (2020).
 \newblock Analizador de lectura facil 4.0.
-\newblock {\em open archive UPM}.
+\newblock {\em Open Archive UPM - http://oa.upm.es/63357/}.
 
 \bibitem[Gatti et~al., 2015]{Gatti2015}
 Gatti, C.~J., Brooks, J.~D., and Nurre, S.~G. (2015).
@@ -496,21 +496,13 @@ Mimno, D., Wallach, H., Talley, E., Leenders, M., and McCallum, A. (2011).
   Natural Language Processing}, pages 262--272, Edinburgh, Scotland, UK.
   Association for Computational Linguistics.
 
-\bibitem[Mimno et~al., 2009a]{mimno-etal-2009-polylingual}
+\bibitem[Mimno et~al., 2009]{mimno-etal-2009-polylingual}
 Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
-  (2009a).
+  (2009).
 \newblock Polylingual topic models.
 \newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
-  Natural Language Processing}, pages 880--889, Singapore. Association for
-  Computational Linguistics.
-
-\bibitem[Mimno et~al., 2009b]{Mimno:2009:PTM:1699571.1699627}
-Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
-  (2009b).
-\newblock {Polylingual Topic Models}.
-\newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
-  Natural Language Processing: Volume 2 - Volume 2}, EMNLP '09, pages 880--889,
-  Stroudsburg, PA, USA. Association for Computational Linguistics.
+  Natural Language Processing}, EMNLP '09, pages 880--889, Stroudsburg, PA,
+  USA. Association for Computational Linguistics.
 
 \bibitem[Moritz and Ìˆchler, 2017]{Moritz2017}
 Moritz, M. and Ìˆchler, M.~B. (2017).
