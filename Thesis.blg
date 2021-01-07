@@ -16,8 +16,7 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-Warning--I didn't find a database entry for "10.5555/1870658.1870663"
-Warning--I didn't find a database entry for "Badenes-Olmedo2017a"
+Warning--I didn't find a database entry for "DeSmet2009"
 Warning--empty publisher in Andoni2014
 Warning--empty journal in badenesolmedo2020drugs4covid
 Warning--there's a number but no volume in Boyd-Graber2010
@@ -34,45 +33,45 @@ Warning--empty journal in Sciences2016
 Warning--empty publisher in SimoneTeufel2010
 Warning--can't use both volume and number fields in Steinberger2006
 Warning--empty publisher in Terasawa2007
-You've used 125 entries,
+You've used 124 entries,
             1935 wiz_defined-function locations,
-            1281 strings with 32211 characters,
-and the built_in function-call counts, 61237 in all, are:
-= -- 6139
-> -- 2655
-< -- 116
-+ -- 924
-- -- 912
-* -- 4888
-:= -- 9895
-add.period$ -- 395
-call.type$ -- 125
-change.case$ -- 1070
+            1275 strings with 31995 characters,
+and the built_in function-call counts, 60834 in all, are:
+= -- 6100
+> -- 2642
+< -- 114
++ -- 919
+- -- 908
+* -- 4861
+:= -- 9831
+add.period$ -- 392
+call.type$ -- 124
+change.case$ -- 1063
 chr.to.int$ -- 119
-cite$ -- 141
-duplicate$ -- 2631
-empty$ -- 4184
-format.name$ -- 1103
-if$ -- 12654
-int.to.chr$ -- 7
+cite$ -- 140
+duplicate$ -- 2608
+empty$ -- 4152
+format.name$ -- 1096
+if$ -- 12566
+int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 128
-newline$ -- 624
-num.names$ -- 381
-pop$ -- 1180
+missing$ -- 127
+newline$ -- 619
+num.names$ -- 378
+pop$ -- 1169
 preamble$ -- 1
-purify$ -- 1073
+purify$ -- 1066
 quote$ -- 0
-skip$ -- 2078
+skip$ -- 2064
 stack$ -- 0
-substring$ -- 4079
-swap$ -- 769
-text.length$ -- 70
+substring$ -- 4063
+swap$ -- 763
+text.length$ -- 69
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 744
+type$ -- 738
 warning$ -- 16
-while$ -- 485
+while$ -- 482
 width$ -- 0
-write$ -- 1651
-(There were 18 warnings)
+write$ -- 1638
+(There were 17 warnings)

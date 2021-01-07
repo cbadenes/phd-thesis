@@ -182,20 +182,13 @@ Datar, M., Immorlica, N., Indyk, P., and Mirrokni, V.~S. (2004).
 \newblock In {\em Proceedings of the twentieth annual symposium on
   Computational geometry - SCG '04}, page 253. ACM Press.
 
-\bibitem[De~Smet and Moens, 2009a]{Smet2009}
-De~Smet, W. and Moens, M.-F. (2009a).
+\bibitem[De~Smet and Moens, 2009]{Smet2009}
+De~Smet, W. and Moens, M.-F. (2009).
 \newblock Cross-language linking of news stories on the web using interlingual
   topic modelling.
 \newblock In {\em Proceedings of the 2nd ACM Workshop on Social Web Search and
   Mining}, SWSM '09, page 57–64, New York, NY, USA. Association for Computing
   Machinery.
-
-\bibitem[De~Smet and Moens, 2009b]{DeSmet2009}
-De~Smet, W. and Moens, M.-F. (2009b).
-\newblock {Cross-language linking of news stories on the web using interlingual
-  topic modelling}.
-\newblock In {\em Proceedings of the 2nd ACM workshop on Social web search and
-  mining}, page~57.
 
 \bibitem[De~Smet et~al., 2011]{10.1007/978-3-642-20841-6_45}
 De~Smet, W., Tang, J., and Moens, M.-F. (2011).
