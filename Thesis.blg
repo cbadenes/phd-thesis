@@ -16,7 +16,6 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-Warning--I didn't find a database entry for "Mimno:2009:PTM:1699571.1699627"
 Warning--empty publisher in Andoni2014
 Warning--empty journal in badenesolmedo2020drugs4covid
 Warning--there's a number but no volume in Boyd-Graber2010
@@ -35,43 +34,43 @@ Warning--can't use both volume and number fields in Steinberger2006
 Warning--empty publisher in Terasawa2007
 You've used 123 entries,
             1935 wiz_defined-function locations,
-            1269 strings with 31763 characters,
-and the built_in function-call counts, 60211 in all, are:
-= -- 6035
-> -- 2614
-< -- 113
-+ -- 908
-- -- 898
-* -- 4812
-:= -- 9735
-add.period$ -- 388
+            1265 strings with 31564 characters,
+and the built_in function-call counts, 59974 in all, are:
+= -- 6011
+> -- 2600
+< -- 111
++ -- 904
+- -- 894
+* -- 4785
+:= -- 9703
+add.period$ -- 387
 call.type$ -- 123
 change.case$ -- 1053
 chr.to.int$ -- 119
 cite$ -- 139
-duplicate$ -- 2581
-empty$ -- 4110
-format.name$ -- 1085
-if$ -- 12432
+duplicate$ -- 2573
+empty$ -- 4098
+format.name$ -- 1081
+if$ -- 12378
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 126
 newline$ -- 614
-num.names$ -- 375
-pop$ -- 1157
+num.names$ -- 373
+pop$ -- 1160
 preamble$ -- 1
 purify$ -- 1056
 quote$ -- 0
-skip$ -- 2044
+skip$ -- 2034
 stack$ -- 0
-substring$ -- 4019
-swap$ -- 753
-text.length$ -- 68
+substring$ -- 3995
+swap$ -- 744
+text.length$ -- 66
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 732
 warning$ -- 16
-while$ -- 477
+while$ -- 473
 width$ -- 0
-write$ -- 1623
-(There were 17 warnings)
+write$ -- 1620
+(There were 16 warnings)

@@ -504,10 +504,10 @@ Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
   Natural Language Processing}, EMNLP '09, pages 880--889, Stroudsburg, PA,
   USA. Association for Computational Linguistics.
 
-\bibitem[Moritz and Ìˆchler, 2017]{Moritz2017}
-Moritz, M. and Ìˆchler, M.~B. (2017).
+\bibitem[Moritz and Büchler, 2017]{Moritz2017}
+Moritz, M. and Büchler, M. (2017).
 \newblock {Ambiguity in Semantically Related Word Substitutions: an
-  Investigation in Historical Bible Translations.}
+  Investigation in Historical Bible Translations}.
 \newblock In {\em Proceedings of the NoDaLiDa 2017 Workshop on Processing
   Historical Language}, pages 18--23.
 
@@ -568,7 +568,7 @@ Ramage, D., Hall, D., Nallapati, R., and Manning, C.~D. (2009).
 \newblock {Labeled LDA: A supervised topic model for credit attribution in
   multi-labeled corpora}.
 \newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
-  Natural Language Processing}, number~1, pages 248--256.
+  Natural Language Processing (EMNLP'09)}, number~1, pages 248--256.
 
 \bibitem[Rao, 1982]{Rao1982}
 Rao, C.~R. (1982).
@@ -621,17 +621,13 @@ Shi, B., Lam, W., Bing, L., and Xu, Y. (2016).
 \newblock In {\em CSLI Studies in Computational Linguistics}.
 
 \bibitem[Soylu et~al., 2020]{Ahmet2020}
-Soylu, A., Corcho, {\'{O}}., Elves{\ae}ter, B., Badenes{-}Olmedo, C.,
+Soylu, A., Corcho, O., Elves{\ae}ter, B., Badenes{-}Olmedo, C.,
   Mart{\'{\i}}nez, F.~Y., Kovacic, M., Posinkovic, M., Makgill, I., Taggart,
   C., Simperl, E., Lech, T.~C., and Roman, D. (2020).
-\newblock Integrating and analysing public procurement data through a knowledge
-  graph: {A} demonstration in a nutshell.
-\newblock In Taylor, K.~L., Gon{\c{c}}alves, R., L{\'{e}}cu{\'{e}}, F., and
-  Yan, J., editors, {\em Proceedings of the {ISWC} 2020 Demos and Industry
-  Tracks: From Novel Ideas to Industrial Practice co-located with 19th
-  International Semantic Web Conference {(ISWC} 2020), Globally online,
-  November 1-6, 2020 {(UTC)}}, volume 2721 of {\em {CEUR} Workshop
-  Proceedings}, pages 34--39. CEUR-WS.org.
+\newblock Enhancing public procurement in the european union through
+  constructing and exploiting an integrated knowledge graph.
+\newblock In {\em Proceedings of the 19th International Semantic Web Conference
+  {(ISWC} 2020)}.
 
 \bibitem[Steinberger et~al., 2014]{Steinberger2014}
 Steinberger, R., Ebrahim, M., Poulis, A., Carrasco-Benitez, M., Schl{\"{u}}ter,
