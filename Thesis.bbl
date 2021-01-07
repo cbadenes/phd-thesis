@@ -127,20 +127,12 @@ Boyd-Graber, J. and Blei, D.~M. (2009).
   Artificial Intelligence}, UAI '09, page 75–82, Arlington, Virginia, USA.
   AUAI Press.
 
-\bibitem[Boyd-Graber and Resnik, 2010a]{Boyd-Graber2010}
-Boyd-Graber, J. and Resnik, P. (2010a).
+\bibitem[Boyd-Graber and Resnik, 2010]{Boyd-Graber2010}
+Boyd-Graber, J. and Resnik, P. (2010).
 \newblock {Holistic Sentiment Analysis Across Languages: Multilingual
   Supervised Latent Dirichlet Allocation}.
 \newblock {\em Proceedings of the 2010 Conference on Empirical Methods in
   Natural Language Processing}, (October):45--55.
-
-\bibitem[Boyd-Graber and Resnik, 2010b]{10.5555/1870658.1870663}
-Boyd-Graber, J. and Resnik, P. (2010b).
-\newblock Holistic sentiment analysis across languages: Multilingual supervised
-  latent dirichlet allocation.
-\newblock In {\em Proceedings of the 2010 Conference on Empirical Methods in
-  Natural Language Processing}, EMNLP '10, page 45–55, USA. Association for
-  Computational Linguistics.
 
 \bibitem[Celikyilmaz et~al., 2010]{Celikyilmaz2010}
 Celikyilmaz, a., Hakkani-Tur, D., and Tur, G. (2010).
