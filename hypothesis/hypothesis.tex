@@ -128,34 +128,6 @@ RCCrossLingual1: there are no approaches to abstract probabilistic topics in lan
 
 The research presented in this thesis is based on four dimensions or research areas as discussed in section \ref{sec:research-challenges}. Each one is motivated by different research problems that we need to solve in order to achieve our ultimate goal of making it easier to explore large multilingual document collections through their topics. Once a dimension is tackled, the next one is considered, and so on. This iterative and incremental methodology allows  refining the research results by evaluating them with more experiments and addressing increasingly complex research problems.
 
-Figure \ref{fig:dimensions} shows the dimensions on which the research of this thesis has been built. The top of the pyramid is only reached once the lower dimensions are dealt with successfully. They are presented as a chain of four steps. The first step describes the motivation to perform a given task coming from real-world problems that we had to deal with, and is represented by a brown arrow. In the context of this task, the research problem arises and is framed by a pink arrow. For each of them a solution is proposed and evaluated according to a specific criterion. The proposed solution is represented by a green arrow and the evaluation with a blue arrow. Once a proposal has been validated, the next dimension of the pyramid is achievable and all the previous research problems are added to the new research problem as conditions to be taken into account.
-
-Technical objectives (i.e., develop a new resource) or research objectives (i.e., discover the solution to a problem) guide the solution proposal before moving on to the next dimension. They are presented below, organized by the research problem associated with each dimension.
-
-
-\subsection{Scalable Creation and Inference of Topics}
-
-This first dimension arose when we had to analyze a huge collection of documents describing research and innovation projects to discover which research areas are being addressed, measure their presence in the collection, and characterize them so their presence can be inferred in unseen documents. Such a high volume of data made difficult to process it manually, so we needed to automate the required processing to draw insights from it. Probabilistic topics allow describing research areas, so we defined a \textit{distributed text-processing model for creating large probabilistic topic models (\textbf{RO1})} and a \textit{Web service template to distribute them (\textbf{RO2})}. In this way, the models themselves could be easily integrated into scalable text processing pipelines. As a result, we created a \textit{scalable platform for topic modeling (\textbf{TO1})}, and produced a \textit{model-as-a-service repository with pre-trained topic models (\textbf{T02})}. The efficiency of this solution was validated by processing a corpus of 100,000 documents collected from the CORDIS dataset\footnote{\url{https://data.europa.eu/euodp/es/data/dataset/cordisH2020projects}}, which contains descriptions of projects funded by the European Union under a framework programme since 1990 \citep{Badenes-Olmedo2017}. 
-
-The main contributions under this dimension are described in Chapter \ref{ch:scalability} as follows:
-\begin{itemize}
-\item a software architecture to process big volumes of textual documents in a distributed and decoupled manner;
-\item the definition of a model-as-a-service template for probabilistic topic models;
-\item an implementation of the architecture, librAIry, following those design principles.
-\end{itemize} 
-
-
-\subsection{Explainable Topic-based Relations}
-
-In the second dimension we needed to browse scientific papers through their content-based relations. The problem of massively annotating documents with topic distributions came up. We had to \textit{create annotations based on topic models in a way that was computationally affordable and enabled a semantic-aware exploration of the knowledge inside them (\textbf{RO3})}. Once documents were annotated, a \textit{metric that compares documents and facilitates their interpretation from topic annotations (\textbf{RO4})} was required. As a result, we integrated \textit{the annotation method into the topic model service (\textbf{TO3})} and implemented a text comparison metric based on partial representations of topics. These proposals were validated by classifying 500,000 scientific articles from the Open Research Corpus\footnote{\url{https://allenai.org/data/open-research-corpus}} in domains such as Computer Science, Neuroscience and Biomedicine \citep{Badenes-Olmedo2017b, Badenes-Olmedo2017c, Badenes-Olmedo2019b}. 
-
-The main contributions under this dimension are described in Chapter \ref{ch:explainability} as follows:
-\begin{itemize}
-\item a clustering algorithm based on probabilistic topic distributions;
-\item a hash function to transform topic distributions into topic hierarchies;
-\item a similarity metric based on topic sets.
-\end{itemize} 
-
 \begin{figure}[!htbp]
 \centering
 \includegraphics[scale=0.24]{dimensions.png}
@@ -163,26 +135,49 @@ The main contributions under this dimension are described in Chapter \ref{ch:exp
 \label{fig:dimensions}
 \end{figure}
 
-\subsection{Large-scale Comparisons of Topic Distributions}
+Figure \ref{fig:dimensions} shows the dimensions on which the research of this thesis has been built. The top of the pyramid is only reached once the lower dimensions are dealt with successfully. They are presented as a chain of four steps. The first step describes the motivation to perform a given task coming from real-world problems that we had to deal with, and is represented by a brown arrow. In the context of this task, the research problem arises and is framed by a pink arrow. For each of them a solution is proposed and evaluated according to a specific criterion. The proposed solution is represented by a green arrow and the evaluation with a blue arrow. Once a proposal has been validated, the next dimension of the pyramid is achievable and all the previous research problems are added to the new research problem as conditions to be taken into account.
 
-This dimension covered the search for similar documents based on their most relevant topics. Thanks to having dealt with the above two dimensions, large collections of documents could be annotated with topic hierarchies and text distances could be measured from their annotations. Now, the aim was to find similar documents without losing the exploratory capacity offered by topics. Similarity comparisons were too costly to be performed in such huge collections of data and required more efficient approaches than having to calculate all pairwise similarities. We applied \textit{techniques based on approximate nearest-neighbors to organize documents in regions with similar topic hierarchies (\textbf{RO5})}. As a result, we developed \textit{a system to automatically find similar documents (\textbf{TO4})}. It was validated on a collection of one million texts retrieved from the United States patents corpus\footnote{\url{https://www.uspto.gov/ip-policy/economic-research/research-datasets}}. The relations between patents derived from their manual categorization were compared with those automatically obtained from their topic distributions \citep{Badenes-Olmedo2020, Badenes-Olmedo2019b}. 
+Technical objectives (i.e., develop a new resource) or research objectives (i.e., discover the solution to a problem) guide the solution proposal before moving on to the next dimension. They are presented below, organized by the research problem associated with each dimension.
+
+\begin{itemize}
+\item \textbf{Scalable Creation and Inference of Topics}: This first dimension arose when we had to analyze a huge collection of documents describing research and innovation projects to discover which research areas are being addressed, measure their presence in the collection, and characterize them so their presence can be inferred in unseen documents. Such a high volume of data made difficult to process it manually, so we needed to automate the required processing to draw insights from it. Probabilistic topics allow describing research areas, so we defined a \textit{distributed text-processing model for creating large probabilistic topic models (\textbf{RO1})} and a \textit{Web service template to distribute them (\textbf{RO2})}. In this way, the models themselves could be easily integrated into scalable text processing pipelines. As a result, we created a \textit{scalable platform for topic modeling (\textbf{TO1})}, and produced a \textit{model-as-a-service repository with pre-trained topic models (\textbf{T02})}. The efficiency of this solution was validated by processing a corpus of 100,000 documents collected from the CORDIS dataset\footnote{\url{https://data.europa.eu/euodp/es/data/dataset/cordisH2020projects}}, which contains descriptions of projects funded by the European Union under a framework programme since 1990 \citep{Badenes-Olmedo2017}. 
+
+The main contributions under this dimension are described in Chapter \ref{ch:scalability} as follows:
+\begin{itemize}
+\item a software architecture to process big volumes of textual documents in a distributed and decoupled manner;
+\item the definition of a model-as-a-service template for probabilistic topic models;
+\item an implementation of the architecture, librAIry, following those design principles.
+\end{itemize} 
+\item \textbf{Explainable Topic-based Relations}: In the second dimension we needed to browse scientific papers through their content-based relations. The problem of massively annotating documents with topic distributions came up. We had to \textit{create annotations based on topic models in a way that was computationally affordable and enabled a semantic-aware exploration of the knowledge inside them (\textbf{RO3})}. Once documents were annotated, a \textit{metric that compares documents and facilitates their interpretation from topic annotations (\textbf{RO4})} was required. As a result, we integrated \textit{the annotation method into the topic model service (\textbf{TO3})} and implemented a text comparison metric based on partial representations of topics. These proposals were validated by classifying 500,000 scientific articles from the Open Research Corpus\footnote{\url{https://allenai.org/data/open-research-corpus}} in domains such as Computer Science, Neuroscience and Biomedicine \citep{Badenes-Olmedo2017b, Badenes-Olmedo2017c, Badenes-Olmedo2019b}. 
+
+The main contributions under this dimension are described in Chapter \ref{ch:explainability} as follows:
+\begin{itemize}
+\item a clustering algorithm based on probabilistic topic distributions;
+\item a hash function to transform topic distributions into topic hierarchies;
+\item a similarity metric based on topic sets.
+\end{itemize} 
+\item \textbf{Large-scale Comparisons of Topic Distributions}: This dimension covered the search for similar documents based on their most relevant topics. Thanks to having dealt with the above two dimensions, large collections of documents could be annotated with topic hierarchies and text distances could be measured from their annotations. Now, the aim was to find similar documents without losing the exploratory capacity offered by topics. Similarity comparisons were too costly to be performed in such huge collections of data and required more efficient approaches than having to calculate all pairwise similarities. We applied \textit{techniques based on approximate nearest-neighbors to organize documents in regions with similar topic hierarchies (\textbf{RO5})}. As a result, we developed \textit{a system to automatically find similar documents (\textbf{TO4})}. It was validated on a collection of one million texts retrieved from the United States patents corpus\footnote{\url{https://www.uspto.gov/ip-policy/economic-research/research-datasets}}. The relations between patents derived from their manual categorization were compared with those automatically obtained from their topic distributions \citep{Badenes-Olmedo2020, Badenes-Olmedo2019b}. 
 
 The main contributions under this dimension are described in Chapter~\ref{ch:comparisons} as follows:
 \begin{itemize}
 \item a data structure to partition the search space and organize documents described by topic hierarchies;
 \item a corpus browser that leverages these representations to automatically relate documents.
 \end{itemize} 
-
-
-\subsection{Unsupervised Cross-lingual Topic Alignment}
-
-Finally, a new dimension on top of the previous ones emerged to relate texts coming from different languages. In particular, since document relations were based on their topics, this dimension was focused on aligning topics without supervision from models trained with texts in different languages. Since each language defined its own vocabulary, the topics were model-specific and could not be directly compared. We abstracted the \textit{topic representations to create a single space out of the particularities of the language (\textbf{RO6})}. This approach was validated on the English, Spanish, French, Italian and Portuguese editions of the JCR-Acquis\footnote{\url{https://ec.europa.eu/jrc/en/language-technologies/jrc-acquis}} corpora and revealed promising results on classifying and sorting documents by similar content across languages \citep{Badenes-Olmedo2019, Badenes-Olmedo2019b}. 
+\item \textbf{Unsupervised Cross-lingual Topic Alignment}: Finally, a new dimension on top of the previous ones emerged to relate texts coming from different languages. In particular, since document relations were based on their topics, this dimension was focused on aligning topics without supervision from models trained with texts in different languages. Since each language defined its own vocabulary, the topics were model-specific and could not be directly compared. We abstracted the \textit{topic representations to create a single space out of the particularities of the language (\textbf{RO6})}. This approach was validated on the English, Spanish, French, Italian and Portuguese editions of the JCR-Acquis\footnote{\url{https://ec.europa.eu/jrc/en/language-technologies/jrc-acquis}} corpora and revealed promising results on classifying and sorting documents by similar content across languages \citep{Badenes-Olmedo2019, Badenes-Olmedo2019b}. 
 
 The main contributions under this dimension are described in Chapter~\ref{ch:multilinguality}, as follows: 
 \begin{itemize}
 \item an algorithm to represent probabilistic topics using concept sets;
 \item a repository of aligned topic models from the English, Spanish, French, Italian and Portuguese editions of the JRC-Acquis corpus.
 \end{itemize}
+\end{itemize}
+
+
+
+
+
+
+
 
 Table \ref{table:objectives} summarizes the research objectives (ROs), technical objectives (TOs) and connects them with the research challenges (RCs) from Table \ref{table:challenges}.
 

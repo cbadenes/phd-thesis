@@ -4,7 +4,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Evolution of the distance between a set of document pairs when increasing the number of topics in the models and using different metrics \citep {Badenes-Olmedo2020}.\relax }}{17}{figure.caption.6}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Research dimensions of the thesis. The first ones must be overcome before reaching higher dimensions. \relax }}{31}{figure.caption.10}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Research dimensions of the thesis. The first ones must be overcome before reaching higher dimensions. \relax }}{30}{figure.caption.10}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Stages in the creation and reuse of topic models. Texts are first processed to retrieve tokens and create bags-of-words (BoW). These structures are used to train a model that identifies word distributions called topics. The model is enabled to make topic inferences in unseen texts. It is published as a web service in an online repository. The service can then be (re)used as web resource, for example to categorize documents.\relax }}{36}{figure.caption.12}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Representation of two scientific papers published at the International Conference on Knowledge Capture (K-CAP, 2019) that mention the same entity, \textit {Wordnet}, in different sections.\relax }}{38}{figure.caption.13}% 

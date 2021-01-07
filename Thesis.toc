@@ -21,10 +21,6 @@
 \contentsline {subsection}{\numberline {3.2.3}Large-scale Comparisons of Topic Distributions}{27}{subsection.3.2.3}% 
 \contentsline {subsection}{\numberline {3.2.4}Unsupervised Cross-lingual Topic Alignment}{28}{subsection.3.2.4}% 
 \contentsline {section}{\numberline {3.3}Research Methodology}{28}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}Scalable Creation and Inference of Topics}{30}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Explainable Topic-based Relations}{30}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}Large-scale Comparisons of Topic Distributions}{32}{subsection.3.3.3}% 
-\contentsline {subsection}{\numberline {3.3.4}Unsupervised Cross-lingual Topic Alignment}{32}{subsection.3.3.4}% 
 \contentsline {chapter}{\numberline {4}Creation and Publication of Probabilistic Topic Models}{35}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Topic Modeling Framework}{35}{section.4.1}% 
 \contentsline {subsection}{\numberline {4.1.1}Corpora Representation for Topic Modeling}{37}{subsection.4.1.1}% 
