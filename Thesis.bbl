@@ -27,7 +27,7 @@ Andoni, A. and Indyk, P. (2006).
   Science (FOCS'06)}, pages 459--468. IEEE.
 
 \bibitem[Andoni et~al., 2014]{Andoni2014}
-Andoni, A., Indyk, P., Nguyá»…n, H.~L., and Razenshteyn, I. (2014).
+Andoni, A., Indyk, P., Nguyen, H.~L., and Razenshteyn, I. (2014).
 \newblock {Beyond Locality-Sensitive Hashing}.
 \newblock In {\em Proceedings of the Twenty-Fifth Annual ACM-SIAM Symposium on
   Discrete Algorithms}, pages 1018--1028.
@@ -79,14 +79,6 @@ Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2017c).
 \newblock {Efficient Clustering from Distributions over Topics}.
 \newblock In {\em 9th International Conference on Knowledge Capture (K-CAP)},
   page~8.
-
-\bibitem[Badenes-Olmedo et~al., 2017d]{Badenes-Olmedo2017a}
-Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2017d).
-\newblock {librAIry/eval-similarity-calculation}.
-
-\bibitem[Badenes-Olmedo et~al., 2019c]{Badenes-Olmedo2019a}
-Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2019c).
-\newblock {Large-scale Topic-based Search Java Algorithm}.
 
 \bibitem[Bagga and Baldwin, 1998]{Bagga1998}
 Bagga, A. and Baldwin, B. (1998).

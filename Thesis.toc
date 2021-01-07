@@ -71,7 +71,7 @@
 \contentsline {section}{\numberline {6.2}Evaluation}{88}{section.6.2}% 
 \contentsline {subsection}{\numberline {6.2.1}Datasets and Evaluation Metrics}{89}{subsection.6.2.1}% 
 \contentsline {subsection}{\numberline {6.2.2}Retrieving Similar Documents}{90}{subsection.6.2.2}% 
-\contentsline {subsection}{\numberline {6.2.3}Exploration}{98}{subsection.6.2.3}% 
+\contentsline {subsection}{\numberline {6.2.3}Exploration}{97}{subsection.6.2.3}% 
 \contentsline {section}{\numberline {6.3}Summary}{100}{section.6.3}% 
 \contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{103}{chapter.7}% 
 \contentsline {section}{\numberline {7.1}Synset-based Representational Space}{104}{section.7.1}% 

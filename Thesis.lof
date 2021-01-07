@@ -49,7 +49,7 @@
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Topic Distribution of two documents with similarity score, based on JS, equals to 0.74\relax }}{89}{figure.caption.49}% 
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Topic Distribution of two documents with similarity score, based on JS, equals to 0.71\relax }}{89}{figure.caption.49}% 
 \contentsline {figure}{\numberline {6.7}{\ignorespaces Precision at 5 (\textit {mean}) of threshold-based hashing method when number of topics varies in CORDIS dataset.\relax }}{98}{figure.caption.62}% 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Precision at 5 (\textit {mean}) of centroid-based hashing method when number of topics varies in CORDIS dataset.\relax }}{99}{figure.caption.63}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Precision at 5 (\textit {mean}) of centroid-based hashing method when number of topics varies in CORDIS dataset.\relax }}{98}{figure.caption.63}% 
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Precision at 5 (\textit {mean}) of density-based hashing method when number of topics varies in CORDIS dataset.\relax }}{99}{figure.caption.64}% 
 \contentsline {figure}{\numberline {6.10}{\ignorespaces Most relevant topics in similar documents from using a document as query (Q1) and setting topic t10 as mandatory (Q2).\relax }}{100}{figure.caption.66}% 
 \addvspace {10\p@ }

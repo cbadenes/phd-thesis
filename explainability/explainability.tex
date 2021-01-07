@@ -261,7 +261,7 @@ In this section we present the experimental setup for evaluating our trends-base
 
 \subsubsection{Datasets}
 \label{sec:clustering-datasets}
-We used two datasets to evaluate the performance of the algorithms. The first dataset, DIRICHLET-RANDOM-MIXTURE (DRM), is synthetic \citep{Badenes-Olmedo2017a}. To generate the dataset, we sampled \textit{k} probabilistic distributions from a \textit{randomly k-dimensional selector} based on Dirichlet distributions. This implies that all probabilities must to sum to 1 for each sampled point. The number of sampled points from this mixture of Dirichlet distributions is $n=1000$.
+We used two datasets to evaluate the performance of the algorithms. The first dataset, DIRICHLET-RANDOM-MIXTURE (DRM), is synthetic\footnote{https://doi.org/10.5281/zenodo.931305}. To generate the dataset, we sampled \textit{k} probabilistic distributions from a \textit{randomly k-dimensional selector} based on Dirichlet distributions. This implies that all probabilities must to sum to 1 for each sampled point. The number of sampled points from this mixture of Dirichlet distributions is $n=1000$.
 
 The second dataset has been created from a collection of research papers published in the \textit{Advances in Engineering Software} (AIES) journal. They were retrieved from the Springer API by using the librAIry \citep{Badenes-Olmedo2017} framework and a Topic Model based on LDA was created from them. The sample is also composed by $n=1000$ documents.
 
