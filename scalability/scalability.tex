@@ -3,7 +3,7 @@
 % content in this file will be fed into the main document
 
 %: ----------------------- introduction file header -----------------------
-\chapter{Creation and Publication of Probabilistic Topic Models}\label{ch:scalability}
+\chapter{Creation and Distribution of Probabilistic Topic Models}\label{ch:scalability}
 
 \graphicspath{{scalability/figures/}}
 
@@ -216,7 +216,7 @@ Figure \ref{fig:librairy-sequence} shows a sequence diagram that illustrates how
 
 
 
-\section{Reusable Topic Modeling}
+\section{Topic Modeling Services}
 \label{sec:reusable-topic-modeling}
 
 In order to use an existing topic model in our framework, which is micro-services-oriented, the model itself needs to be a service. This approach decouples the resources used to train a probabilistic topic model (e.g. data format or algorithm implementation), from the resources required to  make inferences and thus avoids unexpected incompatibilities. In this way, we simultaneously facilitate the reuse of topic models and also their scalable execution.

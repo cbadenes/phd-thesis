@@ -3,7 +3,7 @@
 % content in this file will be fed into the main document
 
 %: ----------------------- introduction file header -----------------------
-\chapter{Large-scale Comparisons of Topic Distributions}\label{ch:comparisons}
+\chapter{Large-scale Monolingual Document Similarity}\label{ch:comparisons}
 
 \graphicspath{{comparisons/figures/}}
 
@@ -33,7 +33,7 @@ $q=[0.02,0.14,0.02,0.16,0.04,0.09,0.19,0.12,0.04,0.17]$, a hierarchical set of t
 \label{fig:hash_functions}
 \end{figure*}
 
-\subsection{Data Type}
+\subsection{Hierarchical Data}
 \label{sec:comparison-datatype}
 As seen in Section \ref{sec:related-work}, a traditional approach to text representation usually requires encoding of documents into numerical vectors. Words are extracted from a corpus as feature candidates and based on a certain criterion they are assigned values to describe the documents: term-frequency, TF-IDF, information gain, and chi-square are typical measures. But this causes two main problems: huge number of dimensions and sparse distribution. The use of topics as feature space has been extended to mapping documents into low-dimensional vectors. However, as shown in Figure \ref{fig:topic_distances}, the distance metrics based on probability densities vary according to the dimensions of the model and reveal the difficulty of calculating the similarity values using the vectors with the topic distributions.  
 
