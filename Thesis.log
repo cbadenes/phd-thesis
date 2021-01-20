@@ -1159,4 +1159,282 @@ Package pdftex.def Info: comparisons/figures/threshold-hash.png  used on input
 line 94.
 (pdftex.def)             Requested size: 189.00896pt x 204.81825pt.
  [86 <./comparisons/figures/threshold-hash.png>]
-<comparisons/figures/centroid-hash.png, id=2065, 453
+<comparisons/figures/centroid-hash.png, id=2065, 453.695pt x 586.19pt>
+File: comparisons/figures/centroid-hash.png Graphic file (type png)
+<use comparisons/figures/centroid-hash.png>
+Package pdftex.def Info: comparisons/figures/centroid-hash.png  used on input l
+ine 116.
+(pdftex.def)             Requested size: 158.79562pt x 205.16957pt.
+<comparisons/figures/density-hash.png, id=2068, 424.58624pt x 545.03625pt>
+File: comparisons/figures/density-hash.png Graphic file (type png)
+<use comparisons/figures/density-hash.png>
+Package pdftex.def Info: comparisons/figures/density-hash.png  used on input li
+ne 129.
+(pdftex.def)             Requested size: 148.6074pt x 190.76555pt.
+ [87 <./comparisons/figures/centroid-hash.png>]
+<comparisons/figures/doc-similarity-pair1.png, id=2083, 616.3025pt x 373.395pt>
+
+File: comparisons/figures/doc-similarity-pair1.png Graphic file (type png)
+<use comparisons/figures/doc-similarity-pair1.png>
+Package pdftex.def Info: comparisons/figures/doc-similarity-pair1.png  used on 
+input line 151.
+(pdftex.def)             Requested size: 202.15909pt x 122.48004pt.
+<comparisons/figures/doc-similarity-pair2.png, id=2084, 612.2875pt x 369.38pt>
+File: comparisons/figures/doc-similarity-pair2.png Graphic file (type png)
+<use comparisons/figures/doc-similarity-pair2.png>
+Package pdftex.def Info: comparisons/figures/doc-similarity-pair2.png  used on 
+input line 155.
+(pdftex.def)             Requested size: 202.15909pt x 121.95776pt.
+ [88 <./comparisons/figures/density-hash.png>] [89 <./comparisons/figures/doc-s
+imilarity-pair1.png> <./comparisons/figures/doc-similarity-pair2.png>]
+[90] [91] [92] [93] [94] [95] [96] [97]
+<comparisons/figures/dhhm-pd.png, id=2189, 894.34125pt x 539.01375pt>
+File: comparisons/figures/dhhm-pd.png Graphic file (type png)
+<use comparisons/figures/dhhm-pd.png>
+Package pdftex.def Info: comparisons/figures/dhhm-pd.png  used on input line 47
+8.
+(pdftex.def)             Requested size: 223.58476pt x 134.7531pt.
+<comparisons/figures/chhm-pd.png, id=2190, 893.3375pt x 536.0025pt>
+File: comparisons/figures/chhm-pd.png Graphic file (type png)
+<use comparisons/figures/chhm-pd.png>
+Package pdftex.def Info: comparisons/figures/chhm-pd.png  used on input line 48
+4.
+(pdftex.def)             Requested size: 223.33382pt x 134.00029pt.
+File: comparisons/figures/dhhm-pd.png Graphic file (type png)
+<use comparisons/figures/dhhm-pd.png>
+Package pdftex.def Info: comparisons/figures/dhhm-pd.png  used on input line 49
+1.
+(pdftex.def)             Requested size: 223.58476pt x 134.7531pt.
+ [98 <./comparisons/figures/dhhm-pd.png> <./comparisons/figures/chhm-pd.png>]
+<comparisons/figures/exploration.png, id=2199, 588.1975pt x 365.365pt>
+File: comparisons/figures/exploration.png Graphic file (type png)
+<use comparisons/figures/exploration.png>
+Package pdftex.def Info: comparisons/figures/exploration.png  used on input lin
+e 523.
+(pdftex.def)             Requested size: 205.87221pt x 127.87965pt.
+ [99] [100 <./comparisons/figures/exploration.png>]) [101]
+\openout2 = `multilinguality/multilinguality.aux'.
+
+ (./multilinguality/multilinguality.tex [102
+
+
+
+]
+Chapter 7.
+[103] [104]
+<multilinguality/figures/density-hash.png, id=2251, 751.80875pt x 636.3775pt>
+File: multilinguality/figures/density-hash.png Graphic file (type png)
+<use multilinguality/figures/density-hash.png>
+Package pdftex.def Info: multilinguality/figures/density-hash.png  used on inpu
+t line 34.
+(pdftex.def)             Requested size: 300.71817pt x 254.5465pt.
+ [105 <./multilinguality/figures/density-hash.png>]
+<multilinguality/figures/topic-dist.png, id=2266, 996.72375pt x 548.0475pt>
+File: multilinguality/figures/topic-dist.png Graphic file (type png)
+<use multilinguality/figures/topic-dist.png>
+Package pdftex.def Info: multilinguality/figures/topic-dist.png  used on input 
+line 43.
+(pdftex.def)             Requested size: 398.68243pt x 219.2151pt.
+ [106 <./multilinguality/figures/topic-dist.png>]
+<multilinguality/figures/latent-topic-models.png, id=2284, 942.52126pt x 682.55
+pt>
+File: multilinguality/figures/latent-topic-models.png Graphic file (type png)
+<use multilinguality/figures/latent-topic-models.png>
+Package pdftex.def Info: multilinguality/figures/latent-topic-models.png  used 
+on input line 65.
+(pdftex.def)             Requested size: 377.00183pt x 273.01517pt.
+ [107] [108 <./multilinguality/figures/latent-topic-models.png>]
+Overfull \hbox (12.97607pt too wide) in paragraph at lines 95--95
+ []|\OT1/cmr/m/n/10 telecommunications| 
+ []
+
+
+Overfull \hbox (2.39272pt too wide) in paragraph at lines 95--95
+ []|\OT1/cmr/m/n/10 regolamentazione| 
+ []
+
+[109] [110] [111] [112] [113]
+<multilinguality/figures/workflow.png, id=2386, 1909.1325pt x 818.05624pt>
+File: multilinguality/figures/workflow.png Graphic file (type png)
+<use multilinguality/figures/workflow.png>
+Package pdftex.def Info: multilinguality/figures/workflow.png  used on input li
+ne 277.
+(pdftex.def)             Requested size: 412.56496pt x 176.7774pt.
+ [114]
+<multilinguality/figures/PreClean.png, id=2399, 349.305pt x 221.32687pt>
+File: multilinguality/figures/PreClean.png Graphic file (type png)
+<use multilinguality/figures/PreClean.png>
+Package pdftex.def Info: multilinguality/figures/PreClean.png  used on input li
+ne 312.
+(pdftex.def)             Requested size: 202.15909pt x 128.09273pt.
+<multilinguality/figures/cleaned.png, id=2400, 349.305pt x 221.32687pt>
+File: multilinguality/figures/cleaned.png Graphic file (type png)
+<use multilinguality/figures/cleaned.png>
+Package pdftex.def Info: multilinguality/figures/cleaned.png  used on input lin
+e 316.
+(pdftex.def)             Requested size: 202.15909pt x 128.09273pt.
+ [115 <./multilinguality/figures/workflow.png>] [116 <./multilinguality/figures
+/PreClean.png> <./multilinguality/figures/cleaned.png>] [117] [118] [119]
+<multilinguality/figures/time_comp.png, id=2432, 451.6875pt x 268.00125pt>
+File: multilinguality/figures/time_comp.png Graphic file (type png)
+<use multilinguality/figures/time_comp.png>
+Package pdftex.def Info: multilinguality/figures/time_comp.png  used on input l
+ine 447.
+(pdftex.def)             Requested size: 330.05322pt x 195.84373pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120])
+[121 <./multilinguality/figures/time_comp.png (PNG copy)>] [122]
+\openout2 = `experiments/experiments.aux'.
+
+
+(./experiments/experiments.tex
+Chapter 8.
+[123
+
+
+
+]
+<experiments/figures/drinventor-model.png, id=2471, 550.055pt x 352.31625pt>
+File: experiments/figures/drinventor-model.png Graphic file (type png)
+<use experiments/figures/drinventor-model.png>
+Package pdftex.def Info: experiments/figures/drinventor-model.png  used on inpu
+t line 27.
+(pdftex.def)             Requested size: 330.05322pt x 211.4075pt.
+ [124 <./experiments/figures/drinventor-model.png>] [125]
+<experiments/figures/corpus-viewer.png, id=2490, 974.64125pt x 420.57124pt>
+File: experiments/figures/corpus-viewer.png Graphic file (type png)
+<use experiments/figures/corpus-viewer.png>
+Package pdftex.def Info: experiments/figures/corpus-viewer.png  used on input l
+ine 59.
+(pdftex.def)             Requested size: 330.05322pt x 142.42117pt.
+ [126 <./experiments/figures/corpus-viewer.png>] [127]
+<experiments/figures/polypharmacy.png, id=2520, 1927.2pt x 1084.05pt>
+File: experiments/figures/polypharmacy.png Graphic file (type png)
+<use experiments/figures/polypharmacy.png>
+Package pdftex.def Info: experiments/figures/polypharmacy.png  used on input li
+ne 80.
+(pdftex.def)             Requested size: 288.7942pt x 162.43507pt.
+ [128 <./experiments/figures/polypharmacy.png>]
+<experiments/figures/polypharmacy01.png, id=2531, 437.635pt x 326.21875pt>
+File: experiments/figures/polypharmacy01.png Graphic file (type png)
+<use experiments/figures/polypharmacy01.png>
+Package pdftex.def Info: experiments/figures/polypharmacy01.png  used on input 
+line 92.
+(pdftex.def)             Requested size: 202.15909pt x 150.6946pt.
+<experiments/figures/polypharmacy02.png, id=2532, 465.74pt x 327.2225pt>
+File: experiments/figures/polypharmacy02.png Graphic file (type png)
+<use experiments/figures/polypharmacy02.png>
+Package pdftex.def Info: experiments/figures/polypharmacy02.png  used on input 
+line 96.
+(pdftex.def)             Requested size: 202.15909pt x 142.03107pt.
+ [129 <./experiments/figures/polypharmacy01.png> <./experiments/figures/polypha
+rmacy02.png>]
+<experiments/figures/tbfy-architecture.png, id=2557, 650.43pt x 307.1475pt>
+File: experiments/figures/tbfy-architecture.png Graphic file (type png)
+<use experiments/figures/tbfy-architecture.png>
+Package pdftex.def Info: experiments/figures/tbfy-architecture.png  used on inp
+ut line 115.
+(pdftex.def)             Requested size: 288.7942pt x 136.37791pt.
+ [130]
+Underfull \vbox (badness 3088) has occurred while \output is active []
+
+ [131 <./experiments/figures/tbfy-architecture.png>]
+<experiments/figures/d4c-workflow.png, id=2582, 1086.0575pt x 317.185pt>
+File: experiments/figures/d4c-workflow.png Graphic file (type png)
+<use experiments/figures/d4c-workflow.png>
+Package pdftex.def Info: experiments/figures/d4c-workflow.png  used on input li
+ne 135.
+(pdftex.def)             Requested size: 288.7942pt x 84.34401pt.
+ [132 <./experiments/figures/d4c-workflow.png>]) [133]
+\openout2 = `conclusions/conclusions.aux'.
+
+ (./conclusions/conclusions.tex [134
+
+
+
+]
+Chapter 9.
+[135] [136] [137] [138] [139] [140] [141] [142] [143] [144]
+<conclusions/figures/context-similarity.png, id=2688, 1056.94875pt x 551.05875p
+t>
+File: conclusions/figures/context-similarity.png Graphic file (type png)
+<use conclusions/figures/context-similarity.png>
+Package pdftex.def Info: conclusions/figures/context-similarity.png  used on in
+put line 185.
+(pdftex.def)             Requested size: 288.7942pt x 150.56203pt.
+) [145 <./conclusions/figures/context-similarity.png>] (./Thesis.bbl (./Thesis.
+brf)
+\tf@brf=\write8
+\openout8 = `Thesis.brf'.
+
+ [146
+
+
+] [147]
+[148] [149] [150] [151] [152] [153] [154]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 526.
+ [155] [156] [157] [158] [159])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
+
+[160]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+ (./Thesis.aux (./intro/dedication.aux) (./intro/acknowledgement.aux)
+(./intro/abstract.aux) (./intro/acronyms.aux) (./intro/intro.aux)
+(./soa/soa.aux) (./hypothesis/hypothesis.aux) (./scalability/scalability.aux)
+(./explainability/explainability.aux) (./comparisons/comparisons.aux)
+(./multilinguality/multilinguality.aux) (./experiments/experiments.aux)
+(./conclusions/conclusions.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 16EB5D44421A0603CD044C4C91F3C48B;8560.
+
+
+Package rerunfilecheck Warning: File `Thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `Thesis.brf':
+(rerunfilecheck)             Before: 2E31ADF21FA04FD708703DDC60D3BF65;10155
+(rerunfilecheck)             After:  E1780081D0E31D8DBA4ECE1ADA4EC4AA;10155.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
+ ) 
+Here is how much of TeX's memory you used:
+ 15168 strings out of 492616
+ 239124 string characters out of 6129481
+ 627605 words of memory out of 5000000
+ 18030 multiletter control sequences out of 15000+600000
+ 19189 words of font info for 72 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 47i,15n,79p,2329b,691s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Thesis.pdf (188 pages, 7302871 bytes).
+PDF statistics:
+ 3154 PDF objects out of 3580 (max. 8388607)
+ 2783 compressed objects within 28 object streams
+ 638 named destinations out of 1000 (max. 500000)
+ 1177 words of extra memory for PDF output out of 10000 (max. 10000000)
+

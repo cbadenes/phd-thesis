@@ -1,0 +1,74 @@
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Evolution of the distance between a set of document pairs when increasing the number of topics in the models and using different metrics \citep {Badenes-Olmedo2020}.\relax }}{17}{figure.caption.6}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Research dimensions of the thesis. The first ones must be overcome before reaching higher dimensions. \relax }}{30}{figure.caption.10}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Stages in the creation and reuse of topic models. Texts are first processed to retrieve tokens and create bags-of-words (BoW). These structures are used to train a model that identifies word distributions called topics. The model is enabled to make topic inferences in unseen texts. It is published as a web service in an online repository. The service can then be (re)used as web resource, for example to categorize documents.\relax }}{36}{figure.caption.12}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Representation of two scientific papers published at the International Conference on Knowledge Capture (K-CAP, 2019) that mention the same entity, \textit {Wordnet}, in different sections.\relax }}{38}{figure.caption.13}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Relation between \textit {domain} and \textit {document}.\relax }}{39}{figure.caption.14}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Relation between \textit {document} and \textit {snippet}.\relax }}{40}{figure.caption.15}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Relation between \textit {annotations} and other resources.\relax }}{42}{figure.caption.16}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resource states.\relax }}{43}{figure.caption.17}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Modules (in gray) publishing or receiving events from the messenger service (in purple).\relax }}{44}{figure.caption.18}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Sequence of \textit {events} exchanged between modules to create a topic model from the \textit {documents} added to a \textit {domain}.\relax }}{46}{figure.caption.19}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Swagger-based web interface of a probabilistic topic model service created with \textit {librAIry}.\relax }}{48}{figure.caption.20}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Internal and External Representativeness. \relax }}{57}{figure.caption.23}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Experiment to analyze the ability of topic-based representations to create relations from summaries \textit {vs} full-texts. \relax }}{58}{figure.caption.24}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces length of summaries\relax }}{60}{figure.caption.25}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces length of text parts\relax }}{60}{figure.caption.25}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces number of pairwises by similarity score (rounded up to two decimals)\relax }}{62}{figure.caption.27}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces topics per article with value above 0.5\relax }}{62}{figure.caption.27}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Precision at different similarity thresholds\relax }}{63}{figure.caption.28}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Recall at different similarity thresholds\relax }}{63}{figure.caption.28}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces f-measure performance\relax }}{63}{figure.caption.29}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces f-measure deviation\relax }}{63}{figure.caption.29}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Probabilistic Topic Models, and in particular Latent Dirichlet Allocation (LDA), can efficiently divide the search space and speed up the process of finding relations among documents inside big collections.\relax }}{65}{figure.caption.30}% 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces TDC considers variations across consecutive topics inside a document\IeC {\textquoteright }s topic distribution.\relax }}{67}{figure.caption.31}% 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces RDC only considers the top n topics from the ranked list of probability distributions.\relax }}{68}{figure.caption.32}% 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces CRDC only considers the top n topics until the sum of the weights of the highest topics exceeded a given threshold.\relax }}{69}{figure.caption.33}% 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Similarity values grouped by frequency in AIES\relax }}{70}{figure.caption.34}% 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Effectiveness (JS-based) in AIES\relax }}{73}{figure.caption.35}% 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Effectiveness (He-based) in AIES\relax }}{73}{figure.caption.35}% 
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Clusters in AIES\relax }}{74}{figure.caption.36}% 
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Cost (JS-based) in AIES\relax }}{76}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Cost (He-based) in AIES\relax }}{76}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Efficiency (JS-based) in AIES\relax }}{76}{figure.caption.42}% 
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Efficiency (He-based) in AIES\relax }}{76}{figure.caption.42}% 
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Similarity values grouped by frequency in DRM\relax }}{77}{figure.caption.43}% 
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Effectiveness (JS based) in DRM\relax }}{77}{figure.caption.44}% 
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Effectiveness (JS based) in DRM2\relax }}{77}{figure.caption.44}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Hash method based on hierarchical set of topics from a given topic distribution\relax }}{83}{figure.caption.45}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Threshold-based Hierarchical Hash (L=3)\relax }}{86}{figure.caption.46}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Centroid-based Hierarchical Hash (L=3)\relax }}{87}{figure.caption.47}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Density-based Hierarchical Hash (L=3)\relax }}{88}{figure.caption.48}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Topic Distribution of two documents with similarity score, based on JS, equals to 0.74\relax }}{89}{figure.caption.49}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Topic Distribution of two documents with similarity score, based on JS, equals to 0.71\relax }}{89}{figure.caption.49}% 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Precision at 5 (\textit {mean}) of threshold-based hashing method when number of topics varies in CORDIS dataset.\relax }}{98}{figure.caption.62}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Precision at 5 (\textit {mean}) of centroid-based hashing method when number of topics varies in CORDIS dataset.\relax }}{98}{figure.caption.63}% 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Precision at 5 (\textit {mean}) of density-based hashing method when number of topics varies in CORDIS dataset.\relax }}{99}{figure.caption.64}% 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Most relevant topics in similar documents from using a document as query (Q1) and setting topic t10 as mandatory (Q2).\relax }}{100}{figure.caption.66}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Cross-lingual hash-expression (H) of a document based on WordNet-synset annotations created from the top words of each topic distribution. The most relevant topics are grouped according to their importance in three levels (h0, h1 and h2)\relax }}{105}{figure.caption.67}% 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces topic distributions from the same document in English ($h_{EN}=\{(t3062),(t335),(t8278)\}$) and Spanish ($h_{ES}=\{(t335),(t4060),(t5769)\}$).\relax }}{106}{figure.caption.68}% 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Graphical representation of the model that relies on the latent layer of cross-lingual topics obtained by LDA and hash functions through hierarchies of synsets. Mono-lingual approaches force to translate the documents to the same language to represent them in a unique feature space. Multi-language approaches require previously aligned topics from different languages so that documents can be represented in an equivalent feature space. Cross-lingual Synset-based approach creates a new space by combining the feature spaces of each language (i.e synsets from topn topic words). Documents are then represented in this unique space.\relax }}{108}{figure.caption.69}% 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Preparation of experiments by creating topic models for each subset of the original corpus and cross-validated with EuroVoc thesaurus\relax }}{115}{figure.caption.75}% 
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Before pre-processing\relax }}{116}{figure.caption.77}% 
+\contentsline {figure}{\numberline {7.6}{\ignorespaces After pre-processing\relax }}{116}{figure.caption.77}% 
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Distribution of articles by number of tokens in corpora\relax }}{116}{figure.caption.77}% 
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Time needed (in milliseconds) to perform the document similarity task using similarity metrics in a corpus of $10^4$ synthetic documents \relax }}{121}{figure.caption.82}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Overview of Resources in DRInventor Platform\relax }}{124}{figure.caption.83}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces The Corpus Viewer platform provides tools for the selection of evaluators or the retrieval of relevant documents (patents, scientific publications, grants and R+D proposals for innovation evaluation). In addition, it is used for plagiarism detection, identification of double funding cases and fraud in aid grants and proposals submitted for national funding.\relax }}{126}{figure.caption.84}% 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Representation of patients through topic hierarchies based on the interactions between primary-drugs and co-drugs\relax }}{128}{figure.caption.85}% 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Patients grouped by age\relax }}{129}{figure.caption.86}% 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Patients grouped by gender\relax }}{129}{figure.caption.86}% 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Distribution of polypharmacy among people living with and without HIV according to age and gender \citep {Badenes-Olmedo2019c}.\relax }}{129}{figure.caption.86}% 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces High-level architecture of the TheyBuyForYou platform\relax }}{131}{figure.caption.87}% 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces High-level workflow of a search engine and a knowledge graph through annotations created from the CORD-19 dataset\relax }}{132}{figure.caption.88}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Similarity among medical reports depends on the reference knowledge used to analyze them\relax }}{145}{figure.caption.91}% 
