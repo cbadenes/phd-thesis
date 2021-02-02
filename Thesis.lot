@@ -2,47 +2,47 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Research areas and limitations.\relax }}{14}{table.caption.5}% 
-\contentsline {table}{\numberline {2.2}{\ignorespaces Research areas and proposals.\relax }}{22}{table.caption.7}% 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Research areas and limitations.\relax }}{16}{table.caption.5}% 
+\contentsline {table}{\numberline {2.2}{\ignorespaces Research areas and proposals.\relax }}{24}{table.caption.7}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Hypotheses and research dimensions.\relax }}{25}{table.caption.8}% 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Open Research Challenges and Hypotheses.\relax }}{29}{table.caption.9}% 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Research and technical objectives and their related challenges.\relax }}{34}{table.caption.11}% 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Hypotheses and research dimensions.\relax }}{27}{table.caption.8}% 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Open Research Challenges and Hypotheses.\relax }}{31}{table.caption.9}% 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Research and technical objectives and their related challenges.\relax }}{36}{table.caption.11}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Potential uses of a topic model.\relax }}{49}{table.caption.21}% 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Operations offered by a topic model-as-a-service to cover potential tasks.\relax }}{49}{table.caption.22}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Potential uses of a topic model.\relax }}{51}{table.caption.21}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Operations offered by a topic model-as-a-service to cover potential tasks.\relax }}{51}{table.caption.22}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Internal-Representativeness\relax }}{61}{table.caption.26}% 
-\contentsline {table}{\numberline {5.2}{\ignorespaces Precision (JS-based) in AIES\relax }}{73}{table.caption.37}% 
-\contentsline {table}{\numberline {5.3}{\ignorespaces Precision (He-based) in AIES\relax }}{74}{table.caption.38}% 
-\contentsline {table}{\numberline {5.4}{\ignorespaces Recall (JS-based) in AIES\relax }}{75}{table.caption.39}% 
-\contentsline {table}{\numberline {5.5}{\ignorespaces Recall (He-based) in AIES\relax }}{75}{table.caption.40}% 
+\contentsline {table}{\numberline {5.1}{\ignorespaces Internal-Representativeness\relax }}{63}{table.caption.26}% 
+\contentsline {table}{\numberline {5.2}{\ignorespaces Precision (JS-based) in AIES\relax }}{75}{table.caption.37}% 
+\contentsline {table}{\numberline {5.3}{\ignorespaces Precision (He-based) in AIES\relax }}{76}{table.caption.38}% 
+\contentsline {table}{\numberline {5.4}{\ignorespaces Recall (JS-based) in AIES\relax }}{77}{table.caption.39}% 
+\contentsline {table}{\numberline {5.5}{\ignorespaces Recall (He-based) in AIES\relax }}{77}{table.caption.40}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Open Research dataset using a model with 100 topics. LEVEL column indicates the number of hierarchies used.\relax }}{91}{table.caption.50}% 
-\contentsline {table}{\numberline {6.2}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Open Research dataset using a model with 500 topics. LEVEL column indicates the number of hierarchies used.\relax }}{92}{table.caption.51}% 
-\contentsline {table}{\numberline {6.3}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on CORDIS dataset using a model with 70 topics. LEVEL column indicates the number of hierarchies used.\relax }}{92}{table.caption.52}% 
-\contentsline {table}{\numberline {6.4}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on CORDIS dataset using a model with 150 topics. LEVEL column indicates the number of hierarchies used.\relax }}{92}{table.caption.53}% 
-\contentsline {table}{\numberline {6.5}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Patents dataset using a model with 250 topics. LEVEL column indicates the number of hierarchies used.\relax }}{94}{table.caption.54}% 
-\contentsline {table}{\numberline {6.6}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Patents dataset using a model with 750 topics. LEVEL column indicates the number of hierarchies used.\relax }}{94}{table.caption.55}% 
-\contentsline {table}{\numberline {6.7}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Open Research dataset and 100 topics.\relax }}{95}{table.caption.56}% 
-\contentsline {table}{\numberline {6.8}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Open Research dataset and 500 topics.\relax }}{95}{table.caption.57}% 
-\contentsline {table}{\numberline {6.9}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on CORDIS dataset and 70 topics.\relax }}{96}{table.caption.58}% 
-\contentsline {table}{\numberline {6.10}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on CORDIS dataset and 150 topics.\relax }}{96}{table.caption.59}% 
-\contentsline {table}{\numberline {6.11}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Patents dataset and 250 topics.\relax }}{97}{table.caption.60}% 
-\contentsline {table}{\numberline {6.12}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Patents dataset and 750 topics.\relax }}{97}{table.caption.61}% 
-\contentsline {table}{\numberline {6.13}{\ignorespaces Number of documents similar to a given one (q1) and also in a specific domain (q2) for threshold-based (thhm), centroid-based (chhm) and density-based (dhhm) hierarchical hashing methods.\relax }}{99}{table.caption.65}% 
+\contentsline {table}{\numberline {6.1}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Open Research dataset using a model with 100 topics. LEVEL column indicates the number of hierarchies used.\relax }}{93}{table.caption.50}% 
+\contentsline {table}{\numberline {6.2}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Open Research dataset using a model with 500 topics. LEVEL column indicates the number of hierarchies used.\relax }}{94}{table.caption.51}% 
+\contentsline {table}{\numberline {6.3}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on CORDIS dataset using a model with 70 topics. LEVEL column indicates the number of hierarchies used.\relax }}{94}{table.caption.52}% 
+\contentsline {table}{\numberline {6.4}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on CORDIS dataset using a model with 150 topics. LEVEL column indicates the number of hierarchies used.\relax }}{94}{table.caption.53}% 
+\contentsline {table}{\numberline {6.5}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Patents dataset using a model with 250 topics. LEVEL column indicates the number of hierarchies used.\relax }}{96}{table.caption.54}% 
+\contentsline {table}{\numberline {6.6}{\ignorespaces Precision at 5 (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Patents dataset using a model with 750 topics. LEVEL column indicates the number of hierarchies used.\relax }}{96}{table.caption.55}% 
+\contentsline {table}{\numberline {6.7}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Open Research dataset and 100 topics.\relax }}{97}{table.caption.56}% 
+\contentsline {table}{\numberline {6.8}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Open Research dataset and 500 topics.\relax }}{97}{table.caption.57}% 
+\contentsline {table}{\numberline {6.9}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on CORDIS dataset and 70 topics.\relax }}{98}{table.caption.58}% 
+\contentsline {table}{\numberline {6.10}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on CORDIS dataset and 150 topics.\relax }}{98}{table.caption.59}% 
+\contentsline {table}{\numberline {6.11}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Patents dataset and 250 topics.\relax }}{99}{table.caption.60}% 
+\contentsline {table}{\numberline {6.12}{\ignorespaces Data size ratio used (\textit {mean} and \textit {median}) of threshold-based (THHM), centroid-based (CHHM) and density-based (DHHM) hierarchical hashing methods on Patents dataset and 750 topics.\relax }}{99}{table.caption.61}% 
+\contentsline {table}{\numberline {6.13}{\ignorespaces Number of documents similar to a given one (q1) and also in a specific domain (q2) for threshold-based (thhm), centroid-based (chhm) and density-based (dhhm) hierarchical hashing methods.\relax }}{101}{table.caption.65}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Randonly selected theme-aligned topics described by top 10 words based on EUROVOC annotations from JRC-Acquis dataset\relax }}{109}{table.caption.70}% 
-\contentsline {table}{\numberline {7.2}{\ignorespaces Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in monolingual document collections\relax }}{111}{table.caption.71}% 
-\contentsline {table}{\numberline {7.3}{\ignorespaces Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in multi-lingual document collections\relax }}{112}{table.caption.72}% 
-\contentsline {table}{\numberline {7.4}{\ignorespaces Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in monolingual document collections\relax }}{113}{table.caption.73}% 
-\contentsline {table}{\numberline {7.5}{\ignorespaces Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in multi-lingual document collections\relax }}{114}{table.caption.74}% 
-\contentsline {table}{\numberline {7.6}{\ignorespaces Number of documents and tokens by dataset\relax }}{115}{table.caption.76}% 
-\contentsline {table}{\numberline {7.7}{\ignorespaces Aggregated MAP results by metric and model\relax }}{117}{table.caption.78}% 
-\contentsline {table}{\numberline {7.8}{\ignorespaces MAP results by dividing the corpus into three equal subsets to train and evaluate the models in English(\textit {en}) and Spanish(\textit {es})\relax }}{118}{table.caption.79}% 
-\contentsline {table}{\numberline {7.9}{\ignorespaces MAP results by dividing the corpus into six equal subsets to train and evaluate the models in English(\textit {en}) and Spanish(\textit {es})\relax }}{119}{table.caption.80}% 
-\contentsline {table}{\numberline {7.10}{\ignorespaces MAP results by dividing the corpus into nine equal subsets to train and evaluate the models in English(\textit {en}) and Spanish(\textit {es})\relax }}{120}{table.caption.81}% 
+\contentsline {table}{\numberline {7.1}{\ignorespaces Randonly selected theme-aligned topics described by top 10 words based on EUROVOC annotations from JRC-Acquis dataset\relax }}{111}{table.caption.70}% 
+\contentsline {table}{\numberline {7.2}{\ignorespaces Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in monolingual document collections\relax }}{113}{table.caption.71}% 
+\contentsline {table}{\numberline {7.3}{\ignorespaces Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in multi-lingual document collections\relax }}{114}{table.caption.72}% 
+\contentsline {table}{\numberline {7.4}{\ignorespaces Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in monolingual document collections\relax }}{115}{table.caption.73}% 
+\contentsline {table}{\numberline {7.5}{\ignorespaces Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in multi-lingual document collections\relax }}{116}{table.caption.74}% 
+\contentsline {table}{\numberline {7.6}{\ignorespaces Number of documents and tokens by dataset\relax }}{117}{table.caption.76}% 
+\contentsline {table}{\numberline {7.7}{\ignorespaces Aggregated MAP results by metric and model\relax }}{119}{table.caption.78}% 
+\contentsline {table}{\numberline {7.8}{\ignorespaces MAP results by dividing the corpus into three equal subsets to train and evaluate the models in English(\textit {en}) and Spanish(\textit {es})\relax }}{120}{table.caption.79}% 
+\contentsline {table}{\numberline {7.9}{\ignorespaces MAP results by dividing the corpus into six equal subsets to train and evaluate the models in English(\textit {en}) and Spanish(\textit {es})\relax }}{121}{table.caption.80}% 
+\contentsline {table}{\numberline {7.10}{\ignorespaces MAP results by dividing the corpus into nine equal subsets to train and evaluate the models in English(\textit {en}) and Spanish(\textit {es})\relax }}{122}{table.caption.81}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Assumptions considered in this thesis.\relax }}{136}{table.caption.89}% 
-\contentsline {table}{\numberline {9.2}{\ignorespaces Restrictions considered in this thesis.\relax }}{137}{table.caption.90}% 
+\contentsline {table}{\numberline {9.1}{\ignorespaces Assumptions considered in this thesis.\relax }}{138}{table.caption.89}% 
+\contentsline {table}{\numberline {9.2}{\ignorespaces Restrictions considered in this thesis.\relax }}{139}{table.caption.90}% 
