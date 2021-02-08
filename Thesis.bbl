@@ -4,7 +4,7 @@
 Agerri, R., Bermudez, J., and Rigau, G. (2014).
 \newblock {IXA pipeline: Efficient and Ready to Use Multilingual NLP tools}.
 \newblock In {\em Proceedings of the 9th Language Resources and Evaluation
-  Conference (LREC)}, pages 26--31, Reykjavik, Iceland.
+  Conference (LREC)}, pages 26--31.
 
 \bibitem[Aletras et~al., 2017]{Aletras2017}
 Aletras, N., Baldwin, T., Lau, J.~H., and Stevenson, M. (2017).
@@ -12,12 +12,6 @@ Aletras, N., Baldwin, T., Lau, J.~H., and Stevenson, M. (2017).
   collections}.
 \newblock {\em Journal of the Association for Information Science and
   Technology}, 68(1):154--167.
-
-\bibitem[{\'A}lvarez, 2020]{Lozano2020}
-{\'A}lvarez, B.~L. (2020).
-\newblock {The influence of text length for probabilistic topic models and
-  their hierarchical representation}.
-\newblock {\em Master Thesis}.
 
 \bibitem[Andoni and Indyk, 2006]{Andoni2006}
 Andoni, A. and Indyk, P. (2006).
@@ -33,11 +27,10 @@ Andoni, A., Indyk, P., Nguyen, H.~L., and Razenshteyn, I. (2014).
   Discrete Algorithms}, pages 1018--1028.
 
 \bibitem[Badenes-Olmedo et~al., 2020a]{badenesolmedo2020drugs4covid}
-Badenes-Olmedo, C., Chaves-Fraga, D., Poveda-VillalÓn, M., Iglesias-Molina,
-  A., Calleja, P., Bernardos, S., MartÍn-Chozas, P., Fernández-Izquierdo, A.,
-  Amador-Domínguez, E., Espinoza-Arias, P., Pozo, L., Ruckhaus, E.,
-  González-Guardia, E., Cedazo, R., López-Centeno, B., and Corcho, O.
-  (2020a).
+Badenes-Olmedo, C., Chaves-Fraga, D., Poveda-Villalon, M., Iglesias-Molina, A.,
+  Calleja, P., Bernardos, S., Martin-Chozas, P., Fernandez-Izquierdo, A.,
+  Amador-Dominguez, E., Espinoza-Arias, P., Pozo, L., Ruckhaus, E.,
+  Gonzalez-Guardia, E., Cedazo, R., Lopez-Centeno, B., and Corcho, O. (2020a).
 \newblock Drugs4covid: Drug-driven knowledge exploitation based on scientific
   publications.
 
@@ -126,15 +119,14 @@ Bond, F. and Paik, K. (2012).
 Boyd-Graber, J. and Blei, D.~M. (2009).
 \newblock Multilingual topic models for unaligned text.
 \newblock In {\em Proceedings of the Twenty-Fifth Conference on Uncertainty in
-  Artificial Intelligence}, UAI '09, page 75–82, Arlington, Virginia, USA.
-  AUAI Press.
+  Artificial Intelligence}, UAI '09, page 75–82. AUAI Press.
 
 \bibitem[Boyd-Graber and Resnik, 2010]{Boyd-Graber2010}
 Boyd-Graber, J. and Resnik, P. (2010).
 \newblock {Holistic Sentiment Analysis Across Languages: Multilingual
   Supervised Latent Dirichlet Allocation}.
 \newblock {\em Proceedings of the 2010 Conference on Empirical Methods in
-  Natural Language Processing}, (October):45--55.
+  Natural Language Processing}, pages 45--55.
 
 \bibitem[Celikyilmaz et~al., 2010]{Celikyilmaz2010}
 Celikyilmaz, a., Hakkani-Tur, D., and Tur, G. (2010).
@@ -161,11 +153,6 @@ Cheng, X., Yan, X., Lan, Y., and Guo, J. (2014).
 \newblock {\em IEEE Transactions on Knowledge and Data Engineering},
   26(12):2928--2941.
 
-\bibitem[Christopher D.~Manning and Schütze, 2008]{Manning2008}
-Christopher D.~Manning, P.~R. and Schütze, H. (2008).
-\newblock {\em Introduction to Information Retrieval}.
-\newblock Cambridge University Press, UK.
-
 \bibitem[Cohan and Goharian, 2015]{Cohan2015}
 Cohan, A. and Goharian, N. (2015).
 \newblock {Scientific Article Summarization Using Citation-Context and
@@ -189,8 +176,7 @@ De~Smet, W. and Moens, M.-F. (2009).
 \newblock Cross-language linking of news stories on the web using interlingual
   topic modelling.
 \newblock In {\em Proceedings of the 2nd ACM Workshop on Social Web Search and
-  Mining}, SWSM '09, page 57–64, New York, NY, USA. Association for Computing
-  Machinery.
+  Mining}, SWSM '09, page 57–64. Association for Computing Machinery.
 
 \bibitem[De~Smet et~al., 2011]{10.1007/978-3-642-20841-6_45}
 De~Smet, W., Tang, J., and Moens, M.-F. (2011).
@@ -206,7 +192,7 @@ Deerwester, S., Dumais, S.~T., Furnas, G.~W., Landauer, T.~K., and Harshman, R.
   41(6):391--407.
 
 \bibitem[Dieng et~al., 2020]{Dieng2020TopicMI}
-Dieng, A.~B., Ruiz, F. J.~R., and Blei, D. (2020).
+Dieng, A.~B., Ruiz, F., and Blei, D. (2020).
 \newblock Topic modeling in embedding spaces.
 \newblock {\em Transactions of the Association for Computational Linguistics},
   8:439--453.
@@ -222,7 +208,7 @@ Dong, F., O'Donoghue, D., Ersotelos, N., Wu, S., Saggion, H., Ronzano, F.,
   Wei, H., Deng, Z., Mahdian, B., and Careil, J. (2017).
 \newblock Dr.inventor, promoting scientific creativity by utilising web-based
   research objects.
-\newblock Number~2, pages 40--44.
+\newblock {\em Impact}, pages 40--44.
 
 \bibitem[Dragoni et~al., 2016]{Dragoni2016}
 Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
@@ -236,10 +222,11 @@ Endres, D. and Schindelin, J. (2003).
 \newblock {\em IEEE Transactions on Information Theory}, 49(7):1858--1860.
 
 \bibitem[Ester et~al., 1996]{Ester1996}
-Ester, M., Kriegel, H.-p., S, J., and Xu, X. (1996).
+Ester, M., Kriegel, H., Sander, J., and X., X. (1996).
 \newblock {A density-based algorithm for discovering clusters in large spatial
   databases with noise}.
-\newblock pages 226--231.
+\newblock In {\em Proceedings of the Second International Conference on
+  Knowledge Discovery and Data Mining}, KDD'96, pages 226--231. AAAI Press.
 
 \bibitem[{Eurovoc}, 1995]{Eurovoc1995}
 {Eurovoc} (1995).
@@ -265,11 +252,6 @@ Ganguly, D., Leveling, J., and Jones, G. (2012).
 \newblock {Cross-Lingual Topical Relevance Models}.
 \newblock In {\em Proceedings of COLING 2012}, pages 927--942.
 
-\bibitem[Garcia, 2020]{Teresa2020}
-Garcia, T. G.-C. (2020).
-\newblock Analizador de lectura facil 4.0.
-\newblock {\em Open Archive UPM - http://oa.upm.es/63357/}.
-
 \bibitem[Gatti et~al., 2015]{Gatti2015}
 Gatti, C.~J., Brooks, J.~D., and Nurre, S.~G. (2015).
 \newblock {A Historical Analysis of the Field of OR/MS using Topic Models}.
@@ -279,13 +261,26 @@ Gatti, C.~J., Brooks, J.~D., and Nurre, S.~G. (2015).
 Gliozzo, A.~M., Pennacchiotti, M., and Pantel, P. (2007).
 \newblock The domain restriction hypothesis: Relating term similarity and
   semantic consistency.
-\newblock {\em In. Proceedings of NAACL HLT}, (April):131--138.
+\newblock In {\em Human Language Technologies 2007: The Conference of the North
+  {A}merican Chapter of the Association for Computational Linguistics;
+  Proceedings of the Main Conference}, pages 131--138. Association for
+  Computational Linguistics.
+
+\bibitem[Gomez-Carpintero, 2020]{Teresa2020}
+Gomez-Carpintero, T. (2020).
+\newblock Analizador de lectura facil 4.0.
+\newblock {\em Open Archive UPM - http://oa.upm.es/63357/}.
 
 \bibitem[Greene and Cross, 2016]{Greene2016}
 Greene, D. and Cross, J.~P. (2016).
 \newblock {Exploring the political agenda of the european parliament using a
   dynamic topic modeling approach}.
 \newblock {\em Political Analysis}, 25(1):77--94.
+
+\bibitem[Greengrass, 2000]{greengrass2000}
+Greengrass, E. (2000).
+\newblock {\em Information Retrieval: A Survey}.
+\newblock University of Maryland.
 
 \bibitem[Griffiths and Steyvers, 2004]{Griffiths2004b}
 Griffiths, T.~L. and Steyvers, M. (2004).
@@ -305,7 +300,9 @@ Halkidi, M., Batistakis, Y., and Vazirgiannis, M. (2001).
 
 \bibitem[Hall et~al., 2008]{Hall2008}
 Hall, D., Jurafsky, D., and Manning, C.~D. (2008).
-\newblock {\em {Studying the History of Ideas Using Topic Models}}.
+\newblock {Studying the History of Ideas Using Topic Models}.
+\newblock In {\em Proceedings of the 2008 Conference on Empirical Methods in
+  Natural Language Processing, Honolulu, October 2008}, pages 363--371.
 
 \bibitem[Hao et~al., 2018]{Hao2018}
 Hao, S., Boyd-Graber, J.~L., and Paul., M.~J. (2018).
@@ -319,8 +316,13 @@ Hao, S., Boyd-Graber, J.~L., and Paul., M.~J. (2018).
 Hao, S. and Paul, M.~J. (2018).
 \newblock Learning multilingual topics from incomparable corpora.
 \newblock In {\em Proceedings of the 27th International Conference on
-  Computational Linguistics}, pages 2595--2609, Santa Fe, New Mexico, USA.
-  Association for Computational Linguistics.
+  Computational Linguistics}, pages 2595--2609. Association for Computational
+  Linguistics.
+
+\bibitem[Harmon, 1996]{harmon1995}
+Harmon, D.~K. (1996).
+\newblock {\em Overview of the Third Text Retrieval Conference (TREC-3)}.
+\newblock DIANE Publishing Company.
 
 \bibitem[He et~al., 2017]{He2017}
 He, J., Li, L., and Wu, X. (2017).
@@ -334,6 +336,11 @@ Hearst, M.~a. and Hall, S. (1999).
 \newblock {Untangling Text Data Mining}.
 \newblock In {\em the 37th Annual Meeting of the Association for Computational
   Linguistics}, pages 1--13.
+
+\bibitem[Herranz and Arenas-Garcia, 2019]{Olga2019}
+Herranz, O. and Arenas-Garcia, J. (2019).
+\newblock Categorización de la oferta publica mediante tecnicas big data.
+\newblock {\em e-archivo UC3M}.
 
 \bibitem[Hofmann, 2001]{Hofmann2001}
 Hofmann, T. (2001).
@@ -364,21 +371,26 @@ Indyk, P. and Motwani, R. (1998).
 \newblock Approximate nearest neighbors: Towards removing the curse of
   dimensionality.
 \newblock In {\em Proceedings of the Thirtieth Annual ACM Symposium on Theory
-  of Computing}, STOC '98, page 604–613, New York, NY, USA. Association for
-  Computing Machinery.
+  of Computing}, STOC '98, page 604–613. Association for Computing Machinery.
 
 \bibitem[Jagarlamudi and Daum\'{e}, 2010]{Jagarlamudi2010}
 Jagarlamudi, J. and Daum\'{e}, H. (2010).
 \newblock Extracting multilingual topics from unaligned comparable corpora.
 \newblock In {\em Proceedings of the 32nd European Conference on Advances in
-  Information Retrieval}, ECIR'2010, page 444–456, Berlin, Heidelberg.
-  Springer-Verlag.
+  Information Retrieval}, ECIR'2010, page 444–456. Springer-Verlag.
 
 \bibitem[Ji et~al., 2013]{Ji2013}
 Ji, J., Li, J., Yan, S., Tian, Q., and Zhang, B. (2013).
 \newblock {Min-Max Hash for Jaccard Similarity}.
 \newblock In {\em 2013 IEEE 13th International Conference on Data Mining},
   pages 301--309. IEEE.
+
+\bibitem[Johnson et~al., 2018]{Ware2018STM}
+Johnson, R., Watkinson, A., and Mabe, M. (2018).
+\newblock {\em The STM report: An overview of scientific and scholarly journal
+  publishing}.
+\newblock International Association of Scientific, Technical and Medical
+  Publishers.
 
 \bibitem[Kenter and de~Rijke, 2015]{Kenter2015}
 Kenter, T. and de~Rijke, M. (2015).
@@ -397,14 +409,21 @@ Krstovski, K. and Smith, D.~A. (2011).
 Krstovski, K., Smith, D.~A., Wallach, H.~M., and McGregor, A. (2013).
 \newblock {Efficient Nearest-Neighbor Search in the Probability Simplex}.
 \newblock In {\em Proceedings of the 2013 Conference on the Theory of
-  Information Retrieval - ICTIR '13}, pages 101--108, New York, New York, USA.
-  ACM Press.
+  Information Retrieval - ICTIR '13}, pages 101--108. ACM Press.
 
 \bibitem[Kulis and Grauman, 2012]{Kulis2012}
 Kulis, B. and Grauman, K. (2012).
 \newblock {Kernelized Locality-Sensitive Hashing}.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   34(6):1092--1104.
+
+\bibitem[Lee, 1995]{lee1995}
+Lee, J.~H. (1995).
+\newblock Combining multiple evidence from different properties of weighting
+  schemes.
+\newblock In {\em Proceedings of the 18th Annual International ACM SIGIR
+  Conference on Research and Development in Information Retrieval}, SIGIR '95,
+  page 180–188. Association for Computing Machinery.
 
 \bibitem[Levy et~al., 2015]{levy2015}
 Levy, O., Goldberg, Y., and Dagan, I. (2015).
@@ -433,27 +452,32 @@ Lin, J. (1991).
 Lisena, P., Harrando, I., Kandakji, O., and Troncy, R. (2020).
 \newblock {ToModAPI: A Topic Modeling API to Train, Use and Compare Topic
   Models}.
-\newblock In {\em 2$^{nd}$ International Workshop for Natural Language
-  Processing Open Source Software (NLP-OSS)}.
+\newblock In {\em 2nd International Workshop for Natural Language Processing
+  Open Source Software (NLP-OSS)}.
 
 \bibitem[Liu et~al., 2015]{10.1145/2736277.2741106}
 Liu, X., Zeng, J., Yang, X., Yan, J., and Yang, Q. (2015).
 \newblock Scalable parallel em algorithms for latent dirichlet allocation in
   multi-core systems.
 \newblock In {\em Proceedings of the 24th International Conference on World
-  Wide Web}, WWW '15, page 669–679, Republic and Canton of Geneva, CHE.
-  International World Wide Web Conferences Steering Committee.
+  Wide Web}, WWW '15, page 669–679. International World Wide Web Conferences
+  Steering Committee.
 
 \bibitem[L{\'{o}}pez-Centeno et~al., 2019]{Badenes-Olmedo2019c}
-L{\'{o}}pez-Centeno, B., Badenes-Olmedo, C., Mataix-Sanjuan, {\'{A}}.,
-  McAllister, K., Bell{\'{o}}n, J.~M., Gibbons, S., Balsalobre, P.,
-  P{\'{e}}rez-Latorre, L., Bened{\'{i}}, J., Marzolini, C.,
-  Aranguren-Oyarz{\'{a}}bal, A., Khoo, S., Calvo-Alc{\'{a}}ntara, M.~J., and
-  Berenguer, J. (2019).
+L{\'{o}}pez-Centeno, B., Badenes-Olmedo, C., Mataix-Sanjuan, A., McAllister,
+  K., Bell{\'{o}}n, J.~M., Gibbons, S., Balsalobre, P., P{\'{e}}rez-Latorre,
+  L., Bened{\'{i}}, J., Marzolini, C., Aranguren-Oyarz{\'{a}}bal, A., Khoo, S.,
+  Calvo-Alc{\'{a}}ntara, M.~J., and Berenguer, J. (2019).
 \newblock {Polypharmacy and Drug-Drug Interactions in People Living With Human
   Immunodeficiency Virus in the Region of Madrid, Spain: A Population-Based
   Study}.
 \newblock {\em Clinical Infectious Diseases}, pages 352--362.
+
+\bibitem[Lozano et~al., 2020]{Lozano2020}
+Lozano, B., Badenes-Olmedo, C., and Corcho, O. (2020).
+\newblock {The Influence of Text Length for Probabilistic Topic Modelsand their
+  HierarchicalRepresentation}.
+\newblock {\em Open Archive UPM - http://oa.upm.es/63753/}.
 
 \bibitem[Lu et~al., 2016]{Lu2016}
 Lu, H.~M., Wei, C.~P., and Hsiao, F.~Y. (2016).
@@ -461,17 +485,17 @@ Lu, H.~M., Wei, C.~P., and Hsiao, F.~Y. (2016).
   allocation}.
 \newblock {\em Journal of Biomedical Informatics}, 60:210--223.
 
-\bibitem[Macias, 2019]{Olga2019}
-Macias, O.~H. (2019).
-\newblock Categorización de la oferta publica mediante tecnicas big data.
-\newblock {\em e-archivo UC3M}.
-
 \bibitem[Manning et~al., 2014]{Manning2014TheToolkit}
 Manning, C., Surdeanu, M., Bauer, J., Finkel, J., Bethard, S., and McClosky, D.
   (2014).
 \newblock {The Stanford CoreNLP Natural Language Processing Toolkit}.
 \newblock In {\em Proceedings of 52nd Annual Meeting of the Association for
   Computational Linguistics: System Demonstrations}.
+
+\bibitem[Manning and Schutze, 2008]{manning2008}
+Manning, C. D.~Raghavan, P. and Schutze, H. (2008).
+\newblock {\em Introduction to Information Retrieval}.
+\newblock Cambridge University Press.
 
 \bibitem[Mao et~al., 2017]{Mao2017}
 Mao, X., Feng, B.-S., Hao, Y.-J., Nie, L., Huang, H., and Wen, G. (2017).
@@ -495,16 +519,16 @@ Miller, G.~A. (1995).
 Mimno, D., Wallach, H., Talley, E., Leenders, M., and McCallum, A. (2011).
 \newblock {Optimizing Semantic Coherence in Topic Models}.
 \newblock In {\em Proceedings of the 2011 Conference on Empirical Methods in
-  Natural Language Processing}, pages 262--272, Edinburgh, Scotland, UK.
-  Association for Computational Linguistics.
+  Natural Language Processing}, pages 262--272. Association for Computational
+  Linguistics.
 
 \bibitem[Mimno et~al., 2009]{mimno-etal-2009-polylingual}
 Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
   (2009).
 \newblock Polylingual topic models.
 \newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
-  Natural Language Processing}, EMNLP '09, pages 880--889, Stroudsburg, PA,
-  USA. Association for Computational Linguistics.
+  Natural Language Processing}, EMNLP '09, pages 880--889. Association for
+  Computational Linguistics.
 
 \bibitem[Moritz and Büchler, 2017]{Moritz2017}
 Moritz, M. and Büchler, M. (2017).
@@ -512,12 +536,6 @@ Moritz, M. and Büchler, M. (2017).
   Investigation in Historical Bible Translations}.
 \newblock In {\em Proceedings of the NoDaLiDa 2017 Workshop on Processing
   Historical Language}, pages 18--23.
-
-\bibitem[Nair and Nair, 2014]{Nair2014}
-Nair, P.~R. and Nair, V.~D. (2014).
-\newblock {Organization of a Research Paper: The IMRAD Format}.
-\newblock In {\em Scientific Writing and Communication in Agriculture and
-  Natural Resources}, page 150.
 
 \bibitem[Newman et~al., 2010]{newman-etal-2010-automatic}
 Newman, D., Lau, J.~H., Grieser, K., and Baldwin, T. (2010).
@@ -530,8 +548,7 @@ Newman, D., Lau, J.~H., Grieser, K., and Baldwin, T. (2010).
 Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2009).
 \newblock Mining multilingual topics from wikipedia.
 \newblock In {\em Proceedings of the 18th International Conference on World
-  Wide Web}, WWW '09, page 1155–1156, New York, NY, USA. Association for
-  Computing Machinery.
+  Wide Web}, WWW '09, page 1155–1156. Association for Computing Machinery.
 
 \bibitem[Ni et~al., 2011]{Ni:2011:CLT:1935826.1935887}
 Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2011).
@@ -549,11 +566,11 @@ O’Neill, J., Robin, C., O’Brien, L., and Buitelaar, P. (2017).
 Pennington, J., Socher, R., and Manning, C. (2014).
 \newblock {G}lo{V}e: Global vectors for word representation.
 \newblock In {\em Proceedings of the 2014 Conference on Empirical Methods in
-  Natural Language Processing ({EMNLP})}, pages 1532--1543, Doha, Qatar.
-  Association for Computational Linguistics.
+  Natural Language Processing ({EMNLP})}, pages 1532--1543. Association for
+  Computational Linguistics.
 
-\bibitem[{Piccardi} and {West}, 2020]{2020arXiv200911207P}
-{Piccardi}, T. and {West}, R. (2020).
+\bibitem[Piccardi and West, 2020]{2020arXiv200911207P}
+Piccardi, T. and West, R. (2020).
 \newblock {Crosslingual Topic Modeling with WikiPDA}.
 \newblock {\em arXiv e-prints}.
 
@@ -562,15 +579,25 @@ Platt, J.~C., Toutanova, K., and Yih, W.-t. (2010).
 \newblock {Translingual Document Representations from Discriminative
   Projections}.
 \newblock In {\em Proceedings of the 2010 Conference on Empirical Methods in
-  Natural Language Processing}, EMNLP '10, pages 251--261, Stroudsburg, PA,
-  USA. Association for Computational Linguistics.
+  Natural Language Processing}, EMNLP '10, pages 251--261. Association for
+  Computational Linguistics.
+
+\bibitem[Porter, 1997]{porter1997}
+Porter, M.~F. (1997).
+\newblock {\em An Algorithm for Suffix Stripping}, page 313–316.
+\newblock Morgan Kaufmann Publishers Inc.
+
+\bibitem[Ramachandran and Vimala, 2014]{Nair2014}
+Ramachandran, P. and Vimala, D. (2014).
+\newblock {\em {Organization of a Research Paper: The IMRAD Format}}.
+\newblock Springer.
 
 \bibitem[Ramage et~al., 2009]{Ramage2009a}
 Ramage, D., Hall, D., Nallapati, R., and Manning, C.~D. (2009).
 \newblock {Labeled LDA: A supervised topic model for credit attribution in
   multi-labeled corpora}.
 \newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
-  Natural Language Processing (EMNLP'09)}, number~1, pages 248--256.
+  Natural Language Processing (EMNLP'09)}, pages 248--256.
 
 \bibitem[Rao, 1982]{Rao1982}
 Rao, C.~R. (1982).
@@ -578,11 +605,6 @@ Rao, C.~R. (1982).
   Analysis}.
 \newblock {\em Sankhy{\={a}}: The Indian Journal of Statistics, Series A},
   44(1):1--22.
-
-\bibitem[Rob~Johnson and Mabe, 2018]{Ware2018STM}
-Rob~Johnson, A.~W. and Mabe, M. (2018).
-\newblock The stm report: An overview of scientific and scholarly journal
-  publishing fifth edition.
 
 \bibitem[Ronzano and Saggion, 2015]{Ronzano2015}
 Ronzano, F. and Saggion, H. (2015).
@@ -595,12 +617,12 @@ Ronzano, F. and Saggion, H. (2015).
 Rus, V., Niraula, N., and Banjade, R. (2013).
 \newblock {Similarity Measures Based on Latent Dirichlet Allocation}.
 \newblock In {\em Computational Linguistics and Intelligent Text Processing},
-  pages 459--470.
+  volume 7816, pages 459--470. Springer.
 
-\bibitem[Salton, 1983]{Salton1983}
-Salton, G. (1983).
+\bibitem[Salton and McGill, 1983]{Salton1983}
+Salton, G. and McGill, M.~J. (1983).
 \newblock {\em Introduction to Modern Information Retrieval}.
-\newblock McGraw-Hill, Inc., USA.
+\newblock McGraw-Hill, Inc.
 
 \bibitem[Samy et~al., 2019]{Samy2019}
 Samy, D., Perez-Fernandez, D., and Arenas-Garcia, J. (2019).
@@ -608,19 +630,27 @@ Samy, D., Perez-Fernandez, D., and Arenas-Garcia, J. (2019).
   analysis: Overview of the spanish contribution.
 \newblock {\em Procesamiento del Lenguaje Natural}, 63(0):129--136.
 
-\bibitem[Sciences and life, 2016]{Sciences2016}
-Sciences, E. R. S. f.~P. and life (2016).
-\newblock {Harnessing the power of content - Extracting value from scientific
-  literature: the power of mining full-text articles for pathway analysis
-  Harnessing the Power of content}.
+\bibitem[Saracevic, 1995]{saracevic1995}
+Saracevic, T. (1995).
+\newblock Evaluation of evaluation in information retrieval.
+\newblock In {\em Proceedings of the 18th Annual International ACM SIGIR
+  Conference on Research and Development in Information Retrieval}, SIGIR '95,
+  page 138–146. Association for Computing Machinery.
+
+\bibitem[Sciences and Sciences, 2016]{Sciences2016}
+Sciences, E. R. S. f.~P. and Sciences, L. (2016).
+\newblock {\em {Harnessing the power of content - Extracting value from
+  scientific literature: the power of mining full-text articles for pathway
+  analysis}}.
+\newblock Elsevier Inc.
 
 \bibitem[Shi et~al., 2016]{shi-etal-2016-detecting}
 Shi, B., Lam, W., Bing, L., and Xu, Y. (2016).
 \newblock Detecting common discussion topics across culture from news reader
   comments.
 \newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
-  Computational Linguistics (Volume 1: Long Papers)}, pages 676--685, Berlin,
-  Germany. Association for Computational Linguistics.
+  Computational Linguistics (Volume 1: Long Papers)}, pages 676--685.
+  Association for Computational Linguistics.
 
 \bibitem[{Simone Teufel}, 2010]{SimoneTeufel2010}
 {Simone Teufel} (2010).
@@ -629,9 +659,9 @@ Shi, B., Lam, W., Bing, L., and Xu, Y. (2016).
 \newblock In {\em CSLI Studies in Computational Linguistics}.
 
 \bibitem[Soylu et~al., 2020]{Ahmet2020}
-Soylu, A., Corcho, O., Elves{\ae}ter, B., Badenes{-}Olmedo, C.,
-  Mart{\'{\i}}nez, F.~Y., Kovacic, M., Posinkovic, M., Makgill, I., Taggart,
-  C., Simperl, E., Lech, T.~C., and Roman, D. (2020).
+Soylu, A., Corcho, O., Elves{\ae}ter, B., Badenes-Olmedo, C., Yedro, F.,
+  Kovacic, M., Posinkovic, M., Makgill, I., Taggart, C., Simperl, E., Lech, T.,
+  and Roman, D. (2020).
 \newblock Enhancing public procurement in the european union through
   constructing and exploiting an integrated knowledge graph.
 \newblock In {\em Proceedings of the 19th International Semantic Web Conference
@@ -731,8 +761,8 @@ Wang, J., Liu, W., Kumar, S., and Chang, S.-F. (2016).
 \newblock {\em Proceedings of the IEEE}, 104(1):34--57.
 
 \bibitem[Wang et~al., 2020]{wang2020cord}
-Wang, L.~L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., Funk, K.,
-  Kinney, R., Liu, Z., Merrill, W., et~al. (2020).
+Wang, L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., Funk, K.,
+  Kinney, R., Liu, Z., and Merrill, W. (2020).
 \newblock {CORD-19: The Covid-19 Open Research Dataset}.
 \newblock {\em arXiv preprint arXiv:2004.10706}.
 
@@ -754,17 +784,15 @@ Yang, W., Boyd-Graber, J., and Resnik, P. (2019).
 Yuan, M., Van~Durme, B., and Ying, J.~L. (2018).
 \newblock Multilingual anchoring: Interactive topic modeling and alignment
   across languages.
-\newblock In Bengio, S., Wallach, H., Larochelle, H., Grauman, K.,
-  Cesa-Bianchi, N., and Garnett, R., editors, {\em Advances in Neural
-  Information Processing Systems}, volume~31, pages 8653--8663. Curran
-  Associates, Inc.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~31, pages 8653--8663. Curran Associates, Inc.
 
 \bibitem[Zhang et~al., 2010]{zhang-etal-2010-cross}
 Zhang, D., Mei, Q., and Zhai, C. (2010).
 \newblock Cross-lingual latent topic extraction.
 \newblock In {\em Proceedings of the 48th Annual Meeting of the Association for
-  Computational Linguistics}, pages 1128--1137, Uppsala, Sweden. Association
-  for Computational Linguistics.
+  Computational Linguistics}, pages 1128--1137. Association for Computational
+  Linguistics.
 
 \bibitem[Zhang et~al., 2013]{Zhang2013}
 Zhang, T., Liu, K., and Zhao, J. (2013).

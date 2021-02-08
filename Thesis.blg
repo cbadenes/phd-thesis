@@ -16,61 +16,44 @@ A level-1 auxiliary file: experiments/experiments.aux
 A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
-Warning--empty publisher in Andoni2014
-Warning--empty journal in badenesolmedo2020drugs4covid
-Warning--there's a number but no volume in Boyd-Graber2010
-Warning--empty booktitle in Dong2017DrIP
-Warning--there's a number but no series in Dong2017DrIP
-Warning--empty journal in Ester1996
-Warning--there's a number but no volume in Gliozzo2007
-Warning--empty publisher in Hall2008
-Warning--empty publisher in Nair2014
-Warning--there's a number but no series in Ramage2009a
-Warning--empty booktitle in Ware2018STM
-Warning--empty publisher in Rus2013
-Warning--empty journal in Sciences2016
-Warning--empty publisher in SimoneTeufel2010
-Warning--can't use both volume and number fields in Steinberger2006
-Warning--empty publisher in Terasawa2007
-You've used 123 entries,
+You've used 128 entries,
             1935 wiz_defined-function locations,
-            1265 strings with 31758 characters,
-and the built_in function-call counts, 59695 in all, are:
-= -- 5967
-> -- 2611
-< -- 109
-+ -- 908
-- -- 898
-* -- 4792
-:= -- 9696
-add.period$ -- 387
-call.type$ -- 123
-change.case$ -- 1055
-chr.to.int$ -- 119
-cite$ -- 139
-duplicate$ -- 2539
-empty$ -- 4079
-format.name$ -- 1085
-if$ -- 12285
+            1279 strings with 31774 characters,
+and the built_in function-call counts, 61978 in all, are:
+= -- 6233
+> -- 2649
+< -- 116
++ -- 922
+- -- 910
+* -- 4859
+:= -- 10009
+add.period$ -- 410
+call.type$ -- 128
+change.case$ -- 1085
+chr.to.int$ -- 124
+cite$ -- 128
+duplicate$ -- 2693
+empty$ -- 4249
+format.name$ -- 1104
+if$ -- 12837
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 126
-newline$ -- 614
-num.names$ -- 373
-pop$ -- 1162
+missing$ -- 135
+newline$ -- 642
+num.names$ -- 386
+pop$ -- 1222
 preamble$ -- 1
-purify$ -- 1058
+purify$ -- 1093
 quote$ -- 0
-skip$ -- 1986
+skip$ -- 2139
 stack$ -- 0
-substring$ -- 3963
-swap$ -- 711
-text.length$ -- 65
+substring$ -- 4117
+swap$ -- 793
+text.length$ -- 69
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 732
-warning$ -- 16
-while$ -- 472
+type$ -- 752
+warning$ -- 0
+while$ -- 488
 width$ -- 0
-write$ -- 1619
-(There were 16 warnings)
+write$ -- 1680

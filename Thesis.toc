@@ -7,102 +7,103 @@
 \contentsline {section}{\numberline {1.2}Thesis Structure}{5}{section.1.2}% 
 \contentsline {section}{\numberline {1.3}Publications}{6}{section.1.3}% 
 \contentsline {chapter}{\numberline {2}State of the Art}{11}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Related Work}{11}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Research Areas}{15}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Topic Creation and Reuse}{17}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Topic Explainability}{18}{subsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.2.3}Document Similarity}{20}{subsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.2.4}Multilingual Topic Alignment}{21}{subsection.2.2.4}% 
-\contentsline {chapter}{\numberline {3}Methodology}{25}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Research Hypotheses}{26}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Research Challenges}{28}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Scalable Creation and Inference of Topics}{28}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}Explainable Topic-based Relations}{29}{subsection.3.2.2}% 
-\contentsline {subsection}{\numberline {3.2.3}Large-scale Comparisons of Topic Distributions}{29}{subsection.3.2.3}% 
-\contentsline {subsection}{\numberline {3.2.4}Unsupervised Cross-lingual Topic Alignment}{30}{subsection.3.2.4}% 
-\contentsline {section}{\numberline {3.3}Research Methodology}{30}{section.3.3}% 
-\contentsline {chapter}{\numberline {4}Creation and Distribution of Probabilistic Topic Models}{37}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Topic Modeling Framework}{37}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Corpora Representation for Topic Modeling}{39}{subsection.4.1.1}% 
-\contentsline {subsubsection}{\numberline {4.1.1.1}Domain}{40}{subsubsection.4.1.1.1}% 
-\contentsline {subsubsection}{\numberline {4.1.1.2}Document}{41}{subsubsection.4.1.1.2}% 
-\contentsline {subsubsection}{\numberline {4.1.1.3}Snippet}{43}{subsubsection.4.1.1.3}% 
-\contentsline {subsubsection}{\numberline {4.1.1.4}Annotation}{43}{subsubsection.4.1.1.4}% 
-\contentsline {subsection}{\numberline {4.1.2}Event-oriented Processing Workflow}{44}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}Module-based Model Training}{45}{subsection.4.1.3}% 
-\contentsline {section}{\numberline {4.2}Topic Modeling Services}{47}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Topic Model Publication}{48}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Topic Model Exploitation}{49}{subsection.4.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.2.1}Reproducibility Tasks}{51}{subsubsection.4.2.2.1}% 
-\contentsline {subsubsection}{\numberline {4.2.2.2}Exploration Tasks}{53}{subsubsection.4.2.2.2}% 
-\contentsline {subsubsection}{\numberline {4.2.2.3}Inference Tasks}{53}{subsubsection.4.2.2.3}% 
-\contentsline {section}{\numberline {4.3}Summary}{54}{section.4.3}% 
-\contentsline {chapter}{\numberline {5}Explainable Topic-based Associations}{57}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Topic-based Relations}{58}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}Research Articles Summaries}{59}{subsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.1.2}Feature Vectors}{60}{subsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.1.3}Similarity Measure}{61}{subsection.5.1.3}% 
-\contentsline {subsection}{\numberline {5.1.4}Evaluation}{61}{subsection.5.1.4}% 
-\contentsline {subsubsection}{\numberline {5.1.4.1}Internal Representativeness}{62}{subsubsection.5.1.4.1}% 
-\contentsline {subsubsection}{\numberline {5.1.4.2}External-Representativeness}{63}{subsubsection.5.1.4.2}% 
-\contentsline {subsection}{\numberline {5.1.5}Conclusion}{66}{subsection.5.1.5}% 
-\contentsline {section}{\numberline {5.2}Topic-based Clustering}{66}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Most Relevant Topics}{67}{subsection.5.2.1}% 
-\contentsline {subsubsection}{\numberline {5.2.1.1}Trends-based Clustering Method}{68}{subsubsection.5.2.1.1}% 
-\contentsline {subsubsection}{\numberline {5.2.1.2}Ranking-based Clustering Method}{69}{subsubsection.5.2.1.2}% 
-\contentsline {subsubsection}{\numberline {5.2.1.3}Cumulative Ranking-based Clustering Method}{70}{subsubsection.5.2.1.3}% 
-\contentsline {subsection}{\numberline {5.2.2}Evaluation}{70}{subsection.5.2.2}% 
-\contentsline {subsubsection}{\numberline {5.2.2.1}Datasets}{71}{subsubsection.5.2.2.1}% 
-\contentsline {subsubsection}{\numberline {5.2.2.2}Settings}{72}{subsubsection.5.2.2.2}% 
-\contentsline {subsubsection}{\numberline {5.2.2.3}Baselines}{72}{subsubsection.5.2.2.3}% 
-\contentsline {subsubsection}{\numberline {5.2.2.4}Measures}{73}{subsubsection.5.2.2.4}% 
-\contentsline {subsubsection}{\numberline {5.2.2.5}Results}{74}{subsubsection.5.2.2.5}% 
-\contentsline {subsection}{\numberline {5.2.3}Conclusion}{80}{subsection.5.2.3}% 
-\contentsline {section}{\numberline {5.3}Summary}{81}{section.5.3}% 
-\contentsline {chapter}{\numberline {6}Large-scale Monolingual Document Similarity}{83}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Hashing Topic Distributions}{83}{section.6.1}% 
-\contentsline {subsection}{\numberline {6.1.1}Hierarchical Data}{86}{subsection.6.1.1}% 
-\contentsline {subsection}{\numberline {6.1.2}Distance Metric}{87}{subsection.6.1.2}% 
-\contentsline {subsection}{\numberline {6.1.3}Hash Function}{87}{subsection.6.1.3}% 
-\contentsline {subsubsection}{\numberline {6.1.3.1}Threshold-based Hierarchical Hashing Method}{88}{subsubsection.6.1.3.1}% 
-\contentsline {subsubsection}{\numberline {6.1.3.2}Centroid-based Hierarchical Hashing Method}{88}{subsubsection.6.1.3.2}% 
-\contentsline {subsubsection}{\numberline {6.1.3.3}Density-based Hierarchical Hashing Method}{89}{subsubsection.6.1.3.3}% 
-\contentsline {subsection}{\numberline {6.1.4}Online-mode Hashing}{90}{subsection.6.1.4}% 
-\contentsline {section}{\numberline {6.2}Evaluation}{90}{section.6.2}% 
-\contentsline {subsection}{\numberline {6.2.1}Datasets and Evaluation Metrics}{91}{subsection.6.2.1}% 
-\contentsline {subsection}{\numberline {6.2.2}Retrieving Similar Documents}{92}{subsection.6.2.2}% 
-\contentsline {subsection}{\numberline {6.2.3}Exploration}{99}{subsection.6.2.3}% 
-\contentsline {section}{\numberline {6.3}Summary}{102}{section.6.3}% 
-\contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{105}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{106}{section.7.1}% 
-\contentsline {subsection}{\numberline {7.1.1}Document representation}{107}{subsection.7.1.1}% 
-\contentsline {subsection}{\numberline {7.1.2}Similarity metric}{109}{subsection.7.1.2}% 
-\contentsline {subsection}{\numberline {7.1.3}Cross-lingual Models}{109}{subsection.7.1.3}% 
-\contentsline {section}{\numberline {7.2}Evaluation}{113}{section.7.2}% 
-\contentsline {subsection}{\numberline {7.2.1}Cross-lingual Document Classification}{114}{subsection.7.2.1}% 
-\contentsline {subsection}{\numberline {7.2.2}Cross-lingual Information Retrieval}{115}{subsection.7.2.2}% 
-\contentsline {subsection}{\numberline {7.2.3}Text Length on Cross-lingual Representations}{116}{subsection.7.2.3}% 
-\contentsline {section}{\numberline {7.3}Summary}{123}{section.7.3}% 
-\contentsline {chapter}{\numberline {8}Experiments}{125}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Scientific Creativity and Innovation}{125}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Innovation and Research in the ICT sector}{128}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}Polypharmacy and Drug-drug Interactions}{129}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}Public Procurement Data}{132}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}COVID-19 and Coronavirus-related Research}{134}{section.8.5}% 
-\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{137}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{138}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}Contributions}{139}{section.9.2}% 
-\contentsline {subsection}{\numberline {9.2.1}Topic Model Distribution}{139}{subsection.9.2.1}% 
-\contentsline {subsubsection}{\numberline {9.2.1.1}librAIry Framework}{139}{subsubsection.9.2.1.1}% 
-\contentsline {subsubsection}{\numberline {9.2.1.2}Methodology for publishing topic models as Web Services}{140}{subsubsection.9.2.1.2}% 
-\contentsline {subsection}{\numberline {9.2.2}Explainable Topic-based Similarity}{140}{subsection.9.2.2}% 
-\contentsline {subsubsection}{\numberline {9.2.2.1}Most Relevant Topics}{140}{subsubsection.9.2.2.1}% 
-\contentsline {subsubsection}{\numberline {9.2.2.2}Distance Metric}{141}{subsubsection.9.2.2.2}% 
-\contentsline {subsection}{\numberline {9.2.3}Large-Scale Document Similarity}{141}{subsection.9.2.3}% 
-\contentsline {subsubsection}{\numberline {9.2.3.1}Topic Hierarchies}{141}{subsubsection.9.2.3.1}% 
-\contentsline {subsubsection}{\numberline {9.2.3.2}Nearest Documents}{142}{subsubsection.9.2.3.2}% 
-\contentsline {subsection}{\numberline {9.2.4}Multilingual Corpora}{142}{subsection.9.2.4}% 
-\contentsline {subsubsection}{\numberline {9.2.4.1}Cross-lingual Topics}{142}{subsubsection.9.2.4.1}% 
-\contentsline {section}{\numberline {9.3}Impact}{143}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Future Work}{145}{section.9.4}% 
-\contentsline {chapter}{Bibliography}{149}{chapter*.92}% 
+\contentsline {section}{\numberline {2.1}Information Retrieval}{11}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Techniques for Document Retrieval}{13}{section.2.2}% 
+\contentsline {section}{\numberline {2.3}Research Areas}{18}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Topic Creation and Reuse}{19}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Topic Explainability}{21}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Document Similarity}{23}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Multilingual Topic Alignment}{25}{subsection.2.3.4}% 
+\contentsline {chapter}{\numberline {3}Methodology}{29}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Research Hypotheses}{30}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Research Challenges}{32}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Scalable Creation and Inference of Topics}{32}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Explainable Topic-based Relations}{33}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}Large-scale Comparisons of Topic Distributions}{33}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.4}Unsupervised Cross-lingual Topic Alignment}{34}{subsection.3.2.4}% 
+\contentsline {section}{\numberline {3.3}Research Methodology}{34}{section.3.3}% 
+\contentsline {chapter}{\numberline {4}Creation and Distribution of Probabilistic Topic Models}{41}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Topic Modeling Framework}{41}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Corpora Representation for Topic Modeling}{43}{subsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1.1}Domain}{44}{subsubsection.4.1.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1.2}Document}{45}{subsubsection.4.1.1.2}% 
+\contentsline {subsubsection}{\numberline {4.1.1.3}Snippet}{47}{subsubsection.4.1.1.3}% 
+\contentsline {subsubsection}{\numberline {4.1.1.4}Annotation}{47}{subsubsection.4.1.1.4}% 
+\contentsline {subsection}{\numberline {4.1.2}Event-oriented Processing Workflow}{48}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}Module-based Model Training}{49}{subsection.4.1.3}% 
+\contentsline {section}{\numberline {4.2}Topic Modeling Services}{51}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Topic Model Publication}{52}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Topic Model Exploitation}{53}{subsection.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Reproducibility Tasks}{55}{subsubsection.4.2.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Exploration Tasks}{57}{subsubsection.4.2.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2.3}Inference Tasks}{57}{subsubsection.4.2.2.3}% 
+\contentsline {section}{\numberline {4.3}Summary}{58}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Explainable Topic-based Associations}{61}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Topic-based Relations}{62}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Research Articles Summaries}{63}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Feature Vectors}{64}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.1.3}Similarity Measure}{65}{subsection.5.1.3}% 
+\contentsline {subsection}{\numberline {5.1.4}Evaluation}{65}{subsection.5.1.4}% 
+\contentsline {subsubsection}{\numberline {5.1.4.1}Internal Representativeness}{66}{subsubsection.5.1.4.1}% 
+\contentsline {subsubsection}{\numberline {5.1.4.2}External-Representativeness}{67}{subsubsection.5.1.4.2}% 
+\contentsline {subsection}{\numberline {5.1.5}Conclusion}{70}{subsection.5.1.5}% 
+\contentsline {section}{\numberline {5.2}Topic-based Clustering}{70}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Most Relevant Topics}{71}{subsection.5.2.1}% 
+\contentsline {subsubsection}{\numberline {5.2.1.1}Trends-based Clustering Method}{72}{subsubsection.5.2.1.1}% 
+\contentsline {subsubsection}{\numberline {5.2.1.2}Ranking-based Clustering Method}{73}{subsubsection.5.2.1.2}% 
+\contentsline {subsubsection}{\numberline {5.2.1.3}Cumulative Ranking-based Clustering Method}{74}{subsubsection.5.2.1.3}% 
+\contentsline {subsection}{\numberline {5.2.2}Evaluation}{74}{subsection.5.2.2}% 
+\contentsline {subsubsection}{\numberline {5.2.2.1}Datasets}{75}{subsubsection.5.2.2.1}% 
+\contentsline {subsubsection}{\numberline {5.2.2.2}Settings}{76}{subsubsection.5.2.2.2}% 
+\contentsline {subsubsection}{\numberline {5.2.2.3}Baselines}{76}{subsubsection.5.2.2.3}% 
+\contentsline {subsubsection}{\numberline {5.2.2.4}Measures}{77}{subsubsection.5.2.2.4}% 
+\contentsline {subsubsection}{\numberline {5.2.2.5}Results}{78}{subsubsection.5.2.2.5}% 
+\contentsline {subsection}{\numberline {5.2.3}Conclusion}{84}{subsection.5.2.3}% 
+\contentsline {section}{\numberline {5.3}Summary}{85}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Large-scale Monolingual Document Similarity}{87}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Hashing Topic Distributions}{87}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Hierarchical Data}{90}{subsection.6.1.1}% 
+\contentsline {subsection}{\numberline {6.1.2}Distance Metric}{91}{subsection.6.1.2}% 
+\contentsline {subsection}{\numberline {6.1.3}Hash Function}{91}{subsection.6.1.3}% 
+\contentsline {subsubsection}{\numberline {6.1.3.1}Threshold-based Hierarchical Hashing Method}{92}{subsubsection.6.1.3.1}% 
+\contentsline {subsubsection}{\numberline {6.1.3.2}Centroid-based Hierarchical Hashing Method}{92}{subsubsection.6.1.3.2}% 
+\contentsline {subsubsection}{\numberline {6.1.3.3}Density-based Hierarchical Hashing Method}{93}{subsubsection.6.1.3.3}% 
+\contentsline {subsection}{\numberline {6.1.4}Online-mode Hashing}{94}{subsection.6.1.4}% 
+\contentsline {section}{\numberline {6.2}Evaluation}{94}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.2.1}Datasets and Evaluation Metrics}{95}{subsection.6.2.1}% 
+\contentsline {subsection}{\numberline {6.2.2}Retrieving Similar Documents}{96}{subsection.6.2.2}% 
+\contentsline {subsection}{\numberline {6.2.3}Exploration}{103}{subsection.6.2.3}% 
+\contentsline {section}{\numberline {6.3}Summary}{106}{section.6.3}% 
+\contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{109}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{110}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.1.1}Document representation}{111}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {7.1.2}Similarity metric}{113}{subsection.7.1.2}% 
+\contentsline {subsection}{\numberline {7.1.3}Cross-lingual Models}{113}{subsection.7.1.3}% 
+\contentsline {section}{\numberline {7.2}Evaluation}{117}{section.7.2}% 
+\contentsline {subsection}{\numberline {7.2.1}Cross-lingual Document Classification}{118}{subsection.7.2.1}% 
+\contentsline {subsection}{\numberline {7.2.2}Cross-lingual Information Retrieval}{119}{subsection.7.2.2}% 
+\contentsline {subsection}{\numberline {7.2.3}Text Length on Cross-lingual Representations}{120}{subsection.7.2.3}% 
+\contentsline {section}{\numberline {7.3}Summary}{127}{section.7.3}% 
+\contentsline {chapter}{\numberline {8}Experiments}{129}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Scientific Creativity and Innovation}{129}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Innovation and Research in the ICT sector}{132}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Polypharmacy and Drug-drug Interactions}{133}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Public Procurement Data}{136}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}COVID-19 and Coronavirus-related Research}{138}{section.8.5}% 
+\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{141}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{142}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}Contributions}{143}{section.9.2}% 
+\contentsline {subsection}{\numberline {9.2.1}Topic Model Distribution}{143}{subsection.9.2.1}% 
+\contentsline {subsubsection}{\numberline {9.2.1.1}librAIry Framework}{143}{subsubsection.9.2.1.1}% 
+\contentsline {subsubsection}{\numberline {9.2.1.2}Methodology for publishing topic models as Web Services}{144}{subsubsection.9.2.1.2}% 
+\contentsline {subsection}{\numberline {9.2.2}Explainable Topic-based Similarity}{144}{subsection.9.2.2}% 
+\contentsline {subsubsection}{\numberline {9.2.2.1}Most Relevant Topics}{144}{subsubsection.9.2.2.1}% 
+\contentsline {subsubsection}{\numberline {9.2.2.2}Distance Metric}{145}{subsubsection.9.2.2.2}% 
+\contentsline {subsection}{\numberline {9.2.3}Large-Scale Document Similarity}{145}{subsection.9.2.3}% 
+\contentsline {subsubsection}{\numberline {9.2.3.1}Topic Hierarchies}{145}{subsubsection.9.2.3.1}% 
+\contentsline {subsubsection}{\numberline {9.2.3.2}Nearest Documents}{146}{subsubsection.9.2.3.2}% 
+\contentsline {subsection}{\numberline {9.2.4}Multilingual Corpora}{146}{subsection.9.2.4}% 
+\contentsline {subsubsection}{\numberline {9.2.4.1}Cross-lingual Topics}{146}{subsubsection.9.2.4.1}% 
+\contentsline {section}{\numberline {9.3}Impact}{147}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Future Work}{149}{section.9.4}% 
+\contentsline {chapter}{Bibliography}{153}{chapter*.92}% 
