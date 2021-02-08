@@ -187,7 +187,7 @@ Results show that summaries created from the \textit{approach}, \textit{outcome}
 \section{Topic-based Clustering}
 \label{sec:topic-clustering}
 
-Once we have a better understanding of the behavior of topic models to represent texts, and the relationships that can be derived, we examine their usefulness in browsing document collections. A way to explore the knowledge inside document collections is by moving from one information element to another based on certain criteria that relates them. This approach requires to calculate a similarity matrix with all possible comparisons between elements, so we can later select the most pertinent ones. Since computing a $n \times n$ matrix takes $O(n^2)$ time, obtaining all possible pairs of similarities in a large collection of documents can be unfeasible because of the exponential cost of comparing every pair of elements.
+Once we have a better understanding of the behavior of topic models to represent texts, and the relationships that can be derived from them, we examine their usefulness in browsing document collections. A way to explore the knowledge inside document collections is by moving from one information element to another based on certain criteria that relates them. This approach requires to calculate a similarity matrix with all possible comparisons between elements, so we can later select the most pertinent ones. Since computing a $n \times n$ matrix takes $O(n^2)$ time, obtaining all possible pairs of similarities in a large collection of documents can be unfeasible because of the quadratic cost of comparing every pair of elements.
 
 In order to reduce the complexity, some approaches have introduced mechanisms (mainly pre-election methods) to alleviate the problem of making this calculation over the whole set of pairs in the collection. However those methods are still quite costly.
 
@@ -212,7 +212,7 @@ The classification method needs to take advantage of both the vectorial represen
 Our hypothesis is that, \textit{given a collection of topic distributions, an unsupervised classification with high precision and linear computing time can be performed by considering only the topic distribution of each document and without needing to further compare it with other document's distributions}.
 % \citep{Towne2016}
 
-All algorithms have been compared in terms of \textit{cost}, \textit{effectiveness} and \textit{efficiency} \citep{Halkidi2001a}. \textit{Cost} is based on the number of pairwise similarity values. \textit{Effectiveness} handles relevance measures such as \textit{precision} and \textit{recall}. And \textit{efficiency} tries to measure the overall balance between \textit{cost} and \textit{effectiveness}. More details about those measures will be included in Section~\ref{sec:clustering-experiments}.
+All algorithms have been compared in terms of \textit{cost}, \textit{effectiveness} and \textit{efficiency} \citep{Halkidi2001a}. \textit{Cost} is based on the number of pairwise similarity checks. \textit{Effectiveness} handles relevance measures such as \textit{precision} and \textit{recall}. And \textit{efficiency} tries to measure the overall balance between \textit{cost} and \textit{effectiveness}. More details about those measures will be included in Section~\ref{sec:clustering-experiments}.
 
 \subsubsection{Trends-based Clustering Method}
 
@@ -227,7 +227,7 @@ TDC(P)=T
 \end{conditions}
 For example, given the distribution $P_1=[0.23, 0.18, 0.33, 0.13, 0.13]$, the assigned cluster will be $T=2120$. The first value is $2$ because $0.23$ is greater than $0.18$ (same for other values).
 
-\begin{figure}
+\begin{figure}[!htbp]
   \centering
   \includegraphics[scale=0.33]{tdc-cluster.png}
   \caption{TDC considers variations across consecutive topics inside a document’s topic distribution.}
@@ -245,7 +245,7 @@ where  $\forall i \in R, R_i>=R_{i+1}$ and $\forall j \in P, R_1>=P_j$
 
 This is based on the assumption that the highest weighted topics have a high influence in the rest of topics in terms of calculating distances, when comparing continuous multivariate probability distributions. Since similarity measures (Section ~\ref{sec:related-work}) based on probability distributions are oriented to determine the uncertainty of the distribution, when a mixture of probability distributions is considered, as in the case of Topic Models, the top $n$ distributions (i.e. the most relevant topics) should be sufficient to allow us grouping similar distributions. Taking into account the above considerations, the RDC algorithm classifies a topic distribution according to only $n$ highest probability values. For instance, given the following topic distribution: $P_2=[0.23, 0.18, 0.33, 0.13, 0.13]$, the assigned cluster is \textit{3} from RDC-1 because that is the topic with the highest weight.
 
-\begin{figure}
+\begin{figure}[!htbp]
   \centering
   \includegraphics[scale=0.33]{rdc-cluster.png}
   \caption{RDC only considers the top n topics from the ranked list of probability distributions.}
@@ -264,7 +264,7 @@ where  $\forall i \in C, C_i >=C_{i+1}$ and $\sum\limits_{i=1}^T C_i >= w$ with 
 
 For instance, considering a CRDC algorithm with a cumulative weight threshold of 0.9, and the following topic distribution: $P_3=[0.36, 0.58, 0.05, 0.01]$. The assigned cluster will be \textit{21}. To come up with this cluster, a ranked list of topics based on their weights is first calculated, $R_p=2|1|3|4$. Then, a sum of weights according to the order described by $R_p$ is performed. When the accumulated sum is greater than the threshold, the topics taking part of the sum will be selected to ``label'' the cluster. In this case, the cumulative weight threshold is 0.9 therefore using only the first two topics we exceed the threshold: $w=0.58+0.36=0.94$
 
-\begin{figure}
+\begin{figure}[!htbp]
   \centering
   \includegraphics[scale=0.33]{crdc-cluster.png}
   \caption{CRDC only considers the top n topics until the sum of the weights of the highest topics exceeded a given threshold.}
@@ -288,9 +288,9 @@ Topic models were trained from these datasets by using the criteria described by
 \label{sec:clustering-threshold}
 Since there is no unified criteria to select a threshold inside the distance scores spectrum that allows us to determine when two documents are similar, we decided to study the distribution of similarity values calculated from all pairwise comparisons. In Figure ~\ref{fig:similarityThreshold}, the result of grouping all similarities by the two most representative decimals, i.e. the first two decimals of the similarity value, is shown. Then, a polynomial function (red line) is approximated to describe the trend of these values. In this function, the similarity score $0.83$ emerges as a global minimum and has been used for filtering out the non-similar document pairs.
 
-\begin{figure}
+\begin{figure}[!htbp]
   \centering
-  \includegraphics[scale=0.33]{similarity-threshold.png}
+  \includegraphics[scale=0.43]{similarity-threshold.png}
   \caption{Similarity values grouped by frequency in AIES}
   \label{fig:similarityThreshold}
 \end{figure}
@@ -336,26 +336,29 @@ The \textit{minSim} corresponds to the number of similar documents obtained from
 \subsubsection{Results}
 \label{sec:clustering-results}
 
-The code used to evaluate the algorithms along with the results obtained are publicy available\footnote{https://doi.org/10.5281/zenodo.931305}.
+The source code used to evaluate the algorithms along with the results obtained are publicy available\footnote{https://doi.org/10.5281/zenodo.931305}.
 
 In terms of \textbf{\textit{effectiveness}} (Figures ~\ref{fig:effectivenessJS} and ~\ref{fig:effectivenessHe}), the results highlight that \textit{K-Means} and \textit{CRDC} outperform the other algorithms. \textit{K-Means} was expected to be a top performer because the algorithm itself performs comparisons to map clusters. The fact that \textit{CRDC} has such good performance encourages us to think that, in fact, the most relevant topics when they altogether exceed a certain high weight threshold, are those that best represent the document and allow to group together similar documents. However, as shown in tables ~\ref{tab:precisionJS}, ~\ref{tab:precisionHe}, ~\ref{tab:recallJS} and ~\ref{tab:recallHe}, considering a fixed number of more relevant topics (\textit{RDC}) or considering the trend of their weights (\textit{TDC}) does not seem to perform so well on aggregating similar documents, since their \textit{precision} and \textit{recall} values are very low in both cases. It is surprising that the \textit{DBSCAN} has such low value. Taking a look at its \textit{precision} and \textit{recall} values, and also seeing the number of groups that each algorithm has created (Figure ~\ref{fig:clusters}), we believe that having a corpus containing a very cohesive set of documents (all papers in corpus belong to the same journal) affects the performance of this algorithm since it divides the corpus into a lower number of groups. This way, it obtains high values of \textit{recall} because most of the pair-wise distances are computed, but very low \textit{precision}.
 
 The results also show that the behavior of the algorithms does not differ significantly when using different similarity measures, for example JS divergence (Figure ~\ref{fig:effectivenessJS}) and He distance (Figure ~\ref{fig:effectivenessHe}). This highlights the importance of the documents' topic distributions to successfully classify them into smaller groups of similar items, while other particular aspects such as the distance or similarity metric used to compare them are less influential.
 
 \begin{figure}[!htb]\centering
-   \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=\linewidth]{effectivenessJS.png}}
-     \caption{Effectiveness (JS-based) in AIES}\label{fig:effectivenessJS}
-   \end{minipage}
-   \begin {minipage}[c]{0.49\textwidth}
-     \frame{\includegraphics[width=\linewidth]{effectivenessHe.png}}
-     \caption{Effectiveness (He-based) in AIES}\label{fig:effectivenessHe}
-   \end{minipage}
+  \center
+  \includegraphics[scale=0.35]{effectivenessJS.png}
+  \caption{Effectiveness (JS-based) in AIES}
+  \label{fig:effectivenessJS}
 \end{figure}
 
-\begin{figure}\centering
+\begin{figure}[!htb]\centering
   \center
-  \includegraphics[scale=0.50]{clusters.png}
+  \includegraphics[scale=0.35]{effectivenessHe.png}
+  \caption{Effectiveness (He-based) in AIES}
+  \label{fig:effectivenessHe}
+\end{figure}
+
+\begin{figure}[!htb]\centering
+  \center
+  \includegraphics[scale=0.45]{clusters.png}
   \caption{Clusters in AIES}
   \label{fig:clusters}
 \end{figure}
@@ -443,51 +446,43 @@ Among our proposals, the main reason for an algorithm to present a higher cost i
 The behavior of the \textit{DBSCAN} algorithm depends remarkably on the similarity metric used. We think that this may be due to the way in which both measures satisfy the triangle inequality condition, since one is based on divergence (JS) and the other on distance (He). This property, which defines $distance(a,b) \leq distance(a,c) + distance(c,b)$, is very important in the calculations that \textit{DBSCAN} makes to discover the groups, since it only calculates the distances between near points.
 
 \begin{figure}[!htb]\centering
-   \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=\linewidth]{costJS.png}}
-     \caption{Cost (JS-based) in AIES}\label{fig:costJS}
-   \end{minipage}
-   \begin {minipage}[c]{0.49\textwidth}
-     \frame{\includegraphics[width=\linewidth]{costHe.png}}
-     \caption{Cost (He-based) in AIES}\label{fig:costHe}
-   \end{minipage}
+  \center
+  \includegraphics[scale=0.45]{costJS.png}
+  \caption{Cost (JS-based) in AIES}
+  \label{fig:clusters}
 \end{figure}
 
+\begin{figure}[!htb]\centering
+  \center
+  \includegraphics[scale=0.45]{costHe.png}
+  \caption{Cost (He-based) in AIES}
+  \label{fig:costHe}
+\end{figure}
 
 Finally, in terms of \textbf{\textit{efficiency}} (Figures ~\ref{fig:efficiencyJS}, ~\ref{fig:efficiencyHe}), regardless of the similarity measure used, the algorithm that yields the best performance according to the results obtained is \textit{CRDC}. Overall, \textit{CRDC} demonstrates a high accuracy classification and a lower cost by improving the performance offered by centroid-based or density-based approaches.
 
 \begin{figure}[!htb]\centering
-   \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=\linewidth]{efficiencyJS.png}}
-     \caption{Efficiency (JS-based) in AIES}\label{fig:efficiencyJS}
-   \end{minipage}
-   \begin {minipage}[c]{0.49\textwidth}
-     \frame{\includegraphics[width=\linewidth]{efficiencyHe.png}}
-     \caption{Efficiency (He-based) in AIES}\label{fig:efficiencyHe}
-   \end{minipage}
+  \center
+  \includegraphics[scale=0.45]{efficiencyJS.png}
+  \caption{Efficiency (JS-based) in AIES}
+  \label{fig:efficiencyJS}
 \end{figure}
 
+\begin{figure}[!htb]\centering
+  \center
+  \includegraphics[scale=0.45]{efficiencyHe.png}
+  \caption{Efficiency (He-based) in AIES}
+  \label{fig:efficiencyHe}
+\end{figure}
 
 We have also created a synthetic dataset, DRM (Section ~\ref{sec:clustering-datasets}), composed of 1000 Dirichlet distributions with the same dimensions than topics in AIES: $k=44$. Unlike AIES, topic distributions have been randomly generated which imply that the similarity values are not so high: $min=0.06$, $mean=0.18$ and $max=0.61$. Following the same criteria than before (Section ~\ref{sec:clustering-threshold}), the similarity threshold is now fixed to 0.34 (Figure ~\ref{fig:similaritiesDRM}). Results \textbf{in terms of \textit{effectiveness}} (Figure ~\ref{fig:effectivenessDRMJS}) show a poor performance of the RDC and CRDC algorithms. The reason is that both are based on the fact that the highest weighted topics are shared between similar distributions. However, this condition is not satisfied when the similarity value between them is low.
 
 
-\begin{figure}\centering
+\begin{figure}[!htb]\centering
   \includegraphics[scale=0.50]{similaritiesDRM.png}
   \caption{Similarity values grouped by frequency in DRM}
   \label{fig:similaritiesDRM}
 \end{figure}
-
-\begin{figure}[!htb]\centering
-   \begin{minipage}{0.49\textwidth}
-     \frame{\includegraphics[width=\linewidth]{effectivenessDRMJS.png}}
-     \caption{Effectiveness (JS based) in DRM}\label{fig:effectivenessDRMJS}
-   \end{minipage}
-   \begin {minipage}[c]{0.49\textwidth}
-     \frame{\includegraphics[width=\linewidth]{effectivenessDRM2JS.png}}
-     \caption{Effectiveness (JS based) in DRM2}\label{fig:effectivenessDRM2JS}
-   \end{minipage}
-\end{figure}
-
 
 
 To confirm this behavior, we created a third dataset (DRM2) with the same size but with only 4 dimensions (4 topics). The goal is to achieve more similar distributions than in DRM even though they are also randomly generated. Since the similarity values range from $min=0.04$, $mean=0.34$ to $max=0.99$, the similarity threshold is now fixed to 0.66 (more details in section ~\ref{sec:clustering-threshold}). The results (Figure ~\ref{fig:effectivenessDRM2JS}) show an improvement in the accuracy of both the RDC and CRDC algorithms. Although scores are still not as high as for the AIES dataset, the increase compared to the DRM dataset shows that their \textit{precision} and \textit{recall} improve when the similarity threshold is higher. On the other hand, both the DBSCAN and TDC algorithms show similar behavior in both datasets, which means that their performance is not affected by the similarity threshold.
@@ -497,15 +492,30 @@ To confirm this behavior, we created a third dataset (DRM2) with the same size b
 
 Processing a continuously growing collection of human generated documents requires techniques that divide the space into smaller regions containing potentially similar documents. Some algorithms in the literature tackle this problem from an unsupervised point of view, but they incur in high temporal costs and may not be suited for the domain being studied.
 
+\begin{figure}[!htb]\centering
+  \center
+  \includegraphics[scale=0.45]{effectivenessDRMJS.png}
+  \caption{Effectiveness (JS based) in DRM}
+  \label{fig:effectivenessDRMJS}
+\end{figure}
+
+\begin{figure}[!htb]\centering
+  \center
+  \includegraphics[scale=0.45]{effectivenessDRM2JS.png}
+  \caption{Effectiveness (JS based) in DRM2}
+  \label{fig:effectivenessDRM2JS}
+\end{figure}
+
+
 %Present solution.
-Three novel unsupervised clustering algorithms, \textit{TDC}, \textit{RDC} and \textit{CRDC}, are described in this paper relying on the distributions inferred from a topic modeling algorithm (LDA). They are presented as a means to identify a smaller set of documents where only the similarity function has to be computed. They leverage on the particular behavior of Dirichlet distributions describing topic distributions, where the highest weighted topics have a high influence on the rest of topics. This also means that given a topic distribution, the relations between their topic weights such as order or trends between them, are more important than the density values.
+Three novel unsupervised clustering algorithms, \textit{TDC}, \textit{RDC} and \textit{CRDC}, are described in this section relying on the distributions inferred from a topic modeling algorithm (LDA). They are presented as a means to identify a smaller set of documents where only the similarity function has to be computed. They leverage on the particular behavior of Dirichlet distributions describing topic distributions, where the highest weighted topics have a high influence on the rest of topics. This also means that given a topic distribution, the relations between their topic weights such as order or trends between them, are more important than the density values.
 
 Although we initially thought that using only a fixed number of topics with higher weights of a topic distribution (\textit{RDC}), or taking into account only the trend changes between the weights of consecutive topics (\textit{TDC}), could be enough to classify similar topic distributions, the results obtained have shown that these properties are not sufficient. Results in terms of \textit{efficiency}, \textit{effectiveness} and \textit{cost} have been shown comparing the proposed algorithms with existing centroid-based and density-based clustering techniques. They reveal that obtaining the most representative topics of a topic distribution  by comparing the sum of their weights with respect to the rest (\textit{CRDC}) is a promising approach, which improves the \textit{efficiency} obtained by other centroid-based and density-based approaches. While \textit{K-Means} takes $O(n^k * \log{n})$ and \textit{DBSCAN} takes $O(n * \log{n})$ time to classify $n$ documents in a collection, the proposed algorithms only take linear time ($O(n)$) because they do not require any other data except their own topic distribution to assign it to a cluster.
 
 
 \section{Summary}
 
-In Section \ref{sec:topic-relations}, we have analyzed the representativeness of topics to describe texts. In the particular case of scientific articles, it is concluded that the abstracts are not sufficiently representative to describe, by means of topics, the content of a paper. This behavior suggests that texts with greater vocabulary that emphasize key terms through repetition, favor topic-based representation.
+In Section \ref{sec:topic-relations}, we have analyzed the representativeness of topics to describe texts, using the particular case of scientific articles. Our experiment with a corpus of XXXX shows that abstracts are not sufficiently representative to describe, by means of topics, the content of a paper. This behavior suggests that texts with greater vocabulary that emphasize key terms through repetition, favor topic-based representation.
 
 Taking into account the relevance of topics to describe texts, we analyze in Section {\ref{sec:topic-clustering}} the behavior of topic distributions to calculate distances between documents using topic models with different dimensions. By using clustering techniques at the topic level, the most representative topics of a topic distribution are identified regardless of the number of dimensions that the model has. A topic-based representation is then proposed that covers the third research objective of this thesis (R03, \textit{define annotations based on topics that enable a semantic-aware exploration of the knowledge inside a corpus}). 
 
