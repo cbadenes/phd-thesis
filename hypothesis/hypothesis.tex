@@ -69,14 +69,14 @@ Several research challenges emerge from these hypotheses. First, in order to fac
 
 \subsection{Scalable Creation and Inference of Topics}
 
-Although some initiatives to facilitate the reuse of machine-learning models exist in the literature as discussed in section \ref{sec:topic-reuse}, there are still some restrictions that limit the use of topic models. Technical dependencies or closed data formats are the main reasons that prevent or make reproducibility of these models difficult by imposing conditions to work with them. It is common to provide the model only through its functionality, rather than its properties, which prevents it from being used for a different purpose than when it was created. \textit{Reuse of topic models is limited by incompatibility problems \textbf{(RCInterface1)}}.
+Although some initiatives to facilitate the reuse of machine-learning models exist in the literature as discussed in section \ref{sec:topic-reuse}, there are still some restrictions that limit a wider use of topic models across programming languages and Tech infrastructures. Technical dependencies or closed data formats are the main reasons that prevent or make reproducibility of these models difficult by imposing relevant restrictions to work with them. Normally, only the inference capacity of the models is exploited, and some of their internal properties, such as the weights of the words in each topic or the distance between topics, are not enabled  which prevents it from being used for a different purpose than when it was created. \textit{Reuse of topic models is limited by incompatibility problems \textbf{(RCInterface1)}}.
 
-The properties and functions offered by a topic model, instead of being uniform, vary according to the method used to build it. This limits the ability to reproduce the work done in this area and reuse topic models without losing information or knowledge. \textit{There is no standard to specify the attributes and operations that a topic model can provide \textbf{(RCInterface2)}}. Sometimes topics are described by the top ten or five most relevant words, and occasionally these word lists are not accompanied by weights, making a density-based analysis impossible. These differences in presenting the models can sometimes limit their reusability if they cannot infer new topic distributions even when the learning algorithm allows for it.
+The properties and functions offered by a topic model vary according to the method used to build it. Some methods (e.g. Mallet) hide the weights of words in each topic and limits the topic representation to the first $n$ words. Others (e.g. Gensim) creates topic models that allow inferring topic distribution of texts and words, but does not measure the distance between topics. The ability to reproduce or to evaluate the work done in this area and to reuse topic models without losing information or knowledge is then limited. \textit{There is no standard to specify the attributes and operations that a topic model can provide \textbf{(RCInterface2)}}. Sometimes topics are described by the top ten or five most relevant words, and occasionally these word lists are not accompanied by weights, making a density-based analysis impossible. These differences in presenting the models can sometimes limit their reusability if they cannot infer new topic distributions even when the learning algorithm allows for it.
 
 
 \subsection{Explainable Topic-based Relations}
 
-In order to facilitate the exploration of document collections, vector space models are often used to semantically relate texts based on their word distributions. As described in Section \ref{sec:related-work}, these models first create a dictionary with the words used in the collection, and then represent  documents by vectors whose dimensions correspond to each word in the dictionary. In large collections, these models need to be adapted to make operations on vectors more manageable. As a result, a new abstraction method based on emerged topics that reduces the dimensions of vectors. Topics are described by word distributions over the entire vocabulary and documents by vectors containing topic distributions. Despite the extensive use of these representation models, \textit{there is no common criteria for identifying the most representative topics in a document \textbf{(RCExplainable1)}}. 
+In order to facilitate the exploration of document collections, vector space models are often used to semantically relate texts based on their word distributions. As described in Section \ref{sec:related-work}, these models first create a dictionary with the words used in the collection, and then represent  documents by vectors whose dimensions correspond to each word in the dictionary. In large collections, these models need to be adapted to make operations on vectors more manageable. As a result, topic models are a new abstraction method that reduces the dimensions of vectors. Topics are described by word distributions over the entire vocabulary and documents by vectors containing topic distributions. Despite the extensive use of these representation models, \textit{there is no common criteria for identifying the most representative topics in a document \textbf{(RCExplainable1)}}. 
 
 In addition, since similarity metrics over this representation space are based on accumulating the difference in topic densities, \textit{it is difficult to explain the distance between topic distributions \textbf{(RCExplainable2)}}. And, unless a minimum distance threshold can be defined or a set of n-top topics agreed, \textit{there is no common criterion for determining whether two documents are related \textbf{(RCExplainable3)}}.  
 
@@ -158,31 +158,7 @@ The main contributions under this dimension are described in Chapter \ref{ch:exp
 \end{itemize} 
 \item \textbf{Large-scale Comparisons of Topic Distributions}: This dimension covered the search for similar documents based on their most relevant topics. Thanks to having dealt with the above two dimensions, large collections of documents could be annotated with topic hierarchies and text distances could be measured from their annotations. Now, the aim was to find similar documents without losing the exploratory capacity offered by topics. Similarity comparisons were too costly to be performed in such huge collections of data and required more efficient approaches than having to calculate all pairwise similarities. We applied \textit{techniques based on approximate nearest-neighbors to organize documents in regions with similar topic hierarchies (\textbf{RO5})}. As a result, we developed \textit{a system to automatically find similar documents (\textbf{TO4})}. It was validated on a collection of one million texts retrieved from the United States patents corpus\footnote{\url{https://www.uspto.gov/ip-policy/economic-research/research-datasets}}. The relations between patents derived from their manual categorization were compared with those automatically obtained from their topic distributions \citep{Badenes-Olmedo2020, Badenes-Olmedo2019b}. 
 
-The main contributions under this dimension are described in Chapter~\ref{ch:comparisons} as follows:
-\begin{itemize}
-\item a data structure to partition the search space and organize documents described by topic hierarchies;
-\item a corpus browser that leverages these representations to automatically relate documents.
-\end{itemize} 
-\item \textbf{Unsupervised Cross-lingual Topic Alignment}: Finally, a new dimension on top of the previous ones emerged to relate texts coming from different languages. In particular, since document relations were based on their topics, this dimension was focused on aligning topics without supervision from models trained with texts in different languages. Since each language defined its own vocabulary, the topics were model-specific and could not be directly compared. We abstracted the \textit{topic representations to create a single space out of the particularities of the language (\textbf{RO6})}. This approach was validated on the English, Spanish, French, Italian and Portuguese editions of the JCR-Acquis\footnote{\url{https://ec.europa.eu/jrc/en/language-technologies/jrc-acquis}} corpora and revealed promising results on classifying and sorting documents by similar content across languages \citep{Badenes-Olmedo2019, Badenes-Olmedo2019b}. 
-
-The main contributions under this dimension are described in Chapter~\ref{ch:multilinguality}, as follows: 
-\begin{itemize}
-\item an algorithm to represent probabilistic topics using concept sets;
-\item a repository of aligned topic models from the English, Spanish, French, Italian and Portuguese editions of the JRC-Acquis corpus.
-\end{itemize}
-\end{itemize}
-
-
-
-
-
-
-
-
-Table \ref{table:objectives} summarizes the research objectives (ROs), technical objectives (TOs) and connects them with the research challenges (RCs) from Table \ref{table:challenges}.
-
-
-\begin{table}[!htbp]
+\begin{table}[]
 \centering%
 \small
 \begin{tabularx}{\linewidth}{bs}
@@ -214,3 +190,23 @@ T04: Create a system capable of finding similar documents automatically & RCExpl
 \caption{Research and technical objectives and their related challenges.}
 \label{table:objectives}
 \end{table}
+
+The main contributions under this dimension are described in Chapter~\ref{ch:comparisons} as follows:
+\begin{itemize}
+\item a data structure to partition the search space and organize documents described by topic hierarchies;
+\item a corpus browser that leverages these representations to automatically relate documents.
+\end{itemize} 
+\item \textbf{Unsupervised Cross-lingual Topic Alignment}: Finally, a new dimension on top of the previous ones emerged to relate texts coming from different languages. In particular, since document relations were based on their topics, this dimension was focused on aligning topics without supervision from models trained with texts in different languages. Since each language defined its own vocabulary, the topics were model-specific and could not be directly compared. We abstracted the \textit{topic representations to create a single space out of the particularities of the language (\textbf{RO6})}. This approach was validated on the English, Spanish, French, Italian and Portuguese editions of the JCR-Acquis\footnote{\url{https://ec.europa.eu/jrc/en/language-technologies/jrc-acquis}} corpora and revealed promising results on classifying and sorting documents by similar content across languages \citep{Badenes-Olmedo2019, Badenes-Olmedo2019b}. 
+
+The main contributions under this dimension are described in Chapter~\ref{ch:multilinguality}, as follows: 
+\begin{itemize}
+\item an algorithm to represent probabilistic topics using concept sets;
+\item a repository of aligned topic models from the English, Spanish, French, Italian and Portuguese editions of the JRC-Acquis corpus.
+\end{itemize}
+\end{itemize}
+
+
+Table \ref{table:objectives} summarizes the research objectives (ROs), technical objectives (TOs) and connects them with the research challenges (RCs) from Table \ref{table:challenges}.
+
+
+
