@@ -12,14 +12,14 @@
 % -- Research Objectives 
 % -------------------------------------------------------------
 
-The work presented in this thesis aims to facilitate the exploration of huge collections of multilingual documents through thematic associations inferred from their content. It assumes that, given a multilingual corpus, similar documents will contain the same topics. Each of the challenges arising from this objective defines a working dimension and guides the research carried out in this thesis.
+The work presented in this thesis aims to facilitate the exploration of huge collections of multilingual documents through thematic associations inferred from their content. It assumes that, given a multilingual corpus, similar documents will contain a similar distribution of topics. Each of the challenges arising from this objective defines a working dimension and guides the research carried out in this thesis.
 
 % Hacer referencia a secciones de los capitulos 1 y 2 cuando estén terminados
-The first dimension focuses on \textbf{scalability}, in order to create the text processing flows that are required to create or apply learning models. The workload required to process a corpus varies according to the number of documents, the length of texts and the kind of knowledge (annotations) that need to be inferred from the text. If the design of the workflow is scalable, there is no need to modify the processing logic when working with larger collections of documents, since adding a reasonable amount of computational resources is enough to perform it. These resources can be machines (i.e horizontal scaling) or processing units (e.g CPU, RAM) in an existing machine (i.e vertical scaling). 
+The first dimension focuses on \textbf{efficiency}, in order to create the text processing flows that are required to create or apply probabilistic topic learning models. The workload required to process a corpus varies according to the number of documents, the length of texts and the kind of knowledge (annotations) that need to be inferred from the text. If the design of the workflow is scalable, there is no need to modify the processing logic when working with larger collections of documents, since adding a reasonable amount of computational resources is enough to perform it. These resources can be machines (i.e horizontal scaling) or processing units (e.g CPU, RAM) in an existing machine (i.e vertical scaling). 
 
-The second dimension covers the \textbf{representativeness} of the text annotations when projected into spaces where they are manipulated. The idea behind these spaces is to represent documents as points (or vectors in a vector space) that are close together when the texts are semantically similar, and far apart when they are semantically distant. The ability of these spaces to create meaningful representations is also studied in this work.
+The second dimension covers the \textbf{explainability} of the text annotations when projected into spaces where they are manipulated for diverse tasks. The idea behind these spaces is to represent documents as points (or vectors in a vector space) that are close together when the texts are semantically similar, and far apart when they are semantically distant. The ability of these spaces to create meaningful representations is also studied in this work.
 
-In the third dimension, we explore the usage of data structures that efficiently \textbf{cluster} texts from their representations based on probabilistic topics. Divisions of space into semantically-related regions are convenient to allow browsing large document collections. The \textit{representativeness} covered in the previous dimension enables the interpretation of the relations and regions obtained.
+In the third dimension, we explore the \textbf{complexity} of data structures to organize texts from their representations based on probabilistic topics. Divisions of space into semantically-related regions are convenient to allow browsing large document collections. The \textit{representativeness} covered in the previous dimension enables the interpretation of the relations and regions obtained.
 
 And finally, the fourth dimension handles the \textbf{multilingualism} of collections that contain documents in several languages. On a multilingual space, documents are described and related across languages.
 
@@ -29,14 +29,14 @@ This chapter introduces our main hypothesis (section \ref{sec:research-hypothesi
 
 We define our main hypothesis as follows:
 
-\textbf{Hypothesis 1} \textit{Large multilingual document collections can be automatically analyzed to discover appropriate thematic relations that facilitate a semantically-enabled text browsing}.
+\textbf{Hypothesis 1} \textit{Large multilingual document collections can be automatically analyzed to discover thematic representations that enable an exploration through related texts}.
 
-Our hypothesis can be divided into four different sub-parts, which are related to the aforementioned scalability, representativeness, clustering, and multilinguality dimensions. First, by \textit{distributing across different computation nodes both natural language processing tasks and representational models we can efficiently process huge collections of documents (\textbf{H1.1})}.
+Our hypothesis can be divided into four different sub-parts, which are related to the aforementioned efficiency, explainability, complexity, and multilinguality dimensions. First, by \textit{distributing across different computation nodes both natural language processing tasks and topic models we can efficiently process huge collections of documents (\textbf{H1.1})}.
 
 % topics no se ha utilizado hasta ahora?
 Second, it is possible to \textit{semantically relate documents by comparing their most relevant topics (\textbf{H1.2})}. Furthermore, for this purpose we hypothesize that the use of \textit{topic hierarchies (\textbf{H1.2.1}) and similarity metrics based on relevance levels (\textbf{H1.2.2}) help quantifying the semantic distance between texts}. Third, by \textit{dividing the representational space into regions based on topics and relevance levels we can search for related documents without having to calculate all pairwise comparisons and without discarding the notion of topics for further processing (\textbf{H1.3})}.
 
-And finally, \textit{by abstracting the topic representations into concept-based descriptions across languages we can relate documents in various languages without having to translate them (\textbf{H1.5})}.
+And finally, \textit{it is possible to relate documents in different languages without having to translate them, by using language agnostic concepts from their main topics (\textbf{H1.4})}.
 
 A summary of the hypotheses and how they tackle our research dimensions can be found in Table~\ref{table:hypotheses}.
 
@@ -47,15 +47,15 @@ A summary of the hypotheses and how they tackle our research dimensions can be f
 \heading{Hypothesis} & \heading{Research Dimension } \\
 \midrule
 \midrule
-H1: Large multilingual document collections can be automatically analyzed to be semantically-browsed through thematic relations & D1: Scalability, D2: Representativeness, D3: Clustering, D4: Multilingualism \\
+H1: Large multilingual document collections can be automatically analyzed to discover thematic representations that enable an exploration through related texts & D1: Efficiency, D2: Explainability, D3: Complexity, D4: Multilinguality \\
 \midrule
-H1.1: it is possible to efficiently annotate documents on a large scale by distributing across different computation nodes natural language processing tasks and representation models & D1: Scalability\\
+H1.1: it is possible to efficiently annotate documents on a large scale by distributing across different computation nodes natural language processing tasks and topic models & D1: Efficiency\\
 \midrule
-H1.2: it is possible to semantically relate texts from their most relevant topics & D2: Representativeness\\
+H1.2: it is possible to semantically relate texts from their most relevant topics & D2: Explainability\\
 \midrule
-H1.3: it is possible to find relevant documents with similar topic distributions without calculating all pairwise comparisons and without discarding the notion of topics from their representation & D3: Clustering\\
+H1.3: it is possible to find relevant documents with similar topic distributions without calculating all pairwise comparisons and without discarding the notion of topics from their representation & D3: Complexity\\
 \midrule
-H1.4: it is possible to relate documents in different languages without having to translate them, by using language agnostic concepts from their main topics & D4: Multilingualism\\
+H1.4: it is possible to relate documents in different languages without having to translate them, by using language agnostic concepts from their main topics & D4: Multilinguality\\
 \bottomrule
 \end{tabularx}
 \caption{Hypotheses and research dimensions.}
