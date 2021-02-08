@@ -10,12 +10,12 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Stages in the creation and reuse of topic models. Texts are first processed to retrieve tokens and create bags-of-words (BoW). These structures are used to train a model that identifies word distributions called topics. The model is enabled to make topic inferences in unseen texts. It is published as a web service in an online repository. The service can then be (re)used as web resource, for example to categorize documents.\relax }}{44}{figure.caption.13}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Representation of two scientific papers published at the International Conference on Knowledge Capture (K-CAP, 2019) that mention the same entity, \textit {Wordnet}, in different sections.\relax }}{46}{figure.caption.14}% 
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Relation between \textit {domain} and \textit {document}.\relax }}{47}{figure.caption.15}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Relation between \textit {document} and \textit {snippet}.\relax }}{48}{figure.caption.16}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Relation between \textit {document} and \textit {snippet}.\relax }}{49}{figure.caption.16}% 
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Relation between \textit {annotations} and other resources.\relax }}{50}{figure.caption.17}% 
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Resource states.\relax }}{51}{figure.caption.18}% 
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Modules (in gray) publishing or receiving events from the messenger service (in purple).\relax }}{52}{figure.caption.19}% 
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Sequence of \textit {events} exchanged between modules to create a topic model from the \textit {documents} added to a \textit {domain}.\relax }}{54}{figure.caption.20}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Swagger-based web interface of a probabilistic topic model service created with \textit {librAIry}.\relax }}{56}{figure.caption.21}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces OpenAPI-based web interface of a probabilistic topic model service created with \textit {librAIry}.\relax }}{57}{figure.caption.21}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Internal and External Representativeness. \relax }}{65}{figure.caption.24}% 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Experiment to analyze the ability of topic-based representations to create relations from summaries \textit {vs} full-texts. \relax }}{66}{figure.caption.25}% 

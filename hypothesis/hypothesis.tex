@@ -103,9 +103,9 @@ A summary of the challenges covered in this work and how they map to the hypothe
 \heading{Research Challenge} & \heading{Hypotheses} \\
 \midrule
 \midrule
-RCInterface1: reuse of topic models is limited by incompatibility problems & H1.1: documents can be efficiently annotated on a large scale by distributing across different computation nodes both natural language processing tasks and representation models\\
+RCInterface1: reuse of topic models is limited by incompatibility problems & H1.1: documents can be efficiently annotated on a large scale by distributing across different computation nodes both natural language processing tasks and topic models\\
 \midrule
-RCInterface2: there is no standard that unifies the representation of topic models & H1.1: documents can be efficiently annotated on a large scale by distributing across different computation nodes both natural language processing tasks and representation models\\
+RCInterface2: there is no standard that unifies the representation of topic models & H1.1: documents can be efficiently annotated on a large scale by distributing across different computation nodes both natural language processing tasks and topic models\\
 \midrule
 RCExplainable1: there is no common criteria for identifying the most representative topics in a document & H1.2: texts can be semantically related from their most relevant topics, H1.3: documents with similar topic distributions can be found without calculate all pairwise comparisons and without losing the ability to explore them through their topics \\
 \midrule
@@ -172,19 +172,19 @@ RO2: Define a template to package probabilistic topic models as web services & R
 \midrule
 RO3: Define annotations based on topics that enable a semantic-aware exploration of the knowledge inside a corpus & RCExplainable1\\
 \midrule
-R04: Define a metric based on topic annotations that compares documents and facilitates their interpretation & RCExplainable2, RCExplainable3\\
+RO4: Define a metric based on topic annotations that compares documents and facilitates their interpretation & RCExplainable2, RCExplainable3\\
 \midrule
 RO5: Define nearest-neighbor techniques to organize documents in regions with similar topic hierarchies & RCComparison1, RCComparison2\\
 \midrule
-R06: Define a transformation of the topic-based annotations to create a unique representational space out of the particularities from each language & RCCrossLingual1\\
+RO6: Define a transformation of the topic-based annotations to create a unique representational space out of the particularities from each language & RCCrossLingual1\\
 \midrule
 TO1: Create a scalable platform for topic modeling & RCInterface1, RCInterface2\\
 \midrule
-T02: Create a repository of Topic-based web services & RCInterface2\\
+TO2: Create a repository of Topic-based web services & RCInterface2\\
 \midrule
-T03: Integrate the annotation method based on topic hierarchies into the topic model service & RCExplainable2, RCComparison2\\
+TO3: Integrate the annotation method based on topic hierarchies into the topic model service & RCExplainable2, RCComparison2\\
 \midrule
-T04: Create a system capable of finding similar documents automatically & RCExplainable2, RCExplainable3, RCComparison1, RCCrossLingual1\\
+TO4: Create a system capable of finding similar documents automatically & RCExplainable2, RCExplainable3, RCComparison1, RCCrossLingual1\\
 \bottomrule
 \end{tabularx}
 \caption{Research and technical objectives and their related challenges.}
