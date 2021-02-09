@@ -103,8 +103,8 @@
 \backcite {Badenes-Olmedo2017}{{43}{4}{chapter.4}}
 \backcite {Greene2016}{{43}{4.1}{section.4.1}}
 \backcite {He2017}{{43}{4.1}{section.4.1}}
-\backcite {ONeill2017}{{43}{4.1}{section.4.1}}
 \backcite {TapiNzali2017}{{43}{4.1}{section.4.1}}
+\backcite {ONeill2017}{{43}{4.1}{section.4.1}}
 \backcite {Deerwester1990}{{44}{4.1}{section.4.1}}
 \backcite {10.1145/2736277.2741106}{{44}{4.1}{section.4.1}}
 \backcite {Turchi2012a}{{46}{4.1.1}{figure.caption.14}}
@@ -160,6 +160,9 @@
 \backcite {Steinberger2014}{{115}{7}{chapter.7}}
 \backcite {Ni2009}{{115}{7}{chapter.7}}
 \backcite {Ni:2011:CLT:1935826.1935887}{{115}{7}{chapter.7}}
+\backcite {errez2016}{{115}{7}{chapter.7}}
+\backcite {Liu2015a}{{115}{7}{chapter.7}}
+\backcite {Ma2017}{{115}{7}{chapter.7}}
 \backcite {Badenes-Olmedo2019b}{{116}{7}{chapter.7}}
 \backcite {Badenes-Olmedo2019}{{116}{7}{chapter.7}}
 \backcite {Bond2013}{{116}{7.1}{section.7.1}}

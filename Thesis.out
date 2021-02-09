@@ -93,16 +93,16 @@
 \BOOKMARK [1][-]{section.8.5}{8.5 COVID-19 and Coronavirus-related Research}{chapter.8}% 93
 \BOOKMARK [0][-]{chapter.9}{9 Conclusions and Future Work}{}% 94
 \BOOKMARK [1][-]{section.9.1}{9.1 Assumptions and Restrictions}{chapter.9}% 95
-\BOOKMARK [1][-]{section.9.2}{9.2 Contributions}{chapter.9}% 96
+\BOOKMARK [1][-]{section.9.2}{9.2 A Summary of Our Contributions}{chapter.9}% 96
 \BOOKMARK [2][-]{subsection.9.2.1}{9.2.1 Topic Model Distribution}{section.9.2}% 97
 \BOOKMARK [3][-]{subsubsection.9.2.1.1}{9.2.1.1 librAIry Framework}{subsection.9.2.1}% 98
-\BOOKMARK [3][-]{subsubsection.9.2.1.2}{9.2.1.2 Methodology for publishing topic models as Web Services}{subsection.9.2.1}% 99
+\BOOKMARK [3][-]{subsubsection.9.2.1.2}{9.2.1.2 Method for publishing topic models as Web Services}{subsection.9.2.1}% 99
 \BOOKMARK [2][-]{subsection.9.2.2}{9.2.2 Explainable Topic-based Similarity}{section.9.2}% 100
 \BOOKMARK [3][-]{subsubsection.9.2.2.1}{9.2.2.1 Most Relevant Topics}{subsection.9.2.2}% 101
-\BOOKMARK [3][-]{subsubsection.9.2.2.2}{9.2.2.2 Distance Metric}{subsection.9.2.2}% 102
-\BOOKMARK [2][-]{subsection.9.2.3}{9.2.3 Large-Scale Document Similarity}{section.9.2}% 103
-\BOOKMARK [3][-]{subsubsection.9.2.3.1}{9.2.3.1 Topic Hierarchies}{subsection.9.2.3}% 104
-\BOOKMARK [3][-]{subsubsection.9.2.3.2}{9.2.3.2 Nearest Documents}{subsection.9.2.3}% 105
+\BOOKMARK [3][-]{subsubsection.9.2.2.2}{9.2.2.2 Distance Metric based on Topic Relevance}{subsection.9.2.2}% 102
+\BOOKMARK [2][-]{subsection.9.2.3}{9.2.3 Data Structures and Algorithms for Large-Scale Comparisons of Documents}{section.9.2}% 103
+\BOOKMARK [3][-]{subsubsection.9.2.3.1}{9.2.3.1 Topic Hierarchies Representation}{subsection.9.2.3}% 104
+\BOOKMARK [3][-]{subsubsection.9.2.3.2}{9.2.3.2 Comparisons based on Topic Hierarchies}{subsection.9.2.3}% 105
 \BOOKMARK [2][-]{subsection.9.2.4}{9.2.4 Multilingual Corpora}{section.9.2}% 106
 \BOOKMARK [3][-]{subsubsection.9.2.4.1}{9.2.4.1 Cross-lingual Topics}{subsection.9.2.4}% 107
 \BOOKMARK [1][-]{section.9.3}{9.3 Impact}{chapter.9}% 108

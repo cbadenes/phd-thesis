@@ -7,11 +7,20 @@ Agerri, R., Bermudez, J., and Rigau, G. (2014).
   Conference (LREC)}, pages 26--31.
 
 \bibitem[Aletras et~al., 2017]{Aletras2017}
-Aletras, N., Baldwin, T., Lau, J.~H., and Stevenson, M. (2017).
+Aletras, N., Baldwin, T., Lau, J., and Stevenson, M. (2017).
 \newblock {Evaluating topic representations for exploring document
   collections}.
 \newblock {\em Journal of the Association for Information Science and
   Technology}, 68(1):154--167.
+
+\bibitem[Ammar et~al., 2018]{Waleed2018}
+Ammar, W., Groeneveld, D., Bhagavatula, C., Beltagy, I., Crawford, M., Downey,
+  D., Dunkelberger, J., Elgohary, A., Feldman, S., Ha, V., Kinney, R.,
+  Kohlmeier, S., Lo, K., Murray, T., Ooi, H., Peters, M., Power, J.,
+  Skjonsberg, S., Wang, L., Wilhelm, C., Yuan, Z., van Zuylen, M., and Etzioni,
+  O. (2018).
+\newblock {Construction of the Literature Graph in Semantic Scholar}.
+\newblock In {\em NAACL}.
 
 \bibitem[Andoni and Indyk, 2006]{Andoni2006}
 Andoni, A. and Indyk, P. (2006).
@@ -44,7 +53,7 @@ Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2017a).
   volume 1931 of {\em {CEUR} Workshop Proceedings}, pages 15--22. CEUR-WS.org.
 
 \bibitem[Badenes-Olmedo et~al., 2017b]{Badenes-Olmedo2017}
-Badenes-Olmedo, C., Redondo-Garcia, J., and Corcho, O. (2017b).
+Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2017b).
 \newblock {Distributing Text Mining tasks with librAIry}.
 \newblock In {\em 17th ACM Symposium on Document Engineering (DocEng)}.
 
@@ -70,7 +79,7 @@ Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2020b).
 \newblock {\em Semantic Web}.
 
 \bibitem[Badenes-Olmedo et~al., 2017c]{Badenes-Olmedo2017b}
-Badenes-Olmedo, C., Redondo-Garcia, J.~L., and Corcho, O. (2017c).
+Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J.~L., and Corcho, O. (2017c).
 \newblock {Efficient Clustering from Distributions over Topics}.
 \newblock In {\em 9th International Conference on Knowledge Capture (K-CAP)},
   page~8.
@@ -94,12 +103,12 @@ Bizer, C., Heath, T., and Berners-Lee, T. (2009).
   5(3):1--22.
 
 \bibitem[Blei and Lafferty, 2007]{Blei2007a}
-Blei, D.~M. and Lafferty, J.~D. (2007).
+Blei, D. and Lafferty, J.~D. (2007).
 \newblock {A correlated topic model of Science}.
 \newblock {\em The Annals of Applied Statistics}, 1(1):17--35.
 
 \bibitem[Blei et~al., 2003]{Blei2003}
-Blei, D.~M., Ng, A.~Y., and Jordan, M.~I. (2003).
+Blei, D., Ng, A., and Jordan, M. (2003).
 \newblock {Latent Dirichlet Allocation}.
 \newblock {\em Journal of Machine Learning Research}, 3(4-5):993--1022.
 
@@ -116,7 +125,7 @@ Bond, F. and Paik, K. (2012).
   pages 64--71.
 
 \bibitem[Boyd-Graber and Blei, 2009]{Graber2009}
-Boyd-Graber, J. and Blei, D.~M. (2009).
+Boyd-Graber, J. and Blei, D. (2009).
 \newblock Multilingual topic models for unaligned text.
 \newblock In {\em Proceedings of the Twenty-Fifth Conference on Uncertainty in
   Artificial Intelligence}, UAI '09, page 75–82. AUAI Press.
@@ -129,20 +138,20 @@ Boyd-Graber, J. and Resnik, P. (2010).
   Natural Language Processing}, pages 45--55.
 
 \bibitem[Celikyilmaz et~al., 2010]{Celikyilmaz2010}
-Celikyilmaz, a., Hakkani-Tur, D., and Tur, G. (2010).
+Celikyilmaz, A., Hakkani-Tur, D., and Tur, G. (2010).
 \newblock {LDA Based Similarity Modeling for Question Answering}.
 \newblock In {\em Proceedings of the NAACL HLT 2010 Workshop on Semantic
   Search}, pages 1--9.
 
 \bibitem[Cha, 2007]{Cha2007}
-Cha, S.-H. (2007).
+Cha, S. (2007).
 \newblock {Comprehensive Survey on Distance/Similarity Measures between
   Probability Density Functions}.
 \newblock {\em International Journal of Mathematical Models and Methods in
   Applied Sciences}, 1(4):1--8.
 
 \bibitem[Charikar, 2002]{Charikar2002}
-Charikar, M.~S. (2002).
+Charikar, M. (2002).
 \newblock {Similarity estimation techniques from rounding algorithms}.
 \newblock In {\em Proceedings of the thiry-fourth annual ACM symposium on
   Theory of computing - STOC '02}, page 380. ACM Press.
@@ -161,25 +170,25 @@ Cohan, A. and Goharian, N. (2015).
   Processing}, pages 390--400.
 
 \bibitem[Dagan et~al., 1999]{Dagan1998}
-Dagan, I., Lee, L., and Pereira, F. C.~N. (1999).
+Dagan, I., Lee, L., and Pereira, F. (1999).
 \newblock {Similarity-Based Models of Word Cooccurrence Probabilities}.
 \newblock {\em Machine Learning}, 34(1-3):43--69.
 
 \bibitem[Datar et~al., 2004]{Datar2004}
-Datar, M., Immorlica, N., Indyk, P., and Mirrokni, V.~S. (2004).
+Datar, M., Immorlica, N., Indyk, P., and Mirrokni, V. (2004).
 \newblock {Locality-sensitive hashing scheme based on p-stable distributions}.
 \newblock In {\em Proceedings of the twentieth annual symposium on
   Computational geometry - SCG '04}, page 253. ACM Press.
 
 \bibitem[De~Smet and Moens, 2009]{Smet2009}
-De~Smet, W. and Moens, M.-F. (2009).
+De~Smet, W. and Moens, M. (2009).
 \newblock Cross-language linking of news stories on the web using interlingual
   topic modelling.
 \newblock In {\em Proceedings of the 2nd ACM Workshop on Social Web Search and
   Mining}, SWSM '09, page 57–64. Association for Computing Machinery.
 
 \bibitem[De~Smet et~al., 2011]{10.1007/978-3-642-20841-6_45}
-De~Smet, W., Tang, J., and Moens, M.-F. (2011).
+De~Smet, W., Tang, J., and Moens, M. (2011).
 \newblock {Knowledge Transfer across Multilingual Corpora via Latent Topics}.
 \newblock In {\em Advances in Knowledge Discovery and Data Mining}, pages
   549--560.
@@ -198,21 +207,21 @@ Dieng, A.~B., Ruiz, F., and Blei, D. (2020).
   8:439--453.
 
 \bibitem[Divoli et~al., 2012]{Divoli2012}
-Divoli, A., Nakov, P., and Hearst, M.~A. (2012).
+Divoli, A., Nakov, P., and Hearst, M. (2012).
 \newblock {Do peers see more in a paper than its authors?}
 \newblock {\em Advances in Bioinformatics}.
 
 \bibitem[Dong et~al., 2017]{Dong2017DrIP}
 Dong, F., O'Donoghue, D., Ersotelos, N., Wu, S., Saggion, H., Ronzano, F.,
-  Corcho, {\'O}., Hurley, D., Abgaz, Y.~M., Zhang, J., Chaudhry, E., Yang, X.,
-  Wei, H., Deng, Z., Mahdian, B., and Careil, J. (2017).
+  Corcho, O., Hurley, D., Abgaz, Y., Zhang, J., Chaudhry, E., Yang, X., Wei,
+  H., Deng, Z., Mahdian, B., and Careil, J. (2017).
 \newblock Dr.inventor, promoting scientific creativity by utilising web-based
   research objects.
 \newblock {\em Impact}, pages 40--44.
 
 \bibitem[Dragoni et~al., 2016]{Dragoni2016}
-Dragoni, N., Giallorenzo, S., Lafuente, A.~L., Mazzara, M., Montesi, F.,
-  Mustafin, R., and Safina, L. (2016).
+Dragoni, N., Giallorenzo, S., Lafuente, A., Mazzara, M., Montesi, F., Mustafin,
+  R., and Safina, L. (2016).
 \newblock {Microservices: yesterday, today, and tomorrow}.
 \newblock {\em CoRR}, abs/1606.0:1--17.
 
@@ -236,9 +245,16 @@ Ester, M., Kriegel, H., Sander, J., and X., X. (1996).
   Communities}.
 
 \bibitem[Fielding and Taylor, 2002]{Fielding2002}
-Fielding, R.~T. and Taylor, R.~N. (2002).
+Fielding, R. and Taylor, R. (2002).
 \newblock {Principled Design of the Modern Web Architecture}.
 \newblock {\em ACM Transactions on Internet Technology}, 2(2):407--416.
+
+\bibitem[for Pharma and Sciences, 2016]{Sciences2016}
+for Pharma, E. R.~S. and Sciences, L. (2016).
+\newblock {\em {Harnessing the power of content - Extracting value from
+  scientific literature: the power of mining full-text articles for pathway
+  analysis}}.
+\newblock Elsevier Inc.
 
 \bibitem[Fukumasu et~al., 2012]{Fukumasu2012}
 Fukumasu, K., Eguchi, K., and Xing, E.~P. (2012).
@@ -253,7 +269,7 @@ Ganguly, D., Leveling, J., and Jones, G. (2012).
 \newblock In {\em Proceedings of COLING 2012}, pages 927--942.
 
 \bibitem[Gatti et~al., 2015]{Gatti2015}
-Gatti, C.~J., Brooks, J.~D., and Nurre, S.~G. (2015).
+Gatti, C., Brooks, J., and Nurre, S. (2015).
 \newblock {A Historical Analysis of the Field of OR/MS using Topic Models}.
 \newblock {\em CoRR}, abs/1510.0.
 
@@ -272,7 +288,7 @@ Gomez-Carpintero, T. (2020).
 \newblock {\em Open Archive UPM - http://oa.upm.es/63357/}.
 
 \bibitem[Greene and Cross, 2016]{Greene2016}
-Greene, D. and Cross, J.~P. (2016).
+Greene, D. and Cross, J. (2016).
 \newblock {Exploring the political agenda of the european parliament using a
   dynamic topic modeling approach}.
 \newblock {\em Political Analysis}, 25(1):77--94.
@@ -283,15 +299,23 @@ Greengrass, E. (2000).
 \newblock University of Maryland.
 
 \bibitem[Griffiths and Steyvers, 2004]{Griffiths2004b}
-Griffiths, T.~L. and Steyvers, M. (2004).
+Griffiths, T. and Steyvers, M. (2004).
 \newblock {Finding scientific topics.}
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 101 Suppl:5228--35.
 
 \bibitem[Griffiths et~al., 2007]{Griffiths2007}
-Griffiths, T.~L., Steyvers, M., and Tenenbaum, J.~B. (2007).
+Griffiths, T., Steyvers, M., and Tenenbaum, J. (2007).
 \newblock {Topics in semantic representation}.
 \newblock {\em Psychological Review}, 114(2):211--244.
+
+\bibitem[Gutierrez et~al., 2016]{errez2016}
+Gutierrez, E., Shutova, E., Lichtenstein, P., Melo, G.~d., and Gilardi, L.
+  (2016).
+\newblock {Detecting Cross-cultural Differences Using a Multilingual Topic
+  Model}.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  4:47--60.
 
 \bibitem[Halkidi et~al., 2001]{Halkidi2001a}
 Halkidi, M., Batistakis, Y., and Vazirgiannis, M. (2001).
@@ -305,7 +329,7 @@ Hall, D., Jurafsky, D., and Manning, C.~D. (2008).
   Natural Language Processing, Honolulu, October 2008}, pages 363--371.
 
 \bibitem[Hao et~al., 2018]{Hao2018}
-Hao, S., Boyd-Graber, J.~L., and Paul., M.~J. (2018).
+Hao, S., Boyd-Graber, J., and Paul, M. (2018).
 \newblock {Lessons from the Bible on Modern Topics: Adapting Topic Model
   Evaluation to Multilingual and Low-Resource Settings}.
 \newblock In {\em Proceedings of the 2018 Conference of the North American
@@ -313,7 +337,7 @@ Hao, S., Boyd-Graber, J.~L., and Paul., M.~J. (2018).
   Technologies, NAACL-HLT}, pages 1090--1100.
 
 \bibitem[Hao and Paul, 2018]{hao-paul-2018-learning}
-Hao, S. and Paul, M.~J. (2018).
+Hao, S. and Paul, M. (2018).
 \newblock Learning multilingual topics from incomparable corpora.
 \newblock In {\em Proceedings of the 27th International Conference on
   Computational Linguistics}, pages 2595--2609. Association for Computational
@@ -348,20 +372,26 @@ Hofmann, T. (2001).
 \newblock {\em Machine Learning}, 42(1-2):177--196.
 
 \bibitem[Hong and Davison, 2010]{Hong2010}
-Hong, L. and Davison, B.~D. (2010).
+Hong, L. and Davison, B. (2010).
 \newblock {Empirical study of topic modeling in Twitter}.
 \newblock {\em Proceedings of the First Workshop on Social Media Analytics -
   SOMA '10}, pages 80--88.
 
+\bibitem[Hsin-Min et~al., 2016]{Lu2016}
+Hsin-Min, L., Chih-Ping, W., and Fei-Yuan, C. (2016).
+\newblock {Modeling healthcare data using multiple-channel latent Dirichlet
+  allocation}.
+\newblock {\em Journal of Biomedical Informatics}, 60:210--223.
+
 \bibitem[Hu et~al., 2014]{Hu2014a}
-Hu, Y., Zhai, K., Eidelman, V., and Boyd-Graber., J.~L. (2014).
+Hu, Y., Zhai, K., Eidelman, V., and Boyd-Graber, J. (2014).
 \newblock {Polylingual Tree-Based Topic Models for Translation Domain
   Adaptation}.
 \newblock In {\em Proceedings of the 52nd Annual Meeting of the Association for
   Computational Linguistics}, pages 1166--1176.
 
 \bibitem[Huang et~al., 2018]{Huang2018}
-Huang, L.~K., Yang, Q., and Zheng, W.~S. (2018).
+Huang, L., Yang, Q., and Zheng, W.~S. (2018).
 \newblock {Online Hashing}.
 \newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
   29(6):2309--2322.
@@ -392,21 +422,21 @@ Johnson, R., Watkinson, A., and Mabe, M. (2018).
 \newblock International Association of Scientific, Technical and Medical
   Publishers.
 
-\bibitem[Kenter and de~Rijke, 2015]{Kenter2015}
-Kenter, T. and de~Rijke, M. (2015).
+\bibitem[Kenter and Rijke, 2015]{Kenter2015}
+Kenter, T. and Rijke, M. (2015).
 \newblock {Short Text Similarity with Word Embeddings Categories and Subject
   Descriptors}.
 \newblock {\em Proceedings of 24th ACM International Conference on Information
   and Knowledge Management}, pages 1411--1420.
 
 \bibitem[Krstovski and Smith, 2011]{Krstovski2011}
-Krstovski, K. and Smith, D.~A. (2011).
+Krstovski, K. and Smith, D. (2011).
 \newblock {A Minimally Supervised Approach for Detecting and Ranking Document
   Translation Pairs}.
 \newblock In {\em Workshop on Statistical MT}.
 
 \bibitem[Krstovski et~al., 2013]{Krstovski2013a}
-Krstovski, K., Smith, D.~A., Wallach, H.~M., and McGregor, A. (2013).
+Krstovski, K., Smith, D., Wallach, H., and McGregor, A. (2013).
 \newblock {Efficient Nearest-Neighbor Search in the Probability Simplex}.
 \newblock In {\em Proceedings of the 2013 Conference on the Theory of
   Information Retrieval - ICTIR '13}, pages 101--108. ACM Press.
@@ -439,7 +469,7 @@ Li, P. and K{\"{o}}nig, C. (2010).
   wide web - WWW '10}, page 671. ACM Press.
 
 \bibitem[Li et~al., 2012]{Li2012}
-Li, P., Owen, A.~B., and Zhang, C.-H. (2012).
+Li, P., Owen, A., and Zhang, C. (2012).
 \newblock {One Permutation Hashing}.
 \newblock {\em Advances in Neural Information Processing}.
 
@@ -455,8 +485,14 @@ Lisena, P., Harrando, I., Kandakji, O., and Troncy, R. (2020).
 \newblock In {\em 2nd International Workshop for Natural Language Processing
   Open Source Software (NLP-OSS)}.
 
-\bibitem[Liu et~al., 2015]{10.1145/2736277.2741106}
-Liu, X., Zeng, J., Yang, X., Yan, J., and Yang, Q. (2015).
+\bibitem[Liu et~al., 2015a]{Liu2015a}
+Liu, X., Duh, K., and Matsumoto, Y. (2015a).
+\newblock {Multilingual Topic Models for Bilingual Dictionary Extraction}.
+\newblock {\em ACM Transactions on Asian {\&} Low-Resource Langanguage
+  Information Processing}, 14(3):1--22.
+
+\bibitem[Liu et~al., 2015b]{10.1145/2736277.2741106}
+Liu, X., Zeng, J., Yang, X., Yan, J., and Yang, Q. (2015b).
 \newblock Scalable parallel em algorithms for latent dirichlet allocation in
   multi-core systems.
 \newblock In {\em Proceedings of the 24th International Conference on World
@@ -479,11 +515,12 @@ Lozano, B., Badenes-Olmedo, C., and Corcho, O. (2020).
   HierarchicalRepresentation}.
 \newblock {\em Open Archive UPM - http://oa.upm.es/63753/}.
 
-\bibitem[Lu et~al., 2016]{Lu2016}
-Lu, H.~M., Wei, C.~P., and Hsiao, F.~Y. (2016).
-\newblock {Modeling healthcare data using multiple-channel latent Dirichlet
-  allocation}.
-\newblock {\em Journal of Biomedical Informatics}, 60:210--223.
+\bibitem[Ma and Nasukawa, 2017]{Ma2017}
+Ma, T. and Nasukawa, T. (2017).
+\newblock {Inverted Bilingual Topic Models for Lexicon Extraction from
+  Non-parallel Data}.
+\newblock In {\em Proceedings of the Twenty-Sixth International Joint
+  Conference on Artificial Intelligence}, pages 4075--4081.
 
 \bibitem[Manning et~al., 2014]{Manning2014TheToolkit}
 Manning, C., Surdeanu, M., Bauer, J., Finkel, J., Bethard, S., and McClosky, D.
@@ -492,13 +529,13 @@ Manning, C., Surdeanu, M., Bauer, J., Finkel, J., Bethard, S., and McClosky, D.
 \newblock In {\em Proceedings of 52nd Annual Meeting of the Association for
   Computational Linguistics: System Demonstrations}.
 
-\bibitem[Manning and Schutze, 2008]{manning2008}
-Manning, C. D.~Raghavan, P. and Schutze, H. (2008).
+\bibitem[Manning et~al., 2008]{manning2008}
+Manning, C.~D., Raghavan, P., and Schutze, H. (2008).
 \newblock {\em Introduction to Information Retrieval}.
 \newblock Cambridge University Press.
 
 \bibitem[Mao et~al., 2017]{Mao2017}
-Mao, X., Feng, B.-S., Hao, Y.-J., Nie, L., Huang, H., and Wen, G. (2017).
+Mao, X., Feng, B., Hao, Y., Nie, L., Huang, H., and Wen, G. (2017).
 \newblock {S2JSD-LSH: A Locality-Sensitive Hashing Schema for Probability
   Distributions}.
 \newblock In {\em AAAI}.
@@ -515,20 +552,19 @@ Miller, G.~A. (1995).
 \newblock {WordNet: A Lexical Database for English}.
 \newblock {\em Communications of the ACM}, 38(11):39--41.
 
+\bibitem[Mimno et~al., 2009]{mimno-etal-2009-polylingual}
+Mimno, D., Wallach, H., Naradowsky, J., Smith, D., and McCallum, A. (2009).
+\newblock Polylingual topic models.
+\newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
+  Natural Language Processing}, EMNLP '09, pages 880--889. Association for
+  Computational Linguistics.
+
 \bibitem[Mimno et~al., 2011]{mimno-etal-2011-optimizing}
 Mimno, D., Wallach, H., Talley, E., Leenders, M., and McCallum, A. (2011).
 \newblock {Optimizing Semantic Coherence in Topic Models}.
 \newblock In {\em Proceedings of the 2011 Conference on Empirical Methods in
   Natural Language Processing}, pages 262--272. Association for Computational
   Linguistics.
-
-\bibitem[Mimno et~al., 2009]{mimno-etal-2009-polylingual}
-Mimno, D., Wallach, H.~M., Naradowsky, J., Smith, D.~A., and McCallum, A.
-  (2009).
-\newblock Polylingual topic models.
-\newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
-  Natural Language Processing}, EMNLP '09, pages 880--889. Association for
-  Computational Linguistics.
 
 \bibitem[Moritz and Büchler, 2017]{Moritz2017}
 Moritz, M. and Büchler, M. (2017).
@@ -538,24 +574,31 @@ Moritz, M. and Büchler, M. (2017).
   Historical Language}, pages 18--23.
 
 \bibitem[Newman et~al., 2010]{newman-etal-2010-automatic}
-Newman, D., Lau, J.~H., Grieser, K., and Baldwin, T. (2010).
+Newman, D., Lau, J., Grieser, K., and Baldwin, T. (2010).
 \newblock {Automatic Evaluation of Topic Coherence}.
 \newblock In {\em Human Language Technologies: The 2010 Annual Conference of
   the North {\{}A{\}}merican Chapter of the Association for Computational
   Linguistics}, pages 100--108.
 
 \bibitem[Ni et~al., 2009]{Ni2009}
-Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2009).
+Ni, X., Sun, J., Hu, J., and Chen, Z. (2009).
 \newblock Mining multilingual topics from wikipedia.
 \newblock In {\em Proceedings of the 18th International Conference on World
   Wide Web}, WWW '09, page 1155–1156. Association for Computing Machinery.
 
 \bibitem[Ni et~al., 2011]{Ni:2011:CLT:1935826.1935887}
-Ni, X., Sun, J.-T., Hu, J., and Chen, Z. (2011).
+Ni, X., Sun, J., Hu, J., and Chen, Z. (2011).
 \newblock {Cross Lingual Text Classification by Mining Multilingual Topics from
   Wikipedia}.
 \newblock In {\em Proceedings of the Fourth ACM International Conference on Web
   Search and Data Mining}, pages 375--384.
+
+\bibitem[Nzali et~al., 2017]{TapiNzali2017}
+Nzali, T., Donald, M., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.
+  (2017).
+\newblock {What Patients Can Tell Us: Topic Analysis for Social Media on Breast
+  Cancer.}
+\newblock {\em JMIR medical informatics}, 5(3):e23.
 
 \bibitem[O’Neill et~al., 2017]{ONeill2017}
 O’Neill, J., Robin, C., O’Brien, L., and Buitelaar, P. (2017).
@@ -575,7 +618,7 @@ Piccardi, T. and West, R. (2020).
 \newblock {\em arXiv e-prints}.
 
 \bibitem[Platt et~al., 2010]{Platt:2010:TDR:1870658.1870683}
-Platt, J.~C., Toutanova, K., and Yih, W.-t. (2010).
+Platt, J., Toutanova, K., and Yih, W. (2010).
 \newblock {Translingual Document Representations from Discriminative
   Projections}.
 \newblock In {\em Proceedings of the 2010 Conference on Empirical Methods in
@@ -637,13 +680,6 @@ Saracevic, T. (1995).
   Conference on Research and Development in Information Retrieval}, SIGIR '95,
   page 138–146. Association for Computing Machinery.
 
-\bibitem[Sciences and Sciences, 2016]{Sciences2016}
-Sciences, E. R. S. f.~P. and Sciences, L. (2016).
-\newblock {\em {Harnessing the power of content - Extracting value from
-  scientific literature: the power of mining full-text articles for pathway
-  analysis}}.
-\newblock Elsevier Inc.
-
 \bibitem[Shi et~al., 2016]{shi-etal-2016-detecting}
 Shi, B., Lam, W., Bing, L., and Xu, Y. (2016).
 \newblock Detecting common discussion topics across culture from news reader
@@ -652,8 +688,8 @@ Shi, B., Lam, W., Bing, L., and Xu, Y. (2016).
   Computational Linguistics (Volume 1: Long Papers)}, pages 676--685.
   Association for Computational Linguistics.
 
-\bibitem[{Simone Teufel}, 2010]{SimoneTeufel2010}
-{Simone Teufel} (2010).
+\bibitem[{Simone T.}, 2010]{SimoneTeufel2010}
+{Simone T.} (2010).
 \newblock {The Structure of Scientific Articles - Applications to Citation
   Indexing and Summarization}.
 \newblock In {\em CSLI Studies in Computational Linguistics}.
@@ -682,19 +718,9 @@ Steinberger, R., Pouliquen, B., Widiger, A., Ignat, C., Erjavec, T., Tufis, D.,
 \newblock In {\em Proceedings of the 5th International Conference on Language
   Resources and Evaluation (LREC'2006)}, volume~4, pages 2142--2147.
 
-\bibitem[Steyvers et~al., 2006]{Steyvers2006}
-Steyvers, M., Ths, G., and {T} (2006).
+\bibitem[Steyvers and Griffiths, 2006]{Steyvers2006}
+Steyvers, M. and Griffiths, T. (2006).
 \newblock {Probabilistic topic models}.
-\newblock {\em In Landauer, T., McNamara, D., Dennis, S., and Kintsch, W.,
-  editors, Latent Semantic Analysis: A Road to Meaning. Laurence Erlbaum. Tang,
-  Z. and MacLennan, J}.
-
-\bibitem[Tapi~Nzali et~al., 2017]{TapiNzali2017}
-Tapi~Nzali, M.~D., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.
-  (2017).
-\newblock {What Patients Can Tell Us: Topic Analysis for Social Media on Breast
-  Cancer.}
-\newblock {\em JMIR medical informatics}, 5(3):e23.
 
 \bibitem[Terasawa and Tanaka, 2007]{Terasawa2007}
 Terasawa, K. and Tanaka, Y. (2007).
@@ -710,7 +736,7 @@ Teufel, S., Siddharthan, A., and Batchelor, C. (2009).
   pages 1493--1502.
 
 \bibitem[Towne et~al., 2016]{Towne2016}
-Towne, W.~B., Ros\'{e}, C.~P., and Herbsleb, J.~D. (2016).
+Towne, W., Ros\'{e}, C., and Herbsleb, J. (2016).
 \newblock Measuring similarity similarly: Lda and human perception.
 \newblock {\em ACM Transactions on Intelligent Systems and Technology},
   8(1):1--25.
@@ -729,34 +755,26 @@ Vijayanarasimhan, S., Jain, P., and Grauman, K. (2014).
   36(2):276--288.
 
 \bibitem[Vuli{\'{c}} et~al., 2015]{Vulic2015}
-Vuli{\'{c}}, I., De~Smet, W., Tang, J., and Moens, M.~F. (2015).
+Vuli{\'{c}}, I., De~Smet, W., Tang, J., and Moens, M. (2015).
 \newblock {Probabilistic topic modeling in multilingual settings: An overview
   of its methodology and applications}.
 \newblock {\em Information Processing and Management}, 51(1):111--147.
 
 \bibitem[Vuli{\'{c}} and Moens, 2012]{Vulic:2012:DHC:2380816.2380872}
-Vuli{\'{c}}, I. and Moens, M.-F. (2012).
+Vuli{\'{c}}, I. and Moens, M. (2012).
 \newblock {Detecting Highly Confident Word Translations from Comparable Corpora
   Without Any Prior Knowledge}.
 \newblock In {\em Proceedings of the 13th Conference of the European Chapter of
   the Association for Computational Linguistics}, pages 449--459.
 
 \bibitem[Vuli{\'{c}} and Moens, 2013]{10.1007/978-3-642-36973-5_9}
-Vuli{\'{c}}, I. and Moens, M.-F. (2013).
+Vuli{\'{c}}, I. and Moens, M. (2013).
 \newblock {A Unified Framework for Monolingual and Cross-Lingual Relevance
   Modeling Based on Probabilistic Topic Models}.
 \newblock In {\em Advances in Information Retrieval}, pages 98--109.
 
-\bibitem[Waleed et~al., 2018]{Waleed2018}
-Waleed, A., Dirk, G., Chandra, B., Iz, B., Miles, C., Doug, D., Jason, D.,
-  Ahmed, E., Sergey, F., Vu, H., Rodney, K., Sebastian, K., Kyle, L., Tyler,
-  M., Hsu-Han, O., Matthew, P., Joanna, P., Sam, S., Lucy, Lu, W., Chris, W.,
-  Zheng, Y., Madeleine, v.~Z., and Oren, E. (2018).
-\newblock {Construction of the Literature Graph in Semantic Scholar}.
-\newblock In {\em NAACL}.
-
 \bibitem[Wang et~al., 2016]{Wang2016}
-Wang, J., Liu, W., Kumar, S., and Chang, S.-F. (2016).
+Wang, J., Liu, W., Kumar, S., and Chang, S. (2016).
 \newblock {Learning to Hash for Indexing Big Data-A Survey}.
 \newblock {\em Proceedings of the IEEE}, 104(1):34--57.
 
@@ -767,8 +785,8 @@ Wang, L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., Funk, K.,
 \newblock {\em arXiv preprint arXiv:2004.10706}.
 
 \bibitem[Westergaard et~al., 2017]{Westergaard2017}
-Westergaard, D., St{\ae}rfeldt, H.-h., T{\o}nsberg, C., Jensen, L.~J., and
-  Brunak, S. (2017).
+Westergaard, D., St{\ae}rfeldt, H., T{\o}nsberg, C., Jensen, L., and Brunak, S.
+  (2017).
 \newblock {Text mining of 15 million full-text scientific articles}.
 \newblock {\em bioRxiv}.
 
@@ -802,13 +820,13 @@ Zhang, T., Liu, K., and Zhao, J. (2013).
   Press.
 
 \bibitem[Zhao et~al., 2013]{Zhao2013}
-Zhao, W.-L., J{\'{e}}gou, H., and Gravier, G. (2013).
+Zhao, W., J{\'{e}}gou, H., and Gravier, G. (2013).
 \newblock {Sim-min-hash}.
 \newblock In {\em Proceedings of the 21st ACM international conference on
   Multimedia - MM '13}, pages 577--580.
 
 \bibitem[Zhen et~al., 2016]{Zhen2016}
-Zhen, Y., Gao, Y., Yeung, D.-Y., Zha, H., and Li, X. (2016).
+Zhen, Y., Gao, Y., Yeung, D., Zha, H., and Li, X. (2016).
 \newblock {Spectral Multimodal Hashing and Its Application to Multimedia
   Retrieval}.
 \newblock {\em IEEE Transactions on Cybernetics}, 46(1):27--38.
