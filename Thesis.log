@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  8 FEB 2021 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  9 FEB 2021 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -620,20 +620,20 @@ LaTeX Warning: Label `fig:clusters' multiply defined.
 (./experiments/experiments.aux) (./conclusions/conclusions.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -670,8 +670,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box66
-Package backref Info: ** backref set up for natbib ** on input line 201.
-Package hyperref Info: Link coloring OFF on input line 201.
+Package backref Info: ** backref set up for natbib ** on input line 202.
+Package hyperref Info: Link coloring OFF on input line 202.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -681,9 +681,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count157
 )
-LaTeX Info: Redefining \ref on input line 201.
-LaTeX Info: Redefining \pageref on input line 201.
-LaTeX Info: Redefining \nameref on input line 201.
+LaTeX Info: Redefining \ref on input line 202.
+LaTeX Info: Redefining \pageref on input line 202.
+LaTeX Info: Redefining \nameref on input line 202.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write4
@@ -691,12 +691,12 @@ LaTeX Info: Redefining \nameref on input line 201.
 
 \c@lstlisting=\count158
 \c@thm=\count159
-LaTeX Font Info:    Try loading font information for U+msa on input line 224.
+LaTeX Font Info:    Try loading font information for U+msa on input line 225.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 224.
+LaTeX Font Info:    Try loading font information for U+msb on input line 225.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -704,7 +704,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <intro/figures/escudofi.pdf, id=446, 160.6pt x 170.6375pt>
 File: intro/figures/escudofi.pdf Graphic file (type pdf)
 <use intro/figures/escudofi.pdf>
-Package pdftex.def Info: intro/figures/escudofi.pdf  used on input line 224.
+Package pdftex.def Info: intro/figures/escudofi.pdf  used on input line 225.
 (pdftex.def)             Requested size: 56.9055pt x 60.46086pt.
  [1
 
@@ -1381,23 +1381,23 @@ ne 129.
 
 ]
 Chapter 9.
-[147] [148] [149] [150] [151] [152] [153] [154] [155] [156]
-<conclusions/figures/context-similarity.png, id=2802, 1056.94875pt x 551.05875p
+[147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157]
+<conclusions/figures/context-similarity.png, id=2806, 1056.94875pt x 551.05875p
 t>
 File: conclusions/figures/context-similarity.png Graphic file (type png)
 <use conclusions/figures/context-similarity.png>
 Package pdftex.def Info: conclusions/figures/context-similarity.png  used on in
 put line 185.
 (pdftex.def)             Requested size: 288.7942pt x 150.56203pt.
-) [157 <./conclusions/figures/context-similarity.png>] (./Thesis.bbl (./Thesis.
+) [158 <./conclusions/figures/context-similarity.png>] (./Thesis.bbl (./Thesis.
 brf)
 \tf@brf=\write8
 \openout8 = `Thesis.brf'.
 
- [158
+ [159
 
 
-] [159]
+]
 [160] [161] [162] [163] [164] [165] [166] [167]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 546.
@@ -1406,21 +1406,21 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
 [173]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (./Thesis.aux (./intro/dedication.aux) (./intro/acknowledgement.aux)
 (./intro/abstract.aux) (./intro/acronyms.aux) (./intro/intro.aux)
 (./soa/soa.aux) (./hypothesis/hypothesis.aux) (./scalability/scalability.aux)
 (./explainability/explainability.aux) (./comparisons/comparisons.aux)
 (./multilinguality/multilinguality.aux) (./experiments/experiments.aux)
 (./conclusions/conclusions.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D4148477D065D4966185B2C320687D83;8853.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 2C6CF4D5C08607DF230FB37012FEE206;10771.
+(rerunfilecheck)             Checksum: 2A82F74D4F1AA1B6D9B9BA1A92842A82;10771.
 
 
 LaTeX Warning: There were undefined references.
@@ -1428,13 +1428,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 15230 strings out of 492616
- 239946 string characters out of 6129481
- 618605 words of memory out of 5000000
- 18060 multiletter control sequences out of 15000+600000
+ 15232 strings out of 492616
+ 239967 string characters out of 6129481
+ 618628 words of memory out of 5000000
+ 18062 multiletter control sequences out of 15000+600000
  19189 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,15n,79p,2329b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1460,7 +1460,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (201 pages, 7256458 bytes).
+Output written on Thesis.pdf (201 pages, 7256970 bytes).
 PDF statistics:
  3289 PDF objects out of 3580 (max. 8388607)
  2904 compressed objects within 30 object streams
