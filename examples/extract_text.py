@@ -18,7 +18,7 @@ def extract_information(pdf_path):
 if __name__ == '__main__':
     with open('corpus.csv', mode='w') as output_file:
         csv_writer = csv.writer(output_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
-        
+        csv_writer.writerow(["title", "text"])
         for root, dirs, files in os.walk(os.path.abspath("../../../publications/contribution/")):
             for file in files:
                 if (file.endswith(".pdf")):
