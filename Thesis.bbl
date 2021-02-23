@@ -366,6 +366,13 @@ Herranz, O. and Arenas-Garcia, J. (2019).
 \newblock Categorización de la oferta publica mediante tecnicas big data.
 \newblock {\em e-archivo UC3M}.
 
+\bibitem[Hoffman et~al., 2010]{Blei2010}
+Hoffman, M.~D., Blei, D.~M., and Bach, F. (2010).
+\newblock Online learning for latent dirichlet allocation.
+\newblock In {\em Proceedings of the 23rd International Conference on Neural
+  Information Processing Systems - Volume 1}, NIPS'10, page 856–864. Curran
+  Associates Inc.
+
 \bibitem[Hofmann, 2001]{Hofmann2001}
 Hofmann, T. (2001).
 \newblock {Unsupervised Learning by Probabilistic Latent Semantic Analysis}.
@@ -446,6 +453,12 @@ Kulis, B. and Grauman, K. (2012).
 \newblock {Kernelized Locality-Sensitive Hashing}.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   34(6):1092--1104.
+
+\bibitem[Le and Mikolov, 2014]{LeMikolov2014}
+Le, Q. and Mikolov, T. (2014).
+\newblock Distributed representations of sentences and documents.
+\newblock In {\em Proceedings of the 31st International Conference on Machine
+  Learning}, ICML'14, page II–1188–II–1196. JMLR.org.
 
 \bibitem[Lee, 1995]{lee1995}
 Lee, J.~H. (1995).

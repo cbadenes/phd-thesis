@@ -10,12 +10,12 @@
 \contentsline {section}{\numberline {2.1}Information Retrieval}{11}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Techniques for Document Retrieval}{13}{section.2.2}% 
 \contentsline {section}{\numberline {2.3}Techniques for Probabilistic Topic Models}{20}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Document Similarity Calculation based on LDA}{21}{subsection.2.3.1}% 
-\contentsline {section}{\numberline {2.4}Research Areas}{23}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}Topic Creation and Reuse}{23}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}Topic Explainability}{26}{subsection.2.4.2}% 
-\contentsline {subsection}{\numberline {2.4.3}Document Similarity}{29}{subsection.2.4.3}% 
-\contentsline {subsection}{\numberline {2.4.4}Multilingual Topic Alignment}{30}{subsection.2.4.4}% 
+\contentsline {subsection}{\numberline {2.3.1}Document Similarity Calculation based on LDA}{22}{subsection.2.3.1}% 
+\contentsline {section}{\numberline {2.4}Research Areas}{24}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Topic Creation and Reuse}{24}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Topic Explainability}{27}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Document Similarity}{30}{subsection.2.4.3}% 
+\contentsline {subsection}{\numberline {2.4.4}Multilingual Topic Alignment}{31}{subsection.2.4.4}% 
 \contentsline {chapter}{\numberline {3}Methodology}{35}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Research Hypotheses}{36}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Research Challenges}{38}{section.3.2}% 
@@ -108,4 +108,4 @@
 \contentsline {subsubsection}{\numberline {9.2.4.1}Cross-lingual Topics}{157}{subsubsection.9.2.4.1}% 
 \contentsline {section}{\numberline {9.3}Impact}{158}{section.9.3}% 
 \contentsline {section}{\numberline {9.4}Future Work}{160}{section.9.4}% 
-\contentsline {chapter}{Bibliography}{163}{chapter*.106}% 
+\contentsline {chapter}{Bibliography}{163}{chapter*.107}% 

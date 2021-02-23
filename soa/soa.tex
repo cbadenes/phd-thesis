@@ -127,13 +127,51 @@ This interpretable hidden structure annotates each document in the collection an
 \label{fig:doctopics}
 \end{figure}
 
-As just shown, the bag-of-words approach avoids the restriction of word sequences to relate documents. Documents that do not necessarily use the same words or in the same way can be strongly related if they mainly use the words that are more relevant for the same topic. The connection between documents is now the topic, not the word. Topic modeling provides an algorithmic solution to organize and annotate large collections of textual documents according to their topics. Our work is based on this approach since \textit{we are not only interested in representing words and documents, but we also seek structures that allows considering knowledge about the collection}.
+Since the bag-of-words approach avoids the restriction of word sequences to relate documents, documents that do not necessarily use the same words (or in the same way) can be strongly related if they share the same topics ( even using different words that are relevant for the same topic). The connection between documents is based on  word sets (topics), not word sequences. Topic modeling provides an algorithmic solution to organize and annotate large collections of textual documents according to their topics. Our work is based on this approach since \textit{we are not only interested in representing words and documents, but we also seek structures that allows considering knowledge about the collection}.
 
 
 
 \section{Techniques for Probabilistic Topic Models}\label{sec:techniques-prob-topics}
 
 The simplest generative topic model proposed in the state of the art is \textit{Latent Dirichlet Allocation} (LDA) \citep{Blei2003}. Along with \textit{Latent Semantic Analysis} (LSA) \citep{Deerwester1990} and \textit{Probabilistic Latent Semantic Analysis} (pLSA) \citep{Hofmann2001} are part of the field known as topic modeling. They are well-known latent variable models for high dimensional data, such as the bag-of-words representation for textual data or any other count-based data representation. They try to capture the intuition that documents can exhibit multiple themes. Each document exhibits each topic in different proportion, and each word in each document is drawn from one of the topics, where the selected topic is chosen from the per-document distribution over topics. All the documents in a collection share the same set of topics, but each document exhibits these topics in a different proportion. Texts are described as a vector of counts with $W$ components, where $W$ is the number of words in the vocabulary. Each document in the corpus is modeled as a mixture over $K$ topics, and each topic $k$ is a distribution over the vocabulary of $W$ words. Formally, a topic is a multinomial distribution over words of a fixed vocabulary representing some concept. Depending on the function used to describe that distribution there are different algorithms to create topic models. LSA and pLSA propose a singular value decomposition. However, they have over-fitting issues. LDA was later proposed to overcome these issues. Influenced by the generative Bayesian framework it  suggests the use of a Dirichlet function as a continuous multivariate probability distribution parameterized by a vector of positive reals whose elements sum to 1.  It is continuous because the relative likelihood for a random variable to take on a given value is described by a probability density function, and is multivariate because it has a list of variables with unknown values. In fact, the Dirichlet distribution is the conjugate prior of the categorical distribution and multinomial distribution and allows LDA to infer topic distributions in texts that have not been used during training, unlike LSA and pLSA.
+
+In order to train a LDA model it is necessary to provide a fixed number of topics across the corpus. Each topic is drawn from a Dirichlet distribution with parameter $\beta$, while each document's mixture is sampled from a Dirichlet distribution with parameter $\alpha$. These two priors, $\alpha$ and $\beta$, set the probability that a document or a word, respectively, contains more than one topic. Along with the number of topics they are also known as hyper-parameters of a LDA model and they have to be tuned when training a model. There are other parameters common to learning models, such as the number of iterations through the corpus when inferring the topic distribution, or related to the online learning mode of LDA \citep{Blei2010}, for example the number of documents to be iterated through for each update, that can also be fine-tuned. However $\alpha$, $\beta$ and the number of topics are the ones that mainly define the behavior of the model for distributing the topics and therefore crucial when creating the model. Table \ref{table:sample-doctopics} shows the topic distributions of the example corpus. An LDA model was trained with 5 topics to reflect the four research areas of this thesis and the experiments performed;  $\alpha$ equals to 1.0 (higher than usual) because the documents are likely to contain more than one topic; and $\beta$ equals to 0.01 to force to distribute the words among topics in a non-homogeneous way. Given the topics in Table \ref{table:sample-topics}, it can be seen how documents present strongly unbalanced distributions with respect to some of the topics. The small size of the corpus and the specialization of the articles causes this behavior.
+
+\begin{table}[!htbp]
+\centering%
+\begin{tabularx}{\linewidth}{CCCCCC}
+\toprule
+\heading{Document} & \heading{Topic 0} & \heading{Topic 1} & \heading{Topic 2} & \heading{Topic 3} & \heading{Topic 4} \\
+\midrule
+\midrule
+$D_0$ & 0.00006 & 0.00004 & 0.99986 & 0.00002 & 0.00002\\
+\midrule
+$D_1$ & 0.00012 & 0.00007 & 0.99973 & 0.00004 & 0.00004 \\
+\midrule
+$D_2$ & 0.00227 & 0.99760  & 0.00005 & 0.00004 & 0.00004\\
+\midrule
+$D_3$ & 0.99954 & 0.00016 & 0.00012 & 0.00010 & 0.00008 \\
+\midrule
+$D_4$ & 0.99988 & 0.00004 & 0.00003 & 0.00003 & 0.00002\\
+\midrule
+$D_5$ & 0.34434 & 0.00017 & 0.65531 & 0.00010 & 0.00008\\
+\midrule
+$D_6$ & 0.99977 & 0.00008 & 0.00006 & 0.00005 & 0.00004\\
+\midrule
+$D_7$ & 0.40842 & 0.00030 & 0.00023 & 0.59090 & 0.00015\\
+\midrule
+$D_8$ & 0.99977 & 0.00008 & 0.00006 & 0.00005 & 0.00004\\
+\midrule
+$D_9$ & 0.00017 & 0.99961 & 0.00009 & 0.00007 & 0.00006\\
+\midrule
+$D_{10}$ & 0.00021 & 0.37821 & 0.62143 & 0.00008 & 0.00007\\
+\midrule
+\bottomrule
+\end{tabularx}
+\caption{Topic distributions based on the LDA model described in table \ref{table:sample-topics}.}
+\label{table:sample-doctopics}
+\end{table}
+
 
 Topic models are not restrictive clustering models where each document is assigned to one cluster, but allow documents to exhibit multiple topics. The topics covered in a set of documents are discovered from the own corpus and feature vectors are topic distributions expressed as vector of probabilities.
 
@@ -285,7 +323,7 @@ Even though the distance metrics mentioned in Section~\ref{sec:related-work} hav
 
 Distances between documents based on topic distributions generally increase as the number of dimensions of the space increases because it is a vector space. This is due to the fact that as the number of topics describing the model increases, the more specific the topics will be. Topics shared by a pair of documents can be broken down into more specific topics that are not shared by those documents. \textit{Document similarity is then dependent on the model used to represent documents when considering this type of metrics}. 
 
-Each topic is drawn from a Dirichlet distribution with parameter $\beta$, while each document's mixture is sampled from a Dirichlet distribution with parameter $\alpha$. These two priors, $\alpha$ and $\beta$, are also known as hyper-parameters of a topic model and they set the probability that a document or a word, respectively, contains more than one topic. We know that absolute distances between documents vary when we tune those hyper-parameters differently, but we also see that ``relative distances" also change. Imagine that we have three documents, A, B and C, described by a topic model, M1. The distance from the topic distribution of A to B is less than from A to C. However, in a second topic model, M2, trained with the same documents than M1 but with different hyper-parameters, the distance from the topic distribution of A to C is less than to B (cross-lines in figures \ref{fig:topic_distances} and \ref{fig:topic_distances2}). This behaviour highlights the \textbf{\textit{difficulty of establishing absolute similarity thresholds and the complexity to measure distances taking into account all dimensions of a topic model}}. If we consider that documents are similar when their distance is lower than 0.2,for example, a pair of documents may be similar when they are represented in low-dimensional topic models, and not similar when high-dimensional models are used to represent them. Distance thresholds should be model-dependent rather than general, and metrics flexible enough to handle dimensional changes. In this thesis we go beyond the thematic and low-dimensional feature space created by topic models and propose a \textit{hierarchical feature space suitable for big real-world data sets, where documents are only described by their most relevant topics}.
+We know that absolute distances between documents vary when we tune $\alpha$ and $\beta$ hyper-parameters differently, but we also see that "relative distances" also change. Imagine that we have three documents, A, B and C, described by a topic model, M1. The distance from the topic distribution of A to B is less than from A to C. However, in a second topic model, M2, trained with the same documents than M1 but with different hyper-parameters, the distance from the topic distribution of A to C is less than to B (cross-lines in figures \ref{fig:topic_distances} and \ref{fig:topic_distances2}). This behaviour highlights the \textbf{\textit{difficulty of establishing absolute similarity thresholds and the complexity to measure distances taking into account all dimensions of a topic model}}. If we consider that documents are similar when their distance is lower than 0.2,for example, a pair of documents may be similar when they are represented in low-dimensional topic models, and not similar when high-dimensional models are used to represent them. Distance thresholds should be model-dependent rather than general, and metrics flexible enough to handle dimensional changes. In this thesis we go beyond the thematic and low-dimensional feature space created by topic models and propose a \textit{hierarchical feature space suitable for big real-world data sets, where documents are only described by their most relevant topics}.
 
 
 \subsection{Document Similarity}
