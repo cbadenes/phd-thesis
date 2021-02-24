@@ -96,6 +96,11 @@ Bahmani, B., Moseley, B., Vattani, A., Kumar, R., and Vassilvitskii, S. (2012).
 \newblock {Scalable K-Means ++}.
 \newblock {\em Proceedings of the VLDB Endowment (PVLDB)}, 5:622--633.
 
+\bibitem[Basseville, 1989]{Basseville89}
+Basseville, M. (1989).
+\newblock Distance measures for signal processing and pattern recognition.
+\newblock {\em Signal Process}, 18(4):349–369.
+
 \bibitem[Bizer et~al., 2009]{Bizer2009}
 Bizer, C., Heath, T., and Berners-Lee, T. (2009).
 \newblock {Linked data-the story so far}.
@@ -173,6 +178,11 @@ Cohan, A. and Goharian, N. (2015).
 Dagan, I., Lee, L., and Pereira, F. (1999).
 \newblock {Similarity-Based Models of Word Cooccurrence Probabilities}.
 \newblock {\em Machine Learning}, 34(1-3):43--69.
+
+\bibitem[DasGupta, 2011]{DasGupta2011}
+DasGupta, A. (2011).
+\newblock {\em Probability for Statistics and Machine Learning}.
+\newblock Springer Texts in Statistics.
 
 \bibitem[Datar et~al., 2004]{Datar2004}
 Datar, M., Immorlica, N., Indyk, P., and Mirrokni, V. (2004).
@@ -453,6 +463,16 @@ Kulis, B. and Grauman, K. (2012).
 \newblock {Kernelized Locality-Sensitive Hashing}.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   34(6):1092--1104.
+
+\bibitem[Kullback, 1968]{Kullback1968}
+Kullback, S. (1968).
+\newblock {\em Information theory and statistics}.
+\newblock NewYork: Dover.
+
+\bibitem[Kullback and Leibler, 1951]{Kullback1951}
+Kullback, S. and Leibler, R.~A. (1951).
+\newblock On information and sufficiency.
+\newblock {\em The Annals of Mathematical Statistics}, 22(1):79--86.
 
 \bibitem[Le and Mikolov, 2014]{LeMikolov2014}
 Le, Q. and Mikolov, T. (2014).

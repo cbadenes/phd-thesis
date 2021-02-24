@@ -178,17 +178,13 @@ Topic models are not restrictive clustering models where each document is assign
 
 \subsection{Document Similarity Calculation based on LDA}\label{sec:doc-sim-lda}
 
-Since documents are described by topic distributions, the semantic similarity between two texts is based on the distance of their vector representations of the topics, which can be also seen as two probability mass functions. A commonly used metric is the \textit{Kullback-Liebler} (KL) divergence:
+Since documents are described by topic distributions, the semantic similarity between two texts is based on the distance of their vector representations of the topics, which can be also seen as two probability mass functions. A commonly used metric is the \textit{Kullback-Liebler} (KL) divergence \citep{Kullback1951, Kullback1968}:
 
 \begin{equation}
 KL(P,Q) = \sum\limits_{i=1}^K p(x_{i}) \log \frac{p(x_{i})}{q(x_{i})}
 \label{eq:kl}
 \end{equation}
 where  $K$ is the number of topics and $p,q$ are the topics distributions.
-
-However, it presents two major problems: (1) when a topic distribution is zero, KL divergence is not defined and (2) it is not symmetric, which does not fit well with semantic similarity measures that are usually symmetric \citep{Rus2013}. Table \ref{table:kl-distances} shows the KL divergences between the topic distributions of the example documents. The lack of symmetry is especially remarkable between some document pairs (e.g. D10-D9, D8-D5) due to their inter-topic distribution.
-
-
 
 \begin{table}[!htbp]
 \centering%
@@ -236,6 +232,9 @@ However, it presents two major problems: (1) when a topic distribution is zero, 
 \caption{Kullback-Liebler divergences between the topic distributions from Table \ref{table:sample-doctopics}. There are two values per pair because it is not symmetric.}
 \label{table:kl-distances}
 \end{table}
+
+Table \ref{table:kl-distances} shows the KL divergences between the topic distributions of the example documents. As can be seen in the distances between some pairs of documents (e.g. D2-D0, D5-D3, D6-D2), KL presents two major problems: (1) when a topic distribution is zero, KL divergence is not defined and (2) it is not symmetric, which does not fit well with semantic similarity measures that are usually symmetric \citep{Rus2013}. The lack of symmetry is especially remarkable between some document pairs (e.g. D10-D9, D8-D5) due to their unbalanced inter-topic distribution. 
+
 
 \textit{Jensen-Shannon} (JS) divergence \citep{Rao1982,Lin1991} solves the problems of KL considering the average of the distributions as below \citep{Celikyilmaz2010}:
 
@@ -292,8 +291,12 @@ $D_{10}$&0.15&0.15&0.29&0.69&0.69&0.25&0.69&0.69&0.69&0.29&0.0\\
 \label{table:js-distances}
 \end{table}
 
+However, these metrics are not well-defined distance metrics, that is, they do not satisfy triangle inequality \citep{Charikar2002}. This inequality considers $d(x, z) <= d(x, y) + d(y, z)$ for a metric $d$ \citep{Griffiths2007} and places strong constraints on distance measures and on the locations of points in a space given a set of distances. As a metric axiom, the triangle inequality must be satisfied in order to take advantage of the inferences that can be deduced from it. Thus, if similarity is assumed to be a monotonically decreasing function of distance, this inequality avoids the calculation of all pairs of similarities by considering that if $x$ is similar to $y$ and $y$ is similar to $z$, then $x$ must be similar to $z$. 
 
-\textit{Hellinger} (He) distance is also symmetric and is used along with JS divergence in various fields where a comparison between two probability distributions is required \citep{Blei2007a,Hall2008,Boyd-Graber2010}:
+Let's see how the triangular inequality is present in our example. The distance between documents $D_0$ and $D_6$, for example, should be lower than or equal to the sum of the distances between $D_0$ and $D_5$ , and between $D_5$ and $D_6$. KL considers $d(D_0,D_6)=9.73$ and $d(D_0,D_5)+d(D_5,D_6)=0.42+5.73=6.15$, so the triangle inequality is not satisfied since $9.73$ is greater than $6.15$. The same applies to JS. In this case $d(D_0,D_6)=0.69$ is not lower than or equal to $d(D_0,D_5)+d(D_5,D_6)=0.14+0.31=0.44$.
+
+
+\textit{Hellinger} (He) distance \citep{Basseville89,DasGupta2011} is a symmetric measure that satisfies the triangle inequality and, along with JS divergence, has been used in various fields where a comparison between two probability distributions is required \citep{Blei2007a,Hall2008,Boyd-Graber2010}:
 
 \begin{equation}
 	He(P, Q) = \frac{1}{\sqrt{2}}\cdot\sqrt{\sum\limits_{i=1}^K (\sqrt{p_i} - \sqrt{q_i})^2)}
@@ -344,16 +347,56 @@ $D_{10}$&0.46&0.45&0.62&0.98&0.99&0.59&0.99&0.98&0.99&0.61&0.0\\
 \label{table:he-distances}
 \end{table}
 
+Table \ref{table:he-distances} shows the Hellinger distances between the topic distributions of the example documents. Now the triangular inequality is satisfied and can be verified by seeing that $d(D_0,D_6)=0.99$ is lower than $d(D_0,D_5)+d(D_5,D_6)=0.43+0.64=1.07$. 
 
-However, all these metrics are not well-defined distance metrics, that is, they do not satisfy triangle inequality \citep{Charikar2002}. This inequality considers $d(x, z) <= d(x, y) + d(y, z)$ for a metric $d$ \citep{Griffiths2007} and places strong constraints on distance measures and on the locations of points in a space given a set of distances. As a metric axiom, the triangle inequality must be satisfied in order to take advantage of the inferences that can be deduced from it. Thus, if similarity is assumed to be a monotonically decreasing function of distance, this inequality avoids the calculation of all pairs of similarities by considering that if $x$ is similar to $y$ and $y$ is similar to $z$, then $x$ must be similar to $z$. 
 
-\text{S2JSD} was introduced by \citep{Endres2003} to satisfy the triangle inequality. It is the square root of two times the $JS$ divergence:
+In order to make the $JS$ divergence satisfy the triangular inequality, \citep{Endres2003} proposed \text{S2JSD} as a distance metric based on the square root of two times the $JS$ divergence:
 
 %S2JSD formula
 \begin{equation}
     S2JSD(P,Q) = \sqrt{2*JS(P,Q)}
 \label{eq:s2jsd}
 \end{equation}
+
+Table \ref{table:s2jsd-distances} shows the S2JSD distances between the topic distributions of the example documents. As before, the triangular inequality is satisfied and can be verified by seeing that $d(D_0,D_6)=1.18$ is lower than $d(D_0,D_5)+d(D_5,D_6)=0.52+0.79=1.31$. 
+
+
+\begin{table}[!htbp]
+\centering%
+\small
+\begin{tabularx}{\linewidth}{CCCCCCCCCCCC}
+\toprule
+\heading{} & \heading{$D_0$} & \heading{$D_1$} & \heading{$D_2$} & \heading{$D_3$} & \heading{$D_4$} & \heading{$D_5$} & \heading{$D_6$} & \heading{$D_7$} & \heading{$D_8$} & \heading{$D_9$} & \heading{$D_10$} \\
+\midrule
+\midrule
+$D_0$&0.0&0.0&1.18&1.18&1.18&0.52&1.18&1.18&1.18&1.18&0.55\\
+\midrule
+$D_1$&0.0&0.0&1.18&1.18&1.18&0.52&1.18&1.18&1.18&1.18&0.55\\
+\midrule
+$D_2$&1.18&1.18&0.0&1.17&1.17&1.17&1.17&1.17&1.17&0.03&0.76\\
+\midrule
+$D_3$&1.18&1.18&1.17&0.0&0.01&0.79&0.01&0.73&0.01&1.18&1.18\\
+\midrule
+$D_4$&1.18&1.18&1.17&0.01&0.0&0.79&0.0&0.73&0.0&1.18&1.18\\
+\midrule
+$D_5$&0.52&0.52&1.17&0.79&0.79&0.0&0.79&0.93&0.79&1.18&0.71\\
+\midrule
+$D_6$&1.18&1.18&1.17&0.01&0.0&0.79&0.0&0.73&0.0&1.18&1.18\\
+\midrule
+$D_7$&1.18&1.18&1.17&0.73&0.73&0.93&0.73&0.0&0.73&1.18&1.17\\
+\midrule
+$D_8$&1.18&1.18&1.17&0.01&0.0&0.79&0.0&0.73&0.0&1.18&1.18\\
+\midrule
+$D_9$&1.18&1.18&0.03&1.18&1.18&1.18&1.18&1.18&1.18&0.0&0.76\\
+\midrule
+$D_{10}$&0.55&0.55&0.76&1.18&1.18&0.71&1.18&1.17&1.18&0.76&0.0\\
+\midrule
+\bottomrule
+\end{tabularx}
+\caption{S2JSD distances between the topic distributions from Table \ref{table:sample-doctopics}.}
+\label{table:s2jsd-distances}
+\end{table}
+
 
 \section{Research Areas}
 \label{sec:research-topic}
