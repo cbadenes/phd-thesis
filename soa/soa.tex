@@ -186,7 +186,8 @@ KL(P,Q) = \sum\limits_{i=1}^K p(x_{i}) \log \frac{p(x_{i})}{q(x_{i})}
 \end{equation}
 where  $K$ is the number of topics and $p,q$ are the topics distributions.
 
-However, it presents two major problems: (1) when a topic distribution is zero, KL divergence is not defined and (2) it is not symmetric, which does not fit well with semantic similarity measures that are usually symmetric \citep{Rus2013}. 
+However, it presents two major problems: (1) when a topic distribution is zero, KL divergence is not defined and (2) it is not symmetric, which does not fit well with semantic similarity measures that are usually symmetric \citep{Rus2013}. Table \ref{table:kl-distances} shows the KL divergences between the topic distributions of the example documents. The lack of symmetry is especially remarkable between some document pairs (e.g. D10-D9, D8-D5) due to their inter-topic distribution.
+
 
 
 \begin{table}[!htbp]
@@ -232,15 +233,11 @@ However, it presents two major problems: (1) when a topic distribution is zero, 
 \midrule
 \bottomrule
 \end{tabularx}
-\caption{Kullback-Liebler divergences between the topic-based representations from Table \ref{table:sample-doctopics}. There are two values per pair because it is not symmetric.}
+\caption{Kullback-Liebler divergences between the topic distributions from Table \ref{table:sample-doctopics}. There are two values per pair because it is not symmetric.}
 \label{table:kl-distances}
 \end{table}
 
-Table \ref{table:kl-distances} shows the KL divergences between the topic distributions of the example documents. The lack of symmetry is especially remarkable between some document pairs (e.g. D10-D9, D8-D5) due to their inter-topic distribution.
-
-
-
-\textit{Jensen-Shannon} (JS) divergence \citep{Rao1982,Lin1991} solves these problems considering the average of the distributions as below \citep{Celikyilmaz2010}:
+\textit{Jensen-Shannon} (JS) divergence \citep{Rao1982,Lin1991} solves the problems of KL considering the average of the distributions as below \citep{Celikyilmaz2010}:
 
 \begin{equation}
 JS(P,Q) = \sum\limits_{i=1}^K p_{i}*\log \frac{2*p_{i}}{p_{i}+q_{i}}  +  \sum\limits_{i=1}^K q_{i}*\log \frac{2*q_{i}}{q_{i}+p_{i}}
@@ -255,6 +252,45 @@ sim_{JS}(D_i , D_j) = 10^{- JS(p,q)}
 \label{eq:simjs}
 \end{equation}
 where  $D_i,D_j$ are the documents and $p,q$ the topic distributions of each of them.
+
+
+Table \ref{table:js-distances} shows the JS divergences between the topic distributions of the example documents. Now the measurements are symmetrical.
+
+\begin{table}[!htbp]
+\centering%
+\small
+\begin{tabularx}{\linewidth}{CCCCCCCCCCCC}
+\toprule
+\heading{} & \heading{$D_0$} & \heading{$D_1$} & \heading{$D_2$} & \heading{$D_3$} & \heading{$D_4$} & \heading{$D_5$} & \heading{$D_6$} & \heading{$D_7$} & \heading{$D_8$} & \heading{$D_9$} & \heading{$D_10$} \\
+\midrule
+\midrule
+$D_0$&0.0&0.0&0.83&0.83&0.83&0.37&0.83&0.83&0.83&0.83&0.39\\
+\midrule
+$D_1$&0.0&0.0&0.83&0.83&0.83&0.37&0.83&0.83&0.83&0.83&0.39\\
+\midrule
+$D_2$&0.83&0.83&0.0&0.83&0.83&0.83&0.83&0.83&0.83&0.02&0.54\\
+\midrule
+$D_3$&0.83&0.83&0.83&0.0&0.01&0.56&0.0&0.52&0.0&0.83&0.83\\
+\midrule
+$D_4$&0.83&0.83&0.83&0.01&0.0&0.56&0.0&0.52&0.0&0.83&0.83\\
+\midrule
+$D_5$&0.37&0.37&0.83&0.56&0.56&0.0&0.56&0.66&0.56&0.83&0.5\\
+\midrule
+$D_6$&0.83&0.83&0.83&0.0&0.0&0.56&0.0&0.52&0.0&0.83&0.83\\
+\midrule
+$D_7$&0.83&0.83&0.83&0.52&0.52&0.66&0.52&0.0&0.52&0.83&0.83\\
+\midrule
+$D_8$&0.83&0.83&0.83&0.0&0.0&0.56&0.0&0.52&0.0&0.83&0.83\\
+\midrule
+$D_9$&0.83&0.83&0.02&0.83&0.83&0.83&0.83&0.83&0.83&0.0&0.54\\
+\midrule
+$D_{10}$&0.39&0.39&0.54&0.83&0.83&0.5&0.83&0.83&0.83&0.54&0.0\\
+\midrule
+\bottomrule
+\end{tabularx}
+\caption{Jensen-Shannon divergences between the topic distributions from Table \ref{table:sample-doctopics}.}
+\label{table:js-distances}
+\end{table}
 
 
 \textit{Hellinger} (He) distance is also symmetric and is used along with JS divergence in various fields where a comparison between two probability distributions is required \citep{Blei2007a,Hall2008,Boyd-Graber2010}:
