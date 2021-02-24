@@ -307,6 +307,44 @@ It can be transformed into a similarity measure by subtracting it from 1 \citep{
 	\label{eq:simhe}
 \end{equation}
 
+
+\begin{table}[!htbp]
+\centering%
+\small
+\begin{tabularx}{\linewidth}{CCCCCCCCCCCC}
+\toprule
+\heading{} & \heading{$D_0$} & \heading{$D_1$} & \heading{$D_2$} & \heading{$D_3$} & \heading{$D_4$} & \heading{$D_5$} & \heading{$D_6$} & \heading{$D_7$} & \heading{$D_8$} & \heading{$D_9$} & \heading{$D_10$} \\
+\midrule
+\midrule
+$D_0$&0.0&0.0&0.99&0.99&0.99&0.43&0.99&0.99&0.99&0.99&0.46\\
+\midrule
+$D_1$&0.0&0.0&0.99&0.99&0.99&0.43&0.99&0.99&0.99&0.99&0.45\\
+\midrule
+$D_2$&0.99&0.99&0.0&0.97&0.97&0.98&0.97&0.97&0.97&0.02&0.62\\
+\midrule
+$D_3$&0.99&0.99&0.97&0.0&0.01&0.64&0.0&0.59&0.0&0.99&0.98\\
+\midrule
+$D_4$&0.99&0.99&0.97&0.01&0.0&0.64&0.0&0.6&0.0&0.99&0.99\\
+\midrule
+$D_5$&0.43&0.43&0.98&0.64&0.64&0.0&0.64&0.78&0.64&0.99&0.59\\
+\midrule
+$D_6$&0.99&0.99&0.97&0.0&0.0&0.64&0.0&0.6&0.0&0.99&0.99\\
+\midrule
+$D_7$&0.99&0.99&0.97&0.59&0.6&0.78&0.6&0.0&0.6&0.98&0.98\\
+\midrule
+$D_8$&0.99&0.99&0.97&0.0&0.0&0.64&0.0&0.6&0.0&0.99&0.99\\
+\midrule
+$D_9$&0.99&0.99&0.02&0.99&0.99&0.99&0.99&0.98&0.99&0.0&0.61\\
+\midrule
+$D_{10}$&0.46&0.45&0.62&0.98&0.99&0.59&0.99&0.98&0.99&0.61&0.0\\
+\midrule
+\bottomrule
+\end{tabularx}
+\caption{Hellinger distances between the topic distributions from Table \ref{table:sample-doctopics}.}
+\label{table:he-distances}
+\end{table}
+
+
 However, all these metrics are not well-defined distance metrics, that is, they do not satisfy triangle inequality \citep{Charikar2002}. This inequality considers $d(x, z) <= d(x, y) + d(y, z)$ for a metric $d$ \citep{Griffiths2007} and places strong constraints on distance measures and on the locations of points in a space given a set of distances. As a metric axiom, the triangle inequality must be satisfied in order to take advantage of the inferences that can be deduced from it. Thus, if similarity is assumed to be a monotonically decreasing function of distance, this inequality avoids the calculation of all pairs of similarities by considering that if $x$ is similar to $y$ and $y$ is similar to $z$, then $x$ must be similar to $z$. 
 
 \text{S2JSD} was introduced by \citep{Endres2003} to satisfy the triangle inequality. It is the square root of two times the $JS$ divergence:
