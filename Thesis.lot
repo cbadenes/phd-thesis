@@ -44,7 +44,7 @@
 \contentsline {table}{\numberline {7.3}{\ignorespaces Document classification performance (precision-'prec', recall-'rec' and fMeasure-'f1') of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in multi-lingual document collections\relax }}{133}{table.caption.91}% 
 \contentsline {table}{\numberline {7.4}{\ignorespaces Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in monolingual document collections\relax }}{134}{table.caption.92}% 
 \contentsline {table}{\numberline {7.5}{\ignorespaces Information retrieval performance (precision@3, precision@5 and precision@10) of the categories-based (\textit {cat}) and synset-based (\textit {syn}) topic alignment algorithms in multi-lingual document collections\relax }}{134}{table.caption.93}% 
-\contentsline {table}{\numberline {7.6}{\ignorespaces Number of documents and tokens by dataset\relax }}{135}{table.caption.95}% 
+\contentsline {table}{\numberline {7.6}{\ignorespaces Number of documents and tokens by dataset\relax }}{136}{table.caption.95}% 
 \contentsline {table}{\numberline {7.7}{\ignorespaces Aggregated MAP results by metric and model\relax }}{137}{table.caption.97}% 
 \contentsline {table}{\numberline {7.8}{\ignorespaces MAP results by dividing the corpus into three equal subsets to train and evaluate the models in English(\textit {en}) and Spanish(\textit {es})\relax }}{138}{table.caption.98}% 
 \contentsline {table}{\numberline {7.9}{\ignorespaces MAP results by dividing the corpus into six equal subsets to train and evaluate the models in English(\textit {en}) and Spanish(\textit {es})\relax }}{139}{table.caption.99}% 

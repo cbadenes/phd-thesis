@@ -161,6 +161,13 @@ Charikar, M. (2002).
 \newblock In {\em Proceedings of the thiry-fourth annual ACM symposium on
   Theory of computing - STOC '02}, page 380. ACM Press.
 
+\bibitem[Chen et~al., 2018]{ChenLiu2018}
+Chen, Y., Liu, Y., and Li, V. O.~K. (2018).
+\newblock Zero-resource neural machine translation with multi-agent
+  communication game.
+\newblock In {\em Proceedings of the 32nd AAAI Conference on Artificial
+  Intelligence}, page 5086–5093. AAAI Press.
+
 \bibitem[Cheng et~al., 2014]{Cheng2014a}
 Cheng, X., Yan, X., Lan, Y., and Guo, J. (2014).
 \newblock {BTM : Topic Modeling over Short Texts}.
@@ -173,6 +180,11 @@ Cohan, A. and Goharian, N. (2015).
   Article's Discourse Structure}.
 \newblock In {\em Conference on Empirical Methods in Natural Language
   Processing}, pages 390--400.
+
+\bibitem[Dabre et~al., 2020]{Dabre2020ASO}
+Dabre, R., Chu, C., and Kunchukuttan, A. (2020).
+\newblock A survey of multilingual neural machine translation.
+\newblock {\em ACM Computing Surveys (CSUR)}, 53:1--38.
 
 \bibitem[Dagan et~al., 1999]{Dagan1998}
 Dagan, I., Lee, L., and Pereira, F. (1999).
@@ -606,6 +618,21 @@ Moritz, M. and Büchler, M. (2017).
 \newblock In {\em Proceedings of the NoDaLiDa 2017 Workshop on Processing
   Historical Language}, pages 18--23.
 
+\bibitem[Nakov and Ng, 2009]{nakov-ng-2009-improved}
+Nakov, P. and Ng, H.~T. (2009).
+\newblock Improved statistical machine translation for resource-poor languages
+  using related resource-rich languages.
+\newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
+  Natural Language Processing}, pages 1358--1367. Association for Computational
+  Linguistics.
+
+\bibitem[Neubig and Hu, 2018]{neubig-hu-2018-rapid}
+Neubig, G. and Hu, J. (2018).
+\newblock Rapid adaptation of neural machine translation to new languages.
+\newblock In {\em Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}, pages 875--880. Association for Computational
+  Linguistics.
+
 \bibitem[Newman et~al., 2010]{newman-etal-2010-automatic}
 Newman, D., Lau, J., Grieser, K., and Baldwin, T. (2010).
 \newblock {Automatic Evaluation of Topic Coherence}.
@@ -637,6 +664,12 @@ Nzali, T., Donald, M., Bringay, S., Lavergne, C., Mollevi, C., and Opitz, T.
 O’Neill, J., Robin, C., O’Brien, L., and Buitelaar, P. (2017).
 \newblock {An analysis of topic modelling for legislative texts}.
 \newblock {\em CEUR Workshop Proceedings}, 2143.
+
+\bibitem[Pan and Yang, 2010]{Pan2010}
+Pan, S.~J. and Yang, Q. (2010).
+\newblock A survey on transfer learning.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  22(10):1345--1359.
 
 \bibitem[Pennington et~al., 2014]{pennington2014}
 Pennington, J., Socher, R., and Manning, C. (2014).

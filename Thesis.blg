@@ -17,45 +17,45 @@ A level-1 auxiliary file: conclusions/conclusions.aux
 The style file: apalike.bst
 Database file #1: bibliography/references.bib
 Warning--empty journal in Steyvers2006
-You've used 137 entries,
+You've used 142 entries,
             1935 wiz_defined-function locations,
-            1339 strings with 32054 characters,
-and the built_in function-call counts, 66116 in all, are:
-= -- 6670
-> -- 2778
-< -- 125
-+ -- 965
-- -- 952
-* -- 5146
-:= -- 10643
-add.period$ -- 438
-call.type$ -- 137
-change.case$ -- 1149
-chr.to.int$ -- 132
-cite$ -- 138
-duplicate$ -- 2904
-empty$ -- 4544
-format.name$ -- 1161
-if$ -- 13729
+            1367 strings with 32857 characters,
+and the built_in function-call counts, 68653 in all, are:
+= -- 6944
+> -- 2853
+< -- 131
++ -- 993
+- -- 976
+* -- 5325
+:= -- 11021
+add.period$ -- 456
+call.type$ -- 142
+change.case$ -- 1186
+chr.to.int$ -- 137
+cite$ -- 143
+duplicate$ -- 3029
+empty$ -- 4730
+format.name$ -- 1196
+if$ -- 14285
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 146
-newline$ -- 686
-num.names$ -- 413
-pop$ -- 1290
+missing$ -- 151
+newline$ -- 711
+num.names$ -- 428
+pop$ -- 1330
 preamble$ -- 1
-purify$ -- 1159
+purify$ -- 1196
 quote$ -- 0
-skip$ -- 2334
+skip$ -- 2443
 stack$ -- 0
-substring$ -- 4406
-swap$ -- 874
-text.length$ -- 72
+substring$ -- 4607
+swap$ -- 922
+text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 802
+type$ -- 832
 warning$ -- 1
-while$ -- 518
+while$ -- 538
 width$ -- 0
-write$ -- 1797
+write$ -- 1865
 (There was 1 warning)
