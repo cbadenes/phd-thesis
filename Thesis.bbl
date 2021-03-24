@@ -451,6 +451,13 @@ Johnson, R., Watkinson, A., and Mabe, M. (2018).
 \newblock International Association of Scientific, Technical and Medical
   Publishers.
 
+\bibitem[Kaliyar, 2020]{Kaliyar2020}
+Kaliyar, R.~K. (2020).
+\newblock A multi-layer bidirectional transformer encoder for pre-trained word
+  embedding: A survey of bert.
+\newblock In {\em 10th International Conference on Cloud Computing, Data
+  Science Engineering (Confluence)}, pages 336--340.
+
 \bibitem[Kenter and Rijke, 2015]{Kenter2015}
 Kenter, T. and Rijke, M. (2015).
 \newblock {Short Text Similarity with Word Embeddings Categories and Subject
@@ -745,6 +752,13 @@ Saracevic, T. (1995).
 \newblock In {\em Proceedings of the 18th Annual International ACM SIGIR
   Conference on Research and Development in Information Retrieval}, SIGIR '95,
   page 138–146. Association for Computing Machinery.
+
+\bibitem[Schofield et~al., 2017]{schofield-etal-2017-pulling}
+Schofield, A., Magnusson, M., and Mimno, D. (2017).
+\newblock Pulling out the stops: Rethinking stopword removal for topic models.
+\newblock In {\em Proceedings of the 15th Conference of the {E}uropean Chapter
+  of the Association for Computational Linguistics: Volume 2, Short Papers},
+  pages 432--436, Valencia, Spain. Association for Computational Linguistics.
 
 \bibitem[Shi et~al., 2016]{shi-etal-2016-detecting}
 Shi, B., Lam, W., Bing, L., and Xu, Y. (2016).

@@ -77,16 +77,16 @@
 \contentsline {subsection}{\numberline {6.2.3}Exploration}{118}{subsection.6.2.3}% 
 \contentsline {section}{\numberline {6.3}Summary}{119}{section.6.3}% 
 \contentsline {chapter}{\numberline {7}Cross-lingual Document Similarity}{123}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{124}{section.7.1}% 
-\contentsline {subsection}{\numberline {7.1.1}Document representation}{125}{subsection.7.1.1}% 
-\contentsline {subsection}{\numberline {7.1.2}Similarity metric}{127}{subsection.7.1.2}% 
+\contentsline {section}{\numberline {7.1}Synset-based Representational Space}{125}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.1.1}Document representation}{126}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {7.1.2}Similarity metric}{126}{subsection.7.1.2}% 
 \contentsline {subsection}{\numberline {7.1.3}Cross-lingual Models}{127}{subsection.7.1.3}% 
-\contentsline {section}{\numberline {7.2}Evaluation}{131}{section.7.2}% 
+\contentsline {section}{\numberline {7.2}Evaluation}{129}{section.7.2}% 
 \contentsline {subsection}{\numberline {7.2.1}Cross-lingual Document Classification}{132}{subsection.7.2.1}% 
 \contentsline {subsection}{\numberline {7.2.2}Cross-lingual Information Retrieval}{133}{subsection.7.2.2}% 
 \contentsline {subsection}{\numberline {7.2.3}Text Length on Cross-lingual Representations}{134}{subsection.7.2.3}% 
 \contentsline {section}{\numberline {7.3}Summary}{141}{section.7.3}% 
-\contentsline {chapter}{\numberline {8}Experiments}{143}{chapter.8}% 
+\contentsline {chapter}{\numberline {8}Real-World Use Cases}{143}{chapter.8}% 
 \contentsline {section}{\numberline {8.1}Scientific Creativity and Innovation}{143}{section.8.1}% 
 \contentsline {section}{\numberline {8.2}Innovation and Research in the ICT sector}{146}{section.8.2}% 
 \contentsline {section}{\numberline {8.3}Polypharmacy and Drug-drug Interactions}{147}{section.8.3}% 
