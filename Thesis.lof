@@ -65,11 +65,11 @@
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Distribution of articles by number of tokens in corpora\relax }}{137}{figure.caption.96}% 
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Time needed (in milliseconds) to perform the document similarity task using similarity metrics in a corpus of $10^4$ synthetic documents \relax }}{142}{figure.caption.101}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Overview of Resources in DRInventor Platform\relax }}{144}{figure.caption.102}% 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces The Corpus Viewer platform provides tools for the selection of evaluators or the retrieval of relevant documents (patents, scientific publications, grants and R+D proposals for innovation evaluation). In addition, it is used for plagiarism detection, identification of double funding cases and fraud in aid grants and proposals submitted for national funding.\relax }}{146}{figure.caption.103}% 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Representation of patients through topic hierarchies based on the interactions between primary-drugs and co-drugs\relax }}{148}{figure.caption.104}% 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Distribution of polypharmacy among people living with and without HIV according to age \citep {Badenes-Olmedo2019c}.\relax }}{149}{figure.caption.105}% 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces High-level architecture of the TheyBuyForYou platform (tbfy.eu)\relax }}{151}{figure.caption.106}% 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces High-level workflow of a search engine and a knowledge graph through annotations created from the CORD-19 dataset\relax }}{152}{figure.caption.107}% 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Overview of Resources in DRInventor Platform\relax }}{146}{figure.caption.102}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces The Corpus Viewer platform provides tools for the selection of evaluators or the retrieval of relevant documents (patents, scientific publications, grants and R+D proposals for innovation evaluation). In addition, it is used for plagiarism detection, identification of double funding cases and fraud in aid grants and proposals submitted for national funding.\relax }}{148}{figure.caption.103}% 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Representation of patients through topic hierarchies based on the interactions between primary-drugs and co-drugs\relax }}{150}{figure.caption.104}% 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Distribution of polypharmacy among people living with and without HIV according to age \citep {Badenes-Olmedo2019c}.\relax }}{151}{figure.caption.105}% 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces High-level architecture of the TheyBuyForYou platform (tbfy.eu)\relax }}{153}{figure.caption.106}% 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces High-level workflow of a search engine and a knowledge graph through annotations created from the CORD-19 dataset\relax }}{154}{figure.caption.107}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Similarity among medical reports depends on the reference knowledge used to analyze them\relax }}{166}{figure.caption.110}% 
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Similarity among medical reports depends on the reference knowledge used to analyze them\relax }}{168}{figure.caption.110}% 

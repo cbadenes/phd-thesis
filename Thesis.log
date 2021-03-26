@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  24 MAR 2021 07:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  26 MAR 2021 13:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1280,17 +1280,15 @@ File: multilinguality/figures/topic-dist.png Graphic file (type png)
 Package pdftex.def Info: multilinguality/figures/topic-dist.png  used on input 
 line 115.
 (pdftex.def)             Requested size: 398.68243pt x 219.2151pt.
- [131]
-Underfull \vbox (badness 1325) has occurred while \output is active []
-
- [132 <./multilinguality/figures/topic-dist.png>] [133]
+ [131] [132 <./multilinguality/figures/topic-dist.png>] [133]
 <multilinguality/figures/workflow.png, id=2666, 1909.1325pt x 818.05624pt>
 File: multilinguality/figures/workflow.png Graphic file (type png)
 <use multilinguality/figures/workflow.png>
 Package pdftex.def Info: multilinguality/figures/workflow.png  used on input li
 ne 285.
 (pdftex.def)             Requested size: 412.56496pt x 176.7774pt.
- [134] [135]
+
+[134] [135]
 <multilinguality/figures/PreClean.png, id=2683, 349.305pt x 221.32687pt>
 File: multilinguality/figures/PreClean.png Graphic file (type png)
 <use multilinguality/figures/PreClean.png>
@@ -1304,97 +1302,103 @@ Package pdftex.def Info: multilinguality/figures/cleaned.png  used on input lin
 e 324.
 (pdftex.def)             Requested size: 202.15909pt x 128.09273pt.
  [136 <./multilinguality/figures/workflow.png>] [137 <./multilinguality/figures
-/PreClean.png> <./multilinguality/figures/cleaned.png>] [138] [139]
-<multilinguality/figures/time_comp.png, id=2711, 451.6875pt x 268.00125pt>
+/PreClean.png> <./multilinguality/figures/cleaned.png>] [138]
+[139] [140]
+<multilinguality/figures/time_comp.png, id=2715, 451.6875pt x 268.00125pt>
 File: multilinguality/figures/time_comp.png Graphic file (type png)
 <use multilinguality/figures/time_comp.png>
 Package pdftex.def Info: multilinguality/figures/time_comp.png  used on input l
 ine 455.
 (pdftex.def)             Requested size: 330.05322pt x 195.84373pt.
- [140] [141]) [142 <./multilinguality/figures/time_comp.png (PNG copy)>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [141]
+[142 <./multilinguality/figures/time_comp.png (PNG copy)>]) [143]
 \openout2 = `experiments/experiments.aux'.
 
- (./experiments/experiments.tex
-Chapter 8.
-[143
+
+(./experiments/experiments.tex [144
 
 
 
 ]
-<experiments/figures/drinventor-model.png, id=2749, 550.055pt x 352.31625pt>
+Chapter 8.
+[145]
+<experiments/figures/drinventor-model.png, id=2757, 550.055pt x 352.31625pt>
 File: experiments/figures/drinventor-model.png Graphic file (type png)
 <use experiments/figures/drinventor-model.png>
 Package pdftex.def Info: experiments/figures/drinventor-model.png  used on inpu
 t line 27.
 (pdftex.def)             Requested size: 330.05322pt x 211.4075pt.
- [144 <./experiments/figures/drinventor-model.png>] [145]
-<experiments/figures/corpus-viewer.png, id=2769, 974.64125pt x 420.57124pt>
+ [146 <./experiments/figures/drinventor-model.png>] [147]
+<experiments/figures/corpus-viewer.png, id=2778, 974.64125pt x 420.57124pt>
 File: experiments/figures/corpus-viewer.png Graphic file (type png)
 <use experiments/figures/corpus-viewer.png>
 Package pdftex.def Info: experiments/figures/corpus-viewer.png  used on input l
 ine 59.
 (pdftex.def)             Requested size: 330.05322pt x 142.42117pt.
- [146 <./experiments/figures/corpus-viewer.png>] [147]
-<experiments/figures/polypharmacy.png, id=2799, 1927.2pt x 1084.05pt>
+ [148 <./experiments/figures/corpus-viewer.png>] [149]
+<experiments/figures/polypharmacy.png, id=2807, 1927.2pt x 1084.05pt>
 File: experiments/figures/polypharmacy.png Graphic file (type png)
 <use experiments/figures/polypharmacy.png>
 Package pdftex.def Info: experiments/figures/polypharmacy.png  used on input li
 ne 80.
 (pdftex.def)             Requested size: 288.7942pt x 162.43507pt.
- [148 <./experiments/figures/polypharmacy.png>]
-<experiments/figures/polypharmacy01.png, id=2810, 437.635pt x 326.21875pt>
+ [150 <./experiments/figures/polypharmacy.png>]
+<experiments/figures/polypharmacy01.png, id=2818, 437.635pt x 326.21875pt>
 File: experiments/figures/polypharmacy01.png Graphic file (type png)
 <use experiments/figures/polypharmacy01.png>
 Package pdftex.def Info: experiments/figures/polypharmacy01.png  used on input 
 line 92.
 (pdftex.def)             Requested size: 175.05089pt x 130.48518pt.
- [149 <./experiments/figures/polypharmacy01.png>]
-<experiments/figures/tbfy-architecture.png, id=2833, 650.43pt x 307.1475pt>
+ [151 <./experiments/figures/polypharmacy01.png>]
+<experiments/figures/tbfy-architecture.png, id=2841, 650.43pt x 307.1475pt>
 File: experiments/figures/tbfy-architecture.png Graphic file (type png)
 <use experiments/figures/tbfy-architecture.png>
 Package pdftex.def Info: experiments/figures/tbfy-architecture.png  used on inp
 ut line 109.
 (pdftex.def)             Requested size: 288.7942pt x 136.37791pt.
- [150] [151 <./experiments/figures/tbfy-architecture.png>]
-<experiments/figures/d4c-workflow.png, id=2858, 1086.0575pt x 317.185pt>
+ [152] [153 <./experiments/figures/tbfy-architecture.png>]
+<experiments/figures/d4c-workflow.png, id=2867, 1086.0575pt x 317.185pt>
 File: experiments/figures/d4c-workflow.png Graphic file (type png)
 <use experiments/figures/d4c-workflow.png>
 Package pdftex.def Info: experiments/figures/d4c-workflow.png  used on input li
 ne 129.
 (pdftex.def)             Requested size: 288.7942pt x 84.34401pt.
- [152 <./experiments/figures/d4c-workflow.png>]) [153]
+ [154 <./experiments/figures/d4c-workflow.png>]) [155]
 \openout2 = `conclusions/conclusions.aux'.
 
- (./conclusions/conclusions.tex [154
+ (./conclusions/conclusions.tex [156
 
 
 
 ]
 Chapter 9.
-[155] [156] [157] [158] [159] [160] [161] [162] [163] [164] [165]
-<conclusions/figures/context-similarity.png, id=2977, 1056.94875pt x 551.05875p
+[157] [158] [159] [160] [161] [162] [163] [164] [165] [166] [167]
+<conclusions/figures/context-similarity.png, id=2985, 1056.94875pt x 551.05875p
 t>
 File: conclusions/figures/context-similarity.png Graphic file (type png)
 <use conclusions/figures/context-similarity.png>
 Package pdftex.def Info: conclusions/figures/context-similarity.png  used on in
 put line 187.
 (pdftex.def)             Requested size: 288.7942pt x 150.56203pt.
-) [166 <./conclusions/figures/context-similarity.png>] (./Thesis.bbl (./Thesis.
+) [168 <./conclusions/figures/context-similarity.png>] (./Thesis.bbl (./Thesis.
 brf)
 \tf@brf=\write8
 \openout8 = `Thesis.brf'.
 
- [167
+ [169
 
 
 ]
-[168] [169] [170] [171] [172] [173] [174] [175] [176]
+[170] [171] [172] [173] [174] [175] [176] [177] [178]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 649.
- [177] [178] [179]
-[180] [181])
+ [179] [180] [181]
+[182] [183])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
- [182]
+ [184]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
  (./Thesis.aux (./intro/dedication.aux)
 (./intro/acknowledgement.aux) (./intro/abstract.aux) (./intro/acronyms.aux)
@@ -1406,20 +1410,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 775A50FCD944D5240C9F8AE8C513BE6C;8975.
-
-
-Package rerunfilecheck Warning: File `Thesis.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `Thesis.brf':
-(rerunfilecheck)             Before: 224886F365CED9C6B0604A434291D909;11457
-(rerunfilecheck)             After:  63E958B30D33B7C77FB2533E958341AD;11575.
+Package rerunfilecheck Info: File `Thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: 7783D3B2BC25E552BC0075D38AFACD15;11575.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
- 15386 strings out of 492616
- 242765 string characters out of 6129481
- 630647 words of memory out of 5000000
+ 15388 strings out of 492616
+ 242781 string characters out of 6129481
+ 631647 words of memory out of 5000000
  18177 multiletter control sequences out of 15000+600000
  19189 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1446,10 +1444,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (210 pages, 7318630 bytes).
+Output written on Thesis.pdf (212 pages, 7319369 bytes).
 PDF statistics:
- 3484 PDF objects out of 3580 (max. 8388607)
- 3075 compressed objects within 31 object streams
- 708 named destinations out of 1000 (max. 500000)
+ 3496 PDF objects out of 3580 (max. 8388607)
+ 3085 compressed objects within 31 object streams
+ 710 named destinations out of 1000 (max. 500000)
  1206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

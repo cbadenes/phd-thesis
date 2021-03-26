@@ -462,7 +462,7 @@ These results reinforce us in the use of probabilistic topic models to facilitat
 
 \section{Summary}
 \label{sec:crosslingual-summary}
-
+%, but the results are also valid for monolingual collections since the experiments assume independence between languages
 In this chapter we have described documents based on topic models that create a unique space of representation between different languages. Topics are created independently for each language, and are projected on concepts instead of words. On concept-based representations, documents in different languages coexist together and can be related. This addresses the last research objective of this thesis (R06, \textit{define a transformation of the topic-based annotations to create a unique representational space out of the particularities from each language}). Representations are analyzed in classification and information retrieval tasks on multilingual document collections. As expected, the performance in terms of accuracy is not as good as that of the approach based on prior knowledge (i.e. topics previously aligned by documents annotated with categories). However, in terms of coverage, the performance of the unsupervised approach is much greater than that offered by the semi-supervised approach, to the point of offering better overall performance (i.e f1) in classification tasks. 
 In addition, the algorithm has proved to perform close to the semi-supervised algorithm in the information retrieval task, which makes us think that the process of topic annotation by set of synonyms should be improved to filter those elements that are not sufficiently representative. For example by defining a mechanism similar to the one used to create "stopwords" to identify \textit{"stopconcepts"}. 
 

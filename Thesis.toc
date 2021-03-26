@@ -85,27 +85,27 @@
 \contentsline {subsection}{\numberline {7.2.1}Cross-lingual Document Classification}{132}{subsection.7.2.1}% 
 \contentsline {subsection}{\numberline {7.2.2}Cross-lingual Information Retrieval}{133}{subsection.7.2.2}% 
 \contentsline {subsection}{\numberline {7.2.3}Text Length on Cross-lingual Representations}{134}{subsection.7.2.3}% 
-\contentsline {section}{\numberline {7.3}Summary}{141}{section.7.3}% 
-\contentsline {chapter}{\numberline {8}Real-World Use Cases}{143}{chapter.8}% 
-\contentsline {section}{\numberline {8.1}Scientific Creativity and Innovation}{143}{section.8.1}% 
-\contentsline {section}{\numberline {8.2}Innovation and Research in the ICT sector}{146}{section.8.2}% 
-\contentsline {section}{\numberline {8.3}Polypharmacy and Drug-drug Interactions}{147}{section.8.3}% 
-\contentsline {section}{\numberline {8.4}Public Procurement Data}{150}{section.8.4}% 
-\contentsline {section}{\numberline {8.5}COVID-19 and Coronavirus-related Research}{151}{section.8.5}% 
-\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{155}{chapter.9}% 
-\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{156}{section.9.1}% 
-\contentsline {section}{\numberline {9.2}A Summary of Our Contributions}{156}{section.9.2}% 
-\contentsline {subsection}{\numberline {9.2.1}Topic Model Distribution}{158}{subsection.9.2.1}% 
-\contentsline {subsubsection}{\numberline {9.2.1.1}librAIry Framework}{158}{subsubsection.9.2.1.1}% 
-\contentsline {subsubsection}{\numberline {9.2.1.2}Method for publishing topic models as Web Services}{158}{subsubsection.9.2.1.2}% 
-\contentsline {subsection}{\numberline {9.2.2}Explainable Topic-based Similarity}{159}{subsection.9.2.2}% 
-\contentsline {subsubsection}{\numberline {9.2.2.1}Most Relevant Topics}{159}{subsubsection.9.2.2.1}% 
-\contentsline {subsubsection}{\numberline {9.2.2.2}Distance Metric based on Topic Relevance}{160}{subsubsection.9.2.2.2}% 
-\contentsline {subsection}{\numberline {9.2.3}Data Structures and Algorithms for Large-Scale Comparisons of Documents}{160}{subsection.9.2.3}% 
-\contentsline {subsubsection}{\numberline {9.2.3.1}Topic Hierarchies Representation}{160}{subsubsection.9.2.3.1}% 
-\contentsline {subsubsection}{\numberline {9.2.3.2}Comparisons based on Topic Hierarchies}{160}{subsubsection.9.2.3.2}% 
-\contentsline {subsection}{\numberline {9.2.4}Multilingual Corpora}{161}{subsection.9.2.4}% 
-\contentsline {subsubsection}{\numberline {9.2.4.1}Cross-lingual Topics}{161}{subsubsection.9.2.4.1}% 
-\contentsline {section}{\numberline {9.3}Impact}{162}{section.9.3}% 
-\contentsline {section}{\numberline {9.4}Future Work}{164}{section.9.4}% 
-\contentsline {chapter}{Bibliography}{167}{chapter*.111}% 
+\contentsline {section}{\numberline {7.3}Summary}{142}{section.7.3}% 
+\contentsline {chapter}{\numberline {8}Real-World Use Cases}{145}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Scientific Creativity and Innovation}{145}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Innovation and Research in the ICT sector}{148}{section.8.2}% 
+\contentsline {section}{\numberline {8.3}Polypharmacy and Drug-drug Interactions}{149}{section.8.3}% 
+\contentsline {section}{\numberline {8.4}Public Procurement Data}{152}{section.8.4}% 
+\contentsline {section}{\numberline {8.5}COVID-19 and Coronavirus-related Research}{153}{section.8.5}% 
+\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{157}{chapter.9}% 
+\contentsline {section}{\numberline {9.1}Assumptions and Restrictions}{158}{section.9.1}% 
+\contentsline {section}{\numberline {9.2}A Summary of Our Contributions}{158}{section.9.2}% 
+\contentsline {subsection}{\numberline {9.2.1}Topic Model Distribution}{160}{subsection.9.2.1}% 
+\contentsline {subsubsection}{\numberline {9.2.1.1}librAIry Framework}{160}{subsubsection.9.2.1.1}% 
+\contentsline {subsubsection}{\numberline {9.2.1.2}Method for publishing topic models as Web Services}{160}{subsubsection.9.2.1.2}% 
+\contentsline {subsection}{\numberline {9.2.2}Explainable Topic-based Similarity}{161}{subsection.9.2.2}% 
+\contentsline {subsubsection}{\numberline {9.2.2.1}Most Relevant Topics}{161}{subsubsection.9.2.2.1}% 
+\contentsline {subsubsection}{\numberline {9.2.2.2}Distance Metric based on Topic Relevance}{162}{subsubsection.9.2.2.2}% 
+\contentsline {subsection}{\numberline {9.2.3}Data Structures and Algorithms for Large-Scale Comparisons of Documents}{162}{subsection.9.2.3}% 
+\contentsline {subsubsection}{\numberline {9.2.3.1}Topic Hierarchies Representation}{162}{subsubsection.9.2.3.1}% 
+\contentsline {subsubsection}{\numberline {9.2.3.2}Comparisons based on Topic Hierarchies}{162}{subsubsection.9.2.3.2}% 
+\contentsline {subsection}{\numberline {9.2.4}Multilingual Corpora}{163}{subsection.9.2.4}% 
+\contentsline {subsubsection}{\numberline {9.2.4.1}Cross-lingual Topics}{163}{subsubsection.9.2.4.1}% 
+\contentsline {section}{\numberline {9.3}Impact}{164}{section.9.3}% 
+\contentsline {section}{\numberline {9.4}Future Work}{166}{section.9.4}% 
+\contentsline {chapter}{Bibliography}{169}{chapter*.111}% 
