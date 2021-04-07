@@ -290,6 +290,13 @@ Ganguly, D., Leveling, J., and Jones, G. (2012).
 \newblock {Cross-Lingual Topical Relevance Models}.
 \newblock In {\em Proceedings of COLING 2012}, pages 927--942.
 
+\bibitem[Garcia-Silva and G{\'o}mez-P{\'e}rez, 2021]{GarciaSilva2021}
+Garcia-Silva, A. and G{\'o}mez-P{\'e}rez, J. (2021).
+\newblock Classifying scientific publications with bert - is self-attention a
+  feature selection method?
+\newblock In {\em Advances in Information Retrieval}, pages 161--175, Cham.
+  Springer International Publishing.
+
 \bibitem[Gatti et~al., 2015]{Gatti2015}
 Gatti, C., Brooks, J., and Nurre, S. (2015).
 \newblock {A Historical Analysis of the Field of OR/MS using Topic Models}.
@@ -458,6 +465,12 @@ Kaliyar, R.~K. (2020).
 \newblock In {\em 10th International Conference on Cloud Computing, Data
   Science Engineering (Confluence)}, pages 336--340.
 
+\bibitem[Kandimalla et~al., 2021]{Kandimalla2021}
+Kandimalla, B., Rohatgi, S., Wu, J., and Giles, C.~L. (2021).
+\newblock Large scale subject category classification of scholarly papers with
+  deep attentive neural networks.
+\newblock {\em Frontiers in Research Metrics and Analytics}, 5:31.
+
 \bibitem[Kenter and Rijke, 2015]{Kenter2015}
 Kenter, T. and Rijke, M. (2015).
 \newblock {Short Text Similarity with Word Embeddings Categories and Subject
@@ -536,6 +549,13 @@ Lisena, P., Harrando, I., Kandakji, O., and Troncy, R. (2020).
   Models}.
 \newblock In {\em 2nd International Workshop for Natural Language Processing
   Open Source Software (NLP-OSS)}.
+
+\bibitem[Litschko et~al., 2021]{Litschko2021}
+Litschko, R., Vuli{\'{c}}, I., Ponzetto, S.~P., and Glava{\v{s}}, G. (2021).
+\newblock Evaluating multilingual text encoders for unsupervised cross-lingual
+  retrieval.
+\newblock In {\em Advances in Information Retrieval}, pages 342--358, Cham.
+  Springer International Publishing.
 
 \bibitem[Liu et~al., 2015a]{Liu2015a}
 Liu, X., Duh, K., and Matsumoto, Y. (2015a).
@@ -735,6 +755,13 @@ Rus, V., Niraula, N., and Banjade, R. (2013).
 \newblock In {\em Computational Linguistics and Intelligent Text Processing},
   volume 7816, pages 459--470. Springer.
 
+\bibitem[Salatino et~al., 2019]{Salatino2019}
+Salatino, A., Osborne, F., Thanapalasingam, T., and Motta, E. (2019).
+\newblock The cso classifier: Ontology-driven detection of research topics in
+  scholarly articles.
+\newblock In {\em Digital Libraries for Open Knowledge}, pages 296--311, Cham.
+  Springer International Publishing.
+
 \bibitem[Salton and McGill, 1983]{Salton1983}
 Salton, G. and McGill, M.~J. (1983).
 \newblock {\em Introduction to Modern Information Retrieval}.
@@ -863,6 +890,12 @@ Wang, L., Lo, K., Chandrasekhar, Y., Reas, R., Yang, J., Eide, D., Funk, K.,
   Kinney, R., Liu, Z., and Merrill, W. (2020).
 \newblock {CORD-19: The Covid-19 Open Research Dataset}.
 \newblock {\em arXiv preprint arXiv:2004.10706}.
+
+\bibitem[Wei and Guo, 2019]{Wei2019}
+Wei, W. and Guo, C. (2019).
+\newblock A text semantic topic discovery method based on the conditional
+  co-occurrence degree.
+\newblock {\em Neurocomputing}, 368:11--24.
 
 \bibitem[Westergaard et~al., 2017]{Westergaard2017}
 Westergaard, D., St{\ae}rfeldt, H., T{\o}nsberg, C., Jensen, L., and Brunak, S.
