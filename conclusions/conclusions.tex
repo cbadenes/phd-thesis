@@ -7,7 +7,24 @@
 
 \graphicspath{{conclusions/figures/}}
 
-The main goal of the work presented in this thesis was to facilitate the exploration of large multilingual document corpora through the use of probabilistic topic models. To this end, we developed a framework that covers the full life-cycle of topic models, including their generation, publication and reuse. We have also created a representation model for documents where the main topics of a text are described through hierarchical annotations, and relations among documents are calculated based on a similarity metric optimized for large scale processing. Finally, we have developed unsupervised topic alignment techniques using conceptual representations of topic words to relate multilingual texts. 
+This thesis addresses different challenges to facilitate the exploration of large multilingual document corpora through the use of probabilistic topic models. The first one is the \textbf{efficiency} to create and infer probabilistic topics. There are some technical barriers that limit a wider use of topic models. The second challenge is the \textbf{explainability} of topic-based relations among documents. It is difficult to understand how two documents are related from the numerical distance of their vector representations. The third challenge is the \textbf{complexity} of large-scale comparison of topic distributions. Brute-force approaches are not feasible for big documentary corpora. And finally, the fourth challenge is \textbf{multilinguality} when comparing topic distributions from documents written in different languages. In order to be able to work with multilingual corpora at any scale, it is necessary to avoid the need for translators or annotations between languages that may limit their feasibility.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To this end, we developed a framework that covers the full life-cycle of topic models, including their generation, publication and reuse. We have also created a representation model for documents where the main topics of a text are described through hierarchical annotations, and relations among documents are calculated based on a similarity metric optimized for large scale processing. Finally, we have developed unsupervised topic alignment techniques using conceptual representations of topic words to relate multilingual texts. 
 
 Based on the evaluation of our results, we extract two main conclusions. The first one is that \textit{it is sufficient to use the most representative topics to relate texts, and hierarchical representation can be also used for this purpose}. However, an important finding is that \textit{not all topics have the same discriminatory capacity to relate texts}. Topics arise in a model to describe the content used from a training dataset. If the number of topics is not enough with respect to the diversity of content of the document collection, there will be too general topics that have a reduced discriminative capacity. For example, given a document collection where 50\% papers are focused on astronomy, 30\% on agriculture , 10\% on mathematics, 5\% on psychology and 5\% on pharmacy, if the topic model is created with only 3 topics, one will describe astronomy, another agriculture and the third will be a mixture of the other topics. This third topic distinguishes documents that do not deal with astronomy or agriculture, but does not distinguish between mathematics, psychology or pharmacy. It is a topic with a limited discriminative capacity.
 
