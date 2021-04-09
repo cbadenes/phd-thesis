@@ -7,81 +7,19 @@
 
 \graphicspath{{conclusions/figures/}}
 
-This thesis addresses different challenges to facilitate the exploration of large multilingual document corpora through the use of probabilistic topic models. The first one is the \textbf{efficiency} to create and infer probabilistic topics. There are some technical barriers that limit a wider use of topic models. The second challenge is the \textbf{explainability} of topic-based relations among documents. It is difficult to understand how two documents are related from the numerical distance of their vector representations. The third challenge is the \textbf{complexity} of large-scale comparison of topic distributions. Brute-force approaches are not feasible for big documentary corpora. And finally, the fourth challenge is \textbf{multilinguality} when comparing topic distributions from documents written in different languages. In order to be able to work with multilingual corpora at any scale, it is necessary to avoid the need for translators or annotations between languages that may limit their feasibility.
+This thesis addresses different challenges to facilitate the exploration of large multilingual document corpora through the use of probabilistic topic models. Four main research problems arise from them, as we discussed in Section \ref{sec:research-challenges}. The first one is the \textbf{efficiency} to create and infer probabilistic topics. There are some technical barriers that may limit a wider use of topic models in high-volume scenarios. The second challenge is the \textbf{explainability} of topic-based relations among documents. It is difficult to understand how two documents are related from the numerical distance of their vector representations. The third challenge is the \textbf{complexity} of comparisons among topic distributions at large-scale. Brute-force approaches are not feasible for big documentary corpora. And finally, the fourth challenge is \textbf{multilinguality} when comparing topic distributions from documents written in different languages. In order to be able to work with multilingual corpora at any scale, it is necessary to avoid the need for translators or annotations between languages that may limit their feasibility.
+
+As shown in this thesis, our main hypothesis that \textit{large multilingual document collections can be automatically analyzed to discover thematic representations that enable an exploration through related texts} (H1) has proven to be true. Based on the evaluation of our results, probabilistic topic models enable an unsupervised exploration of corpora containing a huge number of texts written in different languages. We review below the research problems mentioned above through the hypotheses evaluated in this work and the contributions we offer to address them. The rest of the section discusses our impact, current limitations and future lines of work. 
 
 
+\section{Contributions}
 
 
+The main contribution of this thesis is the \textbf{librAIry framework}, a system that processes and analyzes huge collections of textual resources creating and using probabilistic topic models. This framework encompasses several contributions that are aimed at addressing the four aforementioned research problems. Following the methodology described in Section \ref{sec:research-methodology}, we have evaluated our hypotheses using \textit{librAIry} for large multilingual document corpora. 
 
+\subsection{Efficient Creation and Use of Probabilistic Topic Models}
 
-
-
-
-
-
-
-
-
-
-
-To this end, we developed a framework that covers the full life-cycle of topic models, including their generation, publication and reuse. We have also created a representation model for documents where the main topics of a text are described through hierarchical annotations, and relations among documents are calculated based on a similarity metric optimized for large scale processing. Finally, we have developed unsupervised topic alignment techniques using conceptual representations of topic words to relate multilingual texts. 
-
-Based on the evaluation of our results, we extract two main conclusions. The first one is that \textit{it is sufficient to use the most representative topics to relate texts, and hierarchical representation can be also used for this purpose}. However, an important finding is that \textit{not all topics have the same discriminatory capacity to relate texts}. Topics arise in a model to describe the content used from a training dataset. If the number of topics is not enough with respect to the diversity of content of the document collection, there will be too general topics that have a reduced discriminative capacity. For example, given a document collection where 50\% papers are focused on astronomy, 30\% on agriculture , 10\% on mathematics, 5\% on psychology and 5\% on pharmacy, if the topic model is created with only 3 topics, one will describe astronomy, another agriculture and the third will be a mixture of the other topics. This third topic distinguishes documents that do not deal with astronomy or agriculture, but does not distinguish between mathematics, psychology or pharmacy. It is a topic with a limited discriminative capacity.
-
-
-The second conclusion is that \textit{conceptual representations of probabilistic topics can abstract the description of multilingual texts in a language-independent space hence allowing for usual tasks over multilingual corpora}. However, we have found that the relations in this space \textit{tend to generalize more than word-based representations}. 
-
-The rest of the section discusses our assumptions and restrictions, contributions, impact, current limitations and future lines of work. 
-% -------------------------------------------------------------
-% -- Conclusion
-% -------------------------------------------------------------
-
-\section{Assumptions and Restrictions}
-
-Throughout the thesis, we have considered a series of assumptions and restrictions for our work. Our first assumption is that \textit{probabilistic topic distributions allow to semantically relate texts} (A1).
-
-Also, in order to apply successfully our framework to handle probabilistic topic models, we convert \textit{topic models to RESTful web services }(R1). We restrict to this type of services because it is the most common in web development and facilitates interoperability. 
-
-Furthermore, we assume that \textit{all the most representative words of a probabilistic topic can be converted to concepts using cognitive synsets} (A2). These conceptual representations of topics allow relating them across languages. In addition, \textit{texts are grammatically valid} (A3) and \textit{syntactically correct} (A4). Phrases are well constructed and have no misspellings, so that nouns, adjectives and verbs can be correctly extracted to prepare the bag-of-words that train the topic models and characterize the texts. 
-
-Finally, our last assumption is that, \textit{the categorization of texts and the association of related texts facilitates the exploration of large documentary corpora.} (A5).
-
-Tables \ref{table:assumptions} and \ref{table:rectrictions} summarize our assumptions and restrictions according to their description.
-
-\begin{table}[!htbp]
-\begin{tabularx}{\linewidth}{Sb}
-\toprule
-\heading{Assumption} & \heading{Description} \\
-\midrule
-\midrule
-A1 & Probabilistic topic distributions allow to semantically relate texts\\
-\midrule
-A2 & Words can be converted to concepts using cognitive synsets\\
-\midrule
-A3 & Texts are grammatically valid\\
-\midrule
-A4 & Texts are syntactically correct\\
-\midrule
-A5 & Text categorization and association facilitates the exploration of large corpora\\
-\bottomrule
-\end{tabularx}
-\caption{Assumptions considered in this thesis.}
-\label{table:assumptions}
-\end{table}
-
-\begin{table}[!htbp]
-\centering%
-\begin{tabularx}{\linewidth}{Sb}
-\toprule
-\heading{Restriction} & \heading{Description} \\
-\midrule
-\midrule
-R1 & Topic models are distributed as RESTful web services\\
-\bottomrule
-\end{tabularx}
-\caption{Restrictions considered in this thesis.}
-\label{table:rectrictions}
-\end{table}
+As discussed in Chapter \ref{ch:scalability}, previous works dealing with probabilistic topic models are mostly focused on the learning process and ignore other stages where the topic model is involved. A topic model life-cycle is broader than just the creation of the model (Fig. \ref{fig:life-cycle}). It covers a first stage of \textit{document preparation}, where texts are divided first into phrases and then into words that are normalized before being counted to create bags-of-words (BoW). The next stage (\textit{training} stage),  seeks patterns among word distributions and as a result a topic model is created. The model is then packaged for distribution (\textit{publication} stage). And finally the model can be used and reused (\textit{exploitation} stage).
 
 \section{A Summary of Our Contributions}
 
