@@ -9,7 +9,7 @@
 
 This thesis addresses different challenges to facilitate the exploration of large multilingual document corpora through the use of probabilistic topic models. Four main research problems arise from them, as we discussed in Section \ref{sec:research-challenges}. The first one is the \textbf{efficiency} to create and infer probabilistic topics. There are some technical barriers that may limit a wider use of topic models in high-volume scenarios. The second challenge is the \textbf{explainability} of topic-based relations among documents. It is difficult to understand how two documents are related from the numerical distance of their vector representations. The third challenge is the \textbf{complexity} of comparisons among topic distributions at large-scale. Brute-force approaches are not feasible for big documentary corpora. And finally, the fourth challenge is \textbf{multilinguality} when comparing topic distributions from documents written in different languages. In order to be able to work with multilingual corpora at any scale, it is necessary to avoid the need for translators or annotations between languages that may limit their feasibility.
 
-As shown in this thesis, our main hypothesis that \textit{large multilingual document collections can be automatically analyzed to discover thematic representations that enable an exploration through related texts} (H1) has proven to be true. Based on the evaluation of our results, probabilistic topic models enable an unsupervised exploration of corpora containing a huge number of texts written in different languages. We review below the research problems mentioned above through the hypotheses evaluated in this work and the contributions we offer to address them. The rest of the section discusses our impact, current limitations and future lines of work. 
+As shown in this thesis, the main hypothesis has proven to be true, so \textit{large multilingual document collections can be automatically analyzed to discover thematic representations that enable an exploration through related texts} (H1). Based on the evaluation of our results, probabilistic topic models enable an unsupervised exploration of corpora containing a huge number of texts written in different languages. We review below the research problems mentioned above through the hypotheses evaluated in this work and the contributions we offer to address them. The rest of the section discusses the impact, current limitations and future lines of our work. 
 
 
 \section{Contributions}
@@ -19,15 +19,39 @@ The main contribution of this thesis is the \textbf{librAIry framework}, a syste
 
 \subsection{Efficient Creation and Use of Probabilistic Topic Models}
 
-As discussed in Chapter \ref{ch:scalability}, previous works dealing with probabilistic topic models are mostly focused on the learning process and ignore other stages where the topic model is involved. A topic model life-cycle is broader than just the creation of the model (Fig. \ref{fig:life-cycle}). It covers a first stage of \textit{document preparation}, where texts are divided first into phrases and then into words that are normalized before being counted to create bags-of-words (BoW). The next stage (\textit{training} stage),  seeks patterns among word distributions and as a result a topic model is created. The model is then packaged for distribution (\textit{publication} stage). And finally the model can be used and reused (\textit{exploitation} stage).
-
-\section{A Summary of Our Contributions}
-
-In this section we summarize our contributions regarding the research challenges defined on Chapter \ref{ch:hypothesis}.
+As discussed in Chapter \ref{ch:scalability}, previous works dealing with probabilistic topic models are mostly focused on improving the learning process and ignore other important features related to its development in potentially heterogeneous scenarios. The creation of a topic model (Fig. \ref{fig:life-cycle}) covers a first stage of \textit{document preparation}, where texts are pre-processed to create bags-of-words. The next stage (\textit{training} stage),  builds a model based on patterns among word distributions. The model is then packaged for distribution in the (\textit{publication} stage). And finally the model can be used and reused in the (\textit{exploitation} stage). In this thesis, our objective is to facilitate the creation of reusable probabilistic topic models by minimizing their technical dependencies for use in both large- and small-scale contexts. But we have identified two research challenges that make it difficult to achieve that goal:  \textit{reuse of topic models is limited by incompatibility problems} (RCInterface1), and \textit{there is no unified or standardized format for distributing topic models} (RCInterface2). Along these research challenges we have formulated one hypothesis and proposed a series of contributions that we discuss below.
 
 
-\subsection{Topic Model Distribution}
-Our main contributions to this research challenge are the librAIry framework (addressing partly RCInterface1, \textit{reuse of topic models is limited by incompatibility problems}), and a methodology for publishing probabilistic topic models as web services (addressing RCInterface2, \textit{there is no standard that unifies the representation of topic models}).
+\textbf{H1.1 \textit{Documents can be efficiently annotated on a large scale by distributing across different computation nodes both natural language processing tasks and topic models}}. This hypothesis is motivated by the limitations of existing works identified and discussed in Section \ref{sec:topic-reuse} that can be summarized as follows:
+
+\textbf{Limitation 1}: Summaries or sections are usually considered to describe documents using probabilistic topics. However, mining full-text articles gives consistently better results \citep{Westergaard2017}.
+
+\textbf{Limitation 2}: Recent approaches to creating and exploiting topic models through APIs define their own distribution formats limiting the interoperability of the models \citep{Lisena:NLPOSS2020}. To the best of our knowledge, the efforts made do not propose an unified model to exchange topic models, understood as an already accepted standards-based format.
+
+Contributions:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \subsubsection{librAIry Framework}
 
