@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  20 APR 2021 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  20 APR 2021 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1381,17 +1381,17 @@ File: conclusions/figures/usage-statistics.png Graphic file (type png)
 <use conclusions/figures/usage-statistics.png>
 Package pdftex.def Info: conclusions/figures/usage-statistics.png  used on inpu
 t line 88.
-(pdftex.def)             Requested size: 288.7942pt x 64.8pt.
+(pdftex.def)             Requested size: 412.56496pt x 92.57254pt.
 <conclusions/figures/so-statistics.png, id=2990, 1132.23pt x 252.945pt>
 File: conclusions/figures/so-statistics.png Graphic file (type png)
 <use conclusions/figures/so-statistics.png>
 Package pdftex.def Info: conclusions/figures/so-statistics.png  used on input l
 ine 99.
-(pdftex.def)             Requested size: 288.7942pt x 64.51749pt.
+(pdftex.def)             Requested size: 412.56496pt x 92.16783pt.
  [165 <./conclusions/figures/usage-statistics.png> <./conclusions/figures/so-st
 atistics.png>] [166] [167]
 [168] [169]
-<conclusions/figures/context-similarity.png, id=3040, 1056.94875pt x 551.05875p
+<conclusions/figures/context-similarity.png, id=3037, 1056.94875pt x 551.05875p
 t>
 File: conclusions/figures/context-similarity.png Graphic file (type png)
 <use conclusions/figures/context-similarity.png>
@@ -1425,7 +1425,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 139DA698B45035DE133485CEFA7CBEB4;8235.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: C3C6A976111999FE51740383EB96FFA8;13029.
+(rerunfilecheck)             Checksum: F7EFD38F9C364A58CB4A6C0F163FAC3B;13029.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
@@ -1458,10 +1458,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (214 pages, 7464594 bytes).
+Output written on Thesis.pdf (214 pages, 7464516 bytes).
 PDF statistics:
- 3576 PDF objects out of 3580 (max. 8388607)
- 3158 compressed objects within 32 object streams
+ 3573 PDF objects out of 3580 (max. 8388607)
+ 3155 compressed objects within 32 object streams
  712 named destinations out of 1000 (max. 500000)
  1152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -85,7 +85,7 @@ First, access to probabilistic topic models via REST APIs has increased thanks t
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.7\linewidth]{usage-statistics.png}
+    \includegraphics[width=\linewidth]{usage-statistics.png}
     \caption{librAIry API usage statistics from September 2020 to February 2021}
     \label{fig:api-usage}
 \end{figure}
@@ -96,15 +96,15 @@ Along with the reuse statistics provided by librAIry, we also have usage statist
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.7\linewidth]{so-statistics.png}
-    \caption{luse of librAIry resources from different operating systems}
+    \includegraphics[width=\linewidth]{so-statistics.png}
+    \caption{use of librAIry resources from different operating systems from September 2020 to February 2021}
     \label{fig:so-usage}
 \end{figure}
 
 
 Second, some of the methods and techniques proposed in this thesis have been used in recent work by other researchers. The efficient topic modeling framework described in Section \ref{sec:topic-model-framework} was used, among others, to create, publish, distribute and reuse probabilistic topic models for studing the Language Technologies sector in Spain \citep{Samy2019}. The analysis took into account the structured and unstructured data from the ACL Anthology repository in order to portray the current panorama in terms of underlying topics and their evolution in recent years in comparison with the international community. The framework has also been used to facilitate the classification of public offering using big data techniques \citep{Olga2019} and to analyze texts in reading support systems \citep{Teresa2020}. Our methods to categorize documents through topic hierarchies and to make efficient large-scale comparisons described in Sections \ref{sec:topic-clustering} and \ref{sec:comparison-hashing} have been tuned to be used in different domains. In \citep{Badenes-Olmedo2019c}, the algorithms were adapted to compare patients from representations based on the medications they were using. The approach assumes drugs, like topics, can be distributed in different proportions according to the patient. To take advantage of the hierarchical representation of the topics, a more complex approach based on drug-drug interactions was performed (see Section \ref{sec:polypharmacy}).
 
-Finally, thanks to the technologies developed in this thesis, a spin-off in the field of natural language processing and knowledge management has been recently founded. \textit{librAIry S.L.}\footnote{\url{http://librairy.eu}} arises at the end of 2020 to support , among others, the following challenges:
+Finally, thanks to the technologies developed in this thesis, a spin-off in the field of natural language processing and knowledge management has been recently founded. \textit{librAIry S.L.}\footnote{\url{http://librairy.eu}} arises at the beginning of 2021 to support , among others, the following challenges:
 \begin{itemize}
 \item \textbf{Corpus Exploration}: By knowing how topics are present in a corpus in terms of relevance, it is possible to derive a thematic network where the nodes represent the different topics and the edges are the documents containing them on the same level of relevance. Thus, the higher the number of common documents the stronger the connection would be between two topics. This kind of network would help users to see how different topics are connected with each other in a corpus, facilitating the exploration between topics.
 \item \textbf{Topic Discovery}: Commonly occurring topics, when supported in many documents, may become valuable topic candidates themselves. Documentary management system may offer these potentially new topics to users to include in their corpus description.
