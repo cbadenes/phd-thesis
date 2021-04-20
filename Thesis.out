@@ -92,19 +92,11 @@
 \BOOKMARK [1][-]{section.8.4}{8.4 Public Procurement Data}{chapter.8}% 92
 \BOOKMARK [1][-]{section.8.5}{8.5 COVID-19 and Coronavirus-related Research}{chapter.8}% 93
 \BOOKMARK [0][-]{chapter.9}{9 Conclusions and Future Work}{}% 94
-\BOOKMARK [1][-]{section.9.1}{9.1 Assumptions and Restrictions}{chapter.9}% 95
-\BOOKMARK [1][-]{section.9.2}{9.2 A Summary of Our Contributions}{chapter.9}% 96
-\BOOKMARK [2][-]{subsection.9.2.1}{9.2.1 Topic Model Distribution}{section.9.2}% 97
-\BOOKMARK [3][-]{subsubsection.9.2.1.1}{9.2.1.1 librAIry Framework}{subsection.9.2.1}% 98
-\BOOKMARK [3][-]{subsubsection.9.2.1.2}{9.2.1.2 Method for publishing topic models as Web Services}{subsection.9.2.1}% 99
-\BOOKMARK [2][-]{subsection.9.2.2}{9.2.2 Explainable Topic-based Similarity}{section.9.2}% 100
-\BOOKMARK [3][-]{subsubsection.9.2.2.1}{9.2.2.1 Most Relevant Topics}{subsection.9.2.2}% 101
-\BOOKMARK [3][-]{subsubsection.9.2.2.2}{9.2.2.2 Distance Metric based on Topic Relevance}{subsection.9.2.2}% 102
-\BOOKMARK [2][-]{subsection.9.2.3}{9.2.3 Data Structures and Algorithms for Large-Scale Comparisons of Documents}{section.9.2}% 103
-\BOOKMARK [3][-]{subsubsection.9.2.3.1}{9.2.3.1 Topic Hierarchies Representation}{subsection.9.2.3}% 104
-\BOOKMARK [3][-]{subsubsection.9.2.3.2}{9.2.3.2 Comparisons based on Topic Hierarchies}{subsection.9.2.3}% 105
-\BOOKMARK [2][-]{subsection.9.2.4}{9.2.4 Multilingual Corpora}{section.9.2}% 106
-\BOOKMARK [3][-]{subsubsection.9.2.4.1}{9.2.4.1 Cross-lingual Topics}{subsection.9.2.4}% 107
-\BOOKMARK [1][-]{section.9.3}{9.3 Impact}{chapter.9}% 108
-\BOOKMARK [1][-]{section.9.4}{9.4 Future Work}{chapter.9}% 109
-\BOOKMARK [0][-]{chapter*.111}{Bibliography}{}% 110
+\BOOKMARK [1][-]{section.9.1}{9.1 Contributions}{chapter.9}% 95
+\BOOKMARK [2][-]{subsection.9.1.1}{9.1.1 Efficient Creation and Use of Probabilistic Topic Models}{section.9.1}% 96
+\BOOKMARK [2][-]{subsection.9.1.2}{9.1.2 Explainability of Topic-based Relations among Documents}{section.9.1}% 97
+\BOOKMARK [2][-]{subsection.9.1.3}{9.1.3 Complexity Reduction in Comparisons among Topic Distributions at Large-Scale}{section.9.1}% 98
+\BOOKMARK [2][-]{subsection.9.1.4}{9.1.4 Multilinguality through Monolingual Topic Models}{section.9.1}% 99
+\BOOKMARK [1][-]{section.9.2}{9.2 Impact}{chapter.9}% 100
+\BOOKMARK [1][-]{section.9.3}{9.3 Future Work}{chapter.9}% 101
+\BOOKMARK [0][-]{chapter*.111}{Bibliography}{}% 102

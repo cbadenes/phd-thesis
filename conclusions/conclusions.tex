@@ -66,7 +66,7 @@ As discussed in Chapter \ref{ch:comparisons}, brute-force techniques cannot be a
 \textbf{Contribution 7}: We developed a method to compare and organize huge document collections based on similar topic hierarchies. The hierarchy levels are compared and the distance between texts depends on the degree of intersection between pair of representations. In addition, the technique to represent and compare documents has been implemented in our librAIry framework.
 
 
-\subsection{Multilinguality through Independent Topic Models}
+\subsection{Multilinguality through Monolingual Topic Models}
 
 As discussed in Chapter \ref{ch:multilinguality}, documents in different languages must be described by multilingual topics to be thematically related without having to translate their texts. Some methods require document-aligned corpora, i.e. documents are grouped and constrained to the same topic distribution during training to align the different languages \citep{mimno-etal-2009-polylingual, Ni2009, Fukumasu2012, Zhang2013}, or theme-aligned corpora, i.e. similar themes and ideas appear in all languages \citep{Graber2009}. There are also methods based on word alignments from bilingual dictionaries instead of aligned corpora. Topic models emerge as distributions over crosslingual equivalence classes of words \citep{Jagarlamudi2010, zhang-etal-2010-cross, shi-etal-2016-detecting, hao-paul-2018-learning}. Others propose to translate only the words used to characterize the topics across the languages, such as anchor words \citep{NEURIPS2018_28b9f8aa} or top words \citep{yang2019multilingual}. A recent approach is placed between word and document alignments since it proposes crosslingual topic models using the language-independent categories assigned to each Wikipedia article \citep{2020arXiv200911207P}. Instead of using bags-of-words to represent texts, which would be language dependent, it explores the references of each article and represents them through bags-of-links, using the categories of each reference to represent the texts. However, the requirement of parallel/comparable corpora or dictionaries limits the usage of these models in many cross-lingual situations. Our objective in this thesis is to find cross-lingual representations of documents that keep the notion of topics, independently from the language used, in order to draw relations between them. But we have identified a research challenge that make it difficult to achieve that goal: \textit{there are no approaches to abstract probabilistic topics in language-independent spaces without translating texts or aligning documents}(RCCrossLingual1). Along this research challenge we have formulated one hypothesis and proposed a contribution that we discuss below.
 
@@ -79,11 +79,32 @@ As discussed in Chapter \ref{ch:multilinguality}, documents in different languag
 
 \section{Impact}
 
-The contributions of this thesis have already started to be used in recent work by other researchers. The librAIry framework was used, among others, to create, publish, distribute and reuse probabilistic topic models for studing the Language Technologies (TL) sector in Spain \citep{Samy2019}. The analysis took into account  the structured and unstructured data from the ACL Anthology repository in order to portray the current panorama in terms of underlying topics and their evolution in recent years in comparison with the international community. The framework has also been used to facilitate the classification of public offering using big data techniques \citep{Olga2019} and to analyze texts in reading support systems \citep{Teresa2020}.
+In addition to the aforementioned contributions, the technologies and techniques introduced in this thesis and their deployment in some practical use cases (as described in Chapter \ref{ch:experiments}) have had a positive impact on the way users browse document collections on a large scale.
 
-Our methods to categorize documents through topic hierarchies and to make efficient large-scale comparisons  have been adapted to other domains. In \citep{Badenes-Olmedo2019c} they were adapted to compare patients from representations based on the medications they were using. The approach is very similar since drugs, like topics, can be distributed in different proportions according to the patient. To take advantage of the hierarchical representation of the topics, a more complex approach based on drug-drug interactions was performed (see Section \ref{sec:polypharmacy}).
+First, access to probabilistic topic models via REST APIs has increased thanks to librAIry as an open source framework modularly distributed via virtual containers. Since March 2016, taking into account statistical data gathered from the DockerHub platform\footnote{\url{https://hub.docker. com/orgs/librairy/repositories}} where the librAIry services images reside, the module '\textit{librairy/modeler-topics-service}' that builds topic models from CSV files or Solr indexes has been downloaded more than 1,200 times; more than 1,100 times has been downloaded the module '\textit{librairy/api}' that annotates documents with probabilistic topics created with the previous module; about 373 times has been downloaded the '\textit{librairy/nlp}' module that generates bags of words, extracts lemmas and annotates Part-of-Speech from texts in English, Spanish, French, Italian and Portuguese; about 212 times the '\textit{librairy/search-api}' module that relates documents from their topic distributions across multiple languages; and about 327 times the '\textit{librairy/explorer}' module to browse via Web among the relations found in document collections. More importantly, among those that publish a topic model via REST API, the modules '\textit{librairy/openresearch-model}' (created from the OpenResearch corpus) with 612 downloads and the '\textit{librairy/dbpedia-model}' (created from a subset of DBpedia entities) with 164 stand out, while the rest of the models (e.g. '\textit{librairy/jrc-en-model}', '\textit{librairy/ods-model}',  or '\textit{librairy/lynx-model}', among others) are between 20 and 40 downloads or so. 
 
-Other contributions may impact different research areas, as we describe below:
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{usage-statistics.png}
+    \caption{librAIry API usage statistics from September 2020 to February 2021}
+    \label{fig:api-usage}
+\end{figure}
+
+
+Along with the reuse statistics provided by librAIry, we also have usage statistics of services deployed using the technology proposed in this thesis. During the time period from September 2020 to February 2021 we logged accesses to the librAIry API\footnote{\url{http://librairy.linkeddata.es/api}} that supports, among others, a cross-lingual search engine for exploring public procurement data in the European Union (described in Section \ref{sec:tbfy}) , and a scientific publication browser for exploring drugs on COVID-19 treatment  (described in Section \ref{sec:drugs4covid}).  A total of 42,122,078 requests (Figure \ref{fig:api-usage}) from 2,734 different users, taking IPs into account, were supported. In addition, access from different operating systems shows that it is advisable to use Web access interfaces to exploit the resources (Figure \ref{fig:so-usage}).
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{so-statistics.png}
+    \caption{luse of librAIry resources from different operating systems}
+    \label{fig:so-usage}
+\end{figure}
+
+
+Second, some of the methods and techniques proposed in this thesis have been used in recent work by other researchers. The efficient topic modeling framework described in Section \ref{sec:topic-model-framework} was used, among others, to create, publish, distribute and reuse probabilistic topic models for studing the Language Technologies sector in Spain \citep{Samy2019}. The analysis took into account the structured and unstructured data from the ACL Anthology repository in order to portray the current panorama in terms of underlying topics and their evolution in recent years in comparison with the international community. The framework has also been used to facilitate the classification of public offering using big data techniques \citep{Olga2019} and to analyze texts in reading support systems \citep{Teresa2020}. Our methods to categorize documents through topic hierarchies and to make efficient large-scale comparisons described in Sections \ref{sec:topic-clustering} and \ref{sec:comparison-hashing} have been tuned to be used in different domains. In \citep{Badenes-Olmedo2019c}, the algorithms were adapted to compare patients from representations based on the medications they were using. The approach assumes drugs, like topics, can be distributed in different proportions according to the patient. To take advantage of the hierarchical representation of the topics, a more complex approach based on drug-drug interactions was performed (see Section \ref{sec:polypharmacy}).
+
+Finally, thanks to the technologies developed in this thesis, a spin-off in the field of natural language processing and knowledge management has been recently founded. \textit{librAIry S.L.}\footnote{\url{http://librairy.eu}} arises at the end of 2020 to support , among others, the following challenges:
 \begin{itemize}
 \item \textbf{Corpus Exploration}: By knowing how topics are present in a corpus in terms of relevance, it is possible to derive a thematic network where the nodes represent the different topics and the edges are the documents containing them on the same level of relevance. Thus, the higher the number of common documents the stronger the connection would be between two topics. This kind of network would help users to see how different topics are connected with each other in a corpus, facilitating the exploration between topics.
 \item \textbf{Topic Discovery}: Commonly occurring topics, when supported in many documents, may become valuable topic candidates themselves. Documentary management system may offer these potentially new topics to users to include in their corpus description.
@@ -94,8 +115,6 @@ Other contributions may impact different research areas, as we describe below:
 \item \textbf{Document Ranking}: Once the topics are described by hierarchies of relevance, it would be possible to order the documents in a corpus by different criteria and create rankings. Possible examples of rankings are basic searches based on one or several highly relevant topics, or more complex searches that combine different topics and different degrees of relevance.  
 \end{itemize}
 
-%\section{Limitations}
-%...
 
 \section{Future Work}
 
