@@ -116,7 +116,54 @@ Finally, thanks to the technologies developed in this thesis, a spin-off in the 
 \end{itemize}
 
 
-\section{Future Work}
+\section{Future Directions}
+
+The work presented in this thesis provides contributions that enable large-scale browsing of multilingual document collections guided by their main topics, and deploy probabilistic topic models via REST APIs. Moreover, our work contributes to the application of semantic technologies to organize texts without the help of domain experts and provides several evidences of their broad impact through the real-world use cases presented in Chapter \ref{ch:experiments}. Nevertheless, we have highlighted some limitations, open issues and new research directions throughout the thesis. In this section, we discuss and outline future directions in relation to our contributions. We consider the four research dimensions proposed in Chapter \ref{ch:hypothesis} to organize the discussion: \textit{i) efficiency, ii) explainability, iii) complexity, and iv) multilinguality}
+
+
+
+\subsection{Efficiency in Learning Models}
+
+In Chapter \ref{ch:scalability} we have proposed the \textit{librAIry} framework to create probabilistic topic models and annotate document collections at large-scale. Data is organized in \textit{snippets} to reflect parts or pieces of texts, \textit{documents} to represent full texts, and \textit{domains} to group documents. In addition, \textit{annotations} are created to provide additional information on each of them. Processing tasks are distributed over these resources among software modules connected through REST APIs, even the topic models. In this thesis, we have demonstrated their suitability for large corpora through some real world scenarios such as DrInventor, TheyBuyForYou or Corpus Viewer. \textit{librAIry} has proven to be a valid and scalable text processing framework. However, there are several open issues, challenges and interesting future lines of research that we ellaborate below.
+
+
+First, we have demonstrated the applicability of using topic models and natural language processing techniques via REST APIs. However, the current trend based on Python prototypes uses non-exportable models from online repositories (e.g. huggingface). The ONNX (Open Neural Network eXchange) and ONNX Runtime (ORT) projects, for example, are an effort from leading industries in the AI field aiming to provide a unified community-driven format to store and efficiently execute learning process leveraging a variety of hardware and dedicated optimizations. But given the high resource requirements for working with increasingly heavy models, the focus has been on optimizing time and resources, not on optimizing consumption. Our work in this thesis has only been based on probabilistic topic models, but it would be convenient to address a more general problem to provide a 'sustainable' creation of learning models. In this sense, we would look for formats that reduce technological dependencies and that facilitate its use not only from a technical point of view, but also conceptually. Describing the information offered and how it is offered, and detailing the process followed to build it and the resources used. In short, learning models with standard formats, self-contained, and with semantic access interfaces.
+
+Second, in this thesis we have not investigated the update of models once they have been created. This is a very common practice in other areas, for example fine tuning of language models, to improve an original model to solve a task. And it adds a new dimension to what has been described above for distributing learning models, their \textit{path}. As if they were pieces of a puzzle, the models can be fitted together and as a result the path of the final model emerges. We do not refer to a processing pipeline, but to a conceptual path of data representation. If, for example, we have a fake news classifier built from the BERT language model, a topic model trained on 20newsgroup and a Bayesian classifier, the final model would have to incorporate (not physically, but linked) the BERT model itself and the other models it uses (e.g. \url{http://librairy.linkeddata.es/20news-model}) to allow partial text representations from a single main access interface. Just as scientific articles cite works on which they are based, models should reference the models they use. 
+
+
+\subsection{Explainability of Text Similarity}
+
+In Chapter \ref{ch:explainability}, we have introduced a novel distance metric to compare texts from their topic distributions. The representativeness of topics to describe scientific articles was analyzed and results showed that abstracts were not sufficiently representative to describe, by means of topics, the content of a paper. Texts with greater vocabulary may emphasize key terms through repetition, favor topic-based representation. Our work also highlights the difficulty in understanding the meaning of distances when there is no other element to justify their value. Figures \ref{fig:topic_distances} and \ref{fig:topic_distances2}, for example, show how distances based on topic distributions between the same pairs of documents varies when the number of dimensions of the vector space changes (i.e. the number of topics). This highlights the difficulty of drawing conclusions from quantitative similarity measures. We elaborate on some key aspects below.
+
+Our proposal to compare documents using only the most relevant topics, even establishing levels of importance, has proven its validity and would allow categorizing text similarity. We have not made progress in defining categories of similarity between documents, so as to facilitate their interpretation. Let us imagine that the similarity based on topics between two documents is 0.78. Such a measure allows only relative conclusions (e.g. that they are more or less similar than other documents), but not absolute ones (e.g. that they are similar or different). The techniques presented in this thesis can provide new mechanisms for comparing texts that facilitate their interpretation. It would be interesting to create a catalog of similarity levels and establish rules that transform current quantitative metrics into qualitative measures.
+  
+  
+But the categorization of similarity would not be enough to explain the relationship between documents. As we saw in Figures \ref{fig:doc_sim_1} and \ref{fig:doc_sim_2}, the perception of similarity may vary with respect to the metric. Documents may share the main topics, but if they do not share any more topics in similar proportions and the representational model is sufficiently detailed (i.e. high number of topics), their similarity will be lower than if they share more less relevant topics. The level of detail of the model may represent the perception of a person when comparing documents. This raises an interesting discussion about the ability of probabilistic models, particularly those based on topics but applicable to others, to create contexts. And following this line, it would be necessary to analyze which characteristics of a corpus define the context it represents. A collection of scientific papers published at ISWC, K-CAP and ESWC conferences, for example, would be adequate to create a probabilistic model that contextualizes the semantic web knowledge, or on the contrary, papers from other disciplines are needed to identify those aspects that can be differentiated. What kind of evaluations should be supported to measure the validity of these contextualization models?
+
+\subsection{Complexity of Large-scale Comparisons} 
+
+The usefulness of topic distributions created by probabilistic models when exploring document collections on large-scale has been widely studied in the literature. In Chapter \ref{ch:comparisons} we have introduced a new data structure to represent topic distributions based on topic hierarchies and hash codes. The approach has proven to obtain promising results and enable additional query restrictions based on the semantics offered by topics. Our comparison technique is based on the widely used nearest-neighbor approximations, which, however, have not been used as much in probabilistic topic models. The main reason is that they require spaces with independent dimensions to perform the transformations and create binary representations. By creating hierarchical topic representations, we solve this problem and can approximate the representation of documents with nearest-neighbor techniques.
+
+However, this first step to represent texts by topic levels introduces new and interesting questions: what do these relevance levels mean?, how do they influence the comparison of documents?, are they model or domain independent?. In our experiments we found that the best performance was obtained with three levels of relevance, but no study has been done on the influence of levels for solving other different tasks. We have started investigating on the influence of these levels for relating legal texts within the European Union. We also plan to extend the analysis in the academic domain to relate scientific texts. Our intention is to learn more about the meaning of these levels of relevance and to take advantage of it to organize documents at large-scale.
+
+
+
+\subsection{Multilingual Representations}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Our work may be expanded in several ways. In this section we discuss possible future lines of work related to our research challenges.
 
