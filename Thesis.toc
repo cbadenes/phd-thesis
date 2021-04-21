@@ -99,5 +99,9 @@
 \contentsline {subsection}{\numberline {9.1.3}Complexity Reduction in Comparisons among Topic Distributions at Large-Scale}{161}{subsection.9.1.3}% 
 \contentsline {subsection}{\numberline {9.1.4}Multilinguality through Monolingual Topic Models}{163}{subsection.9.1.4}% 
 \contentsline {section}{\numberline {9.2}Impact}{164}{section.9.2}% 
-\contentsline {section}{\numberline {9.3}Future Work}{167}{section.9.3}% 
-\contentsline {chapter}{Bibliography}{171}{chapter*.111}% 
+\contentsline {section}{\numberline {9.3}Future Directions}{167}{section.9.3}% 
+\contentsline {subsection}{\numberline {9.3.1}Efficiency in Learning Models}{168}{subsection.9.3.1}% 
+\contentsline {subsection}{\numberline {9.3.2}Explainability of Text Similarity}{169}{subsection.9.3.2}% 
+\contentsline {subsection}{\numberline {9.3.3}Complexity of Large-scale Comparisons}{170}{subsection.9.3.3}% 
+\contentsline {subsection}{\numberline {9.3.4}Multilingual Representations}{171}{subsection.9.3.4}% 
+\contentsline {chapter}{Bibliography}{173}{chapter*.111}% 

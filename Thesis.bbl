@@ -35,6 +35,13 @@ Andoni, A., Indyk, P., Nguyen, H.~L., and Razenshteyn, I. (2014).
 \newblock In {\em Proceedings of the Twenty-Fifth Annual ACM-SIAM Symposium on
   Discrete Algorithms}, pages 1018--1028.
 
+\bibitem[Artetxe et~al., 2019]{artetxe2019}
+Artetxe, M., Labaka, G., and Agirre, E. (2019).
+\newblock Bilingual lexicon induction through unsupervised machine translation.
+\newblock In {\em Proceedings of the 57th Annual Meeting of the Association for
+  Computational Linguistics}, pages 5002--5007, Florence, Italy. Association
+  for Computational Linguistics.
+
 \bibitem[Badenes-Olmedo et~al., 2020a]{badenesolmedo2020drugs4covid}
 Badenes-Olmedo, C., Chaves-Fraga, D., Poveda-Villalon, M., Iglesias-Molina, A.,
   Calleja, P., Bernardos, S., Martin-Chozas, P., Fernandez-Izquierdo, A.,
@@ -338,6 +345,12 @@ Griffiths, T., Steyvers, M., and Tenenbaum, J. (2007).
 \newblock {Topics in semantic representation}.
 \newblock {\em Psychological Review}, 114(2):211--244.
 
+\bibitem[Gruhl et~al., 2004]{Gruhl2004}
+Gruhl, D., Guha, R., Liben-Nowell, D., and Tomkins, A. (2004).
+\newblock Information diffusion through blogspace.
+\newblock In {\em Proceedings of the 13th International Conference on World
+  Wide Web}, WWW '04, page 491–501. Association for Computing Machinery.
+
 \bibitem[Gutierrez et~al., 2016]{errez2016}
 Gutierrez, E., Shutova, E., Lichtenstein, P., Melo, G.~d., and Gilardi, L.
   (2016).
@@ -458,6 +471,13 @@ Johnson, R., Watkinson, A., and Mabe, M. (2018).
 \newblock International Association of Scientific, Technical and Medical
   Publishers.
 
+\bibitem[Joulin et~al., 2018]{joulin2018loss}
+Joulin, A., Bojanowski, P., Mikolov, T., J\'egou, H., and Grave, E. (2018).
+\newblock Loss in translation: Learning bilingual word mapping with a retrieval
+  criterion.
+\newblock In {\em Proceedings of the 2018 Conference on Empirical Methods in
+  Natural Language Processing}.
+
 \bibitem[Kaliyar, 2020]{Kaliyar2020}
 Kaliyar, R.~K. (2020).
 \newblock A multi-layer bidirectional transformer encoder for pre-trained word
@@ -477,6 +497,11 @@ Kenter, T. and Rijke, M. (2015).
   Descriptors}.
 \newblock {\em Proceedings of 24th ACM International Conference on Information
   and Knowledge Management}, pages 1411--1420.
+
+\bibitem[Kleinberg, 1999]{Kleinberg1999}
+Kleinberg, J.~M. (1999).
+\newblock Authoritative sources in a hyperlinked environment.
+\newblock {\em J. ACM}, 46(5):604–632.
 
 \bibitem[Krstovski and Smith, 2011]{Krstovski2011}
 Krstovski, K. and Smith, D. (2011).
@@ -506,6 +531,12 @@ Kullback, S. and Leibler, R.~A. (1951).
 \newblock On information and sufficiency.
 \newblock {\em The Annals of Mathematical Statistics}, 22(1):79--86.
 
+\bibitem[Lample et~al., 2018]{Lample2018}
+Lample, G., Conneau, A., Ranzato, M., Denoyer, L., and J{\'{e}}gou, H. (2018).
+\newblock Word translation without parallel data.
+\newblock In {\em 6th International Conference on Learning Representations}.
+  OpenReview.net.
+
 \bibitem[Le and Mikolov, 2014]{LeMikolov2014}
 Le, Q. and Mikolov, T. (2014).
 \newblock Distributed representations of sentences and documents.
@@ -527,6 +558,20 @@ Levy, O., Goldberg, Y., and Dagan, I. (2015).
 \newblock {\em Transactions of the Association for Computational Linguistics},
   3:211--225.
 
+\bibitem[Leydesdorff, 2012]{Leydesdorff2012StatisticsFT}
+Leydesdorff, L. (2012).
+\newblock Statistics for the dynamic analysis of scientometric data: the
+  evolution of the sciences in terms of trajectories and regimes.
+\newblock {\em Scientometrics}, 96:731--741.
+
+\bibitem[Li et~al., 2010]{Li2010}
+Li, D., He, B., Ding, Y., Tang, J., Sugimoto, C., Qin, Z., Yan, E., Li, J., and
+  Dong, T. (2010).
+\newblock Community-based topic modeling for social tagging.
+\newblock In {\em Proceedings of the 19th ACM International Conference on
+  Information and Knowledge Management}, CIKM '10, page 1565–1568.
+  Association for Computing Machinery.
+
 \bibitem[Li and K{\"{o}}nig, 2010]{Li2010b}
 Li, P. and K{\"{o}}nig, C. (2010).
 \newblock {b-Bit minwise hashing}.
@@ -536,7 +581,7 @@ Li, P. and K{\"{o}}nig, C. (2010).
 \bibitem[Li et~al., 2012]{Li2012}
 Li, P., Owen, A., and Zhang, C. (2012).
 \newblock {One Permutation Hashing}.
-\newblock {\em Advances in Neural Information Processing}.
+\newblock {\em Advances in Neural Information Processing}, 6(2):237--253.
 
 \bibitem[Lin, 1991]{Lin1991}
 Lin, J. (1991).
@@ -667,6 +712,11 @@ Newman, D., Lau, J., Grieser, K., and Baldwin, T. (2010).
   the North {\{}A{\}}merican Chapter of the Association for Computational
   Linguistics}, pages 100--108.
 
+\bibitem[Nguyen et~al., 2014]{Nguyen2014DynamicSC}
+Nguyen, N.~P., Dinh, T., Shen, Y., and Thai, M. (2014).
+\newblock Dynamic social community detection and its applications.
+\newblock {\em PLoS ONE}, 9.
+
 \bibitem[Ni et~al., 2009]{Ni2009}
 Ni, X., Sun, J., Hu, J., and Chen, Z. (2009).
 \newblock Mining multilingual topics from wikipedia.
@@ -723,6 +773,14 @@ Porter, M.~F. (1997).
 \newblock {\em An Algorithm for Suffix Stripping}, page 313–316.
 \newblock Morgan Kaufmann Publishers Inc.
 
+\bibitem[Prabhakaran et~al., 2016]{prabhakaran-etal-2016-predicting}
+Prabhakaran, V., Hamilton, W., McFarland, D., and Jurafsky, D. (2016).
+\newblock Predicting the rise and fall of scientific topics from trends in
+  their rhetorical framing.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 1170--1180, Berlin,
+  Germany. Association for Computational Linguistics.
+
 \bibitem[Ramachandran and Vimala, 2014]{Nair2014}
 Ramachandran, P. and Vimala, D. (2014).
 \newblock {\em {Organization of a Research Paper: The IMRAD Format}}.
@@ -734,6 +792,12 @@ Ramage, D., Hall, D., Nallapati, R., and Manning, C.~D. (2009).
   multi-labeled corpora}.
 \newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
   Natural Language Processing (EMNLP'09)}, pages 248--256.
+
+\bibitem[Rami et~al., 2019]{Al-Rfou_Choe_Constant_Guo_Jones_2019}
+Rami, A., Dokook, C., Noah, C., Mandy, G., and Llion, J. (2019).
+\newblock Character-level language modeling with deeper self-attention.
+\newblock {\em Proceedings of the AAAI Conference on Artificial Intelligence},
+  33(01):3159--3166.
 
 \bibitem[Rao, 1982]{Rao1982}
 Rao, C.~R. (1982).
@@ -949,5 +1013,12 @@ Zhu, Z., Li, M., Chen, L., and Yang, Z. (2013).
 \newblock {Building Comparable Corpora Based on Bilingual {\{}LDA{\}} Model}.
 \newblock In {\em Proceedings of the 51st Annual Meeting of the Association for
   Computational Linguistics (Volume 2: Short Papers)}, pages 278--282.
+
+\bibitem[Zijun et~al., 2018]{Zijun2018}
+Zijun, Y., Yifan, S., Weicong, D., Nikhil, R., and Hui, X. (2018).
+\newblock Dynamic word embeddings for evolving semantic discovery.
+\newblock In {\em Proceedings of the Eleventh ACM International Conference on
+  Web Search and Data Mining}, WSDM '18, page 673–681, New York, NY, USA.
+  Association for Computing Machinery.
 
 \end{thebibliography}

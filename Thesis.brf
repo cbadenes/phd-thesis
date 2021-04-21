@@ -1,6 +1,7 @@
 \backcite {Badenes-Olmedo2020}{{xvii}{(document)}{Doc-Start}}
 \backcite {Badenes-Olmedo2020}{{xvii}{(document)}{Doc-Start}}
 \backcite {Badenes-Olmedo2019c}{{xx}{(document)}{Doc-Start}}
+\backcite {Lample2018}{{xxi}{(document)}{Doc-Start}}
 \backcite {Ware2018STM}{{1}{1}{chapter.1}}
 \backcite {Griffiths2007}{{3}{1}{chapter.1}}
 \backcite {Kenter2015}{{3}{1}{chapter.1}}
@@ -235,3 +236,16 @@
 \backcite {Teresa2020}{{166}{9.2}{figure.caption.109}}
 \backcite {Badenes-Olmedo2019c}{{166}{9.2}{figure.caption.109}}
 \backcite {hao-paul-2018-learning}{{167}{9.2}{figure.caption.109}}
+\backcite {Gruhl2004}{{170}{9.3.2}{subsection.9.3.2}}
+\backcite {Kleinberg1999}{{170}{9.3.2}{subsection.9.3.2}}
+\backcite {Li2010}{{170}{9.3.2}{subsection.9.3.2}}
+\backcite {Leydesdorff2012StatisticsFT}{{170}{9.3.2}{subsection.9.3.2}}
+\backcite {Li2012}{{170}{9.3.2}{subsection.9.3.2}}
+\backcite {Nguyen2014DynamicSC}{{170}{9.3.2}{subsection.9.3.2}}
+\backcite {prabhakaran-etal-2016-predicting}{{170}{9.3.2}{subsection.9.3.2}}
+\backcite {Zijun2018}{{170}{9.3.2}{subsection.9.3.2}}
+\backcite {joulin2018loss}{{171}{9.3.4}{figure.caption.110}}
+\backcite {Lample2018}{{171}{9.3.4}{figure.caption.110}}
+\backcite {Lample2018}{{172}{9.3}{figure.caption.110}}
+\backcite {artetxe2019}{{172}{9.3.4}{figure.caption.110}}
+\backcite {Al-Rfou_Choe_Constant_Guo_Jones_2019}{{172}{9.3.4}{figure.caption.110}}

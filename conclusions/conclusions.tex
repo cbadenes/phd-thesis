@@ -139,7 +139,11 @@ In Chapter \ref{ch:explainability}, we have introduced a novel distance metric t
 Our proposal to compare documents using only the most relevant topics, even establishing levels of importance, has proven its validity and would allow categorizing text similarity. We have not made progress in defining categories of similarity between documents, so as to facilitate their interpretation. Let us imagine that the similarity based on topics between two documents is 0.78. Such a measure allows only relative conclusions (e.g. that they are more or less similar than other documents), but not absolute ones (e.g. that they are similar or different). The techniques presented in this thesis can provide new mechanisms for comparing texts that facilitate their interpretation. It would be interesting to create a catalog of similarity levels and establish rules that transform current quantitative metrics into qualitative measures.
   
   
-But the categorization of similarity would not be enough to explain the relationship between documents. As we saw in Figures \ref{fig:doc_sim_1} and \ref{fig:doc_sim_2}, the perception of similarity may vary with respect to the metric. Documents may share the main topics, but if they do not share any more topics in similar proportions and the representational model is sufficiently detailed (i.e. high number of topics), their similarity will be lower than if they share more less relevant topics. The level of detail of the model may represent the perception of a person when comparing documents. This raises an interesting discussion about the ability of probabilistic models, particularly those based on topics but applicable to others, to create contexts. And following this line, it would be necessary to analyze which characteristics of a corpus define the context it represents. A collection of scientific papers published at ISWC, K-CAP and ESWC conferences, for example, would be adequate to create a probabilistic model that contextualizes the semantic web knowledge, or on the contrary, papers from other disciplines are needed to identify those aspects that can be differentiated. What kind of evaluations should be supported to measure the validity of these contextualization models?
+But the categorization of similarity would not be enough to explain the relationship between documents. As we saw in Figures \ref{fig:doc_sim_1} and \ref{fig:doc_sim_2}, the perception of similarity may vary with respect to the metric. Documents may share the main topics, but if they do not share any more topics in similar proportions and the representational model is sufficiently detailed (i.e. high number of topics), their similarity will be lower than if they share more less relevant topics. The level of detail of the model may represent the perception of a person when comparing documents. This raises an interesting discussion about the ability of probabilistic models, particularly those based on topics but applicable to others, to create contexts. And following this line, it would be necessary to analyze which characteristics of a corpus define the context it represents. A collection of scientific papers published at ISWC, K-CAP and ESWC conferences, for example, would be adequate to create a probabilistic model that contextualizes the semantic web knowledge, or on the contrary, papers from other disciplines are needed to identify those aspects that can be differentiated. What kind of evaluations should be supported to measure the validity of these contextualization models?.
+
+Finally, the temporal aspect can even be introduced and the evolution of topics could be also considered. Either to relate texts described by means of topic distributions or to compare different versions of the same corpus. Some works measure the topic evolution from the communities that arise between the documents that mainly contain them \citep{Gruhl2004, Li2010, Kleinberg1999}, while others also consider the evolution of the communities themselves \citep{Li2012, Nguyen2014DynamicSC, Leydesdorff2012StatisticsFT, prabhakaran-etal-2016-predicting, Zijun2018}. Advancing in this line of research would enable comparisons, at corpus and document level, at a given instant in time. 
+
+
 
 \subsection{Complexity of Large-scale Comparisons} 
 
@@ -151,49 +155,16 @@ However, this first step to represent texts by topic levels introduces new and i
 
 \subsection{Multilingual Representations}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Our work may be expanded in several ways. In this section we discuss possible future lines of work related to our research challenges.
-
-\begin{itemize}
-\item \textbf{Extend the Reuse of Topic Models}: There are several ways in which our topic services may be improved to be more useful. First, it would be necessary to study the different tasks where a topic model can be used in order to allow users to customize their inferences. As we have seen in our analysis, classification and information retrieval tasks require topic distributions as vectors of weights and also as hierarchies of relevance, as well as having the weights of the words for each topic. Other metadata like the corpus used to train it, accessible and downloadable, or the libraries used to create the model may be relevant for facilitate reproducibility and improvement of existing models. In this line, the next step is to promote the standardization of these models from the W3C or IETF communities. The objective is to agree on a distribution format for probabilistic topic models that facilitates their generation, publication and use.
-
-Second, it should be possible to rank topic models once they have been created and published. Rankings make a set of topic models easily comparable in order to recommend similar models covering a particular task (based on the same training set or similar categories). It would be an interesting line of work to determine if a recommendation based on topic models provides similar or better results than other approaches to solve the same problems.
-
-Third, librAIry has currently implemented the L-LDA and LDA algorithms to create models with labeled or unlabeled topics, respectively. Thanks to its design, the addition of new techniques for learning different probabilistic topic models is straightforward. It only requires the creation of a web resource with support for all the methods that have been defined in the model-as-a-service web interface. In order to facilitate that process by adding models already trained with other techniques, we want to create templates (in the form of bash or python scripts) that automate the whole process.
-
-Fourth, a set of topic models may be used for suggestions in corpus exploration, in combination with text mining approaches. Text mining approaches have been demonstrated to obtain good results to classify o retrieve texts from a corpus. When using text mining techniques with topic models as services, we suspect that good results may be obtained, as context information can be added using categories from these topics. 
-\item \textbf{Combined Representation of Topic Models}: There are many of scenarios where big collections of documents, sometimes available in different languages, have to be browsed according to certain priorities/information needs, e.g. in the medical domain huge amounts of medical reports are daily created offering the possibility of extracting knowledge from them. How they can be explored and effectively consumed will depend on the medical specialty considered. 
-
-Psychiatrists may be looking for collections of reports related by the patient\'s mood, while pharmacists may want to find patients with the same adverse reactions. In a first approach, only structured information are considered (e.g disease, patient, location, date, insurance). This limits the ability to relate reports with information not described by keywords or that cannot be matched because it is written in different languages (e.g. patient mood, response to medications, or behavior during treatment). 
-
-In such situations it would be advantageous to be able to rely on language-agnostic and unsupervised annotation units derived from the text so the full content does not need to be translated, for instance by inferring the notion of topics discussed in the documents. In this research line, probabilistic topic models can open the door to a new set of possibilities to automatically learn cross-lingual concepts to browse multi-lingual medical report collections. Thanks to these techniques, patients who, having different illnesses, manifest similar behaviors from a particular point of view can thus be related (Figure \ref{fig:context-similarity}). 
-
-The greater the presence or absence of concepts is leading the final similarity score, but it might be an oversimplification of what this approach is really doing as it can be based on topic hierarchies. Diagnoses could therefore be supported by collections of similar medical reports from multiple medical areas, in different languages, and in real-time. Thanks to approaches like this one, a pharmacist in Paris could find patients in India who have similar reactions without medication, described in their reports, to those detected when certain medications are prescribed. Similarly, a German psychiatrist is able to check how some pregnant women in England share similar symptoms to patients with anxiety problems after having heart surgery.
-\item \textbf{Refine the Conceptual Abstractions of Topics}:In this thesis we have proposed a way of creating language-independent abstractions of probabilistic topics: representations based on concepts, instead of words, created by cognitive synonyms (i.e. synsets). Even though we have contributed towards the automatic alignment of multilingual topics, our work may be expanded, as we further describe below. 
-
-As demonstrated in evaluations on document retrieval and classification tasks, the accuracy of our approach is reduced because concepts are more general than words to describe topics. The mapping between words and concepts to describe a topic should be reviewed to create representations that are general enough to relate topics from different languages, and precise enough to separate different topics. 
-
-\end{itemize}
-
+In Chapter \ref{ch:multilinguality} we propose a concept-based representation of documents to create a shared representational space across different languages. The main contribution is that topics are created independently for each language, and are projected on concepts instead of words to relate them. The creation of unique representation spaces are widely adopted in the literature, although they usually rely on supervised methods. The main value of our proposal is that it does not need parallel or comparable corpus, or translations to create a single representation space. As expected, the performance in terms of accuracy is not as good as that of the supervised approach based on prior knowledge, and better in terms of coverage. And this makes us think that the word-based approach to abstracting the representation can be improved.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.7\linewidth]{context-similarity.png}
-    \caption{Similarity among medical reports depends on the reference knowledge used to analyze them}
-    \label{fig:context-similarity}
+    \includegraphics[width=\linewidth]{muse.png}
+    \caption{MUSE: Multilingual Unsupervised and Supervised Embeddings \citep{Lample2018}}
+    \label{fig:muse}
 \end{figure}
+
+
+One of the main paradigms to relate multilingual texts is word alignment \citep{joulin2018loss, Lample2018}. It learns word embeddings in different languages and mapping them to a shared space through linear transformations (Figure \ref{fig:muse}). Unsupervised machine translation systems are created on these multilingual representations and mechanisms to create synthetic parallel corpora are even proposed \citep{artetxe2019}. But all these works are based on the same premise: there is a word-level correspondence between languages. However, this premise may not be true when relationships are established at the topic level. Our studies on legal texts annotated with cross-lingual EUROVOC categories revealed low performance when automatically classifying documents using probabilistic topics (Section \ref{sec:cl-doc-class}). This makes us think that the premise of word correspondence, as the model is based on bags-of-words, may not be adequate to relate multilingual texts. The interpretation of a probabilistic topic, as a density distribution over the dictionary of words, may have to be evolved in order to move across languages. A topic is usually projected in a shared space as an aggregation of words or from an automatically generated label. With this in mind, it may be necessary to consider information units other than words, as recent language models are doing when working at the character level \citep{Al-Rfou_Choe_Constant_Guo_Jones_2019}.
 
 

@@ -98,5 +98,9 @@
 \BOOKMARK [2][-]{subsection.9.1.3}{9.1.3 Complexity Reduction in Comparisons among Topic Distributions at Large-Scale}{section.9.1}% 98
 \BOOKMARK [2][-]{subsection.9.1.4}{9.1.4 Multilinguality through Monolingual Topic Models}{section.9.1}% 99
 \BOOKMARK [1][-]{section.9.2}{9.2 Impact}{chapter.9}% 100
-\BOOKMARK [1][-]{section.9.3}{9.3 Future Work}{chapter.9}% 101
-\BOOKMARK [0][-]{chapter*.111}{Bibliography}{}% 102
+\BOOKMARK [1][-]{section.9.3}{9.3 Future Directions}{chapter.9}% 101
+\BOOKMARK [2][-]{subsection.9.3.1}{9.3.1 Efficiency in Learning Models}{section.9.3}% 102
+\BOOKMARK [2][-]{subsection.9.3.2}{9.3.2 Explainability of Text Similarity}{section.9.3}% 103
+\BOOKMARK [2][-]{subsection.9.3.3}{9.3.3 Complexity of Large-scale Comparisons}{section.9.3}% 104
+\BOOKMARK [2][-]{subsection.9.3.4}{9.3.4 Multilingual Representations}{section.9.3}% 105
+\BOOKMARK [0][-]{chapter*.111}{Bibliography}{}% 106
