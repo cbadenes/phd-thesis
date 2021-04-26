@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  22 APR 2021 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  26 APR 2021 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1379,42 +1379,42 @@ Chapter 9.
 File: conclusions/figures/usage-statistics.png Graphic file (type png)
 <use conclusions/figures/usage-statistics.png>
 Package pdftex.def Info: conclusions/figures/usage-statistics.png  used on inpu
-t line 88.
+t line 97.
 (pdftex.def)             Requested size: 412.56496pt x 92.57254pt.
-<conclusions/figures/so-statistics.png, id=3014, 1132.23pt x 252.945pt>
+ [165 <./conclusions/figures/usage-statistics.png>]
+<conclusions/figures/so-statistics.png, id=3021, 1132.23pt x 252.945pt>
 File: conclusions/figures/so-statistics.png Graphic file (type png)
 <use conclusions/figures/so-statistics.png>
 Package pdftex.def Info: conclusions/figures/so-statistics.png  used on input l
-ine 99.
+ine 108.
 (pdftex.def)             Requested size: 412.56496pt x 92.16783pt.
- [165 <./conclusions/figures/usage-statistics.png> <./conclusions/figures/so-st
-atistics.png>] [166] [167]
-[168] [169] [170]
-<conclusions/figures/muse.png, id=3102, 951.555pt x 170.236pt>
+ [166 <./conclusions/figures/so-statistics.png>] [167]
+[168] [169] [170] [171]
+<conclusions/figures/muse.png, id=3110, 951.555pt x 170.236pt>
 File: conclusions/figures/muse.png Graphic file (type png)
 <use conclusions/figures/muse.png>
-Package pdftex.def Info: conclusions/figures/muse.png  used on input line 162.
+Package pdftex.def Info: conclusions/figures/muse.png  used on input line 172.
 (pdftex.def)             Requested size: 412.56496pt x 73.81047pt.
- [171]) [172 <./conclusions/figures/muse.png>] (./Thesis.bbl
-(./Thesis.brf)
+ [172 <./conclusions/figures/muse.png>]) [173]
+(./Thesis.bbl (./Thesis.brf)
 \tf@brf=\write8
 \openout8 = `Thesis.brf'.
 
- [173
+ [174
 
 
-] [174] [175] [176] [177] [178] [179] [180] [181] [182]
-[183]
+] [175] [176] [177] [178] [179] [180] [181]
+[182] [183] [184] [185]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 714.
- [184] [185] [186] [187] [188] [189])
+ [186] [187] [188] [189] [190] [191])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
- [190]
+ [192]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
- (./Thesis.aux
-(./intro/dedication.aux) (./intro/acknowledgement.aux) (./intro/abstract.aux)
-(./intro/acronyms.aux) (./intro/intro.aux) (./soa/soa.aux)
-(./hypothesis/hypothesis.aux) (./scalability/scalability.aux)
+
+(./Thesis.aux (./intro/dedication.aux) (./intro/acknowledgement.aux)
+(./intro/abstract.aux) (./intro/acronyms.aux) (./intro/intro.aux)
+(./soa/soa.aux) (./hypothesis/hypothesis.aux) (./scalability/scalability.aux)
 (./explainability/explainability.aux) (./comparisons/comparisons.aux)
 (./multilinguality/multilinguality.aux) (./experiments/experiments.aux)
 (./conclusions/conclusions.aux))
@@ -1423,12 +1423,12 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3B38848A8F22B1EF5959244D642FC225;8612.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 88D8E4458A9B6152719E2F6D6B9F271F;13877.
+(rerunfilecheck)             Checksum: 67E6DC4BD7562095850291BB11D29819;13877.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
- 15512 strings out of 492616
- 245357 string characters out of 6129481
+ 15514 strings out of 492616
+ 245373 string characters out of 6129481
  628666 words of memory out of 5000000
  18277 multiletter control sequences out of 15000+600000
  19357 words of font info for 73 fonts, out of 8000000 for 9000
@@ -1457,10 +1457,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (218 pages, 7226766 bytes).
+Output written on Thesis.pdf (220 pages, 7227727 bytes).
 PDF statistics:
- 3695 PDF objects out of 4296 (max. 8388607)
- 3269 compressed objects within 33 object streams
- 731 named destinations out of 1000 (max. 500000)
+ 3706 PDF objects out of 4296 (max. 8388607)
+ 3278 compressed objects within 33 object streams
+ 733 named destinations out of 1000 (max. 500000)
  1184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
