@@ -5,10 +5,10 @@
 \contentsline {table}{\numberline {2.1}{\ignorespaces Number of words and tokens of publications listed in Section \ref {sec:publications} when preprocessed.\relax }}{15}{table.caption.5}% 
 \contentsline {table}{\numberline {2.2}{\ignorespaces Probabilistic topics created from the collection of articles listed in Section \ref {sec:publications}. For each topic the five most representative words are shown together with their normalized relevance (0-1000).\relax }}{19}{table.caption.7}% 
 \contentsline {table}{\numberline {2.3}{\ignorespaces Topic distributions based on the LDA model described in table \ref {table:sample-topics}.\relax }}{22}{table.caption.9}% 
-\contentsline {table}{\numberline {2.4}{\ignorespaces Kullback-Liebler divergences between the topic distributions from Table \ref {table:sample-doctopics}. There are two values per pair because it is not symmetric.\relax }}{23}{table.caption.10}% 
+\contentsline {table}{\numberline {2.4}{\ignorespaces Kullback-Liebler divergences between the topic distributions from Table \ref {table:sample-doctopics}. Note that it is not symmetric.\relax }}{23}{table.caption.10}% 
 \contentsline {table}{\numberline {2.5}{\ignorespaces Jensen-Shannon divergences between the topic distributions from Table \ref {table:sample-doctopics}.\relax }}{24}{table.caption.11}% 
-\contentsline {table}{\numberline {2.6}{\ignorespaces Hellinger distances between the topic distributions from Table \ref {table:sample-doctopics}.\relax }}{26}{table.caption.12}% 
-\contentsline {table}{\numberline {2.7}{\ignorespaces S2JSD distances between the topic distributions from Table \ref {table:sample-doctopics}.\relax }}{27}{table.caption.13}% 
+\contentsline {table}{\numberline {2.6}{\ignorespaces Hellinger distances between the topic distributions from Table \ref {table:sample-doctopics}.\relax }}{25}{table.caption.12}% 
+\contentsline {table}{\numberline {2.7}{\ignorespaces S2JSD distances between the topic distributions from Table \ref {table:sample-doctopics}.\relax }}{26}{table.caption.13}% 
 \contentsline {table}{\numberline {2.8}{\ignorespaces Research areas and limitations.\relax }}{28}{table.caption.14}% 
 \contentsline {table}{\numberline {2.9}{\ignorespaces Research areas and proposals.\relax }}{36}{table.caption.17}% 
 \addvspace {10\p@ }
