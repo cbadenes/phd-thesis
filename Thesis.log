@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  17 MAY 2021 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  17 MAY 2021 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -863,12 +863,12 @@ oa/figures/He_100_2k.png> <./soa/figures/S2JSD_100_2k.png>] [33] [34] [35]
 ]
 Chapter 3.
 [39] [40] [41] [42] [43]
-<hypothesis/figures/dimensions.png, id=1559, 1654.18pt x 982.67125pt>
+<hypothesis/figures/dimensions.png, id=1559, 1680.2775pt x 1004.75375pt>
 File: hypothesis/figures/dimensions.png Graphic file (type png)
 <use hypothesis/figures/dimensions.png>
 Package pdftex.def Info: hypothesis/figures/dimensions.png  used on input line 
 133.
-(pdftex.def)             Requested size: 397.0113pt x 235.84592pt.
+(pdftex.def)             Requested size: 403.27484pt x 241.14583pt.
  [44] [45] [46 <./hypothesis/figures/dimensions.png>]
 [47]
 
@@ -1457,7 +1457,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (220 pages, 7217969 bytes).
+Output written on Thesis.pdf (220 pages, 7214067 bytes).
 PDF statistics:
  3684 PDF objects out of 4296 (max. 8388607)
  3256 compressed objects within 33 object streams
