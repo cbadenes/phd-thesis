@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  4 MAY 2021 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  17 MAY 2021 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1375,22 +1375,22 @@ ne 129.
 ]
 Chapter 9.
 [157] [158] [159] [160] [161] [162] [163] [164]
-<conclusions/figures/usage-statistics.png, id=3012, 1136.245pt x 254.9525pt>
+<conclusions/figures/usage-statistics.png, id=2994, 1136.245pt x 254.9525pt>
 File: conclusions/figures/usage-statistics.png Graphic file (type png)
 <use conclusions/figures/usage-statistics.png>
 Package pdftex.def Info: conclusions/figures/usage-statistics.png  used on inpu
 t line 97.
 (pdftex.def)             Requested size: 412.56496pt x 92.57254pt.
- [165 <./conclusions/figures/usage-statistics.png>]
-<conclusions/figures/so-statistics.png, id=3026, 1132.23pt x 252.945pt>
+<conclusions/figures/so-statistics.png, id=3001, 1132.23pt x 252.945pt>
 File: conclusions/figures/so-statistics.png Graphic file (type png)
 <use conclusions/figures/so-statistics.png>
 Package pdftex.def Info: conclusions/figures/so-statistics.png  used on input l
 ine 108.
 (pdftex.def)             Requested size: 412.56496pt x 92.16783pt.
- [166 <./conclusions/figures/so-statistics.png>] [167]
+ [165 <./conclusions/figures/usage-statistics.png>] [166 <./conclusions/figures
+/so-statistics.png>] [167]
 [168] [169] [170] [171]
-<conclusions/figures/muse.png, id=3115, 951.555pt x 170.236pt>
+<conclusions/figures/muse.png, id=3094, 951.555pt x 170.236pt>
 File: conclusions/figures/muse.png Graphic file (type png)
 <use conclusions/figures/muse.png>
 Package pdftex.def Info: conclusions/figures/muse.png  used on input line 172.
@@ -1423,7 +1423,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6CBE9C32141B10A8A399BC8049BD9958;8642.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: CDE482C8C624C367610EA3EAA14CD075;13933.
+(rerunfilecheck)             Checksum: E9B7BAAA48DFDB2D889803E414F26FED;13383.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
@@ -1457,10 +1457,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (220 pages, 7219113 bytes).
+Output written on Thesis.pdf (220 pages, 7217969 bytes).
 PDF statistics:
- 3713 PDF objects out of 4296 (max. 8388607)
- 3285 compressed objects within 33 object streams
+ 3684 PDF objects out of 4296 (max. 8388607)
+ 3256 compressed objects within 33 object streams
  734 named destinations out of 1000 (max. 500000)
  1184 words of extra memory for PDF output out of 10000 (max. 10000000)
 

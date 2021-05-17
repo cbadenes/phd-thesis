@@ -101,7 +101,7 @@
 \contentsline {section}{\numberline {9.2}Impact}{164}{section.9.2}% 
 \contentsline {section}{\numberline {9.3}Future Directions}{168}{section.9.3}% 
 \contentsline {subsection}{\numberline {9.3.1}Efficiency in Learning Models}{168}{subsection.9.3.1}% 
-\contentsline {subsection}{\numberline {9.3.2}Explainability of Text Similarity}{170}{subsection.9.3.2}% 
+\contentsline {subsection}{\numberline {9.3.2}Explainability of Text Similarity}{169}{subsection.9.3.2}% 
 \contentsline {subsection}{\numberline {9.3.3}Complexity of Large-scale Comparisons}{171}{subsection.9.3.3}% 
 \contentsline {subsection}{\numberline {9.3.4}Multilingual Representations}{172}{subsection.9.3.4}% 
 \contentsline {chapter}{Bibliography}{175}{chapter*.111}% 
