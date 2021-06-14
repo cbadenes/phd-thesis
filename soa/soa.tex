@@ -415,7 +415,7 @@ topic creation and reuse & process texts, train topic models and calculate topic
 \midrule
 topic explainability & describe and relate documents by topics & high dimensional models makes them difficult to interpret\\
 \midrule
-document similarity & compare topic distributions by measuring their distances & unaffordable complexity in huge collections  \\
+document similarity & compare topic distributions by measuring their distances & unaffordable complexity in large collections  \\
 \midrule
 multilingual topics & topic distributions across languages & parallel or comparable training data required\\
 \bottomrule
@@ -485,7 +485,7 @@ We know that absolute distances between documents vary when we tune $\alpha$ and
 \subsection{Document Similarity}
 \label{sec:document-similarity}
 
-In addition, document similarity comparisons are too costly to be performed in huge collections of data and require more efficient approaches than having to calculate all pairwise similarities. Using a naive approach creating a similarity matrix with all document comparisons takes $O(n^2)$ time (where $n$ is the number of documents), so obtaining all possible pairs of similarities in a large collection of documents (e.g. a corpus of 32 million patents) can be unfeasible because of the quadratic cost of comparing every pair of elements. Many different approaches have been proposed to reduce this complexity. For instance, computation can be approximated by a nearest neighbors (ANN) search problem \citep{Indyk1998}. ANN search is an optimization problem that finds nearest neighbors of a given query in a metric space of $n$ points. 
+In addition, document similarity comparisons are too costly to be performed in large collections of data and require more efficient approaches than having to calculate all pairwise similarities. Using a naive approach creating a similarity matrix with all document comparisons takes $O(n^2)$ time (where $n$ is the number of documents), so obtaining all possible pairs of similarities in a large collection of documents (e.g. a corpus of 32 million patents) can be unfeasible because of the quadratic cost of comparing every pair of elements. Many different approaches have been proposed to reduce this complexity. For instance, computation can be approximated by a nearest neighbors (ANN) search problem \citep{Indyk1998}. ANN search is an optimization problem that finds nearest neighbors of a given query in a metric space of $n$ points. 
 
 Due to the low storage cost and fast retrieval speed, hashing is one of the most popular solutions for ANN search \citep{Zhen2016}. This technique transforms data points from the original feature space into a binary-code space, so that similar data points have larger probability of collision (i.e. having the same hash code). This type of formulation for the document similarity comparison problem has proven to yield good results in the metric space \citep{Krstovski2011} due to the fact that ANN search has been designed to handle distance metrics (e.g. cosine, Euclidean, Manhattan). But distance metrics between topic distributions should be information-theoretically motivated metrics (e.g. Hellinger, Kullback-Leibler divergence, Jensen-Shannon divergence) since they compare density functions. 
 

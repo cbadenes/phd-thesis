@@ -50,6 +50,12 @@ Badenes-Olmedo, C., Chaves-Fraga, D., Poveda-Villalon, M., Iglesias-Molina, A.,
 \newblock Drugs4covid: Drug-driven knowledge exploitation based on scientific
   publications.
 
+\bibitem[Badenes-Olmedo et~al., 2021]{Badenes-Olmedo2021}
+Badenes-Olmedo, C., Lozano, B., and Corcho, O. (2021).
+\newblock {Impact of Text Length for Information Retrieval Tasks based on
+  Probabilistic Topics}.
+\newblock {\em Spanish Society for Natural Language Processing (SEPLN)}, 67.
+
 \bibitem[Badenes-Olmedo et~al., 2017a]{Badenes-Olmedo2017c}
 Badenes-Olmedo, C., Redondo-Garc{\'{i}}a, J., and Corcho, O. (2017a).
 \newblock {An Initial Analysis of Topic-based Similarity among Scientific
@@ -626,12 +632,6 @@ L{\'{o}}pez-Centeno, B., Badenes-Olmedo, C., Mataix-Sanjuan, A., McAllister,
   Study}.
 \newblock {\em Clinical Infectious Diseases}, pages 352--362.
 
-\bibitem[Lozano et~al., 2020]{Lozano2020}
-Lozano, B., Badenes-Olmedo, C., and Corcho, O. (2020).
-\newblock {The Influence of Text Length for Probabilistic Topic Modelsand their
-  HierarchicalRepresentation}.
-\newblock {\em Open Archive UPM - http://oa.upm.es/63753/}.
-
 \bibitem[Ma and Nasukawa, 2017]{Ma2017}
 Ma, T. and Nasukawa, T. (2017).
 \newblock {Inverted Bilingual Topic Models for Lexicon Extraction from
@@ -755,10 +755,11 @@ Pennington, J., Socher, R., and Manning, C. (2014).
   Natural Language Processing ({EMNLP})}, pages 1532--1543. Association for
   Computational Linguistics.
 
-\bibitem[Piccardi and West, 2020]{2020arXiv200911207P}
-Piccardi, T. and West, R. (2020).
+\bibitem[Piccardi and West, 2021]{2020arXiv200911207P}
+Piccardi, T. and West, R. (2021).
 \newblock {Crosslingual Topic Modeling with WikiPDA}.
-\newblock {\em arXiv e-prints}.
+\newblock In {\em Proceedings of The Web Conference 2021}, WWW '21. Association
+  for Computing Machinery.
 
 \bibitem[Platt et~al., 2010]{Platt:2010:TDR:1870658.1870683}
 Platt, J., Toutanova, K., and Yih, W. (2010).

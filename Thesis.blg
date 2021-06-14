@@ -19,24 +19,24 @@ Database file #1: bibliography/references.bib
 Warning--empty journal in Steyvers2006
 You've used 160 entries,
             1935 wiz_defined-function locations,
-            1480 strings with 36691 characters,
-and the built_in function-call counts, 78082 in all, are:
-= -- 7922
+            1482 strings with 36741 characters,
+and the built_in function-call counts, 78132 in all, are:
+= -- 7929
 > -- 3234
 < -- 146
 + -- 1131
 - -- 1108
-* -- 6047
-:= -- 12500
-add.period$ -- 520
+* -- 6051
+:= -- 12505
+add.period$ -- 521
 call.type$ -- 160
 change.case$ -- 1342
 chr.to.int$ -- 155
 cite$ -- 161
-duplicate$ -- 3457
-empty$ -- 5381
+duplicate$ -- 3462
+empty$ -- 5390
 format.name$ -- 1350
-if$ -- 16283
+if$ -- 16299
 int.to.chr$ -- 6
 int.to.str$ -- 0
 missing$ -- 169
@@ -57,5 +57,5 @@ type$ -- 940
 warning$ -- 1
 while$ -- 609
 width$ -- 0
-write$ -- 2118
+write$ -- 2121
 (There was 1 warning)

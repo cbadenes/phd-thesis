@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  17 MAY 2021 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.21)  14 JUN 2021 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1423,13 +1423,13 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6CBE9C32141B10A8A399BC8049BD9958;8642.
 Package rerunfilecheck Info: File `Thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: E9B7BAAA48DFDB2D889803E414F26FED;13383.
+(rerunfilecheck)             Checksum: E5FF5F501B8B65F3634B67EE4DECD7B4;13391.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 360.
  ) 
 Here is how much of TeX's memory you used:
  15515 strings out of 492616
- 245386 string characters out of 6129481
- 628666 words of memory out of 5000000
+ 245442 string characters out of 6129481
+ 628678 words of memory out of 5000000
  18277 multiletter control sequences out of 15000+600000
  19357 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1457,7 +1457,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
 dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (220 pages, 7214067 bytes).
+Output written on Thesis.pdf (220 pages, 7214332 bytes).
 PDF statistics:
  3684 PDF objects out of 4296 (max. 8388607)
  3256 compressed objects within 33 object streams
