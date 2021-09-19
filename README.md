@@ -11,7 +11,6 @@
   
 **Supervisors**:  
   * Dr. [Oscar Corcho García](https://scholar.google.com/citations?user=TzubuoF0OCwC&hl=es)  
-  * Dr. [Jose Luís Redondo García](https://scholar.google.com/citations?user=YY37C-4AAAAJ&hl=es)
 
 **Committee**:
  * Dr. [Horacio Saggion](https://scholar.google.com/citations?user=WMrCFCIAAAAJ&hl=en)
